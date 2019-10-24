@@ -1,0 +1,62 @@
+Running contracts/assigment/AssignArrayFixedSizeL2S.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_9q1Y:23:9: Warning: Assertion violation happens here
+        assert(s1[1] == c);
+        ^----------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564811111)
+  b = 1137
+  c = (- 57896044618658097711785492504343953926634992332820282019728792003956564811112)
+  s1[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811113)
+  s2[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811111)
+  sl1[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811112)
+
+Callstack: 
+
+smt_checker_input_9q1Y:24:9: Warning: Assertion violation happens here
+        assert(s2[1] == a);
+        ^----------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564819359)
+  b = (- 7758)
+  c = (- 7757)
+  s1[1] = (- 7757)
+  s2[1] = (- 1188)
+  sl1[1] = (- 7757)
+
+Callstack: 
+
+smt_checker_input_9q1Y:23:9: Warning: Assertion violation happens here
+        assert(s1[1] == c);
+        ^----------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  s1[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564814115)
+  s2[1] = 0
+  sl1[1] = 2
+
+Callstack: 
+smt_checker_input_9q1Y:29:9: 
+        locToStor(0 ,1, 2);
+        ^----------------^
+
+smt_checker_input_9q1Y:24:9: Warning: Assertion violation happens here
+        assert(s2[1] == a);
+        ^----------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  s1[1] = 2
+  s2[1] = 282
+  sl1[1] = 2
+
+Callstack: 
+smt_checker_input_9q1Y:29:9: 
+        locToStor(0 ,1, 2);
+        ^----------------^
+
+0.12user 0.02system 0:00.14elapsed 100%CPU (0avgtext+0avgdata 46312maxresident)k
+0inputs+0outputs (0major+3502minor)pagefaults 0swaps

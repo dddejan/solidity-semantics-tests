@@ -1,0 +1,9 @@
+Running contracts/delete/DeleteStorageArrayDynamicStruct.sol
+Command line args = {contracts/delete/DeleteStorageArrayDynamicStruct.sol, DeleteStorageArrayDynamicStruct}
+SpecFilesDir = /solc-verify-examples/contracts/delete
+... running Solc on /solc-verify-examples/contracts/delete/DeleteStorageArrayDynamicStruct.sol
+... running SolToBoogie to translate Solidity to Boogie
+... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
+	*** Proof found! Formal Verification successful! (see boogie.txt)
+1.30user 0.25system 0:01.61elapsed 96%CPU (0avgtext+0avgdata 53788maxresident)k
+0inputs+32outputs (0major+59445minor)pagefaults 0swaps

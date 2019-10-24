@@ -1,0 +1,7 @@
+Running contracts/storage/StructArrayFixedSizeStorageNoAliasSubStruct.sol
+StructArrayFixedSizeStorageNoAliasSubStruct::test: OK
+StructArrayFixedSizeStorageNoAliasSubStruct::truffleMain: OK
+StructArrayFixedSizeStorageNoAliasSubStruct::[implicit_constructor]: OK
+No errors found.
+0.70user 0.25system 0:00.94elapsed 101%CPU (0avgtext+0avgdata 41856maxresident)k
+0inputs+24outputs (0major+16254minor)pagefaults 0swaps

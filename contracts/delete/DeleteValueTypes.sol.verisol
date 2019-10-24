@@ -1,0 +1,19 @@
+Running contracts/delete/DeleteValueTypes.sol
+Command line args = {contracts/delete/DeleteValueTypes.sol, DeleteValueTypes}
+SpecFilesDir = /solc-verify-examples/contracts/delete
+... running Solc on /solc-verify-examples/contracts/delete/DeleteValueTypes.sol
+... running SolToBoogie to translate Solidity to Boogie
+Warning!!: Only handle delete for scalars and arrays, found address
+... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
+	*** Did not find a proof (see boogie.txt)
+... running /root/.dotnet/tools/corral /recursionBound:4 /k:1 /main:CorralEntry_DeleteValueTypes /tryCTrace /printDataValues:1 __SolToBoogieTest_out.bpl
+	*** Found a counterexample (see corral.txt)
+	-----Transaction Sequence for Defect ------
+/solc-verify-examples/contracts/delete/DeleteValueTypes.sol(8,1): : DeleteValueTypes::Constructor (this = address!0, msg.sender = address!1, msg.value = 4)
+/solc-verify-examples/contracts/delete/DeleteValueTypes.sol(20,1): : ASSERTION FAILS!
+	---------------
+
+	See full execution trace inside corral.txt
+Command exited with non-zero status 1
+2.56user 0.49system 0:03.05elapsed 99%CPU (0avgtext+0avgdata 54220maxresident)k
+0inputs+80outputs (0major+139984minor)pagefaults 0swaps

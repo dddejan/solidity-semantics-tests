@@ -1,0 +1,20 @@
+Running contracts/delete/DeleteMemoryArrayFixedSizeMulti.sol
+Command line args = {contracts/delete/DeleteMemoryArrayFixedSizeMulti.sol, DeleteMemoryArrayFixedSizeMulti}
+SpecFilesDir = /solc-verify-examples/contracts/delete
+... running Solc on /solc-verify-examples/contracts/delete/DeleteMemoryArrayFixedSizeMulti.sol
+... running SolToBoogie to translate Solidity to Boogie
+Warning!!: Currently not handling delete of static arrays
+... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
+	*** Did not find a proof (see boogie.txt)
+... running /root/.dotnet/tools/corral /recursionBound:4 /k:1 /main:CorralEntry_DeleteMemoryArrayFixedSizeMulti /tryCTrace /printDataValues:1 __SolToBoogieTest_out.bpl
+	*** Found a counterexample (see corral.txt)
+	-----Transaction Sequence for Defect ------
+/solc-verify-examples/contracts/delete/DeleteMemoryArrayFixedSizeMulti.sol(3,1): : DeleteMemoryArrayFixedSizeMulti::Constructor (this = address!0, msg.sender = address!1, msg.value = 0)
+/solc-verify-examples/contracts/delete/DeleteMemoryArrayFixedSizeMulti.sol(4,1): : DeleteMemoryArrayFixedSizeMulti::test (this = address!0, msg.sender = address!3, msg.value = 1)
+/solc-verify-examples/contracts/delete/DeleteMemoryArrayFixedSizeMulti.sol(6,1): : ASSERTION FAILS!
+	---------------
+
+	See full execution trace inside corral.txt
+Command exited with non-zero status 1
+2.17user 0.38system 0:02.54elapsed 100%CPU (0avgtext+0avgdata 54860maxresident)k
+0inputs+80outputs (0major+98950minor)pagefaults 0swaps

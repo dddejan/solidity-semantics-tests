@@ -1,0 +1,7 @@
+Running contracts/assigment/AssignArrayFixedSizeM2M.sol
+AssignArrayFixedSizeM2M::memToMem: OK
+AssignArrayFixedSizeM2M::truffleMain: OK
+AssignArrayFixedSizeM2M::[implicit_constructor]: OK
+No errors found.
+0.68user 0.22system 0:00.87elapsed 103%CPU (0avgtext+0avgdata 41988maxresident)k
+0inputs+16outputs (0major+16675minor)pagefaults 0swaps

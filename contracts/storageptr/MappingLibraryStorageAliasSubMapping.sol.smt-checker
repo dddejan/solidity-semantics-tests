@@ -1,0 +1,142 @@
+Running contracts/storageptr/MappingLibraryStorageAliasSubMapping.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_ZtCD:11:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        a[msg.sender] = b[msg.sender] + 1;
+                        ^---------------^
+  for:
+  <result> = 0x80 * 2**248
+  a[msg.sender] = 0
+  a_b_alias = false
+  a_old = 0
+  b[msg.sender] = 0x80 * 2**248 - 1
+  b_old = 0x80 * 2**248 - 1
+  msg.sender = 1796
+
+Callstack: 
+
+smt_checker_input_ZtCD:12:39: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        a_b_alias = (b[msg.sender] == b_old + 1);
+                                      ^-------^
+  for:
+  <result> = 0x80 * 2**248
+  a[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819968)
+  a_b_alias = false
+  a_old = 0
+  b[msg.sender] = 8456
+  b_old = 0x80 * 2**248 - 1
+  msg.sender = 8945
+
+Callstack: 
+
+smt_checker_input_ZtCD:15:25: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+        a[msg.sender] = a[msg.sender] + b[msg.sender];
+                        ^---------------------------^
+  for:
+  <result> = (- 115792089237316195423570985008687907853269984665640564039457584007913129628511)
+  a[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564810242)
+  a_b_alias = false
+  a_old = 0
+  b[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818269)
+  b_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564810243)
+  msg.sender = 2275
+
+Callstack: 
+
+smt_checker_input_ZtCD:15:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        a[msg.sender] = a[msg.sender] + b[msg.sender];
+                        ^---------------------------^
+  for:
+  <result> = 0x8000000000000000000000000000000000000000000000000000000000000c74
+  a[msg.sender] = 0x4000000000000000000000000000000000000000000000000000000000000639
+  a_b_alias = false
+  a_old = 0
+  b[msg.sender] = 0x400000000000000000000000000000000000000000000000000000000000063b
+  b_old = 0x4000000000000000000000000000000000000000000000000000000000000638
+  msg.sender = 9531
+
+Callstack: 
+
+smt_checker_input_ZtCD:16:25: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+        b[msg.sender] = a[msg.sender] - b[msg.sender];
+                        ^---------------------------^
+  for:
+  <result> = (- 115792089237316195423570985008687907853269984665640564039457584007913129639935)
+  a[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819968)
+  a_b_alias = false
+  a_old = 0
+  b[msg.sender] = 0x80 * 2**248 - 1
+  b_old = (- 28948022309329048855892746252171976963317496166410141009864396001978282409986)
+  msg.sender = 3212
+
+Callstack: 
+
+smt_checker_input_ZtCD:16:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        b[msg.sender] = a[msg.sender] - b[msg.sender];
+                        ^---------------------------^
+  for:
+  <result> = 0x8000000000000000000000000000000000000000000000000000000000000077
+  a[msg.sender] = 119
+  a_b_alias = false
+  a_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564817269)
+  b[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819968)
+  b_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564814350)
+  msg.sender = 4321
+
+Callstack: 
+
+smt_checker_input_ZtCD:17:25: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+        a[msg.sender] = a[msg.sender] - b[msg.sender];
+                        ^---------------------------^
+  for:
+  <result> = (- 57896044618658097711785492504343953926634992332820282019728792003956564820567)
+  a[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564815037)
+  a_b_alias = false
+  a_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564810698)
+  b[msg.sender] = 5530
+  b_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564814439)
+  msg.sender = 6528
+
+Callstack: 
+
+smt_checker_input_ZtCD:17:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        a[msg.sender] = a[msg.sender] - b[msg.sender];
+                        ^---------------------------^
+  for:
+  <result> = 0x80 * 2**248
+  a[msg.sender] = 0
+  a_b_alias = false
+  a_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564810810)
+  b[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819968)
+  b_old = (- 4)
+  msg.sender = 6812
+
+Callstack: 
+
+smt_checker_input_ZtCD:18:9: Warning: Assertion violation happens here
+        assert(!a_b_alias || a[msg.sender] == 0); // alias => zero
+        ^--------------------------------------^
+  for:
+  a[msg.sender] = 1
+  a_b_alias = true
+  a_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564818906)
+  b[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811444)
+  b_old = (- 28948022309329048855892746252171976963317496166410141009864396001978282405723)
+  msg.sender = 9047
+
+Callstack: 
+
+smt_checker_input_ZtCD:19:9: Warning: Assertion violation happens here
+        assert(!a_b_alias || b[msg.sender] == 0); // alias => zero
+        ^--------------------------------------^
+  for:
+  a[msg.sender] = 0
+  a_b_alias = true
+  a_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564816949)
+  b[msg.sender] = (- 1)
+  b_old = (- 28948022309329048855892746252171976963317496166410141009864396001978282401733)
+  msg.sender = 3972
+
+Callstack: 
+
+0.54user 0.11system 0:00.65elapsed 100%CPU (0avgtext+0avgdata 44108maxresident)k
+0inputs+0outputs (0major+3381minor)pagefaults 0swaps

@@ -1,0 +1,84 @@
+Running contracts/storageptr/MappingArrayFixedSizeStoragePointerNoAliasSubArrayFixedSize.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_7eTC:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s1[msg.sender][1] = a;
+        ^---------------^
+smt_checker_input_7eTC:13:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s2[1][msg.sender][1] = b;
+        ^------------------^
+smt_checker_input_7eTC:16:9: Warning: Assertion violation happens here
+        assert(s1ref[msg.sender][1] == a);
+        ^-------------------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564812249)
+  b = 0
+  msg.sender = 2437
+  s1[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818732)
+  s1ref[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564812248)
+  s2[1][msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811113)
+
+Callstack: 
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+smt_checker_input_7eTC:17:9: Warning: Assertion violation happens here
+        assert(s2ref[msg.sender][1] == b);
+        ^-------------------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564811603)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564814115)
+  msg.sender = 609
+  s1[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819519)
+  s1ref[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811603)
+  s2[1][msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564817686)
+  s2ref[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564814114)
+
+Callstack: 
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+smt_checker_input_7eTC:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s1[msg.sender][1] = a;
+        ^---------------^
+smt_checker_input_7eTC:13:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s2[1][msg.sender][1] = b;
+        ^------------------^
+smt_checker_input_7eTC:16:9: Warning: Assertion violation happens here
+        assert(s1ref[msg.sender][1] == a);
+        ^-------------------------------^
+  for:
+  a = 0
+  b = 1
+  msg.sender = 535
+  s1[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819687)
+  s1ref[msg.sender][1] = 8099
+  s2[1][msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818826)
+
+Callstack: 
+smt_checker_input_7eTC:22:9: 
+        test(0, 1);
+        ^--------^
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+smt_checker_input_7eTC:17:9: Warning: Assertion violation happens here
+        assert(s2ref[msg.sender][1] == b);
+        ^-------------------------------^
+  for:
+  a = 0
+  b = 1
+  msg.sender = 6283
+  s1[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811023)
+  s1ref[msg.sender][1] = 0
+  s2[1][msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564814048)
+  s2ref[msg.sender][1] = 2
+
+Callstack: 
+smt_checker_input_7eTC:22:9: 
+        test(0, 1);
+        ^--------^
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+0.06user 0.03system 0:00.09elapsed 98%CPU (0avgtext+0avgdata 45380maxresident)k
+0inputs+0outputs (0major+3296minor)pagefaults 0swaps

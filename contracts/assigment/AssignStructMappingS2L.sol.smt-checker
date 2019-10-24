@@ -1,0 +1,502 @@
+Running contracts/assigment/AssignStructMappingS2L.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_dXiu:8:5: Warning: Assertion checker does not yet support the type of this variable.
+    S s1;
+    ^--^
+smt_checker_input_dXiu:9:5: Warning: Assertion checker does not yet support the type of this variable.
+    S s2;
+    ^--^
+smt_checker_input_dXiu:16:9: Warning: Assertion checker does not yet support the type of this variable.
+        S storage loc = s1; // Checking this assignemnt
+        ^-----------^
+smt_checker_input_dXiu:14:9: Warning: Assertion checker does not yet support this expression.
+        s1.x[msg.sender] = a;
+        ^--^
+smt_checker_input_dXiu:14:9: Warning: Assertion checker does not yet implement type struct AssignStructMappingS2L.S storage ref
+        s1.x[msg.sender] = a;
+        ^^
+smt_checker_input_dXiu:14:9: Warning: Assertion checker does not yet implement this expression.
+        s1.x[msg.sender] = a;
+        ^--------------^
+smt_checker_input_dXiu:14:9: Warning: Assertion checker does not yet implement this expression.
+        s1.x[msg.sender] = a;
+        ^--------------^
+smt_checker_input_dXiu:15:9: Warning: Assertion checker does not yet support this expression.
+        s2.x[msg.sender] = b;
+        ^--^
+smt_checker_input_dXiu:15:9: Warning: Assertion checker does not yet implement type struct AssignStructMappingS2L.S storage ref
+        s2.x[msg.sender] = b;
+        ^^
+smt_checker_input_dXiu:15:9: Warning: Assertion checker does not yet implement this expression.
+        s2.x[msg.sender] = b;
+        ^--------------^
+smt_checker_input_dXiu:15:9: Warning: Assertion checker does not yet implement this expression.
+        s2.x[msg.sender] = b;
+        ^--------------^
+smt_checker_input_dXiu:16:25: Warning: Assertion checker does not yet implement type struct AssignStructMappingS2L.S storage ref
+        S storage loc = s1; // Checking this assignemnt
+                        ^^
+smt_checker_input_dXiu:17:16: Warning: Assertion checker does not yet support this expression.
+        assert(s1.x[msg.sender] == a);
+               ^--^
+smt_checker_input_dXiu:17:16: Warning: Assertion checker does not yet implement type struct AssignStructMappingS2L.S storage ref
+        assert(s1.x[msg.sender] == a);
+               ^^
+smt_checker_input_dXiu:17:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s1.x[msg.sender] == a);
+               ^--------------^
+smt_checker_input_dXiu:18:16: Warning: Assertion checker does not yet support this expression.
+        assert(s2.x[msg.sender] == b);
+               ^--^
+smt_checker_input_dXiu:18:16: Warning: Assertion checker does not yet implement type struct AssignStructMappingS2L.S storage ref
+        assert(s2.x[msg.sender] == b);
+               ^^
+smt_checker_input_dXiu:18:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s2.x[msg.sender] == b);
+               ^--------------^
+smt_checker_input_dXiu:19:16: Warning: Assertion checker does not yet support this expression.
+        assert(loc.x[msg.sender] == a);
+               ^---^
+smt_checker_input_dXiu:19:16: Warning: Assertion checker does not yet implement type struct AssignStructMappingS2L.S storage pointer
+        assert(loc.x[msg.sender] == a);
+               ^-^
+smt_checker_input_dXiu:19:16: Warning: Assertion checker does not yet implement this expression.
+        assert(loc.x[msg.sender] == a);
+               ^---------------^
+smt_checker_input_dXiu:21:9: Warning: Assertion checker does not yet support this expression.
+        s1.x[msg.sender] = c;
+        ^--^
+smt_checker_input_dXiu:21:9: Warning: Assertion checker does not yet implement type struct AssignStructMappingS2L.S storage ref
+        s1.x[msg.sender] = c;
+        ^^
+smt_checker_input_dXiu:21:9: Warning: Assertion checker does not yet implement this expression.
+        s1.x[msg.sender] = c;
+        ^--------------^
+smt_checker_input_dXiu:21:9: Warning: Assertion checker does not yet implement this expression.
+        s1.x[msg.sender] = c;
+        ^--------------^
+smt_checker_input_dXiu:22:16: Warning: Assertion checker does not yet support this expression.
+        assert(s1.x[msg.sender] == c);
+               ^--^
+smt_checker_input_dXiu:22:16: Warning: Assertion checker does not yet implement type struct AssignStructMappingS2L.S storage ref
+        assert(s1.x[msg.sender] == c);
+               ^^
+smt_checker_input_dXiu:22:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s1.x[msg.sender] == c);
+               ^--------------^
+smt_checker_input_dXiu:23:16: Warning: Assertion checker does not yet support this expression.
+        assert(s2.x[msg.sender] == b);
+               ^--^
+smt_checker_input_dXiu:23:16: Warning: Assertion checker does not yet implement type struct AssignStructMappingS2L.S storage ref
+        assert(s2.x[msg.sender] == b);
+               ^^
+smt_checker_input_dXiu:23:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s2.x[msg.sender] == b);
+               ^--------------^
+smt_checker_input_dXiu:24:16: Warning: Assertion checker does not yet support this expression.
+        assert(loc.x[msg.sender] == c);
+               ^---^
+smt_checker_input_dXiu:24:16: Warning: Assertion checker does not yet implement type struct AssignStructMappingS2L.S storage pointer
+        assert(loc.x[msg.sender] == c);
+               ^-^
+smt_checker_input_dXiu:24:16: Warning: Assertion checker does not yet implement this expression.
+        assert(loc.x[msg.sender] == c);
+               ^---------------^
+smt_checker_input_dXiu:26:9: Warning: Assertion checker does not yet support this expression.
+        loc.x[msg.sender] = a;
+        ^---^
+smt_checker_input_dXiu:26:9: Warning: Assertion checker does not yet implement type struct AssignStructMappingS2L.S storage pointer
+        loc.x[msg.sender] = a;
+        ^-^
+smt_checker_input_dXiu:26:9: Warning: Assertion checker does not yet implement this expression.
+        loc.x[msg.sender] = a;
+        ^---------------^
+smt_checker_input_dXiu:26:9: Warning: Assertion checker does not yet implement this expression.
+        loc.x[msg.sender] = a;
+        ^---------------^
+smt_checker_input_dXiu:27:16: Warning: Assertion checker does not yet support this expression.
+        assert(s1.x[msg.sender] == a);
+               ^--^
+smt_checker_input_dXiu:27:16: Warning: Assertion checker does not yet implement type struct AssignStructMappingS2L.S storage ref
+        assert(s1.x[msg.sender] == a);
+               ^^
+smt_checker_input_dXiu:27:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s1.x[msg.sender] == a);
+               ^--------------^
+smt_checker_input_dXiu:28:16: Warning: Assertion checker does not yet support this expression.
+        assert(s2.x[msg.sender] == b);
+               ^--^
+smt_checker_input_dXiu:28:16: Warning: Assertion checker does not yet implement type struct AssignStructMappingS2L.S storage ref
+        assert(s2.x[msg.sender] == b);
+               ^^
+smt_checker_input_dXiu:28:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s2.x[msg.sender] == b);
+               ^--------------^
+smt_checker_input_dXiu:29:16: Warning: Assertion checker does not yet support this expression.
+        assert(loc.x[msg.sender] == a);
+               ^---^
+smt_checker_input_dXiu:29:16: Warning: Assertion checker does not yet implement type struct AssignStructMappingS2L.S storage pointer
+        assert(loc.x[msg.sender] == a);
+               ^-^
+smt_checker_input_dXiu:29:16: Warning: Assertion checker does not yet implement this expression.
+        assert(loc.x[msg.sender] == a);
+               ^---------------^
+smt_checker_input_dXiu:17:9: Warning: Assertion violation happens here
+        assert(s1.x[msg.sender] == a);
+        ^---------------------------^
+  for:
+  a = 2
+  b = 1
+  c = 0
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_dXiu:18:9: Warning: Assertion violation happens here
+        assert(s2.x[msg.sender] == b);
+        ^---------------------------^
+  for:
+  a = (- 2)
+  b = 0
+  c = (- 1)
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_dXiu:19:9: Warning: Assertion violation happens here
+        assert(loc.x[msg.sender] == a);
+        ^----------------------------^
+  for:
+  a = (- 1)
+  b = 0
+  c = (- 2)
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_dXiu:22:9: Warning: Assertion violation happens here
+        assert(s1.x[msg.sender] == c);
+        ^---------------------------^
+  for:
+  a = 1
+  b = 2
+  c = 0
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_dXiu:23:9: Warning: Assertion violation happens here
+        assert(s2.x[msg.sender] == b);
+        ^---------------------------^
+  for:
+  a = (- 1)
+  b = 1
+  c = 0
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_dXiu:24:9: Warning: Assertion violation happens here
+        assert(loc.x[msg.sender] == c);
+        ^----------------------------^
+  for:
+  a = 1
+  b = 2
+  c = 0
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_dXiu:27:9: Warning: Assertion violation happens here
+        assert(s1.x[msg.sender] == a);
+        ^---------------------------^
+  for:
+  a = (- 1)
+  b = 1
+  c = 0
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_dXiu:28:9: Warning: Assertion violation happens here
+        assert(s2.x[msg.sender] == b);
+        ^---------------------------^
+  for:
+  a = 1
+  b = 0
+  c = (- 1)
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_dXiu:29:9: Warning: Assertion violation happens here
+        assert(loc.x[msg.sender] == a);
+        ^----------------------------^
+  for:
+  a = (- 1)
+  b = 0
+  c = 1
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_dXiu:14:9: Warning: Assertion checker does not yet support this expression.
+        s1.x[msg.sender] = a;
+        ^--^
+smt_checker_input_dXiu:14:9: Warning: Assertion checker does not yet implement type struct AssignStructMappingS2L.S storage ref
+        s1.x[msg.sender] = a;
+        ^^
+smt_checker_input_dXiu:14:9: Warning: Assertion checker does not yet implement this expression.
+        s1.x[msg.sender] = a;
+        ^--------------^
+smt_checker_input_dXiu:14:9: Warning: Assertion checker does not yet implement this expression.
+        s1.x[msg.sender] = a;
+        ^--------------^
+smt_checker_input_dXiu:15:9: Warning: Assertion checker does not yet support this expression.
+        s2.x[msg.sender] = b;
+        ^--^
+smt_checker_input_dXiu:15:9: Warning: Assertion checker does not yet implement type struct AssignStructMappingS2L.S storage ref
+        s2.x[msg.sender] = b;
+        ^^
+smt_checker_input_dXiu:15:9: Warning: Assertion checker does not yet implement this expression.
+        s2.x[msg.sender] = b;
+        ^--------------^
+smt_checker_input_dXiu:15:9: Warning: Assertion checker does not yet implement this expression.
+        s2.x[msg.sender] = b;
+        ^--------------^
+smt_checker_input_dXiu:16:25: Warning: Assertion checker does not yet implement type struct AssignStructMappingS2L.S storage ref
+        S storage loc = s1; // Checking this assignemnt
+                        ^^
+smt_checker_input_dXiu:17:16: Warning: Assertion checker does not yet support this expression.
+        assert(s1.x[msg.sender] == a);
+               ^--^
+smt_checker_input_dXiu:17:16: Warning: Assertion checker does not yet implement type struct AssignStructMappingS2L.S storage ref
+        assert(s1.x[msg.sender] == a);
+               ^^
+smt_checker_input_dXiu:17:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s1.x[msg.sender] == a);
+               ^--------------^
+smt_checker_input_dXiu:18:16: Warning: Assertion checker does not yet support this expression.
+        assert(s2.x[msg.sender] == b);
+               ^--^
+smt_checker_input_dXiu:18:16: Warning: Assertion checker does not yet implement type struct AssignStructMappingS2L.S storage ref
+        assert(s2.x[msg.sender] == b);
+               ^^
+smt_checker_input_dXiu:18:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s2.x[msg.sender] == b);
+               ^--------------^
+smt_checker_input_dXiu:19:16: Warning: Assertion checker does not yet support this expression.
+        assert(loc.x[msg.sender] == a);
+               ^---^
+smt_checker_input_dXiu:19:16: Warning: Assertion checker does not yet implement type struct AssignStructMappingS2L.S storage pointer
+        assert(loc.x[msg.sender] == a);
+               ^-^
+smt_checker_input_dXiu:19:16: Warning: Assertion checker does not yet implement this expression.
+        assert(loc.x[msg.sender] == a);
+               ^---------------^
+smt_checker_input_dXiu:21:9: Warning: Assertion checker does not yet support this expression.
+        s1.x[msg.sender] = c;
+        ^--^
+smt_checker_input_dXiu:21:9: Warning: Assertion checker does not yet implement type struct AssignStructMappingS2L.S storage ref
+        s1.x[msg.sender] = c;
+        ^^
+smt_checker_input_dXiu:21:9: Warning: Assertion checker does not yet implement this expression.
+        s1.x[msg.sender] = c;
+        ^--------------^
+smt_checker_input_dXiu:21:9: Warning: Assertion checker does not yet implement this expression.
+        s1.x[msg.sender] = c;
+        ^--------------^
+smt_checker_input_dXiu:22:16: Warning: Assertion checker does not yet support this expression.
+        assert(s1.x[msg.sender] == c);
+               ^--^
+smt_checker_input_dXiu:22:16: Warning: Assertion checker does not yet implement type struct AssignStructMappingS2L.S storage ref
+        assert(s1.x[msg.sender] == c);
+               ^^
+smt_checker_input_dXiu:22:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s1.x[msg.sender] == c);
+               ^--------------^
+smt_checker_input_dXiu:23:16: Warning: Assertion checker does not yet support this expression.
+        assert(s2.x[msg.sender] == b);
+               ^--^
+smt_checker_input_dXiu:23:16: Warning: Assertion checker does not yet implement type struct AssignStructMappingS2L.S storage ref
+        assert(s2.x[msg.sender] == b);
+               ^^
+smt_checker_input_dXiu:23:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s2.x[msg.sender] == b);
+               ^--------------^
+smt_checker_input_dXiu:24:16: Warning: Assertion checker does not yet support this expression.
+        assert(loc.x[msg.sender] == c);
+               ^---^
+smt_checker_input_dXiu:24:16: Warning: Assertion checker does not yet implement type struct AssignStructMappingS2L.S storage pointer
+        assert(loc.x[msg.sender] == c);
+               ^-^
+smt_checker_input_dXiu:24:16: Warning: Assertion checker does not yet implement this expression.
+        assert(loc.x[msg.sender] == c);
+               ^---------------^
+smt_checker_input_dXiu:26:9: Warning: Assertion checker does not yet support this expression.
+        loc.x[msg.sender] = a;
+        ^---^
+smt_checker_input_dXiu:26:9: Warning: Assertion checker does not yet implement type struct AssignStructMappingS2L.S storage pointer
+        loc.x[msg.sender] = a;
+        ^-^
+smt_checker_input_dXiu:26:9: Warning: Assertion checker does not yet implement this expression.
+        loc.x[msg.sender] = a;
+        ^---------------^
+smt_checker_input_dXiu:26:9: Warning: Assertion checker does not yet implement this expression.
+        loc.x[msg.sender] = a;
+        ^---------------^
+smt_checker_input_dXiu:27:16: Warning: Assertion checker does not yet support this expression.
+        assert(s1.x[msg.sender] == a);
+               ^--^
+smt_checker_input_dXiu:27:16: Warning: Assertion checker does not yet implement type struct AssignStructMappingS2L.S storage ref
+        assert(s1.x[msg.sender] == a);
+               ^^
+smt_checker_input_dXiu:27:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s1.x[msg.sender] == a);
+               ^--------------^
+smt_checker_input_dXiu:28:16: Warning: Assertion checker does not yet support this expression.
+        assert(s2.x[msg.sender] == b);
+               ^--^
+smt_checker_input_dXiu:28:16: Warning: Assertion checker does not yet implement type struct AssignStructMappingS2L.S storage ref
+        assert(s2.x[msg.sender] == b);
+               ^^
+smt_checker_input_dXiu:28:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s2.x[msg.sender] == b);
+               ^--------------^
+smt_checker_input_dXiu:29:16: Warning: Assertion checker does not yet support this expression.
+        assert(loc.x[msg.sender] == a);
+               ^---^
+smt_checker_input_dXiu:29:16: Warning: Assertion checker does not yet implement type struct AssignStructMappingS2L.S storage pointer
+        assert(loc.x[msg.sender] == a);
+               ^-^
+smt_checker_input_dXiu:29:16: Warning: Assertion checker does not yet implement this expression.
+        assert(loc.x[msg.sender] == a);
+               ^---------------^
+smt_checker_input_dXiu:17:9: Warning: Assertion violation happens here
+        assert(s1.x[msg.sender] == a);
+        ^---------------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  msg.sender = 0
+
+Callstack: 
+smt_checker_input_dXiu:34:9: 
+        storToLoc(0, 1, 2);
+        ^----------------^
+
+smt_checker_input_dXiu:18:9: Warning: Assertion violation happens here
+        assert(s2.x[msg.sender] == b);
+        ^---------------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  msg.sender = 0
+
+Callstack: 
+smt_checker_input_dXiu:34:9: 
+        storToLoc(0, 1, 2);
+        ^----------------^
+
+smt_checker_input_dXiu:19:9: Warning: Assertion violation happens here
+        assert(loc.x[msg.sender] == a);
+        ^----------------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  msg.sender = 0
+
+Callstack: 
+smt_checker_input_dXiu:34:9: 
+        storToLoc(0, 1, 2);
+        ^----------------^
+
+smt_checker_input_dXiu:22:9: Warning: Assertion violation happens here
+        assert(s1.x[msg.sender] == c);
+        ^---------------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  msg.sender = 0
+
+Callstack: 
+smt_checker_input_dXiu:34:9: 
+        storToLoc(0, 1, 2);
+        ^----------------^
+
+smt_checker_input_dXiu:23:9: Warning: Assertion violation happens here
+        assert(s2.x[msg.sender] == b);
+        ^---------------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  msg.sender = 0
+
+Callstack: 
+smt_checker_input_dXiu:34:9: 
+        storToLoc(0, 1, 2);
+        ^----------------^
+
+smt_checker_input_dXiu:24:9: Warning: Assertion violation happens here
+        assert(loc.x[msg.sender] == c);
+        ^----------------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  msg.sender = 0
+
+Callstack: 
+smt_checker_input_dXiu:34:9: 
+        storToLoc(0, 1, 2);
+        ^----------------^
+
+smt_checker_input_dXiu:27:9: Warning: Assertion violation happens here
+        assert(s1.x[msg.sender] == a);
+        ^---------------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  msg.sender = 0
+
+Callstack: 
+smt_checker_input_dXiu:34:9: 
+        storToLoc(0, 1, 2);
+        ^----------------^
+
+smt_checker_input_dXiu:28:9: Warning: Assertion violation happens here
+        assert(s2.x[msg.sender] == b);
+        ^---------------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  msg.sender = 0
+
+Callstack: 
+smt_checker_input_dXiu:34:9: 
+        storToLoc(0, 1, 2);
+        ^----------------^
+
+smt_checker_input_dXiu:29:9: Warning: Assertion violation happens here
+        assert(loc.x[msg.sender] == a);
+        ^----------------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  msg.sender = 0
+
+Callstack: 
+smt_checker_input_dXiu:34:9: 
+        storToLoc(0, 1, 2);
+        ^----------------^
+
+0.19user 0.05system 0:00.25elapsed 97%CPU (0avgtext+0avgdata 60184maxresident)k
+0inputs+0outputs (0major+7051minor)pagefaults 0swaps

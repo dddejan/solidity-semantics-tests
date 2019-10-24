@@ -1,0 +1,19 @@
+Running contracts/init/InitStorageMappingNested.sol
+Command line args = {contracts/init/InitStorageMappingNested.sol, InitStorageMappingNested}
+SpecFilesDir = /solc-verify-examples/contracts/init
+... running Solc on /solc-verify-examples/contracts/init/InitStorageMappingNested.sol
+... running SolToBoogie to translate Solidity to Boogie
+Warning: A mapping with complex value type m of valuetype mapping (address => int256)
+... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
+	*** Did not find a proof (see boogie.txt)
+... running /root/.dotnet/tools/corral /recursionBound:4 /k:1 /main:CorralEntry_InitStorageMappingNested /tryCTrace /printDataValues:1 __SolToBoogieTest_out.bpl
+	*** Found a counterexample (see corral.txt)
+	-----Transaction Sequence for Defect ------
+/solc-verify-examples/contracts/init/InitStorageMappingNested.sol(5,1): : InitStorageMappingNested::Constructor (this = address!0, msg.sender = address!1, msg.value = 1)
+/solc-verify-examples/contracts/init/InitStorageMappingNested.sol(6,1): : ASSERTION FAILS!
+	---------------
+
+	See full execution trace inside corral.txt
+Command exited with non-zero status 1
+2.03user 0.39system 0:02.42elapsed 100%CPU (0avgtext+0avgdata 52344maxresident)k
+0inputs+64outputs (0major+96670minor)pagefaults 0swaps

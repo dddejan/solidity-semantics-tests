@@ -1,0 +1,8 @@
+Running contracts/storageptr/StructMappingLibraryStorageAliasSubArrayFixedSize.sol
+L::swap: OK
+L::[implicit_constructor]: OK
+StructMappingLibraryStorageAliasSubArrayFixedSize::truffleMain: OK
+StructMappingLibraryStorageAliasSubArrayFixedSize::[implicit_constructor]: OK
+No errors found.
+0.79user 0.17system 0:00.93elapsed 103%CPU (0avgtext+0avgdata 44052maxresident)k
+0inputs+32outputs (0major+17296minor)pagefaults 0swaps

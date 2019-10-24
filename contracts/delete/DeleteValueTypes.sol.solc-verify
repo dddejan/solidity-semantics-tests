@@ -1,0 +1,6 @@
+Running contracts/delete/DeleteValueTypes.sol
+DeleteValueTypes::[constructor]: OK
+DeleteValueTypes::truffleMain: OK
+No errors found.
+0.61user 0.23system 0:00.82elapsed 103%CPU (0avgtext+0avgdata 41136maxresident)k
+0inputs+16outputs (0major+16479minor)pagefaults 0swaps

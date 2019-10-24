@@ -1,0 +1,10 @@
+Running contracts/delete/DeleteMemoryArrayDynamic.sol
+DeleteMemoryArrayDynamic::truffleMain: OK
+DeleteMemoryArrayDynamic::[implicit_constructor]: OK
+DeleteMemoryArrayDynamic::test: SKIPPED
+Use --show-warnings to see 1 warning.
+Some functions were skipped. Use --verbose to see details.
+No errors found.
+Command exited with non-zero status 250
+0.63user 0.19system 0:00.81elapsed 103%CPU (0avgtext+0avgdata 40368maxresident)k
+0inputs+16outputs (0major+15847minor)pagefaults 0swaps

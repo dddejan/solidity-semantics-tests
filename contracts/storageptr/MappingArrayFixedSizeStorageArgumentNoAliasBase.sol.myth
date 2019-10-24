@@ -1,0 +1,5 @@
+Running contracts/storageptr/MappingArrayFixedSizeStorageArgumentNoAliasBase.sol
+The analysis was completed successfully. No issues were detected.
+
+11.53user 2.11system 0:11.76elapsed 116%CPU (0avgtext+0avgdata 99096maxresident)k
+0inputs+24280outputs (0major+47046minor)pagefaults 0swaps

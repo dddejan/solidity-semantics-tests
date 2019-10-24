@@ -1,0 +1,7 @@
+Running contracts/storageptr/ArrayFixedSizeStoragePointerNoAliasSubArrayFixedSize.sol
+ArrayFixedSizeStoragePointerNoAliasSubArrayFixedSize::test: OK
+ArrayFixedSizeStoragePointerNoAliasSubArrayFixedSize::truffleMain: OK
+ArrayFixedSizeStoragePointerNoAliasSubArrayFixedSize::[implicit_constructor]: OK
+No errors found.
+0.62user 0.28system 0:00.90elapsed 101%CPU (0avgtext+0avgdata 41780maxresident)k
+0inputs+24outputs (0major+16516minor)pagefaults 0swaps

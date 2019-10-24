@@ -1,0 +1,317 @@
+Running contracts/storageptr/StructMappingLibraryStorageAliasBase.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_R2S8:8:19: Warning: Assertion checker does not yet support the type of this variable.
+    function swap(S storage a, S storage b) public {
+                  ^---------^
+smt_checker_input_R2S8:8:32: Warning: Assertion checker does not yet support the type of this variable.
+    function swap(S storage a, S storage b) public {
+                               ^---------^
+smt_checker_input_R2S8:9:21: Warning: Assertion checker does not yet support this expression.
+        int a_old = a.x[msg.sender];
+                    ^-^
+smt_checker_input_R2S8:9:21: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+        int a_old = a.x[msg.sender];
+                    ^
+smt_checker_input_R2S8:9:21: Warning: Assertion checker does not yet implement this expression.
+        int a_old = a.x[msg.sender];
+                    ^-------------^
+smt_checker_input_R2S8:10:21: Warning: Assertion checker does not yet support this expression.
+        int b_old = b.x[msg.sender];
+                    ^-^
+smt_checker_input_R2S8:10:21: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+        int b_old = b.x[msg.sender];
+                    ^
+smt_checker_input_R2S8:10:21: Warning: Assertion checker does not yet implement this expression.
+        int b_old = b.x[msg.sender];
+                    ^-------------^
+smt_checker_input_R2S8:13:9: Warning: Assertion checker does not yet support this expression.
+        a.x[msg.sender] = b.x[msg.sender] + 1;
+        ^-^
+smt_checker_input_R2S8:13:9: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+        a.x[msg.sender] = b.x[msg.sender] + 1;
+        ^
+smt_checker_input_R2S8:13:9: Warning: Assertion checker does not yet implement this expression.
+        a.x[msg.sender] = b.x[msg.sender] + 1;
+        ^-------------^
+smt_checker_input_R2S8:13:27: Warning: Assertion checker does not yet support this expression.
+        a.x[msg.sender] = b.x[msg.sender] + 1;
+                          ^-^
+smt_checker_input_R2S8:13:27: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+        a.x[msg.sender] = b.x[msg.sender] + 1;
+                          ^
+smt_checker_input_R2S8:13:27: Warning: Assertion checker does not yet implement this expression.
+        a.x[msg.sender] = b.x[msg.sender] + 1;
+                          ^-------------^
+smt_checker_input_R2S8:13:9: Warning: Assertion checker does not yet implement this expression.
+        a.x[msg.sender] = b.x[msg.sender] + 1;
+        ^-------------^
+smt_checker_input_R2S8:14:22: Warning: Assertion checker does not yet support this expression.
+        a_b_alias = (b.x[msg.sender] == b_old + 1);
+                     ^-^
+smt_checker_input_R2S8:14:22: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+        a_b_alias = (b.x[msg.sender] == b_old + 1);
+                     ^
+smt_checker_input_R2S8:14:22: Warning: Assertion checker does not yet implement this expression.
+        a_b_alias = (b.x[msg.sender] == b_old + 1);
+                     ^-------------^
+smt_checker_input_R2S8:17:9: Warning: Assertion checker does not yet support this expression.
+        a.x[msg.sender] = a.x[msg.sender] + b.x[msg.sender];
+        ^-^
+smt_checker_input_R2S8:17:9: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+        a.x[msg.sender] = a.x[msg.sender] + b.x[msg.sender];
+        ^
+smt_checker_input_R2S8:17:9: Warning: Assertion checker does not yet implement this expression.
+        a.x[msg.sender] = a.x[msg.sender] + b.x[msg.sender];
+        ^-------------^
+smt_checker_input_R2S8:17:27: Warning: Assertion checker does not yet support this expression.
+        a.x[msg.sender] = a.x[msg.sender] + b.x[msg.sender];
+                          ^-^
+smt_checker_input_R2S8:17:27: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+        a.x[msg.sender] = a.x[msg.sender] + b.x[msg.sender];
+                          ^
+smt_checker_input_R2S8:17:27: Warning: Assertion checker does not yet implement this expression.
+        a.x[msg.sender] = a.x[msg.sender] + b.x[msg.sender];
+                          ^-------------^
+smt_checker_input_R2S8:17:45: Warning: Assertion checker does not yet support this expression.
+        a.x[msg.sender] = a.x[msg.sender] + b.x[msg.sender];
+                                            ^-^
+smt_checker_input_R2S8:17:45: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+        a.x[msg.sender] = a.x[msg.sender] + b.x[msg.sender];
+                                            ^
+smt_checker_input_R2S8:17:45: Warning: Assertion checker does not yet implement this expression.
+        a.x[msg.sender] = a.x[msg.sender] + b.x[msg.sender];
+                                            ^-------------^
+smt_checker_input_R2S8:17:9: Warning: Assertion checker does not yet implement this expression.
+        a.x[msg.sender] = a.x[msg.sender] + b.x[msg.sender];
+        ^-------------^
+smt_checker_input_R2S8:18:9: Warning: Assertion checker does not yet support this expression.
+        b.x[msg.sender] = a.x[msg.sender] - b.x[msg.sender];
+        ^-^
+smt_checker_input_R2S8:18:9: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+        b.x[msg.sender] = a.x[msg.sender] - b.x[msg.sender];
+        ^
+smt_checker_input_R2S8:18:9: Warning: Assertion checker does not yet implement this expression.
+        b.x[msg.sender] = a.x[msg.sender] - b.x[msg.sender];
+        ^-------------^
+smt_checker_input_R2S8:18:27: Warning: Assertion checker does not yet support this expression.
+        b.x[msg.sender] = a.x[msg.sender] - b.x[msg.sender];
+                          ^-^
+smt_checker_input_R2S8:18:27: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+        b.x[msg.sender] = a.x[msg.sender] - b.x[msg.sender];
+                          ^
+smt_checker_input_R2S8:18:27: Warning: Assertion checker does not yet implement this expression.
+        b.x[msg.sender] = a.x[msg.sender] - b.x[msg.sender];
+                          ^-------------^
+smt_checker_input_R2S8:18:45: Warning: Assertion checker does not yet support this expression.
+        b.x[msg.sender] = a.x[msg.sender] - b.x[msg.sender];
+                                            ^-^
+smt_checker_input_R2S8:18:45: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+        b.x[msg.sender] = a.x[msg.sender] - b.x[msg.sender];
+                                            ^
+smt_checker_input_R2S8:18:45: Warning: Assertion checker does not yet implement this expression.
+        b.x[msg.sender] = a.x[msg.sender] - b.x[msg.sender];
+                                            ^-------------^
+smt_checker_input_R2S8:18:9: Warning: Assertion checker does not yet implement this expression.
+        b.x[msg.sender] = a.x[msg.sender] - b.x[msg.sender];
+        ^-------------^
+smt_checker_input_R2S8:19:9: Warning: Assertion checker does not yet support this expression.
+        a.x[msg.sender] = a.x[msg.sender] - b.x[msg.sender];
+        ^-^
+smt_checker_input_R2S8:19:9: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+        a.x[msg.sender] = a.x[msg.sender] - b.x[msg.sender];
+        ^
+smt_checker_input_R2S8:19:9: Warning: Assertion checker does not yet implement this expression.
+        a.x[msg.sender] = a.x[msg.sender] - b.x[msg.sender];
+        ^-------------^
+smt_checker_input_R2S8:19:27: Warning: Assertion checker does not yet support this expression.
+        a.x[msg.sender] = a.x[msg.sender] - b.x[msg.sender];
+                          ^-^
+smt_checker_input_R2S8:19:27: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+        a.x[msg.sender] = a.x[msg.sender] - b.x[msg.sender];
+                          ^
+smt_checker_input_R2S8:19:27: Warning: Assertion checker does not yet implement this expression.
+        a.x[msg.sender] = a.x[msg.sender] - b.x[msg.sender];
+                          ^-------------^
+smt_checker_input_R2S8:19:45: Warning: Assertion checker does not yet support this expression.
+        a.x[msg.sender] = a.x[msg.sender] - b.x[msg.sender];
+                                            ^-^
+smt_checker_input_R2S8:19:45: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+        a.x[msg.sender] = a.x[msg.sender] - b.x[msg.sender];
+                                            ^
+smt_checker_input_R2S8:19:45: Warning: Assertion checker does not yet implement this expression.
+        a.x[msg.sender] = a.x[msg.sender] - b.x[msg.sender];
+                                            ^-------------^
+smt_checker_input_R2S8:19:9: Warning: Assertion checker does not yet implement this expression.
+        a.x[msg.sender] = a.x[msg.sender] - b.x[msg.sender];
+        ^-------------^
+smt_checker_input_R2S8:20:30: Warning: Assertion checker does not yet support this expression.
+        assert(!a_b_alias || a.x[msg.sender] == 0); // alias => zero
+                             ^-^
+smt_checker_input_R2S8:20:30: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+        assert(!a_b_alias || a.x[msg.sender] == 0); // alias => zero
+                             ^
+smt_checker_input_R2S8:20:30: Warning: Assertion checker does not yet implement this expression.
+        assert(!a_b_alias || a.x[msg.sender] == 0); // alias => zero
+                             ^-------------^
+smt_checker_input_R2S8:21:30: Warning: Assertion checker does not yet support this expression.
+        assert(!a_b_alias || b.x[msg.sender] == 0); // alias => zero
+                             ^-^
+smt_checker_input_R2S8:21:30: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+        assert(!a_b_alias || b.x[msg.sender] == 0); // alias => zero
+                             ^
+smt_checker_input_R2S8:21:30: Warning: Assertion checker does not yet implement this expression.
+        assert(!a_b_alias || b.x[msg.sender] == 0); // alias => zero
+                             ^-------------^
+smt_checker_input_R2S8:13:27: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+        a.x[msg.sender] = b.x[msg.sender] + 1;
+                          ^-----------------^
+  for:
+  <result> = (- 115792089237316195423570985008687907853269984665640564039457584007913129639935)
+  a_b_alias = false
+  a_old = 4
+  b_old = 0
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_R2S8:13:27: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        a.x[msg.sender] = b.x[msg.sender] + 1;
+                          ^-----------------^
+  for:
+  <result> = 0x010000000000000000000000000000000000000000000000000000000000000001
+  a_b_alias = false
+  a_old = 4
+  b_old = 0
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_R2S8:14:41: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+        a_b_alias = (b.x[msg.sender] == b_old + 1);
+                                        ^-------^
+  for:
+  <result> = (- 115792089237316195423570985008687907853269984665640564039457584007913129639935)
+  a_b_alias = false
+  a_old = 4
+  b_old = (- 115792089237316195423570985008687907853269984665640564039457584007913129639936)
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_R2S8:14:41: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        a_b_alias = (b.x[msg.sender] == b_old + 1);
+                                        ^-------^
+  for:
+  <result> = 0x010000000000000000000000000000000000000000000000000000000000000001
+  a_b_alias = false
+  a_old = 4
+  b_old = 2**256
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_R2S8:17:27: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+        a.x[msg.sender] = a.x[msg.sender] + b.x[msg.sender];
+                          ^-------------------------------^
+  for:
+  <result> = (- 115792089237316195423570985008687907853269984665640564039457584007913129639936)
+  a_b_alias = false
+  a_old = 4
+  b_old = 0
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_R2S8:17:27: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        a.x[msg.sender] = a.x[msg.sender] + b.x[msg.sender];
+                          ^-------------------------------^
+  for:
+  <result> = 2**256
+  a_b_alias = false
+  a_old = 4
+  b_old = 0
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_R2S8:18:27: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+        b.x[msg.sender] = a.x[msg.sender] - b.x[msg.sender];
+                          ^-------------------------------^
+  for:
+  <result> = (- 115792089237316195423570985008687907853269984665640564039457584007913129639936)
+  a_b_alias = false
+  a_old = 4
+  b_old = 0
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_R2S8:18:27: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        b.x[msg.sender] = a.x[msg.sender] - b.x[msg.sender];
+                          ^-------------------------------^
+  for:
+  <result> = 2**256
+  a_b_alias = false
+  a_old = 4
+  b_old = 0
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_R2S8:19:27: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+        a.x[msg.sender] = a.x[msg.sender] - b.x[msg.sender];
+                          ^-------------------------------^
+  for:
+  <result> = (- 115792089237316195423570985008687907853269984665640564039457584007913129639936)
+  a_b_alias = false
+  a_old = 6
+  b_old = 0
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_R2S8:19:27: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        a.x[msg.sender] = a.x[msg.sender] - b.x[msg.sender];
+                          ^-------------------------------^
+  for:
+  <result> = 2**256
+  a_b_alias = false
+  a_old = 6
+  b_old = 0
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_R2S8:20:9: Warning: Assertion violation happens here
+        assert(!a_b_alias || a.x[msg.sender] == 0); // alias => zero
+        ^----------------------------------------^
+  for:
+  a_b_alias = true
+  a_old = 9
+  b_old = 0
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_R2S8:21:9: Warning: Assertion violation happens here
+        assert(!a_b_alias || b.x[msg.sender] == 0); // alias => zero
+        ^----------------------------------------^
+  for:
+  a_b_alias = true
+  a_old = 9
+  b_old = 0
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_R2S8:27:5: Warning: Assertion checker does not yet support the type of this variable.
+    L.S s1;
+    ^----^
+smt_checker_input_R2S8:31:16: Warning: Assertion checker does not yet implement type struct L.S storage ref
+        L.swap(s1, s1);
+               ^^
+smt_checker_input_R2S8:31:20: Warning: Assertion checker does not yet implement type struct L.S storage ref
+        L.swap(s1, s1);
+                   ^^
+0.20user 0.05system 0:00.26elapsed 100%CPU (0avgtext+0avgdata 40352maxresident)k
+0inputs+0outputs (0major+2370minor)pagefaults 0swaps

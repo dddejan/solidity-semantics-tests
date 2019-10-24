@@ -1,0 +1,11 @@
+Running contracts/storageptr/MappingStorageArgumentNoAliasBase.sol
+Error while running verifier, details:
+[TRACE] Using prover: /usr/local/bin/z3
+Parsing /tmp/tmpfnj8yq6f/MappingStorageArgumentNoAliasBase.sol.bpl
+/tmp/tmpfnj8yq6f/MappingStorageArgumentNoAliasBase.sol.bpl(25,10): Error: command assigns to an immutable variable: s1ref#13
+/tmp/tmpfnj8yq6f/MappingStorageArgumentNoAliasBase.sol.bpl(26,10): Error: command assigns to an immutable variable: s2ref#17
+2 type checking errors detected in /tmp/tmpfnj8yq6f/MappingStorageArgumentNoAliasBase.sol.bpl
+
+Command exited with non-zero status 252
+0.31user 0.13system 0:00.46elapsed 96%CPU (0avgtext+0avgdata 32816maxresident)k
+0inputs+16outputs (0major+10217minor)pagefaults 0swaps

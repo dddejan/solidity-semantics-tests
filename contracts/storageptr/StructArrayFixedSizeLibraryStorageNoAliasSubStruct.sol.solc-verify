@@ -1,0 +1,8 @@
+Running contracts/storageptr/StructArrayFixedSizeLibraryStorageNoAliasSubStruct.sol
+0.68user 0.26system 0:00.92elapsed 103%CPU (0avgtext+0avgdata 44976maxresident)k
+0inputs+32outputs (0major+17755minor)pagefaults 0swaps
+L::swap: OK
+L::[implicit_constructor]: OK
+StructArrayFixedSizeLibraryStorageNoAliasSubStruct::truffleMain: OK
+StructArrayFixedSizeLibraryStorageNoAliasSubStruct::[implicit_constructor]: OK
+No errors found.

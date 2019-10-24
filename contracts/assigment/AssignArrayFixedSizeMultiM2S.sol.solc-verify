@@ -1,0 +1,10 @@
+Running contracts/assigment/AssignArrayFixedSizeMultiM2S.sol
+AssignArrayFixedSizeMultiM2S::truffleMain: OK
+AssignArrayFixedSizeMultiM2S::[implicit_constructor]: OK
+AssignArrayFixedSizeMultiM2S::memToStor: SKIPPED
+Use --show-warnings to see 1 warning.
+Some functions were skipped. Use --verbose to see details.
+No errors found.
+Command exited with non-zero status 250
+0.73user 0.20system 0:00.91elapsed 102%CPU (0avgtext+0avgdata 41188maxresident)k
+0inputs+16outputs (0major+16394minor)pagefaults 0swaps

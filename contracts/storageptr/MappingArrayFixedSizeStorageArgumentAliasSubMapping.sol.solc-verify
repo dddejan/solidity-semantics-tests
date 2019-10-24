@@ -1,0 +1,14 @@
+Running contracts/storageptr/MappingArrayFixedSizeStorageArgumentAliasSubMapping.sol
+Command exited with non-zero status 252
+0.38user 0.09system 0:00.47elapsed 100%CPU (0avgtext+0avgdata 33140maxresident)k
+0inputs+24outputs (0major+10256minor)pagefaults 0swaps
+Error while running verifier, details:
+[TRACE] Using prover: /usr/local/bin/z3
+Parsing /tmp/tmpvgwiputo/MappingArrayFixedSizeStorageArgumentAliasSubMapping.sol.bpl
+/tmp/tmpvgwiputo/MappingArrayFixedSizeStorageArgumentAliasSubMapping.sol.bpl(25,10): Error: command assigns to an immutable variable: s1ref#15
+/tmp/tmpvgwiputo/MappingArrayFixedSizeStorageArgumentAliasSubMapping.sol.bpl(28,10): Error: command assigns to an immutable variable: s1ref#15
+/tmp/tmpvgwiputo/MappingArrayFixedSizeStorageArgumentAliasSubMapping.sol.bpl(29,10): Error: command assigns to an immutable variable: s2ref#21
+/tmp/tmpvgwiputo/MappingArrayFixedSizeStorageArgumentAliasSubMapping.sol.bpl(50,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]int_arr_type)
+/tmp/tmpvgwiputo/MappingArrayFixedSizeStorageArgumentAliasSubMapping.sol.bpl(54,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]int_arr_type)
+5 type checking errors detected in /tmp/tmpvgwiputo/MappingArrayFixedSizeStorageArgumentAliasSubMapping.sol.bpl
+

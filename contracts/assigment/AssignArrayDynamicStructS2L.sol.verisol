@@ -1,0 +1,11 @@
+Running contracts/assigment/AssignArrayDynamicStructS2L.sol
+Command line args = {contracts/assigment/AssignArrayDynamicStructS2L.sol, AssignArrayDynamicStructS2L}
+SpecFilesDir = /solc-verify-examples/contracts/assigment
+... running Solc on /solc-verify-examples/contracts/assigment/AssignArrayDynamicStructS2L.sol
+... running SolToBoogie to translate Solidity to Boogie
+... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
+	*** Did not find a proof (see boogie.txt)
+... running /root/.dotnet/tools/corral /recursionBound:4 /k:1 /main:CorralEntry_AssignArrayDynamicStructS2L /tryCTrace /printDataValues:1 __SolToBoogieTest_out.bpl
+	*** Formal Verification successful upto 4 transactions (see corral.txt)
+2.83user 0.51system 0:03.41elapsed 98%CPU (0avgtext+0avgdata 60216maxresident)k
+0inputs+48outputs (0major+133754minor)pagefaults 0swaps

@@ -1,0 +1,6 @@
+Running contracts/storageptr/ArrayFixedSizeStorageArgumentNoAliasBase.sol
+ArrayFixedSizeStorageArgumentNoAliasBase::truffleMain: OK
+ArrayFixedSizeStorageArgumentNoAliasBase::[implicit_constructor]: OK
+No errors found.
+0.70user 0.22system 0:00.90elapsed 103%CPU (0avgtext+0avgdata 43820maxresident)k
+336inputs+24outputs (3major+16848minor)pagefaults 0swaps

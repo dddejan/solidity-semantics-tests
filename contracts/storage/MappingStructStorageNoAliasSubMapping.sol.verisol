@@ -1,0 +1,20 @@
+Running contracts/storage/MappingStructStorageNoAliasSubMapping.sol
+Command line args = {contracts/storage/MappingStructStorageNoAliasSubMapping.sol, MappingStructStorageNoAliasSubMapping}
+SpecFilesDir = /solc-verify-examples/contracts/storage
+... running Solc on /solc-verify-examples/contracts/storage/MappingStructStorageNoAliasSubMapping.sol
+... running SolToBoogie to translate Solidity to Boogie
+Warning: A mapping with complex value type s2 of valuetype mapping (address => S)
+... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
+	*** Did not find a proof (see boogie.txt)
+... running /root/.dotnet/tools/corral /recursionBound:4 /k:1 /main:CorralEntry_MappingStructStorageNoAliasSubMapping /tryCTrace /printDataValues:1 __SolToBoogieTest_out.bpl
+	*** Found a counterexample (see corral.txt)
+	-----Transaction Sequence for Defect ------
+/solc-verify-examples/contracts/storage/MappingStructStorageNoAliasSubMapping.sol(3,1): : MappingStructStorageNoAliasSubMapping::Constructor (this = address!0, msg.sender = address!1, msg.value = 4)
+/solc-verify-examples/contracts/storage/MappingStructStorageNoAliasSubMapping.sol(10,1): : MappingStructStorageNoAliasSubMapping::test (this = address!0, msg.sender = address!3, msg.value = 5, a = -550, b = -551)
+/solc-verify-examples/contracts/storage/MappingStructStorageNoAliasSubMapping.sol(13,1): : ASSERTION FAILS!
+	---------------
+
+	See full execution trace inside corral.txt
+Command exited with non-zero status 1
+2.20user 0.35system 0:02.58elapsed 99%CPU (0avgtext+0avgdata 54400maxresident)k
+0inputs+80outputs (0major+100017minor)pagefaults 0swaps

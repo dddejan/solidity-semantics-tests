@@ -1,0 +1,30 @@
+Running contracts/init/InitMemoryArrayFixedSize.sol
+==== Exception State ====
+SWC ID: 110
+Severity: Low
+Contract: InitMemoryArrayFixedSize
+Function name: test()
+PC address: 118
+Estimated Gas Usage: 330 - 3010
+A reachable exception has been detected.
+It is possible to trigger an exception (opcode 0xfe). Exceptions can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. Note that explicit `assert()` should only be used to check invariants. Use `require()` for regular input checking.
+--------------------
+In file: contracts/init/InitMemoryArrayFixedSize.sol:7
+
+assert(a[0] == 0)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x1, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+Account: [SOMEGUY], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], data: 0x608060405234801561001057600080fd5b5060ea8061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c8063bbac8963146037578063f8a8fd6d14603f575b600080fd5b603d6047565b005b6045604f565b005b604d604f565b565b60556093565b60028014605e57fe5b600081600060028110606c57fe5b602002015114607757fe5b600081600160028110608557fe5b602002015114609057fe5b50565b604051806040016040528060029060208202803883398082019150509050509056fea265627a7a72315820e21bad58c404a07edc41d5ee5c233a43c67b6cfeb2a9570aa8330c5451cbda1564736f6c634300050c0032, value: 0x0
+Caller: [CREATOR], function: test(), txdata: 0xf8a8fd6d, value: 0x0
+
+
+3.26user 1.02system 0:03.42elapsed 125%CPU (0avgtext+0avgdata 93008maxresident)k
+0inputs+24280outputs (0major+34162minor)pagefaults 0swaps

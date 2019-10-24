@@ -1,0 +1,9 @@
+Running contracts/assigment/AssignArrayDynamicS2M.sol
+Command line args = {contracts/assigment/AssignArrayDynamicS2M.sol, AssignArrayDynamicS2M}
+SpecFilesDir = /solc-verify-examples/contracts/assigment
+... running Solc on /solc-verify-examples/contracts/assigment/AssignArrayDynamicS2M.sol
+... running SolToBoogie to translate Solidity to Boogie
+VeriSol translation error: File /solc-verify-examples/contracts/assigment/AssignArrayDynamicS2M.sol, Line 9, Contract AssignArrayDynamicS2M, Function storToMem:: ....
+Command exited with non-zero status 1
+0.67user 0.10system 0:00.78elapsed 99%CPU (0avgtext+0avgdata 54788maxresident)k
+0inputs+0outputs (0major+25353minor)pagefaults 0swaps

@@ -1,0 +1,21 @@
+Running contracts/assigment/AssignMappingNestedL2L.sol
+Command line args = {contracts/assigment/AssignMappingNestedL2L.sol, AssignMappingNestedL2L}
+SpecFilesDir = /solc-verify-examples/contracts/assigment
+... running Solc on /solc-verify-examples/contracts/assigment/AssignMappingNestedL2L.sol
+... running SolToBoogie to translate Solidity to Boogie
+Warning: A mapping with complex value type s1 of valuetype mapping (address => int256)
+Warning: A mapping with complex value type s2 of valuetype mapping (address => int256)
+... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
+	*** Did not find a proof (see boogie.txt)
+... running /root/.dotnet/tools/corral /recursionBound:4 /k:1 /main:CorralEntry_AssignMappingNestedL2L /tryCTrace /printDataValues:1 __SolToBoogieTest_out.bpl
+	*** Found a counterexample (see corral.txt)
+	-----Transaction Sequence for Defect ------
+/solc-verify-examples/contracts/assigment/AssignMappingNestedL2L.sol(3,1): : AssignMappingNestedL2L::Constructor (this = address!0, msg.sender = address!1, msg.value = 8)
+/solc-verify-examples/contracts/assigment/AssignMappingNestedL2L.sol(8,1): : AssignMappingNestedL2L::locToLoc (this = address!0, msg.sender = address!3, msg.value = 9, a = -550, b = -551, c = 10)
+/solc-verify-examples/contracts/assigment/AssignMappingNestedL2L.sol(14,1): : ASSERTION FAILS!
+	---------------
+
+	See full execution trace inside corral.txt
+Command exited with non-zero status 1
+2.12user 0.47system 0:02.57elapsed 100%CPU (0avgtext+0avgdata 54824maxresident)k
+0inputs+80outputs (0major+100750minor)pagefaults 0swaps

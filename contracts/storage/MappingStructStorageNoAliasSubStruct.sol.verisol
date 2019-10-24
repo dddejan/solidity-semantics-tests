@@ -1,0 +1,19 @@
+Running contracts/storage/MappingStructStorageNoAliasSubStruct.sol
+Command line args = {contracts/storage/MappingStructStorageNoAliasSubStruct.sol, MappingStructStorageNoAliasSubStruct}
+SpecFilesDir = /solc-verify-examples/contracts/storage
+... running Solc on /solc-verify-examples/contracts/storage/MappingStructStorageNoAliasSubStruct.sol
+... running SolToBoogie to translate Solidity to Boogie
+... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
+	*** Did not find a proof (see boogie.txt)
+... running /root/.dotnet/tools/corral /recursionBound:4 /k:1 /main:CorralEntry_MappingStructStorageNoAliasSubStruct /tryCTrace /printDataValues:1 __SolToBoogieTest_out.bpl
+	*** Found a counterexample (see corral.txt)
+	-----Transaction Sequence for Defect ------
+/solc-verify-examples/contracts/storage/MappingStructStorageNoAliasSubStruct.sol(3,1): : MappingStructStorageNoAliasSubStruct::Constructor (this = address!0, msg.sender = address!1, msg.value = 4)
+/solc-verify-examples/contracts/storage/MappingStructStorageNoAliasSubStruct.sol(11,1): : MappingStructStorageNoAliasSubStruct::test (this = address!0, msg.sender = address!3, msg.value = 5, a = -550, b = -551)
+/solc-verify-examples/contracts/storage/MappingStructStorageNoAliasSubStruct.sol(14,1): : ASSERTION FAILS!
+	---------------
+
+	See full execution trace inside corral.txt
+Command exited with non-zero status 1
+2.25user 0.38system 0:02.60elapsed 101%CPU (0avgtext+0avgdata 54312maxresident)k
+0inputs+80outputs (0major+99928minor)pagefaults 0swaps

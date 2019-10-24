@@ -1,0 +1,7 @@
+Running contracts/assigment/AssignMappingArrayS2L.sol
+AssignMappingArrayS2L::storToLoc: OK
+AssignMappingArrayS2L::truffleMain: OK
+AssignMappingArrayS2L::[implicit_constructor]: OK
+No errors found.
+0.68user 0.23system 0:00.88elapsed 103%CPU (0avgtext+0avgdata 43704maxresident)k
+0inputs+24outputs (0major+17293minor)pagefaults 0swaps

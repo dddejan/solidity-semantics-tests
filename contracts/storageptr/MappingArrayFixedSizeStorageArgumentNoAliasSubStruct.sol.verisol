@@ -1,0 +1,10 @@
+Running contracts/storageptr/MappingArrayFixedSizeStorageArgumentNoAliasSubStruct.sol
+Command line args = {contracts/storageptr/MappingArrayFixedSizeStorageArgumentNoAliasSubStruct.sol, MappingArrayFixedSizeStorageArgumentNoAliasSubStruct}
+SpecFilesDir = /solc-verify-examples/contracts/storageptr
+... running Solc on /solc-verify-examples/contracts/storageptr/MappingArrayFixedSizeStorageArgumentNoAliasSubStruct.sol
+... running SolToBoogie to translate Solidity to Boogie
+Warning: A mapping with nested array s1 of valuetype int256[2]
+VeriSol translation error: File /solc-verify-examples/contracts/storageptr/MappingArrayFixedSizeStorageArgumentNoAliasSubStruct.sol, Line 23, Contract MappingArrayFixedSizeStorageArgumentNoAliasSubStruct, Function truffleMain:: Cannot find a function with signature: test(mapping(address => int256[2], mapping(address => int256[2], int256, int256)....
+Command exited with non-zero status 1
+0.71user 0.11system 0:00.91elapsed 90%CPU (0avgtext+0avgdata 55236maxresident)k
+0inputs+0outputs (0major+26005minor)pagefaults 0swaps

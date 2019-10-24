@@ -1,0 +1,7 @@
+Running contracts/assigment/AssignTupleStructLL2LL.sol
+AssignTupleStructLL2LL::assign: OK
+AssignTupleStructLL2LL::truffleMain: OK
+AssignTupleStructLL2LL::[implicit_constructor]: OK
+No errors found.
+0.66user 0.23system 0:00.88elapsed 102%CPU (0avgtext+0avgdata 41612maxresident)k
+0inputs+16outputs (0major+16539minor)pagefaults 0swaps

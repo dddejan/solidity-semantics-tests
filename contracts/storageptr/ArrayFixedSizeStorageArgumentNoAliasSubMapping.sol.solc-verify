@@ -1,0 +1,6 @@
+Running contracts/storageptr/ArrayFixedSizeStorageArgumentNoAliasSubMapping.sol
+ArrayFixedSizeStorageArgumentNoAliasSubMapping::truffleMain: OK
+ArrayFixedSizeStorageArgumentNoAliasSubMapping::[implicit_constructor]: OK
+No errors found.
+0.72user 0.18system 0:00.88elapsed 103%CPU (0avgtext+0avgdata 44140maxresident)k
+0inputs+24outputs (0major+17144minor)pagefaults 0swaps

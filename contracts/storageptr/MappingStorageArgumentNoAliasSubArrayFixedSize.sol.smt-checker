@@ -1,0 +1,112 @@
+Running contracts/storageptr/MappingStorageArgumentNoAliasSubArrayFixedSize.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_XTHZ:15:9: Warning: Assertion violation happens here
+        assert(s1[msg.sender] != s2[1][msg.sender]);
+        ^-----------------------------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564811089)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564811088)
+  msg.sender = 8456
+  s1[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564815289)
+  s1ref[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811089)
+  s2[0][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811087)
+  s2[1][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564815289)
+  s2ref[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811088)
+
+Callstack: 
+
+smt_checker_input_XTHZ:16:9: Warning: Assertion violation happens here
+        assert(s1[msg.sender] == a || s1[msg.sender] == b);
+        ^------------------------------------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564813062)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564813060)
+  msg.sender = 8586
+  s1[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564813061)
+  s1ref[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564813062)
+  s2[0][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564813059)
+  s2[1][msg.sender] = 4666
+  s2ref[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564813060)
+
+Callstack: 
+
+smt_checker_input_XTHZ:17:9: Warning: Assertion violation happens here
+        assert(s2[1][msg.sender] == a || s2[1][msg.sender] == b);
+        ^------------------------------------------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564817513)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564817512)
+  msg.sender = 1594
+  s1[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564817512)
+  s1ref[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564817513)
+  s2[0][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564816644)
+  s2[1][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564817511)
+  s2ref[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564817512)
+
+Callstack: 
+
+smt_checker_input_XTHZ:23:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s2[1][msg.sender] = -2;
+        ^---------------^
+smt_checker_input_XTHZ:15:9: Warning: Assertion violation happens here
+        assert(s1[msg.sender] != s2[1][msg.sender]);
+        ^-----------------------------------------^
+  for:
+  a = 0
+  b = 1
+  msg.sender = 7629
+  s1[msg.sender] = (- 1)
+  s1ref[msg.sender] = 0
+  s2[0][msg.sender] = 2
+  s2[1][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564812390)
+  s2ref[msg.sender] = 1
+
+Callstack: 
+smt_checker_input_XTHZ:24:9: 
+        test(s1, s2[1], 0, 1);
+        ^-------------------^
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+smt_checker_input_XTHZ:16:9: Warning: Assertion violation happens here
+        assert(s1[msg.sender] == a || s1[msg.sender] == b);
+        ^------------------------------------------------^
+  for:
+  a = 0
+  b = 1
+  msg.sender = 1648
+  s1[msg.sender] = (- 1)
+  s1ref[msg.sender] = 0
+  s2[0][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564817690)
+  s2[1][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564816464)
+  s2ref[msg.sender] = 1
+
+Callstack: 
+smt_checker_input_XTHZ:24:9: 
+        test(s1, s2[1], 0, 1);
+        ^-------------------^
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+smt_checker_input_XTHZ:17:9: Warning: Assertion violation happens here
+        assert(s2[1][msg.sender] == a || s2[1][msg.sender] == b);
+        ^------------------------------------------------------^
+  for:
+  a = 0
+  b = 1
+  msg.sender = 2112
+  s1[msg.sender] = (- 1)
+  s1ref[msg.sender] = 0
+  s2[0][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564812792)
+  s2[1][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564817637)
+  s2ref[msg.sender] = 1
+
+Callstack: 
+smt_checker_input_XTHZ:24:9: 
+        test(s1, s2[1], 0, 1);
+        ^-------------------^
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+0.16user 0.01system 0:00.17elapsed 100%CPU (0avgtext+0avgdata 40236maxresident)k
+0inputs+0outputs (0major+2318minor)pagefaults 0swaps

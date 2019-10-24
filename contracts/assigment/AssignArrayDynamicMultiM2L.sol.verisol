@@ -1,0 +1,9 @@
+Running contracts/assigment/AssignArrayDynamicMultiM2L.sol
+Command line args = {contracts/assigment/AssignArrayDynamicMultiM2L.sol, AssignArrayDynamicMultiM2L}
+SpecFilesDir = /solc-verify-examples/contracts/assigment
+... running Solc on /solc-verify-examples/contracts/assigment/AssignArrayDynamicMultiM2L.sol
+... running SolToBoogie to translate Solidity to Boogie
+VeriSol translation error: File /solc-verify-examples/contracts/assigment/AssignArrayDynamicMultiM2L.sol, Line 9, Contract AssignArrayDynamicMultiM2L, Function memToLoc:: ....
+Command exited with non-zero status 1
+0.65user 0.10system 0:00.81elapsed 92%CPU (0avgtext+0avgdata 54956maxresident)k
+0inputs+0outputs (0major+25378minor)pagefaults 0swaps

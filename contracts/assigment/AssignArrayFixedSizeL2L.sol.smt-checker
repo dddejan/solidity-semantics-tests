@@ -1,0 +1,97 @@
+Running contracts/assigment/AssignArrayFixedSizeL2L.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_Rqau:21:9: Warning: Assertion violation happens here
+        assert(sl2[1] == c);
+        ^-----------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564809811)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564809810)
+  c = 2438
+  s1[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564809811)
+  s2[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564809810)
+  sl1[1] = 2438
+  sl2[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811603)
+
+Callstack: 
+
+smt_checker_input_Rqau:22:9: Warning: Assertion violation happens here
+        assert(s1[1] == a);
+        ^----------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564819359)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564819358)
+  c = (- 1673)
+  s1[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818216)
+  s2[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819358)
+  sl1[1] = (- 1673)
+  sl2[1] = (- 1673)
+
+Callstack: 
+
+smt_checker_input_Rqau:23:9: Warning: Assertion violation happens here
+        assert(s2[1] == c);
+        ^----------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564811023)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564811022)
+  c = 8663
+  s1[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811023)
+  s2[1] = 8664
+  sl1[1] = 8663
+  sl2[1] = 8663
+
+Callstack: 
+
+smt_checker_input_Rqau:21:9: Warning: Assertion violation happens here
+        assert(sl2[1] == c);
+        ^-----------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  s1[1] = 0
+  s2[1] = 1
+  sl1[1] = 2
+  sl2[1] = 3
+
+Callstack: 
+smt_checker_input_Rqau:28:9: 
+        locToLoc(0, 1, 2);
+        ^---------------^
+
+smt_checker_input_Rqau:22:9: Warning: Assertion violation happens here
+        assert(s1[1] == a);
+        ^----------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  s1[1] = 4680
+  s2[1] = 1
+  sl1[1] = 2
+  sl2[1] = 2
+
+Callstack: 
+smt_checker_input_Rqau:28:9: 
+        locToLoc(0, 1, 2);
+        ^---------------^
+
+smt_checker_input_Rqau:23:9: Warning: Assertion violation happens here
+        assert(s2[1] == c);
+        ^----------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  s1[1] = 0
+  s2[1] = 3
+  sl1[1] = 2
+  sl2[1] = 2
+
+Callstack: 
+smt_checker_input_Rqau:28:9: 
+        locToLoc(0, 1, 2);
+        ^---------------^
+
+0.13user 0.03system 0:00.16elapsed 99%CPU (0avgtext+0avgdata 48692maxresident)k
+0inputs+0outputs (0major+4077minor)pagefaults 0swaps

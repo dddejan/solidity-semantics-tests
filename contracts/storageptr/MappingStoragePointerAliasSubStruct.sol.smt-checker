@@ -1,0 +1,119 @@
+Running contracts/storageptr/MappingStoragePointerAliasSubStruct.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_eul2:9:5: Warning: Assertion checker does not yet support the type of this variable.
+    Sub s2;
+    ^----^
+smt_checker_input_eul2:14:9: Warning: Assertion checker does not yet support this expression.
+        s2.s[msg.sender] = b;
+        ^--^
+smt_checker_input_eul2:14:9: Warning: Assertion checker does not yet implement type struct MappingStoragePointerAliasSubStruct.Sub storage ref
+        s2.s[msg.sender] = b;
+        ^^
+smt_checker_input_eul2:14:9: Warning: Assertion checker does not yet implement this expression.
+        s2.s[msg.sender] = b;
+        ^--------------^
+smt_checker_input_eul2:14:9: Warning: Assertion checker does not yet implement this expression.
+        s2.s[msg.sender] = b;
+        ^--------------^
+smt_checker_input_eul2:15:47: Warning: Assertion checker does not yet support this expression.
+        mapping(address=>int) storage s1ref = s2.s;
+                                              ^--^
+smt_checker_input_eul2:15:47: Warning: Assertion checker does not yet implement type struct MappingStoragePointerAliasSubStruct.Sub storage ref
+        mapping(address=>int) storage s1ref = s2.s;
+                                              ^^
+smt_checker_input_eul2:16:47: Warning: Assertion checker does not yet support this expression.
+        mapping(address=>int) storage s2ref = s2.s;
+                                              ^--^
+smt_checker_input_eul2:16:47: Warning: Assertion checker does not yet implement type struct MappingStoragePointerAliasSubStruct.Sub storage ref
+        mapping(address=>int) storage s2ref = s2.s;
+                                              ^^
+smt_checker_input_eul2:17:9: Warning: Assertion violation happens here
+        assert(s1ref[msg.sender] == b);
+        ^----------------------------^
+  for:
+  a = (- 1)
+  b = 0
+  msg.sender = 7719
+  s1[msg.sender] = (- 1)
+  s1ref[msg.sender] = 1
+
+Callstack: 
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+smt_checker_input_eul2:18:9: Warning: Assertion violation happens here
+        assert(s2ref[msg.sender] == b);
+        ^----------------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564811603)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564811602)
+  msg.sender = 8855
+  s1[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811603)
+  s1ref[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811602)
+  s2ref[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811603)
+
+Callstack: 
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+smt_checker_input_eul2:14:9: Warning: Assertion checker does not yet support this expression.
+        s2.s[msg.sender] = b;
+        ^--^
+smt_checker_input_eul2:14:9: Warning: Assertion checker does not yet implement type struct MappingStoragePointerAliasSubStruct.Sub storage ref
+        s2.s[msg.sender] = b;
+        ^^
+smt_checker_input_eul2:14:9: Warning: Assertion checker does not yet implement this expression.
+        s2.s[msg.sender] = b;
+        ^--------------^
+smt_checker_input_eul2:14:9: Warning: Assertion checker does not yet implement this expression.
+        s2.s[msg.sender] = b;
+        ^--------------^
+smt_checker_input_eul2:15:47: Warning: Assertion checker does not yet support this expression.
+        mapping(address=>int) storage s1ref = s2.s;
+                                              ^--^
+smt_checker_input_eul2:15:47: Warning: Assertion checker does not yet implement type struct MappingStoragePointerAliasSubStruct.Sub storage ref
+        mapping(address=>int) storage s1ref = s2.s;
+                                              ^^
+smt_checker_input_eul2:16:47: Warning: Assertion checker does not yet support this expression.
+        mapping(address=>int) storage s2ref = s2.s;
+                                              ^--^
+smt_checker_input_eul2:16:47: Warning: Assertion checker does not yet implement type struct MappingStoragePointerAliasSubStruct.Sub storage ref
+        mapping(address=>int) storage s2ref = s2.s;
+                                              ^^
+smt_checker_input_eul2:17:9: Warning: Assertion violation happens here
+        assert(s1ref[msg.sender] == b);
+        ^----------------------------^
+  for:
+  a = 0
+  b = 1
+  msg.sender = 449
+  s1[msg.sender] = 0
+  s1ref[msg.sender] = 2
+
+Callstack: 
+smt_checker_input_eul2:23:9: 
+        test(0, 1);
+        ^--------^
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+smt_checker_input_eul2:18:9: Warning: Assertion violation happens here
+        assert(s2ref[msg.sender] == b);
+        ^----------------------------^
+  for:
+  a = 0
+  b = 1
+  msg.sender = 5853
+  s1[msg.sender] = 0
+  s1ref[msg.sender] = 1
+  s2ref[msg.sender] = 2
+
+Callstack: 
+smt_checker_input_eul2:23:9: 
+        test(0, 1);
+        ^--------^
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+0.07user 0.01system 0:00.09elapsed 98%CPU (0avgtext+0avgdata 45292maxresident)k
+0inputs+0outputs (0major+3235minor)pagefaults 0swaps

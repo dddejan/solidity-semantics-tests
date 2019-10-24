@@ -1,0 +1,32 @@
+Running contracts/assigment/AssignTupleArrayFixedSizeSS2SS.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_fJf1:13:9: Warning: This assignment performs two copies to storage. Since storage copies do not first copy to a temporary location, one of them might be overwritten before the second is executed and thus may have unexpected effects. It is safer to perform the copies separately or assign to storage pointers first.
+        (s1, s2) = (s2, s1); // Checking this assignment
+        ^-----------------^
+smt_checker_input_fJf1:14:9: Warning: Assertion violation happens here
+        assert(s1[0] == a);
+        ^----------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564812249)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564812248)
+  s1[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564812248)
+  s2[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564812248)
+
+Callstack: 
+
+smt_checker_input_fJf1:14:9: Warning: Assertion violation happens here
+        assert(s1[0] == a);
+        ^----------------^
+  for:
+  a = 1
+  b = 2
+  s1[0] = 2
+  s2[0] = 2
+
+Callstack: 
+smt_checker_input_fJf1:20:9: 
+        assign(1, 2);
+        ^----------^
+
+0.04user 0.02system 0:00.07elapsed 98%CPU (0avgtext+0avgdata 42856maxresident)k
+0inputs+0outputs (0major+2660minor)pagefaults 0swaps

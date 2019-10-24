@@ -1,0 +1,7 @@
+Running contracts/assigment/AssignArrayDynamicM2M.sol
+AssignArrayDynamicM2M::memToMem: OK
+AssignArrayDynamicM2M::truffleMain: OK
+AssignArrayDynamicM2M::[implicit_constructor]: OK
+No errors found.
+0.64user 0.25system 0:00.87elapsed 103%CPU (0avgtext+0avgdata 42052maxresident)k
+0inputs+24outputs (0major+16818minor)pagefaults 0swaps

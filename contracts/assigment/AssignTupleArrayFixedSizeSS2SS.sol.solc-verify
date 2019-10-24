@@ -1,0 +1,8 @@
+Running contracts/assigment/AssignTupleArrayFixedSizeSS2SS.sol
+AssignTupleArrayFixedSizeSS2SS::assign: OK
+AssignTupleArrayFixedSizeSS2SS::truffleMain: OK
+AssignTupleArrayFixedSizeSS2SS::[implicit_constructor]: OK
+Use --show-warnings to see 1 warning.
+No errors found.
+0.69user 0.25system 0:00.92elapsed 103%CPU (0avgtext+0avgdata 41844maxresident)k
+0inputs+16outputs (0major+16568minor)pagefaults 0swaps

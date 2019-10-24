@@ -1,0 +1,9 @@
+Running contracts/storageptr/MappingStructStorageArgumentNoAliasSubStruct.sol
+Command line args = {contracts/storageptr/MappingStructStorageArgumentNoAliasSubStruct.sol, MappingStructStorageArgumentNoAliasSubStruct}
+SpecFilesDir = /solc-verify-examples/contracts/storageptr
+... running Solc on /solc-verify-examples/contracts/storageptr/MappingStructStorageArgumentNoAliasSubStruct.sol
+... running SolToBoogie to translate Solidity to Boogie
+VeriSol translation error: File /solc-verify-examples/contracts/storageptr/MappingStructStorageArgumentNoAliasSubStruct.sol, Line 11, Contract MappingStructStorageArgumentNoAliasSubStruct, Function truffleMain:: Cannot find a function with signature: test(mapping(address => struct MappingStructStorageArgumentNoAliasSubStruct.S, mapping(address => struct MappingStructStorageArgumentNoAliasSubStruct.S, int256, int256)....
+Command exited with non-zero status 1
+0.69user 0.12system 0:00.83elapsed 97%CPU (0avgtext+0avgdata 54816maxresident)k
+0inputs+0outputs (0major+25573minor)pagefaults 0swaps

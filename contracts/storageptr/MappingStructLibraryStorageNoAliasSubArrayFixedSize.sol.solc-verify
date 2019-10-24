@@ -1,0 +1,14 @@
+Running contracts/storageptr/MappingStructLibraryStorageNoAliasSubArrayFixedSize.sol
+Error while running verifier, details:
+[TRACE] Using prover: /usr/local/bin/z3
+Parsing /tmp/tmp48n1xm8f/MappingStructLibraryStorageNoAliasSubArrayFixedSize.sol.bpl
+/tmp/tmp48n1xm8f/MappingStructLibraryStorageNoAliasSubArrayFixedSize.sol.bpl(33,5): Error: command assigns to an immutable variable: a#8
+/tmp/tmp48n1xm8f/MappingStructLibraryStorageNoAliasSubArrayFixedSize.sol.bpl(34,6): Error: command assigns to an immutable variable: b#12
+/tmp/tmp48n1xm8f/MappingStructLibraryStorageNoAliasSubArrayFixedSize.sol.bpl(35,5): Error: command assigns to an immutable variable: a#8
+/tmp/tmp48n1xm8f/MappingStructLibraryStorageNoAliasSubArrayFixedSize.sol.bpl(70,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]struct_storage_S#4)
+/tmp/tmp48n1xm8f/MappingStructLibraryStorageNoAliasSubArrayFixedSize.sol.bpl(74,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]struct_storage_S#4)
+5 type checking errors detected in /tmp/tmp48n1xm8f/MappingStructLibraryStorageNoAliasSubArrayFixedSize.sol.bpl
+
+Command exited with non-zero status 252
+0.32user 0.15system 0:00.48elapsed 98%CPU (0avgtext+0avgdata 33060maxresident)k
+0inputs+24outputs (0major+10252minor)pagefaults 0swaps

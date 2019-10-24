@@ -1,0 +1,125 @@
+Running contracts/assigment/AssignArrayDynamicMultiM2L.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_SKtN:10:17: Warning: Assertion checker does not yet support this expression.
+        require(s1.length > 0 && s1[0].length > 0);
+                ^-------^
+smt_checker_input_SKtN:10:34: Warning: Assertion checker does not yet support this expression.
+        require(s1.length > 0 && s1[0].length > 0);
+                                 ^----------^
+smt_checker_input_SKtN:12:29: Warning: Assertion checker does not yet implement this type of function call.
+        int[][] memory sm = new int[][](1);
+                            ^------------^
+smt_checker_input_SKtN:13:17: Warning: Assertion checker does not yet implement this type of function call.
+        sm[0] = new int[](1);
+                ^----------^
+smt_checker_input_SKtN:14:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        sm[0][0] = a;
+        ^------^
+smt_checker_input_SKtN:15:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s1[0][0] = b;
+        ^------^
+smt_checker_input_SKtN:17:9: Warning: Assertion violation happens here
+        assert(s1[0][0] == b);
+        ^-------------------^
+  for:
+  a = 1
+  b = 0
+  s1[0][0] = 1
+  sm[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811113)
+
+Callstack: 
+
+smt_checker_input_SKtN:19:9: Warning: Assertion violation happens here
+        assert(sm[0][0] == a);
+        ^-------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564818172)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564818171)
+  s1[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818171)
+  sl[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818171)
+  sm[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818171)
+
+Callstack: 
+
+smt_checker_input_SKtN:22:9: Warning: Assertion violation happens here
+        assert(sl[0][0] == a);
+        ^-------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564819519)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564819518)
+  s1[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819518)
+  sl[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819518)
+  sm[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819519)
+
+Callstack: 
+
+smt_checker_input_SKtN:27:17: Warning: Assertion checker does not yet implement this type of function call.
+        s1.push(new int[](1));
+                ^----------^
+smt_checker_input_SKtN:27:9: Warning: Assertion checker does not yet implement this type of function call.
+        s1.push(new int[](1));
+        ^-------------------^
+smt_checker_input_SKtN:10:17: Warning: Assertion checker does not yet support this expression.
+        require(s1.length > 0 && s1[0].length > 0);
+                ^-------^
+smt_checker_input_SKtN:10:34: Warning: Assertion checker does not yet support this expression.
+        require(s1.length > 0 && s1[0].length > 0);
+                                 ^----------^
+smt_checker_input_SKtN:12:29: Warning: Assertion checker does not yet implement this type of function call.
+        int[][] memory sm = new int[][](1);
+                            ^------------^
+smt_checker_input_SKtN:13:17: Warning: Assertion checker does not yet implement this type of function call.
+        sm[0] = new int[](1);
+                ^----------^
+smt_checker_input_SKtN:14:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        sm[0][0] = a;
+        ^------^
+smt_checker_input_SKtN:15:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s1[0][0] = b;
+        ^------^
+smt_checker_input_SKtN:17:9: Warning: Assertion violation happens here
+        assert(s1[0][0] == b);
+        ^-------------------^
+  for:
+  a = 0
+  b = 1
+  s1[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811870)
+  sm[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819687)
+
+Callstack: 
+smt_checker_input_SKtN:28:9: 
+        memToLoc(0, 1);
+        ^------------^
+
+smt_checker_input_SKtN:19:9: Warning: Assertion violation happens here
+        assert(sm[0][0] == a);
+        ^-------------------^
+  for:
+  a = 0
+  b = 1
+  s1[0][0] = 1
+  sl[0][0] = 1
+  sm[0][0] = (- 1)
+
+Callstack: 
+smt_checker_input_SKtN:28:9: 
+        memToLoc(0, 1);
+        ^------------^
+
+smt_checker_input_SKtN:22:9: Warning: Assertion violation happens here
+        assert(sl[0][0] == a);
+        ^-------------------^
+  for:
+  a = 0
+  b = 1
+  s1[0][0] = 1
+  sl[0][0] = 1
+  sm[0][0] = 0
+
+Callstack: 
+smt_checker_input_SKtN:28:9: 
+        memToLoc(0, 1);
+        ^------------^
+
+0.11user 0.04system 0:00.15elapsed 100%CPU (0avgtext+0avgdata 47732maxresident)k
+0inputs+0outputs (0major+3906minor)pagefaults 0swaps

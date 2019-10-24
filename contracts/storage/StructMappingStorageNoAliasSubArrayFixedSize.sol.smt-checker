@@ -1,0 +1,137 @@
+Running contracts/storage/StructMappingStorageNoAliasSubArrayFixedSize.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_7iC6:9:5: Warning: Assertion checker does not yet support the type of this variable.
+    S s1;
+    ^--^
+smt_checker_input_7iC6:13:9: Warning: Assertion checker does not yet support this expression.
+        s1.x[msg.sender] = a;
+        ^--^
+smt_checker_input_7iC6:13:9: Warning: Assertion checker does not yet implement type struct StructMappingStorageNoAliasSubArrayFixedSize.S storage ref
+        s1.x[msg.sender] = a;
+        ^^
+smt_checker_input_7iC6:13:9: Warning: Assertion checker does not yet implement this expression.
+        s1.x[msg.sender] = a;
+        ^--------------^
+smt_checker_input_7iC6:13:9: Warning: Assertion checker does not yet implement this expression.
+        s1.x[msg.sender] = a;
+        ^--------------^
+smt_checker_input_7iC6:14:9: Warning: Assertion checker does not yet support this expression.
+        s2[1].x[msg.sender] = b;
+        ^-----^
+smt_checker_input_7iC6:14:9: Warning: Assertion checker does not yet implement type struct StructMappingStorageNoAliasSubArrayFixedSize.S storage ref
+        s2[1].x[msg.sender] = b;
+        ^---^
+smt_checker_input_7iC6:14:9: Warning: Assertion checker does not yet implement this expression.
+        s2[1].x[msg.sender] = b;
+        ^-----------------^
+smt_checker_input_7iC6:14:9: Warning: Assertion checker does not yet implement this expression.
+        s2[1].x[msg.sender] = b;
+        ^-----------------^
+smt_checker_input_7iC6:15:16: Warning: Assertion checker does not yet support this expression.
+        assert(s1.x[msg.sender] == a);
+               ^--^
+smt_checker_input_7iC6:15:16: Warning: Assertion checker does not yet implement type struct StructMappingStorageNoAliasSubArrayFixedSize.S storage ref
+        assert(s1.x[msg.sender] == a);
+               ^^
+smt_checker_input_7iC6:15:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s1.x[msg.sender] == a);
+               ^--------------^
+smt_checker_input_7iC6:16:16: Warning: Assertion checker does not yet support this expression.
+        assert(s2[1].x[msg.sender] == b);
+               ^-----^
+smt_checker_input_7iC6:16:16: Warning: Assertion checker does not yet implement type struct StructMappingStorageNoAliasSubArrayFixedSize.S storage ref
+        assert(s2[1].x[msg.sender] == b);
+               ^---^
+smt_checker_input_7iC6:16:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s2[1].x[msg.sender] == b);
+               ^-----------------^
+smt_checker_input_7iC6:15:9: Warning: Assertion violation happens here
+        assert(s1.x[msg.sender] == a);
+        ^---------------------------^
+  for:
+  a = 0
+  b = 0
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_7iC6:16:9: Warning: Assertion violation happens here
+        assert(s2[1].x[msg.sender] == b);
+        ^------------------------------^
+  for:
+  a = 0
+  b = 0
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_7iC6:13:9: Warning: Assertion checker does not yet support this expression.
+        s1.x[msg.sender] = a;
+        ^--^
+smt_checker_input_7iC6:13:9: Warning: Assertion checker does not yet implement type struct StructMappingStorageNoAliasSubArrayFixedSize.S storage ref
+        s1.x[msg.sender] = a;
+        ^^
+smt_checker_input_7iC6:13:9: Warning: Assertion checker does not yet implement this expression.
+        s1.x[msg.sender] = a;
+        ^--------------^
+smt_checker_input_7iC6:13:9: Warning: Assertion checker does not yet implement this expression.
+        s1.x[msg.sender] = a;
+        ^--------------^
+smt_checker_input_7iC6:14:9: Warning: Assertion checker does not yet support this expression.
+        s2[1].x[msg.sender] = b;
+        ^-----^
+smt_checker_input_7iC6:14:9: Warning: Assertion checker does not yet implement type struct StructMappingStorageNoAliasSubArrayFixedSize.S storage ref
+        s2[1].x[msg.sender] = b;
+        ^---^
+smt_checker_input_7iC6:14:9: Warning: Assertion checker does not yet implement this expression.
+        s2[1].x[msg.sender] = b;
+        ^-----------------^
+smt_checker_input_7iC6:14:9: Warning: Assertion checker does not yet implement this expression.
+        s2[1].x[msg.sender] = b;
+        ^-----------------^
+smt_checker_input_7iC6:15:16: Warning: Assertion checker does not yet support this expression.
+        assert(s1.x[msg.sender] == a);
+               ^--^
+smt_checker_input_7iC6:15:16: Warning: Assertion checker does not yet implement type struct StructMappingStorageNoAliasSubArrayFixedSize.S storage ref
+        assert(s1.x[msg.sender] == a);
+               ^^
+smt_checker_input_7iC6:15:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s1.x[msg.sender] == a);
+               ^--------------^
+smt_checker_input_7iC6:16:16: Warning: Assertion checker does not yet support this expression.
+        assert(s2[1].x[msg.sender] == b);
+               ^-----^
+smt_checker_input_7iC6:16:16: Warning: Assertion checker does not yet implement type struct StructMappingStorageNoAliasSubArrayFixedSize.S storage ref
+        assert(s2[1].x[msg.sender] == b);
+               ^---^
+smt_checker_input_7iC6:16:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s2[1].x[msg.sender] == b);
+               ^-----------------^
+smt_checker_input_7iC6:15:9: Warning: Assertion violation happens here
+        assert(s1.x[msg.sender] == a);
+        ^---------------------------^
+  for:
+  a = 0
+  b = 1
+  msg.sender = 0
+
+Callstack: 
+smt_checker_input_7iC6:21:9: 
+        test(0, 1);
+        ^--------^
+
+smt_checker_input_7iC6:16:9: Warning: Assertion violation happens here
+        assert(s2[1].x[msg.sender] == b);
+        ^------------------------------^
+  for:
+  a = 0
+  b = 1
+  msg.sender = 0
+
+Callstack: 
+smt_checker_input_7iC6:21:9: 
+        test(0, 1);
+        ^--------^
+
+0.04user 0.02system 0:00.07elapsed 98%CPU (0avgtext+0avgdata 43300maxresident)k
+0inputs+0outputs (0major+3048minor)pagefaults 0swaps

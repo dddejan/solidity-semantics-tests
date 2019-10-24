@@ -1,0 +1,103 @@
+Running contracts/storageptr/ArrayFixedSizeStoragePointerArrayPop.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_XVIq:11:9: Warning: Assertion checker does not yet implement this type of function call.
+        sa.push(push);
+        ^-----------^
+smt_checker_input_XVIq:12:31: Warning: Assertion checker does not yet support this expression.
+        int[2] storage s = sa[sa.length-1];
+                              ^-------^
+smt_checker_input_XVIq:13:9: Warning: Assertion checker does not yet implement this type of function call.
+        sa.pop();
+        ^------^
+smt_checker_input_XVIq:15:9: Warning: Assertion checker does not yet implement this type of function call.
+        sa.push(push);
+        ^-----------^
+smt_checker_input_XVIq:12:31: Warning: Underflow (resulting value less than 0) happens here
+        int[2] storage s = sa[sa.length-1];
+                              ^---------^
+  for:
+  <result> = (- 1)
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564817531)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564818732)
+  push[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564817531)
+
+Callstack: 
+
+smt_checker_input_XVIq:12:31: Warning: Overflow (resulting value larger than 2**256 - 1) happens here
+        int[2] storage s = sa[sa.length-1];
+                              ^---------^
+  for:
+  <result> = 2**256
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564817686)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564811603)
+  push[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564817686)
+
+Callstack: 
+
+smt_checker_input_XVIq:16:9: Warning: Assertion violation happens here
+        assert(s[1] == b);
+        ^---------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564818826)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564811869)
+  push[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811869)
+  s[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811870)
+
+Callstack: 
+
+smt_checker_input_XVIq:11:9: Warning: Assertion checker does not yet implement this type of function call.
+        sa.push(push);
+        ^-----------^
+smt_checker_input_XVIq:12:31: Warning: Assertion checker does not yet support this expression.
+        int[2] storage s = sa[sa.length-1];
+                              ^-------^
+smt_checker_input_XVIq:13:9: Warning: Assertion checker does not yet implement this type of function call.
+        sa.pop();
+        ^------^
+smt_checker_input_XVIq:15:9: Warning: Assertion checker does not yet implement this type of function call.
+        sa.push(push);
+        ^-----------^
+smt_checker_input_XVIq:12:31: Warning: Underflow (resulting value less than 0) happens here
+        int[2] storage s = sa[sa.length-1];
+                              ^---------^
+  for:
+  <result> = (- 1)
+  a = 0
+  b = 1
+  push[1] = 0
+
+Callstack: 
+smt_checker_input_XVIq:21:9: 
+        test(0, 1);
+        ^--------^
+
+smt_checker_input_XVIq:12:31: Warning: Overflow (resulting value larger than 2**256 - 1) happens here
+        int[2] storage s = sa[sa.length-1];
+                              ^---------^
+  for:
+  <result> = 2**256
+  a = 0
+  b = 1
+  push[1] = 0
+
+Callstack: 
+smt_checker_input_XVIq:21:9: 
+        test(0, 1);
+        ^--------^
+
+smt_checker_input_XVIq:16:9: Warning: Assertion violation happens here
+        assert(s[1] == b);
+        ^---------------^
+  for:
+  a = 0
+  b = 1
+  push[1] = 1
+  s[1] = 2
+
+Callstack: 
+smt_checker_input_XVIq:21:9: 
+        test(0, 1);
+        ^--------^
+
+0.08user 0.01system 0:00.09elapsed 100%CPU (0avgtext+0avgdata 43252maxresident)k
+0inputs+0outputs (0major+2706minor)pagefaults 0swaps

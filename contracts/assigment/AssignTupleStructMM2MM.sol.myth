@@ -1,0 +1,5 @@
+Running contracts/assigment/AssignTupleStructMM2MM.sol
+The analysis was completed successfully. No issues were detected.
+
+3.97user 1.05system 0:04.20elapsed 119%CPU (0avgtext+0avgdata 91984maxresident)k
+0inputs+24344outputs (0major+35640minor)pagefaults 0swaps

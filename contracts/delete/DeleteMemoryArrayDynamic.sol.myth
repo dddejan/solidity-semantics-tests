@@ -1,0 +1,25 @@
+Running contracts/delete/DeleteMemoryArrayDynamic.sol
+==== Integer Overflow ====
+SWC ID: 101
+Severity: Low
+Contract: DeleteMemoryArrayDynamic
+Function name: test(uint256)
+PC address: 153
+Estimated Gas Usage: 431 - 3299
+The binary multiplication can overflow.
+The operands of the multiplication operation are not sufficiently constrained. The multiplication could therefore result in an integer overflow. Prevent the overflow by checking inputs or ensure sure that the overflow is caught by an assertion. This issue is reported for internal compiler generated code.
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x400000, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+Account: [SOMEGUY], balance: 0x40a00000000000000, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], data: 0x608060405234801561001057600080fd5b50610103806100206000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806329e99f07146037578063bbac8963146062575b600080fd5b606060048036036020811015604b57600080fd5b8101908080359060200190929190505050606a565b005b606860c4565b005b60008111607657600080fd5b60608160405190808252806020026020018201604052801560a65781602001602082028038833980820191505090505b5090508181511460b257fe5b60609050600081511460c057fe5b5050565b60cc6064606a565b56fea265627a7a723158209d71e58e1518cb8c4bfa6a37a32b38c3bcb99575fc162f913c8f60f299e57f2f64736f6c634300050c0032, value: 0x0
+Caller: [CREATOR], function: test(uint256), txdata: 0x29e99f070800000000000000000000000000000000000000000000000000000000000000, value: 0x0
+
+
+5.16user 1.61system 0:05.50elapsed 123%CPU (0avgtext+0avgdata 108252maxresident)k
+0inputs+24280outputs (0major+54537minor)pagefaults 0swaps

@@ -1,0 +1,7 @@
+Running contracts/storage/MappingStorageNoAliasBase.sol
+MappingStorageNoAliasBase::test: OK
+MappingStorageNoAliasBase::truffleMain: OK
+MappingStorageNoAliasBase::[implicit_constructor]: OK
+No errors found.
+0.70user 0.20system 0:00.92elapsed 98%CPU (0avgtext+0avgdata 42084maxresident)k
+0inputs+16outputs (0major+16019minor)pagefaults 0swaps

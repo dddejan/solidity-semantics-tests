@@ -1,0 +1,152 @@
+Running contracts/assigment/AssignArrayFixedSizeMappingL2L.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_urJH:11:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s1[1][msg.sender] = a;
+        ^---------------^
+smt_checker_input_urJH:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s2[1][msg.sender] = b;
+        ^---------------^
+smt_checker_input_urJH:19:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        sl1[1][msg.sender] = c;
+        ^----------------^
+smt_checker_input_urJH:15:9: Warning: Assertion violation happens here
+        assert(sl1[1][msg.sender] == a);
+        ^-----------------------------^
+  for:
+  a = 0
+  b = 2
+  c = 1
+  msg.sender = 1236
+  s1[1][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564812249)
+  s2[1][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564817531)
+  sl1[1][msg.sender] = (- 1)
+
+Callstack: 
+
+smt_checker_input_urJH:16:9: Warning: Assertion violation happens here
+        assert(sl2[1][msg.sender] == b);
+        ^-----------------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564818170)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564818171)
+  c = (- 57896044618658097711785492504343953926634992332820282019728792003956564818172)
+  msg.sender = 2282
+  s1[1][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811603)
+  s2[1][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819519)
+  sl1[1][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818170)
+  sl2[1][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818170)
+
+Callstack: 
+
+smt_checker_input_urJH:20:9: Warning: Assertion violation happens here
+        assert(sl1[1][msg.sender] == c);
+        ^-----------------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564814114)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564814113)
+  c = (- 57896044618658097711785492504343953926634992332820282019728792003956564814115)
+  msg.sender = 281
+  s1[1][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818826)
+  s2[1][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811870)
+  sl1[1][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564813579)
+  sl2[1][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564814113)
+
+Callstack: 
+
+smt_checker_input_urJH:21:9: Warning: Assertion violation happens here
+        assert(sl2[1][msg.sender] == c);
+        ^-----------------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564815289)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564815288)
+  c = (- 1241)
+  msg.sender = 2997
+  s1[1][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564813685)
+  s2[1][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811023)
+  sl1[1][msg.sender] = (- 1241)
+  sl2[1][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564815288)
+
+Callstack: 
+
+smt_checker_input_urJH:11:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s1[1][msg.sender] = a;
+        ^---------------^
+smt_checker_input_urJH:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s2[1][msg.sender] = b;
+        ^---------------^
+smt_checker_input_urJH:19:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        sl1[1][msg.sender] = c;
+        ^----------------^
+smt_checker_input_urJH:15:9: Warning: Assertion violation happens here
+        assert(sl1[1][msg.sender] == a);
+        ^-----------------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  msg.sender = 1653
+  s1[1][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818080)
+  s2[1][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818994)
+  sl1[1][msg.sender] = (- 1)
+
+Callstack: 
+smt_checker_input_urJH:28:9: 
+        locToLoc(0, 1, 2);
+        ^---------------^
+
+smt_checker_input_urJH:16:9: Warning: Assertion violation happens here
+        assert(sl2[1][msg.sender] == b);
+        ^-----------------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  msg.sender = 1323
+  s1[1][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811512)
+  s2[1][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564814064)
+  sl1[1][msg.sender] = 0
+  sl2[1][msg.sender] = 2
+
+Callstack: 
+smt_checker_input_urJH:28:9: 
+        locToLoc(0, 1, 2);
+        ^---------------^
+
+smt_checker_input_urJH:20:9: Warning: Assertion violation happens here
+        assert(sl1[1][msg.sender] == c);
+        ^-----------------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  msg.sender = 9725
+  s1[1][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564817728)
+  s2[1][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811089)
+  sl1[1][msg.sender] = 3
+  sl2[1][msg.sender] = 1
+
+Callstack: 
+smt_checker_input_urJH:28:9: 
+        locToLoc(0, 1, 2);
+        ^---------------^
+
+smt_checker_input_urJH:21:9: Warning: Assertion violation happens here
+        assert(sl2[1][msg.sender] == c);
+        ^-----------------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  msg.sender = 590
+  s1[1][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564817522)
+  s2[1][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564817693)
+  sl1[1][msg.sender] = 2
+  sl2[1][msg.sender] = 1
+
+Callstack: 
+smt_checker_input_urJH:28:9: 
+        locToLoc(0, 1, 2);
+        ^---------------^
+
+0.16user 0.04system 0:00.20elapsed 100%CPU (0avgtext+0avgdata 52916maxresident)k
+0inputs+0outputs (0major+5183minor)pagefaults 0swaps

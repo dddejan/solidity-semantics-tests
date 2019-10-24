@@ -1,0 +1,19 @@
+Running contracts/assigment/AssignArrayFixedSizeMappingS2S.sol
+Command line args = {contracts/assigment/AssignArrayFixedSizeMappingS2S.sol, AssignArrayFixedSizeMappingS2S}
+SpecFilesDir = /solc-verify-examples/contracts/assigment
+... running Solc on /solc-verify-examples/contracts/assigment/AssignArrayFixedSizeMappingS2S.sol
+... running SolToBoogie to translate Solidity to Boogie
+... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
+	*** Did not find a proof (see boogie.txt)
+... running /root/.dotnet/tools/corral /recursionBound:4 /k:1 /main:CorralEntry_AssignArrayFixedSizeMappingS2S /tryCTrace /printDataValues:1 __SolToBoogieTest_out.bpl
+	*** Found a counterexample (see corral.txt)
+	-----Transaction Sequence for Defect ------
+/solc-verify-examples/contracts/assigment/AssignArrayFixedSizeMappingS2S.sol(3,1): : AssignArrayFixedSizeMappingS2S::Constructor (this = address!0, msg.sender = address!1, msg.value = 9)
+/solc-verify-examples/contracts/assigment/AssignArrayFixedSizeMappingS2S.sol(8,1): : AssignArrayFixedSizeMappingS2S::storToStor (this = address!0, msg.sender = address!3, msg.value = 10, a = -388, b = -389, c = 11)
+/solc-verify-examples/contracts/assigment/AssignArrayFixedSizeMappingS2S.sol(13,1): : ASSERTION FAILS!
+	---------------
+
+	See full execution trace inside corral.txt
+Command exited with non-zero status 1
+2.24user 0.40system 0:02.94elapsed 90%CPU (0avgtext+0avgdata 54832maxresident)k
+0inputs+88outputs (0major+100689minor)pagefaults 0swaps

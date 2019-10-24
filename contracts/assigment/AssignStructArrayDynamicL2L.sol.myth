@@ -1,0 +1,5 @@
+Running contracts/assigment/AssignStructArrayDynamicL2L.sol
+The analysis was completed successfully. No issues were detected.
+
+16.93user 6.15system 0:16.78elapsed 137%CPU (0avgtext+0avgdata 117800maxresident)k
+0inputs+24368outputs (0major+42841minor)pagefaults 0swaps

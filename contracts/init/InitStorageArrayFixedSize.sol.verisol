@@ -1,0 +1,9 @@
+Running contracts/init/InitStorageArrayFixedSize.sol
+Command line args = {contracts/init/InitStorageArrayFixedSize.sol, InitStorageArrayFixedSize}
+SpecFilesDir = /solc-verify-examples/contracts/init
+... running Solc on /solc-verify-examples/contracts/init/InitStorageArrayFixedSize.sol
+... running SolToBoogie to translate Solidity to Boogie
+... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
+	*** Proof found! Formal Verification successful! (see boogie.txt)
+1.30user 0.24system 0:01.56elapsed 99%CPU (0avgtext+0avgdata 52516maxresident)k
+0inputs+24outputs (0major+58235minor)pagefaults 0swaps

@@ -1,0 +1,11 @@
+Running contracts/storageptr/MappingStorageArgumentNoAliasSubArrayFixedSize.sol
+Command exited with non-zero status 252
+0.35user 0.10system 0:00.45elapsed 100%CPU (0avgtext+0avgdata 33132maxresident)k
+0inputs+24outputs (0major+10252minor)pagefaults 0swaps
+Error while running verifier, details:
+[TRACE] Using prover: /usr/local/bin/z3
+Parsing /tmp/tmpz5gtnf_3/MappingStorageArgumentNoAliasSubArrayFixedSize.sol.bpl
+/tmp/tmpz5gtnf_3/MappingStorageArgumentNoAliasSubArrayFixedSize.sol.bpl(27,10): Error: command assigns to an immutable variable: s1ref#15
+/tmp/tmpz5gtnf_3/MappingStorageArgumentNoAliasSubArrayFixedSize.sol.bpl(28,10): Error: command assigns to an immutable variable: s2ref#19
+2 type checking errors detected in /tmp/tmpz5gtnf_3/MappingStorageArgumentNoAliasSubArrayFixedSize.sol.bpl
+

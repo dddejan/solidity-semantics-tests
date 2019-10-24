@@ -1,0 +1,109 @@
+Running contracts/assigment/AssignMappingS2L.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_urNV:22:9: Warning: Assertion violation happens here
+        assert(loc[msg.sender] == c);
+        ^--------------------------^
+  for:
+  a = 1235
+  b = 1236
+  c = 1237
+  loc[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811603)
+  msg.sender = 1796
+  s1[msg.sender] = 1237
+  s2[msg.sender] = 1236
+
+Callstack: 
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+smt_checker_input_urNV:25:9: Warning: Assertion violation happens here
+        assert(s1[msg.sender] == a);
+        ^-------------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564814114)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564814113)
+  c = (- 57896044618658097711785492504343953926634992332820282019728792003956564814112)
+  loc[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564814114)
+  msg.sender = 609
+  s1[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564814115)
+  s2[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564814113)
+
+Callstack: 
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+smt_checker_input_urNV:26:9: Warning: Assertion violation happens here
+        assert(s2[msg.sender] == b);
+        ^-------------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564811023)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564811022)
+  c = 7802
+  loc[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811023)
+  msg.sender = 5920
+  s1[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811023)
+  s2[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811021)
+
+Callstack: 
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+smt_checker_input_urNV:22:9: Warning: Assertion violation happens here
+        assert(loc[msg.sender] == c);
+        ^--------------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  loc[msg.sender] = 3
+  msg.sender = 4679
+  s1[msg.sender] = 2
+  s2[msg.sender] = 1
+
+Callstack: 
+smt_checker_input_urNV:32:9: 
+        storToLoc(0, 1, 2);
+        ^----------------^
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+smt_checker_input_urNV:25:9: Warning: Assertion violation happens here
+        assert(s1[msg.sender] == a);
+        ^-------------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  loc[msg.sender] = 0
+  msg.sender = 1653
+  s1[msg.sender] = (- 1)
+  s2[msg.sender] = 1
+
+Callstack: 
+smt_checker_input_urNV:32:9: 
+        storToLoc(0, 1, 2);
+        ^----------------^
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+smt_checker_input_urNV:26:9: Warning: Assertion violation happens here
+        assert(s2[msg.sender] == b);
+        ^-------------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  loc[msg.sender] = 0
+  msg.sender = 8879
+  s1[msg.sender] = 0
+  s2[msg.sender] = 5906
+
+Callstack: 
+smt_checker_input_urNV:32:9: 
+        storToLoc(0, 1, 2);
+        ^----------------^
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+0.17user 0.04system 0:00.22elapsed 100%CPU (0avgtext+0avgdata 49256maxresident)k
+0inputs+0outputs (0major+4283minor)pagefaults 0swaps

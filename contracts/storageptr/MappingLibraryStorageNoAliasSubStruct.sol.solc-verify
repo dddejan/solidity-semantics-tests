@@ -1,0 +1,12 @@
+Running contracts/storageptr/MappingLibraryStorageNoAliasSubStruct.sol
+Error while running verifier, details:
+[TRACE] Using prover: /usr/local/bin/z3
+Parsing /tmp/tmp5475krl8/MappingLibraryStorageNoAliasSubStruct.sol.bpl
+/tmp/tmp5475krl8/MappingLibraryStorageNoAliasSubStruct.sol.bpl(33,6): Error: command assigns to an immutable variable: a#10
+/tmp/tmp5475krl8/MappingLibraryStorageNoAliasSubStruct.sol.bpl(34,6): Error: command assigns to an immutable variable: b#14
+/tmp/tmp5475krl8/MappingLibraryStorageNoAliasSubStruct.sol.bpl(35,6): Error: command assigns to an immutable variable: a#10
+3 type checking errors detected in /tmp/tmp5475krl8/MappingLibraryStorageNoAliasSubStruct.sol.bpl
+
+Command exited with non-zero status 252
+0.36user 0.10system 0:00.46elapsed 100%CPU (0avgtext+0avgdata 33060maxresident)k
+0inputs+24outputs (0major+10233minor)pagefaults 0swaps

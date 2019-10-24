@@ -1,0 +1,10 @@
+Running contracts/storageptr/MappingStructStorageArgumentAliasSubMapping.sol
+Command line args = {contracts/storageptr/MappingStructStorageArgumentAliasSubMapping.sol, MappingStructStorageArgumentAliasSubMapping}
+SpecFilesDir = /solc-verify-examples/contracts/storageptr
+... running Solc on /solc-verify-examples/contracts/storageptr/MappingStructStorageArgumentAliasSubMapping.sol
+... running SolToBoogie to translate Solidity to Boogie
+Warning: A mapping with complex value type s of valuetype mapping (address => S)
+VeriSol translation error: File /solc-verify-examples/contracts/storageptr/MappingStructStorageArgumentAliasSubMapping.sol, Line 9, Contract MappingStructStorageArgumentAliasSubMapping, Function truffleMain:: Cannot find a function with signature: test(mapping(address => struct MappingStructStorageArgumentAliasSubMapping.S, mapping(address => struct MappingStructStorageArgumentAliasSubMapping.S, int256, int256)....
+Command exited with non-zero status 1
+0.65user 0.13system 0:00.79elapsed 98%CPU (0avgtext+0avgdata 54912maxresident)k
+0inputs+0outputs (0major+25670minor)pagefaults 0swaps

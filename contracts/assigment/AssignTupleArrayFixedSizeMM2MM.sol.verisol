@@ -1,0 +1,9 @@
+Running contracts/assigment/AssignTupleArrayFixedSizeMM2MM.sol
+Command line args = {contracts/assigment/AssignTupleArrayFixedSizeMM2MM.sol, AssignTupleArrayFixedSizeMM2MM}
+SpecFilesDir = /solc-verify-examples/contracts/assigment
+... running Solc on /solc-verify-examples/contracts/assigment/AssignTupleArrayFixedSizeMM2MM.sol
+... running SolToBoogie to translate Solidity to Boogie
+VeriSol translation error: File /solc-verify-examples/contracts/assigment/AssignTupleArrayFixedSizeMM2MM.sol, Line 10, Contract AssignTupleArrayFixedSizeMM2MM, Function assign:: Not implemented...currently only support assignment of tuples as returns of a function call....
+Command exited with non-zero status 1
+0.64user 0.08system 0:00.75elapsed 95%CPU (0avgtext+0avgdata 53492maxresident)k
+0inputs+0outputs (0major+24750minor)pagefaults 0swaps

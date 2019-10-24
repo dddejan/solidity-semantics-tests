@@ -1,0 +1,70 @@
+Running contracts/assigment/AssignArrayDynamicM2M.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_pJdN:9:28: Warning: Assertion checker does not yet implement this type of function call.
+        int[] memory sm1 = new int[](1);
+                           ^----------^
+smt_checker_input_pJdN:11:28: Warning: Assertion checker does not yet implement this type of function call.
+        int[] memory sm2 = new int[](1);
+                           ^----------^
+smt_checker_input_pJdN:13:9: Warning: Assertion violation happens here
+        assert(sm1[0] == a);
+        ^-----------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564817530)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564817528)
+  c = (- 57896044618658097711785492504343953926634992332820282019728792003956564817529)
+  sm1[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564817531)
+  sm2[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564817528)
+
+Callstack: 
+
+smt_checker_input_pJdN:22:9: Warning: Assertion violation happens here
+        assert(sm2[0] == c);
+        ^-----------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564802749)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564802748)
+  c = (- 57896044618658097711785492504343953926634992332820282019728792003956564802747)
+  sm1[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564802747)
+  sm2[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811113)
+
+Callstack: 
+
+smt_checker_input_pJdN:9:28: Warning: Assertion checker does not yet implement this type of function call.
+        int[] memory sm1 = new int[](1);
+                           ^----------^
+smt_checker_input_pJdN:11:28: Warning: Assertion checker does not yet implement this type of function call.
+        int[] memory sm2 = new int[](1);
+                           ^----------^
+smt_checker_input_pJdN:13:9: Warning: Assertion violation happens here
+        assert(sm1[0] == a);
+        ^-----------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  sm1[0] = 610
+  sm2[0] = 1
+
+Callstack: 
+smt_checker_input_pJdN:27:9: 
+        memToMem(0, 1, 2);
+        ^---------------^
+
+smt_checker_input_pJdN:22:9: Warning: Assertion violation happens here
+        assert(sm2[0] == c);
+        ^-----------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  sm1[0] = 2
+  sm2[0] = 3
+
+Callstack: 
+smt_checker_input_pJdN:27:9: 
+        memToMem(0, 1, 2);
+        ^---------------^
+
+0.11user 0.02system 0:00.13elapsed 100%CPU (0avgtext+0avgdata 43728maxresident)k
+0inputs+0outputs (0major+2985minor)pagefaults 0swaps

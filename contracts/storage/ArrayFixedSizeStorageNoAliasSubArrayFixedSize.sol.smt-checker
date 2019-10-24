@@ -1,0 +1,35 @@
+Running contracts/storage/ArrayFixedSizeStorageNoAliasSubArrayFixedSize.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_bN3Z:11:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s2[1][1] = b;
+        ^------^
+smt_checker_input_bN3Z:13:9: Warning: Assertion violation happens here
+        assert(s2[1][1] == b);
+        ^-------------------^
+  for:
+  a = 0
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564812249)
+  s1[1] = 0
+  s2[1][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564812248)
+
+Callstack: 
+
+smt_checker_input_bN3Z:11:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s2[1][1] = b;
+        ^------^
+smt_checker_input_bN3Z:13:9: Warning: Assertion violation happens here
+        assert(s2[1][1] == b);
+        ^-------------------^
+  for:
+  a = 0
+  b = 1
+  s1[1] = 0
+  s2[1][1] = 2
+
+Callstack: 
+smt_checker_input_bN3Z:18:9: 
+        test(0, 1);
+        ^--------^
+
+0.04user 0.02system 0:00.06elapsed 98%CPU (0avgtext+0avgdata 42716maxresident)k
+0inputs+0outputs (0major+2652minor)pagefaults 0swaps

@@ -1,0 +1,19 @@
+Running contracts/storageptr/StructStoragePointerNoAliasBase.sol
+Command line args = {contracts/storageptr/StructStoragePointerNoAliasBase.sol, StructStoragePointerNoAliasBase}
+SpecFilesDir = /solc-verify-examples/contracts/storageptr
+... running Solc on /solc-verify-examples/contracts/storageptr/StructStoragePointerNoAliasBase.sol
+... running SolToBoogie to translate Solidity to Boogie
+... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
+	*** Did not find a proof (see boogie.txt)
+... running /root/.dotnet/tools/corral /recursionBound:4 /k:1 /main:CorralEntry_StructStoragePointerNoAliasBase /tryCTrace /printDataValues:1 __SolToBoogieTest_out.bpl
+	*** Found a counterexample (see corral.txt)
+	-----Transaction Sequence for Defect ------
+/solc-verify-examples/contracts/storageptr/StructStoragePointerNoAliasBase.sol(3,1): : StructStoragePointerNoAliasBase::Constructor (this = address!0, msg.sender = address!1, msg.value = 4)
+/solc-verify-examples/contracts/storageptr/StructStoragePointerNoAliasBase.sol(10,1): : StructStoragePointerNoAliasBase::test (this = address!0, msg.sender = address!3, msg.value = 5, a = -388, b = -389)
+/solc-verify-examples/contracts/storageptr/StructStoragePointerNoAliasBase.sol(15,1): : ASSERTION FAILS!
+	---------------
+
+	See full execution trace inside corral.txt
+Command exited with non-zero status 1
+2.17user 0.40system 0:02.61elapsed 98%CPU (0avgtext+0avgdata 53480maxresident)k
+232inputs+80outputs (1major+99345minor)pagefaults 0swaps

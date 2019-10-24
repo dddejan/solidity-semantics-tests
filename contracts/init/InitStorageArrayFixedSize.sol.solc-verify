@@ -1,0 +1,6 @@
+Running contracts/init/InitStorageArrayFixedSize.sol
+InitStorageArrayFixedSize::[constructor]: OK
+InitStorageArrayFixedSize::truffleMain: OK
+No errors found.
+0.61user 0.26system 0:00.85elapsed 102%CPU (0avgtext+0avgdata 41020maxresident)k
+0inputs+16outputs (0major+16491minor)pagefaults 0swaps

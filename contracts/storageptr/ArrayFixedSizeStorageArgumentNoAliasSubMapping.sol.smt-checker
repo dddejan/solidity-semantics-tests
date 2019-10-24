@@ -1,0 +1,100 @@
+Running contracts/storageptr/ArrayFixedSizeStorageArgumentNoAliasSubMapping.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_5zFo:14:9: Warning: Assertion violation happens here
+        assert(s1[1] != s2[msg.sender][1]);
+        ^--------------------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564814115)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564814114)
+  msg.sender = 1796
+  s1[1] = 0
+  s1ref[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564814115)
+  s2[msg.sender][1] = 0
+  s2ref[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564814114)
+
+Callstack: 
+
+smt_checker_input_5zFo:15:9: Warning: Assertion violation happens here
+        assert(s1[1] == a || s1[1] == b);
+        ^------------------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564816969)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564816971)
+  msg.sender = 281
+  s1[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564816970)
+  s1ref[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564816969)
+  s2[msg.sender][1] = 1855
+  s2ref[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564816971)
+
+Callstack: 
+
+smt_checker_input_5zFo:16:9: Warning: Assertion violation happens here
+        assert(s2[msg.sender][1] == a || s2[msg.sender][1] == b);
+        ^------------------------------------------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564814063)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564814064)
+  msg.sender = 4679
+  s1[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564814064)
+  s1ref[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564814063)
+  s2[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564814062)
+  s2ref[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564814064)
+
+Callstack: 
+
+smt_checker_input_5zFo:22:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s2[msg.sender][1] = -2;
+        ^---------------^
+smt_checker_input_5zFo:14:9: Warning: Assertion violation happens here
+        assert(s1[1] != s2[msg.sender][1]);
+        ^--------------------------------^
+  for:
+  a = 0
+  b = 1
+  msg.sender = 2240
+  s1[1] = (- 1)
+  s1ref[1] = 0
+  s2[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811089)
+  s2ref[1] = 1
+
+Callstack: 
+smt_checker_input_5zFo:23:9: 
+        test(s1, s2[msg.sender], 0, 1);
+        ^----------------------------^
+
+smt_checker_input_5zFo:15:9: Warning: Assertion violation happens here
+        assert(s1[1] == a || s1[1] == b);
+        ^------------------------------^
+  for:
+  a = 0
+  b = 1
+  msg.sender = 8586
+  s1[1] = (- 1)
+  s1ref[1] = 0
+  s2[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819128)
+  s2ref[1] = 1
+
+Callstack: 
+smt_checker_input_5zFo:23:9: 
+        test(s1, s2[msg.sender], 0, 1);
+        ^----------------------------^
+
+smt_checker_input_5zFo:16:9: Warning: Assertion violation happens here
+        assert(s2[msg.sender][1] == a || s2[msg.sender][1] == b);
+        ^------------------------------------------------------^
+  for:
+  a = 0
+  b = 1
+  msg.sender = 2455
+  s1[1] = (- 1)
+  s1ref[1] = 0
+  s2[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564817352)
+  s2ref[1] = 1
+
+Callstack: 
+smt_checker_input_5zFo:23:9: 
+        test(s1, s2[msg.sender], 0, 1);
+        ^----------------------------^
+
+0.11user 0.02system 0:00.14elapsed 100%CPU (0avgtext+0avgdata 39860maxresident)k
+0inputs+0outputs (0major+2179minor)pagefaults 0swaps

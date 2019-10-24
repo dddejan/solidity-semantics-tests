@@ -1,0 +1,4 @@
+Running contracts/assigment/AssignMappingArrayS2L.sol
+Command terminated by signal 24
+55.94user 4.37system 0:56.59elapsed 106%CPU (0avgtext+0avgdata 216440maxresident)k
+0inputs+407080outputs (0major+78508minor)pagefaults 0swaps

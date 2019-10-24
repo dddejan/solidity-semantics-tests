@@ -1,0 +1,9 @@
+Running contracts/assigment/AssignArrayFixedSizeMappingS2S.sol
+AssignArrayFixedSizeMappingS2S::storToStor: ERROR
+ - contracts/assigment/AssignArrayFixedSizeMappingS2S.sol:17:9: Assertion might not hold.
+AssignArrayFixedSizeMappingS2S::truffleMain: OK
+AssignArrayFixedSizeMappingS2S::[implicit_constructor]: OK
+Errors were found by the verifier.
+Command exited with non-zero status 251
+0.73user 0.23system 0:00.94elapsed 101%CPU (0avgtext+0avgdata 42148maxresident)k
+0inputs+24outputs (0major+16951minor)pagefaults 0swaps

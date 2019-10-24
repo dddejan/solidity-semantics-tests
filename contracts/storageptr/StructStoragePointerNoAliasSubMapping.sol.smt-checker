@@ -1,0 +1,131 @@
+Running contracts/storageptr/StructStoragePointerNoAliasSubMapping.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_DW7r:9:5: Warning: Assertion checker does not yet support the type of this variable.
+    S s1;
+    ^--^
+smt_checker_input_DW7r:15:9: Warning: Assertion checker does not yet support the type of this variable.
+        S storage s1ref = s1;
+        ^-------------^
+smt_checker_input_DW7r:16:9: Warning: Assertion checker does not yet support the type of this variable.
+        S storage s2ref = s2[msg.sender];
+        ^-------------^
+smt_checker_input_DW7r:13:9: Warning: Assertion checker does not yet support this expression.
+        s1.x = a;
+        ^--^
+smt_checker_input_DW7r:13:9: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubMapping.S storage ref
+        s1.x = a;
+        ^^
+smt_checker_input_DW7r:13:9: Warning: Assertion checker does not yet implement such assignments.
+        s1.x = a;
+        ^------^
+smt_checker_input_DW7r:14:9: Warning: Assertion checker does not yet support this expression.
+        s2[msg.sender].x = b;
+        ^--------------^
+smt_checker_input_DW7r:14:9: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubMapping.S storage ref
+        s2[msg.sender].x = b;
+        ^------------^
+smt_checker_input_DW7r:14:9: Warning: Assertion checker does not yet implement such assignments.
+        s2[msg.sender].x = b;
+        ^------------------^
+smt_checker_input_DW7r:15:27: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubMapping.S storage ref
+        S storage s1ref = s1;
+                          ^^
+smt_checker_input_DW7r:16:27: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubMapping.S storage ref
+        S storage s2ref = s2[msg.sender];
+                          ^------------^
+smt_checker_input_DW7r:17:16: Warning: Assertion checker does not yet support this expression.
+        assert(s1ref.x == a);
+               ^-----^
+smt_checker_input_DW7r:17:16: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubMapping.S storage pointer
+        assert(s1ref.x == a);
+               ^---^
+smt_checker_input_DW7r:18:16: Warning: Assertion checker does not yet support this expression.
+        assert(s2ref.x == b);
+               ^-----^
+smt_checker_input_DW7r:18:16: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubMapping.S storage pointer
+        assert(s2ref.x == b);
+               ^---^
+smt_checker_input_DW7r:17:9: Warning: Assertion violation happens here
+        assert(s1ref.x == a);
+        ^------------------^
+  for:
+  a = 0
+  b = 0
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_DW7r:18:9: Warning: Assertion violation happens here
+        assert(s2ref.x == b);
+        ^------------------^
+  for:
+  a = 0
+  b = 0
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_DW7r:13:9: Warning: Assertion checker does not yet support this expression.
+        s1.x = a;
+        ^--^
+smt_checker_input_DW7r:13:9: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubMapping.S storage ref
+        s1.x = a;
+        ^^
+smt_checker_input_DW7r:13:9: Warning: Assertion checker does not yet implement such assignments.
+        s1.x = a;
+        ^------^
+smt_checker_input_DW7r:14:9: Warning: Assertion checker does not yet support this expression.
+        s2[msg.sender].x = b;
+        ^--------------^
+smt_checker_input_DW7r:14:9: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubMapping.S storage ref
+        s2[msg.sender].x = b;
+        ^------------^
+smt_checker_input_DW7r:14:9: Warning: Assertion checker does not yet implement such assignments.
+        s2[msg.sender].x = b;
+        ^------------------^
+smt_checker_input_DW7r:15:27: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubMapping.S storage ref
+        S storage s1ref = s1;
+                          ^^
+smt_checker_input_DW7r:16:27: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubMapping.S storage ref
+        S storage s2ref = s2[msg.sender];
+                          ^------------^
+smt_checker_input_DW7r:17:16: Warning: Assertion checker does not yet support this expression.
+        assert(s1ref.x == a);
+               ^-----^
+smt_checker_input_DW7r:17:16: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubMapping.S storage pointer
+        assert(s1ref.x == a);
+               ^---^
+smt_checker_input_DW7r:18:16: Warning: Assertion checker does not yet support this expression.
+        assert(s2ref.x == b);
+               ^-----^
+smt_checker_input_DW7r:18:16: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubMapping.S storage pointer
+        assert(s2ref.x == b);
+               ^---^
+smt_checker_input_DW7r:17:9: Warning: Assertion violation happens here
+        assert(s1ref.x == a);
+        ^------------------^
+  for:
+  a = 0
+  b = 1
+  msg.sender = 0
+
+Callstack: 
+smt_checker_input_DW7r:23:9: 
+        test(0, 1);
+        ^--------^
+
+smt_checker_input_DW7r:18:9: Warning: Assertion violation happens here
+        assert(s2ref.x == b);
+        ^------------------^
+  for:
+  a = 0
+  b = 1
+  msg.sender = 0
+
+Callstack: 
+smt_checker_input_DW7r:23:9: 
+        test(0, 1);
+        ^--------^
+
+0.04user 0.02system 0:00.07elapsed 97%CPU (0avgtext+0avgdata 43048maxresident)k
+0inputs+0outputs (0major+3044minor)pagefaults 0swaps

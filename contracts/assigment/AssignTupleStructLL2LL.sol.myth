@@ -1,0 +1,5 @@
+Running contracts/assigment/AssignTupleStructLL2LL.sol
+The analysis was completed successfully. No issues were detected.
+
+8.40user 4.00system 0:08.51elapsed 145%CPU (0avgtext+0avgdata 101052maxresident)k
+0inputs+24344outputs (0major+38032minor)pagefaults 0swaps

@@ -1,0 +1,9 @@
+Running contracts/assigment/AssignTupleVV2VV.sol
+Command line args = {contracts/assigment/AssignTupleVV2VV.sol, AssignTupleVV2VV}
+SpecFilesDir = /solc-verify-examples/contracts/assigment
+... running Solc on /solc-verify-examples/contracts/assigment/AssignTupleVV2VV.sol
+... running SolToBoogie to translate Solidity to Boogie
+VeriSol translation error: File /solc-verify-examples/contracts/assigment/AssignTupleVV2VV.sol, Line 11, Contract AssignTupleVV2VV, Function assign:: Not implemented...currently only support assignment of tuples as returns of a function call....
+Command exited with non-zero status 1
+0.61user 0.10system 0:00.84elapsed 85%CPU (0avgtext+0avgdata 52260maxresident)k
+0inputs+0outputs (0major+24042minor)pagefaults 0swaps

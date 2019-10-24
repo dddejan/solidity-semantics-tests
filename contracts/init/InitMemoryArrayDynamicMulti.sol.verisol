@@ -1,0 +1,9 @@
+Running contracts/init/InitMemoryArrayDynamicMulti.sol
+Command line args = {contracts/init/InitMemoryArrayDynamicMulti.sol, InitMemoryArrayDynamicMulti}
+SpecFilesDir = /solc-verify-examples/contracts/init
+... running Solc on /solc-verify-examples/contracts/init/InitMemoryArrayDynamicMulti.sol
+... running SolToBoogie to translate Solidity to Boogie
+VeriSol translation error: File /solc-verify-examples/contracts/init/InitMemoryArrayDynamicMulti.sol, Line 7, Contract InitMemoryArrayDynamicMulti, Function test:: ....
+Command exited with non-zero status 1
+0.66user 0.11system 0:00.79elapsed 97%CPU (0avgtext+0avgdata 54560maxresident)k
+0inputs+0outputs (0major+25051minor)pagefaults 0swaps

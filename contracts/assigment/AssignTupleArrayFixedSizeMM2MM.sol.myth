@@ -1,0 +1,5 @@
+Running contracts/assigment/AssignTupleArrayFixedSizeMM2MM.sol
+The analysis was completed successfully. No issues were detected.
+
+4.73user 1.56system 0:04.95elapsed 127%CPU (0avgtext+0avgdata 95960maxresident)k
+0inputs+24344outputs (0major+37293minor)pagefaults 0swaps

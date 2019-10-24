@@ -1,0 +1,8 @@
+Running contracts/assigment/AssignArrayDynamicMultiM2M.sol
+AssignArrayDynamicMultiM2M::memToMem: OK
+AssignArrayDynamicMultiM2M::truffleMain: OK
+AssignArrayDynamicMultiM2M::[implicit_constructor]: OK
+Use --show-warnings to see 2 warnings.
+No errors found.
+0.60user 0.28system 0:00.86elapsed 103%CPU (0avgtext+0avgdata 42660maxresident)k
+0inputs+24outputs (0major+17119minor)pagefaults 0swaps

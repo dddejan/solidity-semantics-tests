@@ -1,0 +1,148 @@
+Running contracts/storageptr/ArrayFixedSizeStorageArgumentNoAliasSubStruct.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_G40v:9:5: Warning: Assertion checker does not yet support the type of this variable.
+    Sub s2;
+    ^----^
+smt_checker_input_G40v:16:25: Warning: Assertion checker does not yet support this expression.
+        assert(s1[1] != s2.s[1]);
+                        ^--^
+smt_checker_input_G40v:16:25: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStorageArgumentNoAliasSubStruct.Sub storage ref
+        assert(s1[1] != s2.s[1]);
+                        ^^
+smt_checker_input_G40v:16:25: Warning: Assertion checker does not yet implement this expression.
+        assert(s1[1] != s2.s[1]);
+                        ^-----^
+smt_checker_input_G40v:18:16: Warning: Assertion checker does not yet support this expression.
+        assert(s2.s[1] == a || s2.s[1] == b);
+               ^--^
+smt_checker_input_G40v:18:16: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStorageArgumentNoAliasSubStruct.Sub storage ref
+        assert(s2.s[1] == a || s2.s[1] == b);
+               ^^
+smt_checker_input_G40v:18:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s2.s[1] == a || s2.s[1] == b);
+               ^-----^
+smt_checker_input_G40v:18:32: Warning: Assertion checker does not yet support this expression.
+        assert(s2.s[1] == a || s2.s[1] == b);
+                               ^--^
+smt_checker_input_G40v:18:32: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStorageArgumentNoAliasSubStruct.Sub storage ref
+        assert(s2.s[1] == a || s2.s[1] == b);
+                               ^^
+smt_checker_input_G40v:18:32: Warning: Assertion checker does not yet implement this expression.
+        assert(s2.s[1] == a || s2.s[1] == b);
+                               ^-----^
+smt_checker_input_G40v:16:9: Warning: Assertion violation happens here
+        assert(s1[1] != s2.s[1]);
+        ^----------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564819359)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564819358)
+  s1[1] = 0
+  s1ref[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819359)
+  s2ref[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819358)
+
+Callstack: 
+
+smt_checker_input_G40v:17:9: Warning: Assertion violation happens here
+        assert(s1[1] == a || s1[1] == b);
+        ^------------------------------^
+  for:
+  a = 8946
+  b = (- 1)
+  s1[1] = 0
+  s1ref[1] = 8946
+  s2ref[1] = (- 1)
+
+Callstack: 
+
+smt_checker_input_G40v:18:9: Warning: Assertion violation happens here
+        assert(s2.s[1] == a || s2.s[1] == b);
+        ^----------------------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564818993)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564818994)
+  s1[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818994)
+  s1ref[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818993)
+  s2ref[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818994)
+
+Callstack: 
+
+smt_checker_input_G40v:23:18: Warning: Assertion checker does not yet support this expression.
+        test(s1, s2.s, 0, 1);
+                 ^--^
+smt_checker_input_G40v:23:18: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStorageArgumentNoAliasSubStruct.Sub storage ref
+        test(s1, s2.s, 0, 1);
+                 ^^
+smt_checker_input_G40v:16:25: Warning: Assertion checker does not yet support this expression.
+        assert(s1[1] != s2.s[1]);
+                        ^--^
+smt_checker_input_G40v:16:25: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStorageArgumentNoAliasSubStruct.Sub storage ref
+        assert(s1[1] != s2.s[1]);
+                        ^^
+smt_checker_input_G40v:16:25: Warning: Assertion checker does not yet implement this expression.
+        assert(s1[1] != s2.s[1]);
+                        ^-----^
+smt_checker_input_G40v:18:16: Warning: Assertion checker does not yet support this expression.
+        assert(s2.s[1] == a || s2.s[1] == b);
+               ^--^
+smt_checker_input_G40v:18:16: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStorageArgumentNoAliasSubStruct.Sub storage ref
+        assert(s2.s[1] == a || s2.s[1] == b);
+               ^^
+smt_checker_input_G40v:18:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s2.s[1] == a || s2.s[1] == b);
+               ^-----^
+smt_checker_input_G40v:18:32: Warning: Assertion checker does not yet support this expression.
+        assert(s2.s[1] == a || s2.s[1] == b);
+                               ^--^
+smt_checker_input_G40v:18:32: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStorageArgumentNoAliasSubStruct.Sub storage ref
+        assert(s2.s[1] == a || s2.s[1] == b);
+                               ^^
+smt_checker_input_G40v:18:32: Warning: Assertion checker does not yet implement this expression.
+        assert(s2.s[1] == a || s2.s[1] == b);
+                               ^-----^
+smt_checker_input_G40v:16:9: Warning: Assertion violation happens here
+        assert(s1[1] != s2.s[1]);
+        ^----------------------^
+  for:
+  a = 0
+  b = 1
+  s1[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818315)
+  s1ref[1] = 0
+  s2ref[1] = 1
+
+Callstack: 
+smt_checker_input_G40v:23:9: 
+        test(s1, s2.s, 0, 1);
+        ^------------------^
+
+smt_checker_input_G40v:17:9: Warning: Assertion violation happens here
+        assert(s1[1] == a || s1[1] == b);
+        ^------------------------------^
+  for:
+  a = 0
+  b = 1
+  s1[1] = 2
+  s1ref[1] = 0
+  s2ref[1] = 1
+
+Callstack: 
+smt_checker_input_G40v:23:9: 
+        test(s1, s2.s, 0, 1);
+        ^------------------^
+
+smt_checker_input_G40v:18:9: Warning: Assertion violation happens here
+        assert(s2.s[1] == a || s2.s[1] == b);
+        ^----------------------------------^
+  for:
+  a = 0
+  b = 1
+  s1[1] = 1
+  s1ref[1] = 0
+  s2ref[1] = 1
+
+Callstack: 
+smt_checker_input_G40v:23:9: 
+        test(s1, s2.s, 0, 1);
+        ^------------------^
+
+0.09user 0.01system 0:00.11elapsed 100%CPU (0avgtext+0avgdata 38972maxresident)k
+0inputs+0outputs (0major+2059minor)pagefaults 0swaps

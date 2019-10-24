@@ -1,0 +1,12 @@
+Running contracts/assigment/AssignStructArrayFixedSizeMultiS2M.sol
+Error while running compiler, details:
+Warning: This is a pre-release compiler version, please do not use it in production.
+
+======= Converting to Boogie IVL =======
+
+======= contracts/assigment/AssignStructArrayFixedSizeMultiS2M.sol =======
+Segmentation fault (core dumped)
+
+Command exited with non-zero status 255
+0.07user 0.02system 0:00.09elapsed 98%CPU (0avgtext+0avgdata 26332maxresident)k
+8inputs+4048outputs (0major+4788minor)pagefaults 0swaps

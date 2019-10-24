@@ -1,0 +1,80 @@
+Running contracts/assigment/AssignArrayDynamicL2S.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_0J74:11:17: Warning: Assertion checker does not yet support this expression.
+        require(s1.length > 0);
+                ^-------^
+smt_checker_input_0J74:12:17: Warning: Assertion checker does not yet support this expression.
+        require(s2.length > 0);
+                ^-------^
+smt_checker_input_0J74:25:9: Warning: Assertion violation happens here
+        assert(s1[0] == c);
+        ^----------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564815890)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564815888)
+  c = (- 57896044618658097711785492504343953926634992332820282019728792003956564815889)
+  s1[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564817686)
+  s2[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564815890)
+  sl1[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564815889)
+
+Callstack: 
+
+smt_checker_input_0J74:26:9: Warning: Assertion violation happens here
+        assert(s2[0] == a);
+        ^----------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564811869)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564811868)
+  c = (- 57896044618658097711785492504343953926634992332820282019728792003956564811867)
+  s1[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811867)
+  s2[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811870)
+  sl1[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811867)
+
+Callstack: 
+
+smt_checker_input_0J74:31:9: Warning: Assertion checker does not yet implement this type of function call.
+        s1.push(-1);
+        ^---------^
+smt_checker_input_0J74:32:9: Warning: Assertion checker does not yet implement this type of function call.
+        s2.push(-1);
+        ^---------^
+smt_checker_input_0J74:11:17: Warning: Assertion checker does not yet support this expression.
+        require(s1.length > 0);
+                ^-------^
+smt_checker_input_0J74:12:17: Warning: Assertion checker does not yet support this expression.
+        require(s2.length > 0);
+                ^-------^
+smt_checker_input_0J74:25:9: Warning: Assertion violation happens here
+        assert(s1[0] == c);
+        ^----------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  s1[0] = 3
+  s2[0] = 0
+  sl1[0] = 2
+
+Callstack: 
+smt_checker_input_0J74:33:9: 
+        locToStor(0 ,1, 2);
+        ^----------------^
+
+smt_checker_input_0J74:26:9: Warning: Assertion violation happens here
+        assert(s2[0] == a);
+        ^----------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  s1[0] = 2
+  s2[0] = (- 1)
+  sl1[0] = 2
+
+Callstack: 
+smt_checker_input_0J74:33:9: 
+        locToStor(0 ,1, 2);
+        ^----------------^
+
+0.16user 0.02system 0:00.18elapsed 100%CPU (0avgtext+0avgdata 46244maxresident)k
+0inputs+0outputs (0major+3548minor)pagefaults 0swaps

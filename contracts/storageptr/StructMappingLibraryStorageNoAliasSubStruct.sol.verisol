@@ -1,0 +1,19 @@
+Running contracts/storageptr/StructMappingLibraryStorageNoAliasSubStruct.sol
+Command line args = {contracts/storageptr/StructMappingLibraryStorageNoAliasSubStruct.sol, StructMappingLibraryStorageNoAliasSubStruct}
+SpecFilesDir = /solc-verify-examples/contracts/storageptr
+... running Solc on /solc-verify-examples/contracts/storageptr/StructMappingLibraryStorageNoAliasSubStruct.sol
+... running SolToBoogie to translate Solidity to Boogie
+Assertion Failed
+Do no handle nested structs yet!
+
+   at SolToBoogie.GhostVarAndAxiomGenerator.GenerateStructConstructors(ContractDefinition contract, StructDefinition structDefn) in c:\verisol\sources\SolToBoogie\GhostVarAndAxiomGenerator.cs:line 246
+   at SolToBoogie.GhostVarAndAxiomGenerator.GenerateStructConstructors() in c:\verisol\sources\SolToBoogie\GhostVarAndAxiomGenerator.cs:line 232
+   at SolToBoogie.GhostVarAndAxiomGenerator.GenerateGlobalImplementations() in c:\verisol\sources\SolToBoogie\GhostVarAndAxiomGenerator.cs:line 221
+   at SolToBoogie.GhostVarAndAxiomGenerator.Generate() in c:\verisol\sources\SolToBoogie\GhostVarAndAxiomGenerator.cs:line 29
+   at SolToBoogie.BoogieTranslator.Translate(AST solidityAST, HashSet`1 ignoredMethods, TranslatorFlags _translatorFlags) in c:\verisol\sources\SolToBoogie\BoogieTranslator.cs:line 70
+   at VeriSolRunner.VeriSolExecutor.ExecuteSolToBoogie() in c:\verisol\sources\VeriSol\VeriSolExecuter.cs:line 369
+   at VeriSolRunner.VeriSolExecutor.Execute() in c:\verisol\sources\VeriSol\VeriSolExecuter.cs:line 63
+   at VeriSolRunner.Program.Main(String[] args) in c:\verisol\sources\VeriSol\Program.cs:line 58
+Command terminated by signal 6
+0.64user 0.14system 0:00.85elapsed 92%CPU (0avgtext+0avgdata 58028maxresident)k
+8inputs+58232outputs (0major+23531minor)pagefaults 0swaps

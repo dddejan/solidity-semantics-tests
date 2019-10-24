@@ -1,0 +1,19 @@
+Running contracts/storage/StructArrayFixedSizeStorageNoAliasSubArrayFixedSize.sol
+Command line args = {contracts/storage/StructArrayFixedSizeStorageNoAliasSubArrayFixedSize.sol, StructArrayFixedSizeStorageNoAliasSubArrayFixedSize}
+SpecFilesDir = /solc-verify-examples/contracts/storage
+... running Solc on /solc-verify-examples/contracts/storage/StructArrayFixedSizeStorageNoAliasSubArrayFixedSize.sol
+... running SolToBoogie to translate Solidity to Boogie
+... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
+	*** Did not find a proof (see boogie.txt)
+... running /root/.dotnet/tools/corral /recursionBound:4 /k:1 /main:CorralEntry_StructArrayFixedSizeStorageNoAliasSubArrayFixedSize /tryCTrace /printDataValues:1 __SolToBoogieTest_out.bpl
+	*** Found a counterexample (see corral.txt)
+	-----Transaction Sequence for Defect ------
+/solc-verify-examples/contracts/storage/StructArrayFixedSizeStorageNoAliasSubArrayFixedSize.sol(3,1): : StructArrayFixedSizeStorageNoAliasSubArrayFixedSize::Constructor (this = address!0, msg.sender = address!1, msg.value = 6)
+/solc-verify-examples/contracts/storage/StructArrayFixedSizeStorageNoAliasSubArrayFixedSize.sol(10,1): : StructArrayFixedSizeStorageNoAliasSubArrayFixedSize::test (this = address!0, msg.sender = address!3, msg.value = 8, a = 4, b = 3)
+/solc-verify-examples/contracts/storage/StructArrayFixedSizeStorageNoAliasSubArrayFixedSize.sol(13,1): : ASSERTION FAILS!
+	---------------
+
+	See full execution trace inside corral.txt
+Command exited with non-zero status 1
+2.26user 0.39system 0:02.65elapsed 100%CPU (0avgtext+0avgdata 54252maxresident)k
+0inputs+80outputs (0major+99736minor)pagefaults 0swaps

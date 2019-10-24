@@ -1,0 +1,9 @@
+Running contracts/storageptr/StructArrayFixedSizeStoragePointerAliasSubArrayFixedSize.sol
+Command line args = {contracts/storageptr/StructArrayFixedSizeStoragePointerAliasSubArrayFixedSize.sol, StructArrayFixedSizeStoragePointerAliasSubArrayFixedSize}
+SpecFilesDir = /solc-verify-examples/contracts/storageptr
+... running Solc on /solc-verify-examples/contracts/storageptr/StructArrayFixedSizeStoragePointerAliasSubArrayFixedSize.sol
+... running SolToBoogie to translate Solidity to Boogie
+... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
+	*** Proof found! Formal Verification successful! (see boogie.txt)
+1.43user 0.23system 0:01.67elapsed 99%CPU (0avgtext+0avgdata 54704maxresident)k
+0inputs+40outputs (0major+60364minor)pagefaults 0swaps

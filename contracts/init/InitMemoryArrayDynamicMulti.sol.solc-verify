@@ -1,0 +1,11 @@
+Running contracts/init/InitMemoryArrayDynamicMulti.sol
+InitMemoryArrayDynamicMulti::test: ERROR
+ - contracts/init/InitMemoryArrayDynamicMulti.sol:10:9: Assertion might not hold.
+ - contracts/init/InitMemoryArrayDynamicMulti.sol:11:9: Assertion might not hold.
+InitMemoryArrayDynamicMulti::truffleMain: OK
+InitMemoryArrayDynamicMulti::[implicit_constructor]: OK
+Use --show-warnings to see 1 warning.
+Errors were found by the verifier.
+Command exited with non-zero status 251
+0.72user 0.18system 0:00.89elapsed 101%CPU (0avgtext+0avgdata 41776maxresident)k
+0inputs+16outputs (0major+16741minor)pagefaults 0swaps

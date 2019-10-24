@@ -1,0 +1,7 @@
+Running contracts/storage/StructStorageNoAliasSubStruct.sol
+StructStorageNoAliasSubStruct::test: OK
+StructStorageNoAliasSubStruct::truffleMain: OK
+StructStorageNoAliasSubStruct::[implicit_constructor]: OK
+No errors found.
+0.71user 0.20system 0:00.90elapsed 101%CPU (0avgtext+0avgdata 41316maxresident)k
+0inputs+16outputs (0major+16194minor)pagefaults 0swaps

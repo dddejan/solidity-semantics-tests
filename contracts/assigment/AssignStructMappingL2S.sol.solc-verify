@@ -1,0 +1,9 @@
+Running contracts/assigment/AssignStructMappingL2S.sol
+AssignStructMappingL2S::locToStor: ERROR
+ - contracts/assigment/AssignStructMappingL2S.sol:21:9: Assertion might not hold.
+AssignStructMappingL2S::truffleMain: OK
+AssignStructMappingL2S::[implicit_constructor]: OK
+Errors were found by the verifier.
+Command exited with non-zero status 251
+0.69user 0.24system 0:00.91elapsed 103%CPU (0avgtext+0avgdata 43304maxresident)k
+0inputs+24outputs (0major+16777minor)pagefaults 0swaps

@@ -1,0 +1,5 @@
+Running contracts/init/InitStorageArrayDynamicMulti.sol
+The analysis was completed successfully. No issues were detected.
+
+1.57user 0.37system 0:01.94elapsed 100%CPU (0avgtext+0avgdata 78316maxresident)k
+0inputs+24304outputs (0major+30363minor)pagefaults 0swaps

@@ -1,0 +1,132 @@
+Running contracts/storageptr/MappingStorageArgumentAliasSubStruct.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_3LOl:8:5: Warning: Assertion checker does not yet support the type of this variable.
+    Sub s;
+    ^---^
+smt_checker_input_3LOl:19:16: Warning: Assertion checker does not yet support this expression.
+        assert(s.s[msg.sender] == b);
+               ^-^
+smt_checker_input_3LOl:19:16: Warning: Assertion checker does not yet implement type struct MappingStorageArgumentAliasSubStruct.Sub storage ref
+        assert(s.s[msg.sender] == b);
+               ^
+smt_checker_input_3LOl:19:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s.s[msg.sender] == b);
+               ^-------------^
+smt_checker_input_3LOl:13:29: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        s1ref[msg.sender] = s2ref[msg.sender] + 1;
+                            ^-------------------^
+  for:
+  <result> = 0x80 * 2**248
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564814114)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564814115)
+  msg.sender = 449
+  s1ref[msg.sender] = 0
+  s1ref_alias_s2ref = false
+  s2ref[msg.sender] = 0x80 * 2**248 - 1
+
+Callstack: 
+
+smt_checker_input_3LOl:18:9: Warning: Assertion violation happens here
+        assert(s1ref[msg.sender] == s2ref[msg.sender]);
+        ^--------------------------------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564818994)
+  b = 0
+  msg.sender = 4679
+  s1ref[msg.sender] = (- 1)
+  s1ref_alias_s2ref = true
+  s2ref[msg.sender] = 0
+
+Callstack: 
+
+smt_checker_input_3LOl:19:9: Warning: Assertion violation happens here
+        assert(s.s[msg.sender] == b);
+        ^--------------------------^
+  for:
+  a = 1
+  b = 0
+  msg.sender = 2240
+  s1ref[msg.sender] = 0
+  s1ref_alias_s2ref = true
+  s2ref[msg.sender] = 0
+
+Callstack: 
+
+smt_checker_input_3LOl:24:14: Warning: Assertion checker does not yet support this expression.
+        test(s.s, s.s, 0, 1);
+             ^-^
+smt_checker_input_3LOl:24:14: Warning: Assertion checker does not yet implement type struct MappingStorageArgumentAliasSubStruct.Sub storage ref
+        test(s.s, s.s, 0, 1);
+             ^
+smt_checker_input_3LOl:24:19: Warning: Assertion checker does not yet support this expression.
+        test(s.s, s.s, 0, 1);
+                  ^-^
+smt_checker_input_3LOl:24:19: Warning: Assertion checker does not yet implement type struct MappingStorageArgumentAliasSubStruct.Sub storage ref
+        test(s.s, s.s, 0, 1);
+                  ^
+smt_checker_input_3LOl:19:16: Warning: Assertion checker does not yet support this expression.
+        assert(s.s[msg.sender] == b);
+               ^-^
+smt_checker_input_3LOl:19:16: Warning: Assertion checker does not yet implement type struct MappingStorageArgumentAliasSubStruct.Sub storage ref
+        assert(s.s[msg.sender] == b);
+               ^
+smt_checker_input_3LOl:19:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s.s[msg.sender] == b);
+               ^-------------^
+smt_checker_input_3LOl:13:29: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        s1ref[msg.sender] = s2ref[msg.sender] + 1;
+                            ^-------------------^
+  for:
+  <result> = 0x80 * 2**248
+  a = 0
+  b = 1
+  msg.sender = 9725
+  s1ref[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564817693)
+  s1ref_alias_s2ref = false
+  s2ref[msg.sender] = 0x80 * 2**248 - 1
+
+Callstack: 
+smt_checker_input_3LOl:24:9: 
+        test(s.s, s.s, 0, 1);
+        ^------------------^
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+smt_checker_input_3LOl:18:9: Warning: Assertion violation happens here
+        assert(s1ref[msg.sender] == s2ref[msg.sender]);
+        ^--------------------------------------------^
+  for:
+  a = 0
+  b = 1
+  msg.sender = 2455
+  s1ref[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819128)
+  s1ref_alias_s2ref = true
+  s2ref[msg.sender] = 1
+
+Callstack: 
+smt_checker_input_3LOl:24:9: 
+        test(s.s, s.s, 0, 1);
+        ^------------------^
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+smt_checker_input_3LOl:19:9: Warning: Assertion violation happens here
+        assert(s.s[msg.sender] == b);
+        ^--------------------------^
+  for:
+  a = 0
+  b = 1
+  msg.sender = 582
+  s1ref[msg.sender] = 1
+  s1ref_alias_s2ref = true
+  s2ref[msg.sender] = 1
+
+Callstack: 
+smt_checker_input_3LOl:24:9: 
+        test(s.s, s.s, 0, 1);
+        ^------------------^
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+0.15user 0.02system 0:00.17elapsed 99%CPU (0avgtext+0avgdata 40332maxresident)k
+0inputs+0outputs (0major+2308minor)pagefaults 0swaps

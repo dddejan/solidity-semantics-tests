@@ -1,0 +1,10 @@
+Running contracts/delete/DeleteMemoryArrayFixedSizeMulti.sol
+DeleteMemoryArrayFixedSizeMulti::truffleMain: OK
+DeleteMemoryArrayFixedSizeMulti::[implicit_constructor]: OK
+DeleteMemoryArrayFixedSizeMulti::test: SKIPPED
+Use --show-warnings to see 1 warning.
+Some functions were skipped. Use --verbose to see details.
+No errors found.
+Command exited with non-zero status 250
+0.56user 0.23system 0:00.77elapsed 102%CPU (0avgtext+0avgdata 39876maxresident)k
+0inputs+16outputs (0major+15673minor)pagefaults 0swaps

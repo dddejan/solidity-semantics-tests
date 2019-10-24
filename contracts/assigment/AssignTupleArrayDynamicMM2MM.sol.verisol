@@ -1,0 +1,9 @@
+Running contracts/assigment/AssignTupleArrayDynamicMM2MM.sol
+Command line args = {contracts/assigment/AssignTupleArrayDynamicMM2MM.sol, AssignTupleArrayDynamicMM2MM}
+SpecFilesDir = /solc-verify-examples/contracts/assigment
+... running Solc on /solc-verify-examples/contracts/assigment/AssignTupleArrayDynamicMM2MM.sol
+... running SolToBoogie to translate Solidity to Boogie
+VeriSol translation error: File /solc-verify-examples/contracts/assigment/AssignTupleArrayDynamicMM2MM.sol, Line 6, Contract AssignTupleArrayDynamicMM2MM, Function assign:: ....
+Command exited with non-zero status 1
+0.66user 0.08system 0:00.82elapsed 89%CPU (0avgtext+0avgdata 54640maxresident)k
+0inputs+0outputs (0major+25113minor)pagefaults 0swaps

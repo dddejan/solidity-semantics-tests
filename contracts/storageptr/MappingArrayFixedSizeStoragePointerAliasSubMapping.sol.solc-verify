@@ -1,0 +1,7 @@
+Running contracts/storageptr/MappingArrayFixedSizeStoragePointerAliasSubMapping.sol
+MappingArrayFixedSizeStoragePointerAliasSubMapping::test: OK
+MappingArrayFixedSizeStoragePointerAliasSubMapping::truffleMain: OK
+MappingArrayFixedSizeStoragePointerAliasSubMapping::[implicit_constructor]: OK
+No errors found.
+0.69user 0.19system 0:00.86elapsed 102%CPU (0avgtext+0avgdata 41976maxresident)k
+0inputs+24outputs (0major+16712minor)pagefaults 0swaps

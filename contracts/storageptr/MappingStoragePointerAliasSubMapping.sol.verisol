@@ -1,0 +1,10 @@
+Running contracts/storageptr/MappingStoragePointerAliasSubMapping.sol
+Command line args = {contracts/storageptr/MappingStoragePointerAliasSubMapping.sol, MappingStoragePointerAliasSubMapping}
+SpecFilesDir = /solc-verify-examples/contracts/storageptr
+... running Solc on /solc-verify-examples/contracts/storageptr/MappingStoragePointerAliasSubMapping.sol
+... running SolToBoogie to translate Solidity to Boogie
+Warning: A mapping with complex value type s2 of valuetype mapping (address => int256)
+... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
+	*** Proof found! Formal Verification successful! (see boogie.txt)
+1.41user 0.23system 0:01.63elapsed 100%CPU (0avgtext+0avgdata 54456maxresident)k
+0inputs+32outputs (0major+60310minor)pagefaults 0swaps

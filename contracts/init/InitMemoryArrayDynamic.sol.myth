@@ -1,0 +1,51 @@
+Running contracts/init/InitMemoryArrayDynamic.sol
+==== Integer Overflow ====
+SWC ID: 101
+Severity: Low
+Contract: InitMemoryArrayDynamic
+Function name: test(uint256)
+PC address: 175
+Estimated Gas Usage: 573 - 3813
+The binary multiplication can overflow.
+The operands of the multiplication operation are not sufficiently constrained. The multiplication could therefore result in an integer overflow. Prevent the overflow by checking inputs or ensure sure that the overflow is caught by an assertion. This issue is reported for internal compiler generated code.
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x781, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+Account: [SOMEGUY], balance: 0x4842440840000004, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], data: 0x608060405234801561001057600080fd5b5061014c806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c806329e99f071461003b578063bbac896314610069575b600080fd5b6100676004803603602081101561005157600080fd5b8101908080359060200190929190505050610073565b005b61007161010b565b005b6000811161008057600080fd5b6060600081511461008d57fe5b816040519080825280602002602001820160405280156100bc5781602001602082028038833980820191505090505b509050818151146100c957fe5b6000816000815181106100d857fe5b6020026020010151146100e757fe5b60008160018403815181106100f857fe5b60200260200101511461010757fe5b5050565b6101156064610073565b56fea265627a7a723158207c105dd85c55a747972a850af30674593be0077ac7b58d1ec5dccf8bb32b595a64736f6c634300050c0032, value: 0x0
+Caller: [CREATOR], function: test(uint256), txdata: 0x29e99f070800000000000000000000000000000000000000000000000000000000000002, value: 0x0
+
+==== Exception State ====
+SWC ID: 110
+Severity: Low
+Contract: InitMemoryArrayDynamic
+Function name: test(uint256)
+PC address: 230
+Estimated Gas Usage: 481 - 3535
+A reachable exception has been detected.
+It is possible to trigger an exception (opcode 0xfe). Exceptions can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. Note that explicit `assert()` should only be used to check invariants. Use `require()` for regular input checking.
+--------------------
+In file: contracts/init/InitMemoryArrayDynamic.sol:10
+
+assert(a[0] == 0)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x42008, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+Account: [SOMEGUY], balance: 0x2040000000000100, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], data: 0x608060405234801561001057600080fd5b5061014c806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c806329e99f071461003b578063bbac896314610069575b600080fd5b6100676004803603602081101561005157600080fd5b8101908080359060200190929190505050610073565b005b61007161010b565b005b6000811161008057600080fd5b6060600081511461008d57fe5b816040519080825280602002602001820160405280156100bc5781602001602082028038833980820191505090505b509050818151146100c957fe5b6000816000815181106100d857fe5b6020026020010151146100e757fe5b60008160018403815181106100f857fe5b60200260200101511461010757fe5b5050565b6101156064610073565b56fea265627a7a723158207c105dd85c55a747972a850af30674593be0077ac7b58d1ec5dccf8bb32b595a64736f6c634300050c0032, value: 0x0
+Caller: [SOMEGUY], function: test(uint256), txdata: 0x29e99f070101010101010101010101000000000000000000000000010101010101010101, value: 0x0
+
+
+7.98user 3.51system 0:08.11elapsed 141%CPU (0avgtext+0avgdata 118068maxresident)k
+0inputs+24280outputs (0major+56844minor)pagefaults 0swaps

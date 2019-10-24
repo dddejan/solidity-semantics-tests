@@ -1,0 +1,19 @@
+Running contracts/assigment/AssignStructArrayDynamicL2L.sol
+Command line args = {contracts/assigment/AssignStructArrayDynamicL2L.sol, AssignStructArrayDynamicL2L}
+SpecFilesDir = /solc-verify-examples/contracts/assigment
+... running Solc on /solc-verify-examples/contracts/assigment/AssignStructArrayDynamicL2L.sol
+... running SolToBoogie to translate Solidity to Boogie
+... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
+	*** Did not find a proof (see boogie.txt)
+... running /root/.dotnet/tools/corral /recursionBound:4 /k:1 /main:CorralEntry_AssignStructArrayDynamicL2L /tryCTrace /printDataValues:1 __SolToBoogieTest_out.bpl
+	*** Found a counterexample (see corral.txt)
+	-----Transaction Sequence for Defect ------
+/solc-verify-examples/contracts/assigment/AssignStructArrayDynamicL2L.sol(3,1): : AssignStructArrayDynamicL2L::Constructor (this = address!0, msg.sender = address!1, msg.value = 6)
+/solc-verify-examples/contracts/assigment/AssignStructArrayDynamicL2L.sol(10,1): : AssignStructArrayDynamicL2L::locToLoc (this = address!0, msg.sender = address!3, msg.value = 7, a = 4, b = 1, c = 8)
+/solc-verify-examples/contracts/assigment/AssignStructArrayDynamicL2L.sol(19,1): : ASSERTION FAILS!
+	---------------
+
+	See full execution trace inside corral.txt
+Command exited with non-zero status 1
+2.25user 0.35system 0:02.68elapsed 97%CPU (0avgtext+0avgdata 54984maxresident)k
+0inputs+88outputs (0major+100641minor)pagefaults 0swaps

@@ -1,0 +1,7 @@
+Running contracts/storage/StructMappingStorageNoAliasSubMapping.sol
+StructMappingStorageNoAliasSubMapping::test: OK
+StructMappingStorageNoAliasSubMapping::truffleMain: OK
+StructMappingStorageNoAliasSubMapping::[implicit_constructor]: OK
+No errors found.
+0.58user 0.30system 0:00.86elapsed 103%CPU (0avgtext+0avgdata 41600maxresident)k
+0inputs+16outputs (0major+16630minor)pagefaults 0swaps

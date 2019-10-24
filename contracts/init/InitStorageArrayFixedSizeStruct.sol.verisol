@@ -1,0 +1,18 @@
+Running contracts/init/InitStorageArrayFixedSizeStruct.sol
+Command line args = {contracts/init/InitStorageArrayFixedSizeStruct.sol, InitStorageArrayFixedSizeStruct}
+SpecFilesDir = /solc-verify-examples/contracts/init
+... running Solc on /solc-verify-examples/contracts/init/InitStorageArrayFixedSizeStruct.sol
+... running SolToBoogie to translate Solidity to Boogie
+... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
+	*** Did not find a proof (see boogie.txt)
+... running /root/.dotnet/tools/corral /recursionBound:4 /k:1 /main:CorralEntry_InitStorageArrayFixedSizeStruct /tryCTrace /printDataValues:1 __SolToBoogieTest_out.bpl
+	*** Found a counterexample (see corral.txt)
+	-----Transaction Sequence for Defect ------
+/solc-verify-examples/contracts/init/InitStorageArrayFixedSizeStruct.sol(8,1): : InitStorageArrayFixedSizeStruct::Constructor (this = address!0, msg.sender = address!1, msg.value = 1)
+/solc-verify-examples/contracts/init/InitStorageArrayFixedSizeStruct.sol(10,1): : ASSERTION FAILS!
+	---------------
+
+	See full execution trace inside corral.txt
+Command exited with non-zero status 1
+2.30user 0.46system 0:02.95elapsed 93%CPU (0avgtext+0avgdata 55580maxresident)k
+0inputs+80outputs (0major+111603minor)pagefaults 0swaps

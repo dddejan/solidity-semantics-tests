@@ -1,0 +1,6 @@
+Running contracts/delete/DeleteStorageArrayFixedSizeMulti.sol
+DeleteStorageArrayFixedSizeMulti::[constructor]: OK
+DeleteStorageArrayFixedSizeMulti::truffleMain: OK
+No errors found.
+0.65user 0.25system 0:00.87elapsed 103%CPU (0avgtext+0avgdata 41928maxresident)k
+0inputs+24outputs (0major+16750minor)pagefaults 0swaps

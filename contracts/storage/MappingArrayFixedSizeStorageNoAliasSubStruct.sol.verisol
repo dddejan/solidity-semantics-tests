@@ -1,0 +1,20 @@
+Running contracts/storage/MappingArrayFixedSizeStorageNoAliasSubStruct.sol
+Command line args = {contracts/storage/MappingArrayFixedSizeStorageNoAliasSubStruct.sol, MappingArrayFixedSizeStorageNoAliasSubStruct}
+SpecFilesDir = /solc-verify-examples/contracts/storage
+... running Solc on /solc-verify-examples/contracts/storage/MappingArrayFixedSizeStorageNoAliasSubStruct.sol
+... running SolToBoogie to translate Solidity to Boogie
+Warning: A mapping with nested array s1 of valuetype int256[2]
+... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
+	*** Did not find a proof (see boogie.txt)
+... running /root/.dotnet/tools/corral /recursionBound:4 /k:1 /main:CorralEntry_MappingArrayFixedSizeStorageNoAliasSubStruct /tryCTrace /printDataValues:1 __SolToBoogieTest_out.bpl
+	*** Found a counterexample (see corral.txt)
+	-----Transaction Sequence for Defect ------
+/solc-verify-examples/contracts/storage/MappingArrayFixedSizeStorageNoAliasSubStruct.sol(3,1): : MappingArrayFixedSizeStorageNoAliasSubStruct::Constructor (this = address!0, msg.sender = address!1, msg.value = 7)
+/solc-verify-examples/contracts/storage/MappingArrayFixedSizeStorageNoAliasSubStruct.sol(10,1): : MappingArrayFixedSizeStorageNoAliasSubStruct::test (this = address!0, msg.sender = address!3, msg.value = 8, a = 5, b = 3)
+/solc-verify-examples/contracts/storage/MappingArrayFixedSizeStorageNoAliasSubStruct.sol(13,1): : ASSERTION FAILS!
+	---------------
+
+	See full execution trace inside corral.txt
+Command exited with non-zero status 1
+2.15user 0.34system 0:02.47elapsed 101%CPU (0avgtext+0avgdata 54588maxresident)k
+0inputs+80outputs (0major+100358minor)pagefaults 0swaps

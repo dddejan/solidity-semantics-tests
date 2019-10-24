@@ -1,3 +1,0 @@
-ArrayFixedSize
-Mapping
-Struct

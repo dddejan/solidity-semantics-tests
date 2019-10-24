@@ -1,0 +1,104 @@
+Running contracts/init/InitMemoryArrayDynamic.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_VKBT:8:16: Warning: Assertion checker does not yet support this expression.
+        assert(a.length == 0);
+               ^------^
+smt_checker_input_VKBT:9:13: Warning: Assertion checker does not yet implement this type of function call.
+        a = new int[](n);
+            ^----------^
+smt_checker_input_VKBT:10:16: Warning: Assertion checker does not yet support this expression.
+        assert(a.length == n);
+               ^------^
+smt_checker_input_VKBT:8:9: Warning: Assertion violation happens here
+        assert(a.length == 0);
+        ^-------------------^
+  for:
+  n = 1
+
+Callstack: 
+
+smt_checker_input_VKBT:10:9: Warning: Assertion violation happens here
+        assert(a.length == n);
+        ^-------------------^
+  for:
+  n = 1
+
+Callstack: 
+
+smt_checker_input_VKBT:11:9: Warning: Assertion violation happens here
+        assert(a[0] == 0);
+        ^---------------^
+  for:
+  a[0] = (- 1)
+  n = 1
+
+Callstack: 
+
+smt_checker_input_VKBT:12:9: Warning: Assertion violation happens here
+        assert(a[n-1] == 0);
+        ^-----------------^
+  for:
+  a[0] = 0
+  a[n-1] = 1
+  n = 39
+
+Callstack: 
+
+smt_checker_input_VKBT:8:16: Warning: Assertion checker does not yet support this expression.
+        assert(a.length == 0);
+               ^------^
+smt_checker_input_VKBT:9:13: Warning: Assertion checker does not yet implement this type of function call.
+        a = new int[](n);
+            ^----------^
+smt_checker_input_VKBT:10:16: Warning: Assertion checker does not yet support this expression.
+        assert(a.length == n);
+               ^------^
+smt_checker_input_VKBT:8:9: Warning: Assertion violation happens here
+        assert(a.length == 0);
+        ^-------------------^
+  for:
+  n = 100
+
+Callstack: 
+smt_checker_input_VKBT:16:9: 
+        test(100);
+        ^-------^
+
+smt_checker_input_VKBT:10:9: Warning: Assertion violation happens here
+        assert(a.length == n);
+        ^-------------------^
+  for:
+  n = 100
+
+Callstack: 
+smt_checker_input_VKBT:16:9: 
+        test(100);
+        ^-------^
+
+smt_checker_input_VKBT:11:9: Warning: Assertion violation happens here
+        assert(a[0] == 0);
+        ^---------------^
+  for:
+  a[0] = 1
+  n = 100
+
+Callstack: 
+smt_checker_input_VKBT:16:9: 
+        test(100);
+        ^-------^
+
+smt_checker_input_VKBT:12:9: Warning: Assertion violation happens here
+        assert(a[n-1] == 0);
+        ^-----------------^
+  for:
+  a[0] = 0
+  a[n-1] = 1
+  n = 100
+
+Callstack: 
+smt_checker_input_VKBT:16:9: 
+        test(100);
+        ^-------^
+
+0.07user 0.03system 0:00.11elapsed 96%CPU (0avgtext+0avgdata 44908maxresident)k
+0inputs+0outputs (0major+3225minor)pagefaults 0swaps

@@ -1,0 +1,9 @@
+Running contracts/storageptr/MappingStructStorageArgumentAliasSubArrayFixedSize.sol
+Command line args = {contracts/storageptr/MappingStructStorageArgumentAliasSubArrayFixedSize.sol, MappingStructStorageArgumentAliasSubArrayFixedSize}
+SpecFilesDir = /solc-verify-examples/contracts/storageptr
+... running Solc on /solc-verify-examples/contracts/storageptr/MappingStructStorageArgumentAliasSubArrayFixedSize.sol
+... running SolToBoogie to translate Solidity to Boogie
+VeriSol translation error: File /solc-verify-examples/contracts/storageptr/MappingStructStorageArgumentAliasSubArrayFixedSize.sol, Line 8, Contract MappingStructStorageArgumentAliasSubArrayFixedSize, Function truffleMain:: Cannot find a function with signature: test(mapping(address => struct MappingStructStorageArgumentAliasSubArrayFixedSize.S, mapping(address => struct MappingStructStorageArgumentAliasSubArrayFixedSize.S, int256, int256)....
+Command exited with non-zero status 1
+0.69user 0.11system 0:01.02elapsed 79%CPU (0avgtext+0avgdata 55044maxresident)k
+0inputs+0outputs (0major+25807minor)pagefaults 0swaps

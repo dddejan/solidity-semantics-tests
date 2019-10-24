@@ -1,0 +1,9 @@
+Running contracts/assigment/AssignTupleArrayDynamicSS2SS.sol
+Command line args = {contracts/assigment/AssignTupleArrayDynamicSS2SS.sol, AssignTupleArrayDynamicSS2SS}
+SpecFilesDir = /solc-verify-examples/contracts/assigment
+... running Solc on /solc-verify-examples/contracts/assigment/AssignTupleArrayDynamicSS2SS.sol
+... running SolToBoogie to translate Solidity to Boogie
+VeriSol translation error: File /solc-verify-examples/contracts/assigment/AssignTupleArrayDynamicSS2SS.sol, Line 13, Contract AssignTupleArrayDynamicSS2SS, Function assign:: Not implemented...currently only support assignment of tuples as returns of a function call....
+Command exited with non-zero status 1
+0.65user 0.12system 0:00.91elapsed 84%CPU (0avgtext+0avgdata 54824maxresident)k
+0inputs+0outputs (0major+25361minor)pagefaults 0swaps

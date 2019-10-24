@@ -1,0 +1,128 @@
+Running contracts/storageptr/MappingArrayFixedSizeLibraryStorageAliasBase.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_q72V:11:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        a[msg.sender][1] = b[msg.sender][1] + 1;
+        ^--------------^
+smt_checker_input_q72V:15:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        a[msg.sender][1] = a[msg.sender][1] + b[msg.sender][1];
+        ^--------------^
+smt_checker_input_q72V:16:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        b[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
+        ^--------------^
+smt_checker_input_q72V:17:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        a[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
+        ^--------------^
+smt_checker_input_q72V:11:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        a[msg.sender][1] = b[msg.sender][1] + 1;
+                           ^------------------^
+  for:
+  <result> = 0x80 * 2**248
+  a[msg.sender][1] = 0
+  a_b_alias = false
+  a_old = 0
+  b[msg.sender][1] = 0x80 * 2**248 - 1
+  b_old = 0x80 * 2**248 - 1
+  msg.sender = 38
+
+Callstack: 
+
+smt_checker_input_q72V:12:42: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        a_b_alias = (b[msg.sender][1] == b_old + 1);
+                                         ^-------^
+  for:
+  <result> = 0x80 * 2**248
+  a[msg.sender][1] = 0
+  a_b_alias = false
+  a_old = 0
+  b[msg.sender][1] = 0x80 * 2**248 - 1
+  b_old = 0x80 * 2**248 - 1
+  msg.sender = 5853
+
+Callstack: 
+
+smt_checker_input_q72V:15:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+        a[msg.sender][1] = a[msg.sender][1] + b[msg.sender][1];
+                           ^---------------------------------^
+  for:
+  <result> = (- 57896044618658097711785492504343953926634992332820282019728792003956564819969)
+  a[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819968)
+  a_b_alias = false
+  a_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564816971)
+  b[msg.sender][1] = (- 1)
+  b_old = (- 1)
+  msg.sender = 4679
+
+Callstack: 
+
+smt_checker_input_q72V:15:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        a[msg.sender][1] = a[msg.sender][1] + b[msg.sender][1];
+                           ^---------------------------------^
+  for:
+  <result> = 0x80 * 2**248
+  a[msg.sender][1] = 8881
+  a_b_alias = false
+  a_old = 0
+  b[msg.sender][1] = 0x7FFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFdd4f
+  b_old = 0x7FFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFdd4f
+  msg.sender = 2240
+
+Callstack: 
+
+smt_checker_input_q72V:16:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+        b[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
+                           ^---------------------------------^
+  for:
+  <result> = (- 57896044618658097711785492504343953926634992332820282019728792003956564819969)
+  a[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819128)
+  a_b_alias = false
+  a_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564813062)
+  b[msg.sender][1] = 841
+  b_old = 841
+  msg.sender = 1235
+
+Callstack: 
+
+smt_checker_input_q72V:16:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        b[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
+                           ^---------------------------------^
+  for:
+  <result> = 0x80 * 2**248
+  a[msg.sender][1] = 8221
+  a_b_alias = false
+  a_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564817513)
+  b[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811747)
+  b_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564811747)
+  msg.sender = 867
+
+Callstack: 
+
+smt_checker_input_q72V:17:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+        a[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
+                           ^---------------------------------^
+  for:
+  <result> = (- 57896044618658097711785492504343953926634992332820282019728792003956564819969)
+  a[msg.sender][1] = (- 2)
+  a_b_alias = false
+  a_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564817757)
+  b[msg.sender][1] = 0x80 * 2**248 - 1
+  b_old = 0
+  msg.sender = 1108
+
+Callstack: 
+
+smt_checker_input_q72V:17:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        a[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
+                           ^---------------------------------^
+  for:
+  <result> = 0x80 * 2**248
+  a[msg.sender][1] = 0
+  a_b_alias = false
+  a_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564817856)
+  b[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819968)
+  b_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564817636)
+  msg.sender = 4135
+
+Callstack: 
+
+0.30user 0.08system 0:00.39elapsed 99%CPU (0avgtext+0avgdata 41452maxresident)k
+0inputs+0outputs (0major+2668minor)pagefaults 0swaps

@@ -1,0 +1,13 @@
+Running contracts/storageptr/MappingStructStorageArgumentNoAliasSubArrayFixedSize.sol
+Command exited with non-zero status 252
+0.32user 0.13system 0:00.45elapsed 100%CPU (0avgtext+0avgdata 33180maxresident)k
+0inputs+24outputs (0major+10290minor)pagefaults 0swaps
+Error while running verifier, details:
+[TRACE] Using prover: /usr/local/bin/z3
+Parsing /tmp/tmprlqj965j/MappingStructStorageArgumentNoAliasSubArrayFixedSize.sol.bpl
+/tmp/tmprlqj965j/MappingStructStorageArgumentNoAliasSubArrayFixedSize.sol.bpl(38,10): Error: command assigns to an immutable variable: s1ref#18
+/tmp/tmprlqj965j/MappingStructStorageArgumentNoAliasSubArrayFixedSize.sol.bpl(39,10): Error: command assigns to an immutable variable: s2ref#22
+/tmp/tmprlqj965j/MappingStructStorageArgumentNoAliasSubArrayFixedSize.sol.bpl(61,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]struct_storage_S#4)
+/tmp/tmprlqj965j/MappingStructStorageArgumentNoAliasSubArrayFixedSize.sol.bpl(65,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]struct_storage_S#4)
+4 type checking errors detected in /tmp/tmprlqj965j/MappingStructStorageArgumentNoAliasSubArrayFixedSize.sol.bpl
+

@@ -1,0 +1,19 @@
+Running contracts/assigment/AssignArrayFixedSizeMultiS2L.sol
+Command line args = {contracts/assigment/AssignArrayFixedSizeMultiS2L.sol, AssignArrayFixedSizeMultiS2L}
+SpecFilesDir = /solc-verify-examples/contracts/assigment
+... running Solc on /solc-verify-examples/contracts/assigment/AssignArrayFixedSizeMultiS2L.sol
+... running SolToBoogie to translate Solidity to Boogie
+... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
+	*** Did not find a proof (see boogie.txt)
+... running /root/.dotnet/tools/corral /recursionBound:4 /k:1 /main:CorralEntry_AssignArrayFixedSizeMultiS2L /tryCTrace /printDataValues:1 __SolToBoogieTest_out.bpl
+	*** Found a counterexample (see corral.txt)
+	-----Transaction Sequence for Defect ------
+/solc-verify-examples/contracts/assigment/AssignArrayFixedSizeMultiS2L.sol(3,1): : AssignArrayFixedSizeMultiS2L::Constructor (this = address!0, msg.sender = address!1, msg.value = 7)
+/solc-verify-examples/contracts/assigment/AssignArrayFixedSizeMultiS2L.sol(8,1): : AssignArrayFixedSizeMultiS2L::storToLoc (this = address!0, msg.sender = address!3, msg.value = 9, a = 5, b = 4, c = 10)
+/solc-verify-examples/contracts/assigment/AssignArrayFixedSizeMultiS2L.sol(14,1): : ASSERTION FAILS!
+	---------------
+
+	See full execution trace inside corral.txt
+Command exited with non-zero status 1
+2.18user 0.39system 0:02.65elapsed 97%CPU (0avgtext+0avgdata 55396maxresident)k
+0inputs+88outputs (0major+100830minor)pagefaults 0swaps

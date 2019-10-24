@@ -1,0 +1,133 @@
+Running contracts/storageptr/StructStorageArgumentAliasBase.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_NhtS:8:5: Warning: Assertion checker does not yet support the type of this variable.
+    S s;
+    ^-^
+smt_checker_input_NhtS:10:19: Warning: Assertion checker does not yet support the type of this variable.
+    function test(S storage s1ref, S storage s2ref, int a, int b) internal {
+                  ^-------------^
+smt_checker_input_NhtS:10:36: Warning: Assertion checker does not yet support the type of this variable.
+    function test(S storage s1ref, S storage s2ref, int a, int b) internal {
+                                   ^-------------^
+smt_checker_input_NhtS:12:9: Warning: Assertion checker does not yet support this expression.
+        s1ref.x = a;
+        ^-----^
+smt_checker_input_NhtS:12:9: Warning: Assertion checker does not yet implement type struct StructStorageArgumentAliasBase.S storage pointer
+        s1ref.x = a;
+        ^---^
+smt_checker_input_NhtS:12:9: Warning: Assertion checker does not yet implement such assignments.
+        s1ref.x = a;
+        ^---------^
+smt_checker_input_NhtS:13:9: Warning: Assertion checker does not yet support this expression.
+        s2ref.x = b;
+        ^-----^
+smt_checker_input_NhtS:13:9: Warning: Assertion checker does not yet implement type struct StructStorageArgumentAliasBase.S storage pointer
+        s2ref.x = b;
+        ^---^
+smt_checker_input_NhtS:13:9: Warning: Assertion checker does not yet implement such assignments.
+        s2ref.x = b;
+        ^---------^
+smt_checker_input_NhtS:14:16: Warning: Assertion checker does not yet support this expression.
+        assert(s1ref.x == s2ref.x);
+               ^-----^
+smt_checker_input_NhtS:14:16: Warning: Assertion checker does not yet implement type struct StructStorageArgumentAliasBase.S storage pointer
+        assert(s1ref.x == s2ref.x);
+               ^---^
+smt_checker_input_NhtS:14:27: Warning: Assertion checker does not yet support this expression.
+        assert(s1ref.x == s2ref.x);
+                          ^-----^
+smt_checker_input_NhtS:14:27: Warning: Assertion checker does not yet implement type struct StructStorageArgumentAliasBase.S storage pointer
+        assert(s1ref.x == s2ref.x);
+                          ^---^
+smt_checker_input_NhtS:15:16: Warning: Assertion checker does not yet support this expression.
+        assert(s.x == b);
+               ^-^
+smt_checker_input_NhtS:15:16: Warning: Assertion checker does not yet implement type struct StructStorageArgumentAliasBase.S storage ref
+        assert(s.x == b);
+               ^
+smt_checker_input_NhtS:14:9: Warning: Assertion violation happens here
+        assert(s1ref.x == s2ref.x);
+        ^------------------------^
+  for:
+  a = 1
+  b = 0
+
+Callstack: 
+
+smt_checker_input_NhtS:15:9: Warning: Assertion violation happens here
+        assert(s.x == b);
+        ^--------------^
+  for:
+  a = 0
+  b = 1
+
+Callstack: 
+
+smt_checker_input_NhtS:20:14: Warning: Assertion checker does not yet implement type struct StructStorageArgumentAliasBase.S storage ref
+        test(s, s, 0, 1);
+             ^
+smt_checker_input_NhtS:20:17: Warning: Assertion checker does not yet implement type struct StructStorageArgumentAliasBase.S storage ref
+        test(s, s, 0, 1);
+                ^
+smt_checker_input_NhtS:12:9: Warning: Assertion checker does not yet support this expression.
+        s1ref.x = a;
+        ^-----^
+smt_checker_input_NhtS:12:9: Warning: Assertion checker does not yet implement type struct StructStorageArgumentAliasBase.S storage pointer
+        s1ref.x = a;
+        ^---^
+smt_checker_input_NhtS:12:9: Warning: Assertion checker does not yet implement such assignments.
+        s1ref.x = a;
+        ^---------^
+smt_checker_input_NhtS:13:9: Warning: Assertion checker does not yet support this expression.
+        s2ref.x = b;
+        ^-----^
+smt_checker_input_NhtS:13:9: Warning: Assertion checker does not yet implement type struct StructStorageArgumentAliasBase.S storage pointer
+        s2ref.x = b;
+        ^---^
+smt_checker_input_NhtS:13:9: Warning: Assertion checker does not yet implement such assignments.
+        s2ref.x = b;
+        ^---------^
+smt_checker_input_NhtS:14:16: Warning: Assertion checker does not yet support this expression.
+        assert(s1ref.x == s2ref.x);
+               ^-----^
+smt_checker_input_NhtS:14:16: Warning: Assertion checker does not yet implement type struct StructStorageArgumentAliasBase.S storage pointer
+        assert(s1ref.x == s2ref.x);
+               ^---^
+smt_checker_input_NhtS:14:27: Warning: Assertion checker does not yet support this expression.
+        assert(s1ref.x == s2ref.x);
+                          ^-----^
+smt_checker_input_NhtS:14:27: Warning: Assertion checker does not yet implement type struct StructStorageArgumentAliasBase.S storage pointer
+        assert(s1ref.x == s2ref.x);
+                          ^---^
+smt_checker_input_NhtS:15:16: Warning: Assertion checker does not yet support this expression.
+        assert(s.x == b);
+               ^-^
+smt_checker_input_NhtS:15:16: Warning: Assertion checker does not yet implement type struct StructStorageArgumentAliasBase.S storage ref
+        assert(s.x == b);
+               ^
+smt_checker_input_NhtS:14:9: Warning: Assertion violation happens here
+        assert(s1ref.x == s2ref.x);
+        ^------------------------^
+  for:
+  a = 0
+  b = 1
+
+Callstack: 
+smt_checker_input_NhtS:20:9: 
+        test(s, s, 0, 1);
+        ^--------------^
+
+smt_checker_input_NhtS:15:9: Warning: Assertion violation happens here
+        assert(s.x == b);
+        ^--------------^
+  for:
+  a = 0
+  b = 1
+
+Callstack: 
+smt_checker_input_NhtS:20:9: 
+        test(s, s, 0, 1);
+        ^--------------^
+
+0.04user 0.00system 0:00.05elapsed 98%CPU (0avgtext+0avgdata 36820maxresident)k
+0inputs+0outputs (0major+1798minor)pagefaults 0swaps

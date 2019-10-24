@@ -1,0 +1,496 @@
+Running contracts/assigment/AssignStructArrayDynamicMultiS2S.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_lbjm:8:5: Warning: Assertion checker does not yet support the type of this variable.
+    S s1;
+    ^--^
+smt_checker_input_lbjm:9:5: Warning: Assertion checker does not yet support the type of this variable.
+    S s2;
+    ^--^
+smt_checker_input_lbjm:13:17: Warning: Assertion checker does not yet support this expression.
+        require(s1.x.length > 0 && s1.x[0].length > 0);
+                ^---------^
+smt_checker_input_lbjm:13:17: Warning: Assertion checker does not yet support this expression.
+        require(s1.x.length > 0 && s1.x[0].length > 0);
+                ^--^
+smt_checker_input_lbjm:13:17: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        require(s1.x.length > 0 && s1.x[0].length > 0);
+                ^^
+smt_checker_input_lbjm:13:36: Warning: Assertion checker does not yet support this expression.
+        require(s1.x.length > 0 && s1.x[0].length > 0);
+                                   ^------------^
+smt_checker_input_lbjm:13:36: Warning: Assertion checker does not yet support this expression.
+        require(s1.x.length > 0 && s1.x[0].length > 0);
+                                   ^--^
+smt_checker_input_lbjm:13:36: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        require(s1.x.length > 0 && s1.x[0].length > 0);
+                                   ^^
+smt_checker_input_lbjm:13:36: Warning: Assertion checker does not yet implement this expression.
+        require(s1.x.length > 0 && s1.x[0].length > 0);
+                                   ^-----^
+smt_checker_input_lbjm:14:17: Warning: Assertion checker does not yet support this expression.
+        require(s2.x.length > 0 && s2.x[0].length > 0);
+                ^---------^
+smt_checker_input_lbjm:14:17: Warning: Assertion checker does not yet support this expression.
+        require(s2.x.length > 0 && s2.x[0].length > 0);
+                ^--^
+smt_checker_input_lbjm:14:17: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        require(s2.x.length > 0 && s2.x[0].length > 0);
+                ^^
+smt_checker_input_lbjm:14:36: Warning: Assertion checker does not yet support this expression.
+        require(s2.x.length > 0 && s2.x[0].length > 0);
+                                   ^------------^
+smt_checker_input_lbjm:14:36: Warning: Assertion checker does not yet support this expression.
+        require(s2.x.length > 0 && s2.x[0].length > 0);
+                                   ^--^
+smt_checker_input_lbjm:14:36: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        require(s2.x.length > 0 && s2.x[0].length > 0);
+                                   ^^
+smt_checker_input_lbjm:14:36: Warning: Assertion checker does not yet implement this expression.
+        require(s2.x.length > 0 && s2.x[0].length > 0);
+                                   ^-----^
+smt_checker_input_lbjm:16:9: Warning: Assertion checker does not yet support this expression.
+        s1.x[0][0] = a;
+        ^--^
+smt_checker_input_lbjm:16:9: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        s1.x[0][0] = a;
+        ^^
+smt_checker_input_lbjm:16:9: Warning: Assertion checker does not yet implement this expression.
+        s1.x[0][0] = a;
+        ^-----^
+smt_checker_input_lbjm:16:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s1.x[0][0] = a;
+        ^--------^
+smt_checker_input_lbjm:17:9: Warning: Assertion checker does not yet support this expression.
+        s2.x[0][0] = b;
+        ^--^
+smt_checker_input_lbjm:17:9: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        s2.x[0][0] = b;
+        ^^
+smt_checker_input_lbjm:17:9: Warning: Assertion checker does not yet implement this expression.
+        s2.x[0][0] = b;
+        ^-----^
+smt_checker_input_lbjm:17:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s2.x[0][0] = b;
+        ^--------^
+smt_checker_input_lbjm:18:16: Warning: Assertion checker does not yet support this expression.
+        assert(s1.x[0][0] == a);
+               ^--^
+smt_checker_input_lbjm:18:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        assert(s1.x[0][0] == a);
+               ^^
+smt_checker_input_lbjm:18:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s1.x[0][0] == a);
+               ^-----^
+smt_checker_input_lbjm:19:16: Warning: Assertion checker does not yet support this expression.
+        assert(s2.x[0][0] == b);
+               ^--^
+smt_checker_input_lbjm:19:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        assert(s2.x[0][0] == b);
+               ^^
+smt_checker_input_lbjm:19:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s2.x[0][0] == b);
+               ^-----^
+smt_checker_input_lbjm:21:14: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        s1 = s2; // Checking this assignemnt
+             ^^
+smt_checker_input_lbjm:21:9: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        s1 = s2; // Checking this assignemnt
+        ^-----^
+smt_checker_input_lbjm:22:16: Warning: Assertion checker does not yet support this expression.
+        assert(s1.x[0][0] == b);
+               ^--^
+smt_checker_input_lbjm:22:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        assert(s1.x[0][0] == b);
+               ^^
+smt_checker_input_lbjm:22:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s1.x[0][0] == b);
+               ^-----^
+smt_checker_input_lbjm:23:16: Warning: Assertion checker does not yet support this expression.
+        assert(s2.x[0][0] == b);
+               ^--^
+smt_checker_input_lbjm:23:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        assert(s2.x[0][0] == b);
+               ^^
+smt_checker_input_lbjm:23:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s2.x[0][0] == b);
+               ^-----^
+smt_checker_input_lbjm:25:9: Warning: Assertion checker does not yet support this expression.
+        s2.x[0][0] = c;
+        ^--^
+smt_checker_input_lbjm:25:9: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        s2.x[0][0] = c;
+        ^^
+smt_checker_input_lbjm:25:9: Warning: Assertion checker does not yet implement this expression.
+        s2.x[0][0] = c;
+        ^-----^
+smt_checker_input_lbjm:25:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s2.x[0][0] = c;
+        ^--------^
+smt_checker_input_lbjm:26:16: Warning: Assertion checker does not yet support this expression.
+        assert(s1.x[0][0] == b);
+               ^--^
+smt_checker_input_lbjm:26:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        assert(s1.x[0][0] == b);
+               ^^
+smt_checker_input_lbjm:26:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s1.x[0][0] == b);
+               ^-----^
+smt_checker_input_lbjm:27:16: Warning: Assertion checker does not yet support this expression.
+        assert(s2.x[0][0] == c);
+               ^--^
+smt_checker_input_lbjm:27:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        assert(s2.x[0][0] == c);
+               ^^
+smt_checker_input_lbjm:27:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s2.x[0][0] == c);
+               ^-----^
+smt_checker_input_lbjm:18:9: Warning: Assertion violation happens here
+        assert(s1.x[0][0] == a);
+        ^---------------------^
+  for:
+  a = 0
+  b = (- 1)
+  c = 1
+  s1.x[0][0] = (- 1)
+  s2.x[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818172)
+
+Callstack: 
+
+smt_checker_input_lbjm:19:9: Warning: Assertion violation happens here
+        assert(s2.x[0][0] == b);
+        ^---------------------^
+  for:
+  a = (- 1)
+  b = 0
+  c = 1
+  s1.x[0][0] = (- 1)
+  s2.x[0][0] = 1
+
+Callstack: 
+
+smt_checker_input_lbjm:22:9: Warning: Assertion violation happens here
+        assert(s1.x[0][0] == b);
+        ^---------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564819359)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564819358)
+  c = (- 57896044618658097711785492504343953926634992332820282019728792003956564819357)
+  s1.x[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819357)
+  s2.x[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819358)
+
+Callstack: 
+
+smt_checker_input_lbjm:23:9: Warning: Assertion violation happens here
+        assert(s2.x[0][0] == b);
+        ^---------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564818826)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564818825)
+  c = (- 57896044618658097711785492504343953926634992332820282019728792003956564818824)
+  s1.x[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818825)
+  s2.x[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818824)
+
+Callstack: 
+
+smt_checker_input_lbjm:26:9: Warning: Assertion violation happens here
+        assert(s1.x[0][0] == b);
+        ^---------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564811023)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564811021)
+  c = (- 57896044618658097711785492504343953926634992332820282019728792003956564811022)
+  s1.x[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811022)
+  s2.x[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564814048)
+
+Callstack: 
+
+smt_checker_input_lbjm:27:9: Warning: Assertion violation happens here
+        assert(s2.x[0][0] == c);
+        ^---------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564818315)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564818314)
+  c = (- 57896044618658097711785492504343953926634992332820282019728792003956564818313)
+  s1.x[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818314)
+  s2.x[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818314)
+
+Callstack: 
+
+smt_checker_input_lbjm:32:9: Warning: Assertion checker does not yet support this expression.
+        s1.x.push(new int[](1));
+        ^--^
+smt_checker_input_lbjm:32:9: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        s1.x.push(new int[](1));
+        ^^
+smt_checker_input_lbjm:32:19: Warning: Assertion checker does not yet implement this type of function call.
+        s1.x.push(new int[](1));
+                  ^----------^
+smt_checker_input_lbjm:32:9: Warning: Assertion checker does not yet implement this type of function call.
+        s1.x.push(new int[](1));
+        ^---------------------^
+smt_checker_input_lbjm:33:9: Warning: Assertion checker does not yet support this expression.
+        s1.x[0].push(-1);
+        ^--^
+smt_checker_input_lbjm:33:9: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        s1.x[0].push(-1);
+        ^^
+smt_checker_input_lbjm:33:9: Warning: Assertion checker does not yet implement this expression.
+        s1.x[0].push(-1);
+        ^-----^
+smt_checker_input_lbjm:33:9: Warning: Assertion checker does not yet implement this type of function call.
+        s1.x[0].push(-1);
+        ^--------------^
+smt_checker_input_lbjm:34:9: Warning: Assertion checker does not yet support this expression.
+        s2.x.push(new int[](1));
+        ^--^
+smt_checker_input_lbjm:34:9: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        s2.x.push(new int[](1));
+        ^^
+smt_checker_input_lbjm:34:19: Warning: Assertion checker does not yet implement this type of function call.
+        s2.x.push(new int[](1));
+                  ^----------^
+smt_checker_input_lbjm:34:9: Warning: Assertion checker does not yet implement this type of function call.
+        s2.x.push(new int[](1));
+        ^---------------------^
+smt_checker_input_lbjm:35:9: Warning: Assertion checker does not yet support this expression.
+        s2.x[0].push(-1);
+        ^--^
+smt_checker_input_lbjm:35:9: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        s2.x[0].push(-1);
+        ^^
+smt_checker_input_lbjm:35:9: Warning: Assertion checker does not yet implement this expression.
+        s2.x[0].push(-1);
+        ^-----^
+smt_checker_input_lbjm:35:9: Warning: Assertion checker does not yet implement this type of function call.
+        s2.x[0].push(-1);
+        ^--------------^
+smt_checker_input_lbjm:13:17: Warning: Assertion checker does not yet support this expression.
+        require(s1.x.length > 0 && s1.x[0].length > 0);
+                ^---------^
+smt_checker_input_lbjm:13:17: Warning: Assertion checker does not yet support this expression.
+        require(s1.x.length > 0 && s1.x[0].length > 0);
+                ^--^
+smt_checker_input_lbjm:13:17: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        require(s1.x.length > 0 && s1.x[0].length > 0);
+                ^^
+smt_checker_input_lbjm:13:36: Warning: Assertion checker does not yet support this expression.
+        require(s1.x.length > 0 && s1.x[0].length > 0);
+                                   ^------------^
+smt_checker_input_lbjm:13:36: Warning: Assertion checker does not yet support this expression.
+        require(s1.x.length > 0 && s1.x[0].length > 0);
+                                   ^--^
+smt_checker_input_lbjm:13:36: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        require(s1.x.length > 0 && s1.x[0].length > 0);
+                                   ^^
+smt_checker_input_lbjm:13:36: Warning: Assertion checker does not yet implement this expression.
+        require(s1.x.length > 0 && s1.x[0].length > 0);
+                                   ^-----^
+smt_checker_input_lbjm:14:17: Warning: Assertion checker does not yet support this expression.
+        require(s2.x.length > 0 && s2.x[0].length > 0);
+                ^---------^
+smt_checker_input_lbjm:14:17: Warning: Assertion checker does not yet support this expression.
+        require(s2.x.length > 0 && s2.x[0].length > 0);
+                ^--^
+smt_checker_input_lbjm:14:17: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        require(s2.x.length > 0 && s2.x[0].length > 0);
+                ^^
+smt_checker_input_lbjm:14:36: Warning: Assertion checker does not yet support this expression.
+        require(s2.x.length > 0 && s2.x[0].length > 0);
+                                   ^------------^
+smt_checker_input_lbjm:14:36: Warning: Assertion checker does not yet support this expression.
+        require(s2.x.length > 0 && s2.x[0].length > 0);
+                                   ^--^
+smt_checker_input_lbjm:14:36: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        require(s2.x.length > 0 && s2.x[0].length > 0);
+                                   ^^
+smt_checker_input_lbjm:14:36: Warning: Assertion checker does not yet implement this expression.
+        require(s2.x.length > 0 && s2.x[0].length > 0);
+                                   ^-----^
+smt_checker_input_lbjm:16:9: Warning: Assertion checker does not yet support this expression.
+        s1.x[0][0] = a;
+        ^--^
+smt_checker_input_lbjm:16:9: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        s1.x[0][0] = a;
+        ^^
+smt_checker_input_lbjm:16:9: Warning: Assertion checker does not yet implement this expression.
+        s1.x[0][0] = a;
+        ^-----^
+smt_checker_input_lbjm:16:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s1.x[0][0] = a;
+        ^--------^
+smt_checker_input_lbjm:17:9: Warning: Assertion checker does not yet support this expression.
+        s2.x[0][0] = b;
+        ^--^
+smt_checker_input_lbjm:17:9: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        s2.x[0][0] = b;
+        ^^
+smt_checker_input_lbjm:17:9: Warning: Assertion checker does not yet implement this expression.
+        s2.x[0][0] = b;
+        ^-----^
+smt_checker_input_lbjm:17:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s2.x[0][0] = b;
+        ^--------^
+smt_checker_input_lbjm:18:16: Warning: Assertion checker does not yet support this expression.
+        assert(s1.x[0][0] == a);
+               ^--^
+smt_checker_input_lbjm:18:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        assert(s1.x[0][0] == a);
+               ^^
+smt_checker_input_lbjm:18:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s1.x[0][0] == a);
+               ^-----^
+smt_checker_input_lbjm:19:16: Warning: Assertion checker does not yet support this expression.
+        assert(s2.x[0][0] == b);
+               ^--^
+smt_checker_input_lbjm:19:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        assert(s2.x[0][0] == b);
+               ^^
+smt_checker_input_lbjm:19:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s2.x[0][0] == b);
+               ^-----^
+smt_checker_input_lbjm:21:14: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        s1 = s2; // Checking this assignemnt
+             ^^
+smt_checker_input_lbjm:21:9: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        s1 = s2; // Checking this assignemnt
+        ^-----^
+smt_checker_input_lbjm:22:16: Warning: Assertion checker does not yet support this expression.
+        assert(s1.x[0][0] == b);
+               ^--^
+smt_checker_input_lbjm:22:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        assert(s1.x[0][0] == b);
+               ^^
+smt_checker_input_lbjm:22:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s1.x[0][0] == b);
+               ^-----^
+smt_checker_input_lbjm:23:16: Warning: Assertion checker does not yet support this expression.
+        assert(s2.x[0][0] == b);
+               ^--^
+smt_checker_input_lbjm:23:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        assert(s2.x[0][0] == b);
+               ^^
+smt_checker_input_lbjm:23:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s2.x[0][0] == b);
+               ^-----^
+smt_checker_input_lbjm:25:9: Warning: Assertion checker does not yet support this expression.
+        s2.x[0][0] = c;
+        ^--^
+smt_checker_input_lbjm:25:9: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        s2.x[0][0] = c;
+        ^^
+smt_checker_input_lbjm:25:9: Warning: Assertion checker does not yet implement this expression.
+        s2.x[0][0] = c;
+        ^-----^
+smt_checker_input_lbjm:25:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s2.x[0][0] = c;
+        ^--------^
+smt_checker_input_lbjm:26:16: Warning: Assertion checker does not yet support this expression.
+        assert(s1.x[0][0] == b);
+               ^--^
+smt_checker_input_lbjm:26:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        assert(s1.x[0][0] == b);
+               ^^
+smt_checker_input_lbjm:26:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s1.x[0][0] == b);
+               ^-----^
+smt_checker_input_lbjm:27:16: Warning: Assertion checker does not yet support this expression.
+        assert(s2.x[0][0] == c);
+               ^--^
+smt_checker_input_lbjm:27:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayDynamicMultiS2S.S storage ref
+        assert(s2.x[0][0] == c);
+               ^^
+smt_checker_input_lbjm:27:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s2.x[0][0] == c);
+               ^-----^
+smt_checker_input_lbjm:18:9: Warning: Assertion violation happens here
+        assert(s1.x[0][0] == a);
+        ^---------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  s1.x[0][0] = 1
+  s2.x[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818645)
+
+Callstack: 
+smt_checker_input_lbjm:36:9: 
+        storToStor(0, 1, 2);
+        ^-----------------^
+
+smt_checker_input_lbjm:19:9: Warning: Assertion violation happens here
+        assert(s2.x[0][0] == b);
+        ^---------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  s1.x[0][0] = 0
+  s2.x[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564817728)
+
+Callstack: 
+smt_checker_input_lbjm:36:9: 
+        storToStor(0, 1, 2);
+        ^-----------------^
+
+smt_checker_input_lbjm:22:9: Warning: Assertion violation happens here
+        assert(s1.x[0][0] == b);
+        ^---------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  s1.x[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564817522)
+  s2.x[0][0] = 1
+
+Callstack: 
+smt_checker_input_lbjm:36:9: 
+        storToStor(0, 1, 2);
+        ^-----------------^
+
+smt_checker_input_lbjm:23:9: Warning: Assertion violation happens here
+        assert(s2.x[0][0] == b);
+        ^---------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  s1.x[0][0] = 1
+  s2.x[0][0] = 2
+
+Callstack: 
+smt_checker_input_lbjm:36:9: 
+        storToStor(0, 1, 2);
+        ^-----------------^
+
+smt_checker_input_lbjm:26:9: Warning: Assertion violation happens here
+        assert(s1.x[0][0] == b);
+        ^---------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  s1.x[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818733)
+  s2.x[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564816359)
+
+Callstack: 
+smt_checker_input_lbjm:36:9: 
+        storToStor(0, 1, 2);
+        ^-----------------^
+
+smt_checker_input_lbjm:27:9: Warning: Assertion violation happens here
+        assert(s2.x[0][0] == c);
+        ^---------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  s1.x[0][0] = 1
+  s2.x[0][0] = 3
+
+Callstack: 
+smt_checker_input_lbjm:36:9: 
+        storToStor(0, 1, 2);
+        ^-----------------^
+
+0.25user 0.04system 0:00.29elapsed 100%CPU (0avgtext+0avgdata 55192maxresident)k
+0inputs+0outputs (0major+5793minor)pagefaults 0swaps

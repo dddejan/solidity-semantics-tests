@@ -1,0 +1,7 @@
+Running contracts/assigment/AssignArrayDynamicStructL2S.sol
+AssignArrayDynamicStructL2S::locToStor: OK
+AssignArrayDynamicStructL2S::truffleMain: OK
+AssignArrayDynamicStructL2S::[implicit_constructor]: OK
+No errors found.
+0.70user 0.25system 0:00.94elapsed 101%CPU (0avgtext+0avgdata 42836maxresident)k
+0inputs+24outputs (0major+17121minor)pagefaults 0swaps

@@ -1,0 +1,9 @@
+Running contracts/init/InitStorageArrayDynamicMapping.sol
+Command line args = {contracts/init/InitStorageArrayDynamicMapping.sol, InitStorageArrayDynamicMapping}
+SpecFilesDir = /solc-verify-examples/contracts/init
+... running Solc on /solc-verify-examples/contracts/init/InitStorageArrayDynamicMapping.sol
+... running SolToBoogie to translate Solidity to Boogie
+... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
+	*** Proof found! Formal Verification successful! (see boogie.txt)
+1.20user 0.25system 0:01.55elapsed 93%CPU (0avgtext+0avgdata 52528maxresident)k
+0inputs+24outputs (0major+58312minor)pagefaults 0swaps

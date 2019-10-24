@@ -1,0 +1,5 @@
+Running contracts/assigment/AssignArrayFixedSizeMultiL2S.sol
+The analysis was completed successfully. No issues were detected.
+
+9.34user 3.81system 0:09.42elapsed 139%CPU (0avgtext+0avgdata 99864maxresident)k
+0inputs+24368outputs (0major+38052minor)pagefaults 0swaps

@@ -1,0 +1,7 @@
+Running contracts/assigment/AssignStructMappingL2L.sol
+AssignStructMappingL2L::locToLoc: OK
+AssignStructMappingL2L::truffleMain: OK
+AssignStructMappingL2L::[implicit_constructor]: OK
+No errors found.
+0.63user 0.28system 0:00.89elapsed 102%CPU (0avgtext+0avgdata 42524maxresident)k
+0inputs+24outputs (0major+16936minor)pagefaults 0swaps

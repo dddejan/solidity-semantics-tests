@@ -1,0 +1,8 @@
+Running contracts/delete/DeleteStorageArrayFixedMapping.sol
+DeleteStorageArrayFixedMapping::[constructor]: ERROR
+ - contracts/delete/DeleteStorageArrayFixedMapping.sol:11:9: Assertion might not hold.
+DeleteStorageArrayFixedMapping::truffleMain: OK
+Errors were found by the verifier.
+Command exited with non-zero status 251
+0.63user 0.22system 0:00.84elapsed 102%CPU (0avgtext+0avgdata 41556maxresident)k
+0inputs+16outputs (0major+16527minor)pagefaults 0swaps

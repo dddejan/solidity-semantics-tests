@@ -1,0 +1,14 @@
+Running contracts/storageptr/MappingArrayFixedSizeStorageArgumentAliasSubArrayFixedSize.sol
+Error while running verifier, details:
+[TRACE] Using prover: /usr/local/bin/z3
+Parsing /tmp/tmp3c523w6b/MappingArrayFixedSizeStorageArgumentAliasSubArrayFixedSize.sol.bpl
+/tmp/tmp3c523w6b/MappingArrayFixedSizeStorageArgumentAliasSubArrayFixedSize.sol.bpl(27,10): Error: command assigns to an immutable variable: s1ref#15
+/tmp/tmp3c523w6b/MappingArrayFixedSizeStorageArgumentAliasSubArrayFixedSize.sol.bpl(30,10): Error: command assigns to an immutable variable: s1ref#15
+/tmp/tmp3c523w6b/MappingArrayFixedSizeStorageArgumentAliasSubArrayFixedSize.sol.bpl(31,10): Error: command assigns to an immutable variable: s2ref#21
+/tmp/tmp3c523w6b/MappingArrayFixedSizeStorageArgumentAliasSubArrayFixedSize.sol.bpl(52,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]int_arr_type)
+/tmp/tmp3c523w6b/MappingArrayFixedSizeStorageArgumentAliasSubArrayFixedSize.sol.bpl(56,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]int_arr_type)
+5 type checking errors detected in /tmp/tmp3c523w6b/MappingArrayFixedSizeStorageArgumentAliasSubArrayFixedSize.sol.bpl
+
+Command exited with non-zero status 252
+0.33user 0.14system 0:00.47elapsed 101%CPU (0avgtext+0avgdata 33080maxresident)k
+0inputs+24outputs (0major+10296minor)pagefaults 0swaps

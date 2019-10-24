@@ -1,0 +1,109 @@
+Running contracts/assigment/AssignArrayDynamicS2L.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_55sZ:11:17: Warning: Assertion checker does not yet support this expression.
+        require(s1.length > 0);
+                ^-------^
+smt_checker_input_55sZ:12:17: Warning: Assertion checker does not yet support this expression.
+        require(s2.length > 0);
+                ^-------^
+smt_checker_input_55sZ:24:9: Warning: Assertion violation happens here
+        assert(loc[0] == c);
+        ^-----------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564815891)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564815890)
+  c = (- 57896044618658097711785492504343953926634992332820282019728792003956564815889)
+  loc[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818172)
+  s1[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564815889)
+  s2[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564815890)
+
+Callstack: 
+
+smt_checker_input_55sZ:27:9: Warning: Assertion violation happens here
+        assert(s1[0] == a);
+        ^----------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564811869)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564811868)
+  c = (- 57896044618658097711785492504343953926634992332820282019728792003956564811867)
+  loc[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811869)
+  s1[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811870)
+  s2[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811868)
+
+Callstack: 
+
+smt_checker_input_55sZ:28:9: Warning: Assertion violation happens here
+        assert(s2[0] == b);
+        ^----------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564813685)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564813684)
+  c = 362
+  loc[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564813685)
+  s1[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564813685)
+  s2[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564813683)
+
+Callstack: 
+
+smt_checker_input_55sZ:34:9: Warning: Assertion checker does not yet implement this type of function call.
+        s1.push(-1);
+        ^---------^
+smt_checker_input_55sZ:35:9: Warning: Assertion checker does not yet implement this type of function call.
+        s2.push(-1);
+        ^---------^
+smt_checker_input_55sZ:11:17: Warning: Assertion checker does not yet support this expression.
+        require(s1.length > 0);
+                ^-------^
+smt_checker_input_55sZ:12:17: Warning: Assertion checker does not yet support this expression.
+        require(s2.length > 0);
+                ^-------^
+smt_checker_input_55sZ:24:9: Warning: Assertion violation happens here
+        assert(loc[0] == c);
+        ^-----------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  loc[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818994)
+  s1[0] = 2
+  s2[0] = 1
+
+Callstack: 
+smt_checker_input_55sZ:36:9: 
+        storToLoc(0, 1, 2);
+        ^----------------^
+
+smt_checker_input_55sZ:27:9: Warning: Assertion violation happens here
+        assert(s1[0] == a);
+        ^----------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  loc[0] = 0
+  s1[0] = 5905
+  s2[0] = 1
+
+Callstack: 
+smt_checker_input_55sZ:36:9: 
+        storToLoc(0, 1, 2);
+        ^----------------^
+
+smt_checker_input_55sZ:28:9: Warning: Assertion violation happens here
+        assert(s2[0] == b);
+        ^----------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  loc[0] = 0
+  s1[0] = 0
+  s2[0] = 8881
+
+Callstack: 
+smt_checker_input_55sZ:36:9: 
+        storToLoc(0, 1, 2);
+        ^----------------^
+
+0.19user 0.05system 0:00.25elapsed 100%CPU (0avgtext+0avgdata 48920maxresident)k
+0inputs+0outputs (0major+4286minor)pagefaults 0swaps

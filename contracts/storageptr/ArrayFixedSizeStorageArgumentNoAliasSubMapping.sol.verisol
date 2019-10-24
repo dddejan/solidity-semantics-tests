@@ -1,0 +1,10 @@
+Running contracts/storageptr/ArrayFixedSizeStorageArgumentNoAliasSubMapping.sol
+Command line args = {contracts/storageptr/ArrayFixedSizeStorageArgumentNoAliasSubMapping.sol, ArrayFixedSizeStorageArgumentNoAliasSubMapping}
+SpecFilesDir = /solc-verify-examples/contracts/storageptr
+... running Solc on /solc-verify-examples/contracts/storageptr/ArrayFixedSizeStorageArgumentNoAliasSubMapping.sol
+... running SolToBoogie to translate Solidity to Boogie
+Warning: A mapping with nested array s2 of valuetype int256[2]
+... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
+	*** Proof found! Formal Verification successful! (see boogie.txt)
+1.37user 0.28system 0:01.67elapsed 99%CPU (0avgtext+0avgdata 54816maxresident)k
+0inputs+40outputs (0major+60460minor)pagefaults 0swaps

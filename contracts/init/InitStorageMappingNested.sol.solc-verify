@@ -1,0 +1,6 @@
+Running contracts/init/InitStorageMappingNested.sol
+InitStorageMappingNested::[constructor]: OK
+InitStorageMappingNested::truffleMain: OK
+No errors found.
+0.66user 0.21system 0:00.84elapsed 102%CPU (0avgtext+0avgdata 40940maxresident)k
+0inputs+16outputs (0major+16156minor)pagefaults 0swaps

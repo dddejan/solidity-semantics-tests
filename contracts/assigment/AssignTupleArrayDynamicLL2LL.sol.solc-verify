@@ -1,0 +1,7 @@
+Running contracts/assigment/AssignTupleArrayDynamicLL2LL.sol
+AssignTupleArrayDynamicLL2LL::assign: OK
+AssignTupleArrayDynamicLL2LL::truffleMain: OK
+AssignTupleArrayDynamicLL2LL::[implicit_constructor]: OK
+No errors found.
+0.66user 0.29system 0:00.93elapsed 102%CPU (0avgtext+0avgdata 42356maxresident)k
+0inputs+24outputs (0major+16565minor)pagefaults 0swaps

@@ -1,0 +1,15 @@
+Running contracts/storageptr/MappingArrayFixedSizeLibraryStorageAliasBase.sol
+Command exited with non-zero status 252
+0.30user 0.16system 0:00.46elapsed 100%CPU (0avgtext+0avgdata 33212maxresident)k
+0inputs+24outputs (0major+10329minor)pagefaults 0swaps
+Error while running verifier, details:
+[TRACE] Using prover: /usr/local/bin/z3
+Parsing /tmp/tmpcxf__e6r/MappingArrayFixedSizeLibraryStorageAliasBase.sol.bpl
+/tmp/tmpcxf__e6r/MappingArrayFixedSizeLibraryStorageAliasBase.sol.bpl(25,5): Error: command assigns to an immutable variable: a#7
+/tmp/tmpcxf__e6r/MappingArrayFixedSizeLibraryStorageAliasBase.sol.bpl(29,5): Error: command assigns to an immutable variable: a#7
+/tmp/tmpcxf__e6r/MappingArrayFixedSizeLibraryStorageAliasBase.sol.bpl(30,6): Error: command assigns to an immutable variable: b#13
+/tmp/tmpcxf__e6r/MappingArrayFixedSizeLibraryStorageAliasBase.sol.bpl(31,5): Error: command assigns to an immutable variable: a#7
+/tmp/tmpcxf__e6r/MappingArrayFixedSizeLibraryStorageAliasBase.sol.bpl(61,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]int_arr_type)
+/tmp/tmpcxf__e6r/MappingArrayFixedSizeLibraryStorageAliasBase.sol.bpl(64,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]int_arr_type)
+6 type checking errors detected in /tmp/tmpcxf__e6r/MappingArrayFixedSizeLibraryStorageAliasBase.sol.bpl
+

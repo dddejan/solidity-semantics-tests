@@ -1,0 +1,10 @@
+Running contracts/assigment/AssignStructArrayFixedSizeM2M.sol
+AssignStructArrayFixedSizeM2M::memToMem: ERROR
+ - contracts/assigment/AssignStructArrayFixedSizeM2M.sol:13:9: Assertion might not hold.
+AssignStructArrayFixedSizeM2M::truffleMain: OK
+AssignStructArrayFixedSizeM2M::[implicit_constructor]: OK
+Use --show-warnings to see 2 warnings.
+Errors were found by the verifier.
+Command exited with non-zero status 251
+0.70user 0.29system 0:00.98elapsed 101%CPU (0avgtext+0avgdata 42396maxresident)k
+0inputs+24outputs (0major+16894minor)pagefaults 0swaps

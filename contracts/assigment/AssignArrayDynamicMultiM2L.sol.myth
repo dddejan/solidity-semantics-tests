@@ -1,0 +1,5 @@
+Running contracts/assigment/AssignArrayDynamicMultiM2L.sol
+The analysis was completed successfully. No issues were detected.
+
+8.42user 1.80system 0:08.68elapsed 117%CPU (0avgtext+0avgdata 100068maxresident)k
+0inputs+24344outputs (0major+44981minor)pagefaults 0swaps

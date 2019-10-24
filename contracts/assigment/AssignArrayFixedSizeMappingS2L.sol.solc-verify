@@ -1,0 +1,7 @@
+Running contracts/assigment/AssignArrayFixedSizeMappingS2L.sol
+AssignArrayFixedSizeMappingS2L::storToLoc: OK
+AssignArrayFixedSizeMappingS2L::truffleMain: OK
+AssignArrayFixedSizeMappingS2L::[implicit_constructor]: OK
+No errors found.
+0.72user 0.22system 0:00.92elapsed 103%CPU (0avgtext+0avgdata 42876maxresident)k
+0inputs+24outputs (0major+17153minor)pagefaults 0swaps

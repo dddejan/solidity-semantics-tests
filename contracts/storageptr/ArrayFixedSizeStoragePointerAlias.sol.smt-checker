@@ -1,0 +1,4 @@
+Running contracts/storageptr/ArrayFixedSizeStoragePointerAlias.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+0.03user 0.01system 0:00.06elapsed 85%CPU (0avgtext+0avgdata 38968maxresident)k
+112inputs+0outputs (1major+2072minor)pagefaults 0swaps

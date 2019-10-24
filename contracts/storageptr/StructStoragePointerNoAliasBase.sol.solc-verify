@@ -1,0 +1,7 @@
+Running contracts/storageptr/StructStoragePointerNoAliasBase.sol
+0.70user 0.24system 0:00.92elapsed 102%CPU (0avgtext+0avgdata 41752maxresident)k
+0inputs+16outputs (0major+16335minor)pagefaults 0swaps
+StructStoragePointerNoAliasBase::test: OK
+StructStoragePointerNoAliasBase::truffleMain: OK
+StructStoragePointerNoAliasBase::[implicit_constructor]: OK
+No errors found.

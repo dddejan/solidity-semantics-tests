@@ -1,0 +1,5 @@
+Running contracts/assigment/AssignMappingS2L.sol
+The analysis was completed successfully. No issues were detected.
+
+35.48user 9.60system 0:35.30elapsed 127%CPU (0avgtext+0avgdata 127208maxresident)k
+0inputs+24344outputs (0major+57666minor)pagefaults 0swaps

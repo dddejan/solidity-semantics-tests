@@ -1,0 +1,10 @@
+Running contracts/init/InitStorageMappingArray.sol
+Command line args = {contracts/init/InitStorageMappingArray.sol, InitStorageMappingArray}
+SpecFilesDir = /solc-verify-examples/contracts/init
+... running Solc on /solc-verify-examples/contracts/init/InitStorageMappingArray.sol
+... running SolToBoogie to translate Solidity to Boogie
+Warning: A mapping with nested array m of valuetype int256[]
+... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
+	*** Proof found! Formal Verification successful! (see boogie.txt)
+1.31user 0.24system 0:01.56elapsed 99%CPU (0avgtext+0avgdata 53084maxresident)k
+0inputs+32outputs (0major+58670minor)pagefaults 0swaps

@@ -1,0 +1,8 @@
+Running contracts/storageptr/StructMappingLibraryStorageAliasSubMapping.sol
+L::swap: OK
+L::[implicit_constructor]: OK
+StructMappingLibraryStorageAliasSubMapping::truffleMain: OK
+StructMappingLibraryStorageAliasSubMapping::[implicit_constructor]: OK
+No errors found.
+0.68user 0.28system 0:00.93elapsed 103%CPU (0avgtext+0avgdata 43944maxresident)k
+0inputs+24outputs (0major+17139minor)pagefaults 0swaps

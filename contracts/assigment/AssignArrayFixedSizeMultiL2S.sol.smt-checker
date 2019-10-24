@@ -1,0 +1,105 @@
+Running contracts/assigment/AssignArrayFixedSizeMultiL2S.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_yn27:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s1[2][1] = a;
+        ^------^
+smt_checker_input_yn27:13:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s2[2][1] = b;
+        ^------^
+smt_checker_input_yn27:22:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        sl1[2][1] = c;
+        ^-------^
+smt_checker_input_yn27:14:9: Warning: Assertion violation happens here
+        assert(s1[2][1] == a);
+        ^-------------------^
+  for:
+  a = 0
+  b = 2
+  c = 1
+  s1[2][1] = (- 1)
+  s2[2][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818732)
+
+Callstack: 
+
+smt_checker_input_yn27:15:9: Warning: Assertion violation happens here
+        assert(s2[2][1] == b);
+        ^-------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564818170)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564818171)
+  c = (- 57896044618658097711785492504343953926634992332820282019728792003956564818172)
+  s1[2][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818170)
+  s2[2][1] = (- 7060)
+
+Callstack: 
+
+smt_checker_input_yn27:23:9: Warning: Assertion violation happens here
+        assert(s1[2][1] == c);
+        ^-------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564811869)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564811868)
+  c = (- 57896044618658097711785492504343953926634992332820282019728792003956564811870)
+  s1[2][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811869)
+  s2[2][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811869)
+  sl1[2][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811869)
+
+Callstack: 
+
+smt_checker_input_yn27:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s1[2][1] = a;
+        ^------^
+smt_checker_input_yn27:13:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s2[2][1] = b;
+        ^------^
+smt_checker_input_yn27:22:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        sl1[2][1] = c;
+        ^-------^
+smt_checker_input_yn27:14:9: Warning: Assertion violation happens here
+        assert(s1[2][1] == a);
+        ^-------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  s1[2][1] = 1143
+  s2[2][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819687)
+
+Callstack: 
+smt_checker_input_yn27:29:9: 
+        locToStor(0 ,1, 2);
+        ^----------------^
+
+smt_checker_input_yn27:15:9: Warning: Assertion violation happens here
+        assert(s2[2][1] == b);
+        ^-------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  s1[2][1] = 0
+  s2[2][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564814048)
+
+Callstack: 
+smt_checker_input_yn27:29:9: 
+        locToStor(0 ,1, 2);
+        ^----------------^
+
+smt_checker_input_yn27:23:9: Warning: Assertion violation happens here
+        assert(s1[2][1] == c);
+        ^-------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  s1[2][1] = 0
+  s2[2][1] = 0
+  sl1[2][1] = 0
+
+Callstack: 
+smt_checker_input_yn27:29:9: 
+        locToStor(0 ,1, 2);
+        ^----------------^
+
+0.16user 0.02system 0:00.18elapsed 100%CPU (0avgtext+0avgdata 48572maxresident)k
+0inputs+0outputs (0major+4063minor)pagefaults 0swaps

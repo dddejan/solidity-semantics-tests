@@ -1,0 +1,6 @@
+Running contracts/storageptr/StructMappingStorageArgumentAliasBase.sol
+StructMappingStorageArgumentAliasBase::truffleMain: OK
+StructMappingStorageArgumentAliasBase::[implicit_constructor]: OK
+No errors found.
+0.73user 0.20system 0:00.91elapsed 102%CPU (0avgtext+0avgdata 42984maxresident)k
+0inputs+24outputs (0major+16849minor)pagefaults 0swaps

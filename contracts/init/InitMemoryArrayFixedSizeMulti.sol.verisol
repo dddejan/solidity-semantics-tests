@@ -1,0 +1,19 @@
+Running contracts/init/InitMemoryArrayFixedSizeMulti.sol
+Command line args = {contracts/init/InitMemoryArrayFixedSizeMulti.sol, InitMemoryArrayFixedSizeMulti}
+SpecFilesDir = /solc-verify-examples/contracts/init
+... running Solc on /solc-verify-examples/contracts/init/InitMemoryArrayFixedSizeMulti.sol
+... running SolToBoogie to translate Solidity to Boogie
+... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
+	*** Did not find a proof (see boogie.txt)
+... running /root/.dotnet/tools/corral /recursionBound:4 /k:1 /main:CorralEntry_InitMemoryArrayFixedSizeMulti /tryCTrace /printDataValues:1 __SolToBoogieTest_out.bpl
+	*** Found a counterexample (see corral.txt)
+	-----Transaction Sequence for Defect ------
+/solc-verify-examples/contracts/init/InitMemoryArrayFixedSizeMulti.sol(3,1): : InitMemoryArrayFixedSizeMulti::Constructor (this = address!0, msg.sender = address!1, msg.value = 0)
+/solc-verify-examples/contracts/init/InitMemoryArrayFixedSizeMulti.sol(4,1): : InitMemoryArrayFixedSizeMulti::test (this = address!0, msg.sender = address!3, msg.value = 1)
+/solc-verify-examples/contracts/init/InitMemoryArrayFixedSizeMulti.sol(6,1): : ASSERTION FAILS!
+	---------------
+
+	See full execution trace inside corral.txt
+Command exited with non-zero status 1
+2.16user 0.43system 0:02.58elapsed 100%CPU (0avgtext+0avgdata 54780maxresident)k
+0inputs+80outputs (0major+98872minor)pagefaults 0swaps

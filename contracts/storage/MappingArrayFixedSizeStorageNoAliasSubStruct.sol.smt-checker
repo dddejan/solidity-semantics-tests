@@ -1,0 +1,109 @@
+Running contracts/storage/MappingArrayFixedSizeStorageNoAliasSubStruct.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_nQPZ:9:5: Warning: Assertion checker does not yet support the type of this variable.
+    Sub s2;
+    ^----^
+smt_checker_input_nQPZ:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s1[msg.sender][1] = a;
+        ^---------------^
+smt_checker_input_nQPZ:13:9: Warning: Assertion checker does not yet support this expression.
+        s2.s[msg.sender][1] = b;
+        ^--^
+smt_checker_input_nQPZ:13:9: Warning: Assertion checker does not yet implement type struct MappingArrayFixedSizeStorageNoAliasSubStruct.Sub storage ref
+        s2.s[msg.sender][1] = b;
+        ^^
+smt_checker_input_nQPZ:13:9: Warning: Assertion checker does not yet implement this expression.
+        s2.s[msg.sender][1] = b;
+        ^--------------^
+smt_checker_input_nQPZ:13:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s2.s[msg.sender][1] = b;
+        ^-----------------^
+smt_checker_input_nQPZ:15:16: Warning: Assertion checker does not yet support this expression.
+        assert(s2.s[msg.sender][1] == b);
+               ^--^
+smt_checker_input_nQPZ:15:16: Warning: Assertion checker does not yet implement type struct MappingArrayFixedSizeStorageNoAliasSubStruct.Sub storage ref
+        assert(s2.s[msg.sender][1] == b);
+               ^^
+smt_checker_input_nQPZ:15:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s2.s[msg.sender][1] == b);
+               ^--------------^
+smt_checker_input_nQPZ:14:9: Warning: Assertion violation happens here
+        assert(s1[msg.sender][1] == a);
+        ^----------------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564812249)
+  b = 0
+  msg.sender = 2437
+  s1[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564812248)
+  s2.s[msg.sender][1] = 0
+
+Callstack: 
+
+smt_checker_input_nQPZ:15:9: Warning: Assertion violation happens here
+        assert(s2.s[msg.sender][1] == b);
+        ^------------------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564818172)
+  b = (- 1)
+  msg.sender = 449
+  s1[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818172)
+  s2.s[msg.sender][1] = 0
+
+Callstack: 
+
+smt_checker_input_nQPZ:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s1[msg.sender][1] = a;
+        ^---------------^
+smt_checker_input_nQPZ:13:9: Warning: Assertion checker does not yet support this expression.
+        s2.s[msg.sender][1] = b;
+        ^--^
+smt_checker_input_nQPZ:13:9: Warning: Assertion checker does not yet implement type struct MappingArrayFixedSizeStorageNoAliasSubStruct.Sub storage ref
+        s2.s[msg.sender][1] = b;
+        ^^
+smt_checker_input_nQPZ:13:9: Warning: Assertion checker does not yet implement this expression.
+        s2.s[msg.sender][1] = b;
+        ^--------------^
+smt_checker_input_nQPZ:13:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s2.s[msg.sender][1] = b;
+        ^-----------------^
+smt_checker_input_nQPZ:15:16: Warning: Assertion checker does not yet support this expression.
+        assert(s2.s[msg.sender][1] == b);
+               ^--^
+smt_checker_input_nQPZ:15:16: Warning: Assertion checker does not yet implement type struct MappingArrayFixedSizeStorageNoAliasSubStruct.Sub storage ref
+        assert(s2.s[msg.sender][1] == b);
+               ^^
+smt_checker_input_nQPZ:15:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s2.s[msg.sender][1] == b);
+               ^--------------^
+smt_checker_input_nQPZ:14:9: Warning: Assertion violation happens here
+        assert(s1[msg.sender][1] == a);
+        ^----------------------------^
+  for:
+  a = 0
+  b = 1
+  msg.sender = 8098
+  s1[msg.sender][1] = 610
+  s2.s[msg.sender][1] = 0
+
+Callstack: 
+smt_checker_input_nQPZ:20:9: 
+        test(0, 1);
+        ^--------^
+
+smt_checker_input_nQPZ:15:9: Warning: Assertion violation happens here
+        assert(s2.s[msg.sender][1] == b);
+        ^------------------------------^
+  for:
+  a = 0
+  b = 1
+  msg.sender = 535
+  s1[msg.sender][1] = 0
+  s2.s[msg.sender][1] = 2
+
+Callstack: 
+smt_checker_input_nQPZ:20:9: 
+        test(0, 1);
+        ^--------^
+
+0.07user 0.01system 0:00.08elapsed 98%CPU (0avgtext+0avgdata 44728maxresident)k
+0inputs+0outputs (0major+3190minor)pagefaults 0swaps

@@ -1,7 +1,0 @@
-ArrayFixedSize
-Mapping
-MappingArrayFixedSize
-MappingStruct
-Struct
-StructArrayFixedSize
-StructMapping

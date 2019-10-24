@@ -1,0 +1,11 @@
+Running contracts/assigment/AssignMappingArrayL2L.sol
+Command line args = {contracts/assigment/AssignMappingArrayL2L.sol, AssignMappingArrayL2L}
+SpecFilesDir = /solc-verify-examples/contracts/assigment
+... running Solc on /solc-verify-examples/contracts/assigment/AssignMappingArrayL2L.sol
+... running SolToBoogie to translate Solidity to Boogie
+Warning: A mapping with nested array s1 of valuetype int256[]
+Warning: A mapping with nested array s2 of valuetype int256[]
+... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
+	*** Proof found! Formal Verification successful! (see boogie.txt)
+1.37user 0.23system 0:01.68elapsed 95%CPU (0avgtext+0avgdata 56296maxresident)k
+0inputs+40outputs (0major+61320minor)pagefaults 0swaps

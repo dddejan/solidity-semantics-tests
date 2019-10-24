@@ -1,0 +1,5 @@
+Running contracts/storageptr/StructMappingStoragePointerAlias.sol
+The analysis was completed successfully. No issues were detected.
+
+13.25user 4.04system 0:13.35elapsed 129%CPU (0avgtext+0avgdata 111660maxresident)k
+0inputs+24368outputs (0major+47340minor)pagefaults 0swaps

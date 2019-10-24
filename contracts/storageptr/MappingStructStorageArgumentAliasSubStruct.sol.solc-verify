@@ -1,0 +1,14 @@
+Running contracts/storageptr/MappingStructStorageArgumentAliasSubStruct.sol
+Error while running verifier, details:
+[TRACE] Using prover: /usr/local/bin/z3
+Parsing /tmp/tmpsf0wq_0f/MappingStructStorageArgumentAliasSubStruct.sol.bpl
+/tmp/tmpsf0wq_0f/MappingStructStorageArgumentAliasSubStruct.sol.bpl(45,10): Error: command assigns to an immutable variable: s1ref#15
+/tmp/tmpsf0wq_0f/MappingStructStorageArgumentAliasSubStruct.sol.bpl(48,10): Error: command assigns to an immutable variable: s1ref#15
+/tmp/tmpsf0wq_0f/MappingStructStorageArgumentAliasSubStruct.sol.bpl(49,10): Error: command assigns to an immutable variable: s2ref#19
+/tmp/tmpsf0wq_0f/MappingStructStorageArgumentAliasSubStruct.sol.bpl(70,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]struct_storage_S#4)
+/tmp/tmpsf0wq_0f/MappingStructStorageArgumentAliasSubStruct.sol.bpl(74,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]struct_storage_S#4)
+5 type checking errors detected in /tmp/tmpsf0wq_0f/MappingStructStorageArgumentAliasSubStruct.sol.bpl
+
+Command exited with non-zero status 252
+0.31user 0.15system 0:00.47elapsed 98%CPU (0avgtext+0avgdata 33040maxresident)k
+0inputs+24outputs (0major+10273minor)pagefaults 0swaps

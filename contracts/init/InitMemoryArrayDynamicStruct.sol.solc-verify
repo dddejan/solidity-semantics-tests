@@ -1,0 +1,11 @@
+Running contracts/init/InitMemoryArrayDynamicStruct.sol
+InitMemoryArrayDynamicStruct::test: ERROR
+ - contracts/init/InitMemoryArrayDynamicStruct.sol:11:9: Assertion might not hold.
+ - contracts/init/InitMemoryArrayDynamicStruct.sol:12:9: Assertion might not hold.
+InitMemoryArrayDynamicStruct::truffleMain: OK
+InitMemoryArrayDynamicStruct::[implicit_constructor]: OK
+Use --show-warnings to see 1 warning.
+Errors were found by the verifier.
+Command exited with non-zero status 251
+0.64user 0.28system 0:00.90elapsed 103%CPU (0avgtext+0avgdata 41868maxresident)k
+0inputs+16outputs (0major+16782minor)pagefaults 0swaps

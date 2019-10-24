@@ -1,0 +1,10 @@
+Running contracts/assigment/AssignArrayDynamicMultiL2M.sol
+AssignArrayDynamicMultiL2M::truffleMain: OK
+AssignArrayDynamicMultiL2M::[implicit_constructor]: OK
+AssignArrayDynamicMultiL2M::locToMem: SKIPPED
+Use --show-warnings to see 2 warnings.
+Some functions were skipped. Use --verbose to see details.
+No errors found.
+Command exited with non-zero status 250
+0.63user 0.28system 0:00.88elapsed 103%CPU (0avgtext+0avgdata 41668maxresident)k
+0inputs+16outputs (0major+16396minor)pagefaults 0swaps

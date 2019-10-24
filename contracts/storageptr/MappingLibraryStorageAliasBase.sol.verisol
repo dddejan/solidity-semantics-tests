@@ -1,0 +1,9 @@
+Running contracts/storageptr/MappingLibraryStorageAliasBase.sol
+Command line args = {contracts/storageptr/MappingLibraryStorageAliasBase.sol, MappingLibraryStorageAliasBase}
+SpecFilesDir = /solc-verify-examples/contracts/storageptr
+... running Solc on /solc-verify-examples/contracts/storageptr/MappingLibraryStorageAliasBase.sol
+... running SolToBoogie to translate Solidity to Boogie
+... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
+	*** Proof found! Formal Verification successful! (see boogie.txt)
+1.43user 0.25system 0:01.73elapsed 97%CPU (0avgtext+0avgdata 54832maxresident)k
+0inputs+40outputs (0major+60504minor)pagefaults 0swaps

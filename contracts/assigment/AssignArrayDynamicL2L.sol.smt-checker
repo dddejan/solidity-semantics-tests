@@ -1,0 +1,115 @@
+Running contracts/assigment/AssignArrayDynamicL2L.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_2kFk:10:17: Warning: Assertion checker does not yet support this expression.
+        require(s1.length > 0);
+                ^-------^
+smt_checker_input_2kFk:11:17: Warning: Assertion checker does not yet support this expression.
+        require(s2.length > 0);
+                ^-------^
+smt_checker_input_2kFk:23:9: Warning: Assertion violation happens here
+        assert(sl2[0] == c);
+        ^-----------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564809813)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564809812)
+  c = (- 57896044618658097711785492504343953926634992332820282019728792003956564809811)
+  s1[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564809813)
+  s2[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564809812)
+  sl1[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564809811)
+  sl2[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564812249)
+
+Callstack: 
+
+smt_checker_input_2kFk:24:9: Warning: Assertion violation happens here
+        assert(s1[0] == a);
+        ^----------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564817685)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564817684)
+  c = (- 57896044618658097711785492504343953926634992332820282019728792003956564817683)
+  s1[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564817686)
+  s2[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564817684)
+  sl1[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564817683)
+  sl2[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564817683)
+
+Callstack: 
+
+smt_checker_input_2kFk:25:9: Warning: Assertion violation happens here
+        assert(s2[0] == c);
+        ^----------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564811870)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564811869)
+  c = (- 57896044618658097711785492504343953926634992332820282019728792003956564811868)
+  s1[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811870)
+  s2[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811867)
+  sl1[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811868)
+  sl2[0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811868)
+
+Callstack: 
+
+smt_checker_input_2kFk:30:9: Warning: Assertion checker does not yet implement this type of function call.
+        s1.push(-1);
+        ^---------^
+smt_checker_input_2kFk:31:9: Warning: Assertion checker does not yet implement this type of function call.
+        s2.push(-1);
+        ^---------^
+smt_checker_input_2kFk:10:17: Warning: Assertion checker does not yet support this expression.
+        require(s1.length > 0);
+                ^-------^
+smt_checker_input_2kFk:11:17: Warning: Assertion checker does not yet support this expression.
+        require(s2.length > 0);
+                ^-------^
+smt_checker_input_2kFk:23:9: Warning: Assertion violation happens here
+        assert(sl2[0] == c);
+        ^-----------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  s1[0] = 0
+  s2[0] = 1
+  sl1[0] = 2
+  sl2[0] = 3
+
+Callstack: 
+smt_checker_input_2kFk:32:9: 
+        locToLoc(0, 1, 2);
+        ^---------------^
+
+smt_checker_input_2kFk:24:9: Warning: Assertion violation happens here
+        assert(s1[0] == a);
+        ^----------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  s1[0] = (- 1)
+  s2[0] = 1
+  sl1[0] = 2
+  sl2[0] = 2
+
+Callstack: 
+smt_checker_input_2kFk:32:9: 
+        locToLoc(0, 1, 2);
+        ^---------------^
+
+smt_checker_input_2kFk:25:9: Warning: Assertion violation happens here
+        assert(s2[0] == c);
+        ^----------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  s1[0] = 0
+  s2[0] = 3
+  sl1[0] = 2
+  sl2[0] = 2
+
+Callstack: 
+smt_checker_input_2kFk:32:9: 
+        locToLoc(0, 1, 2);
+        ^---------------^
+
+0.17user 0.02system 0:00.20elapsed 100%CPU (0avgtext+0avgdata 48660maxresident)k
+0inputs+0outputs (0major+4116minor)pagefaults 0swaps

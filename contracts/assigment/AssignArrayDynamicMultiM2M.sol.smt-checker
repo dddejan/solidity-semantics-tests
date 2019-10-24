@@ -1,0 +1,154 @@
+Running contracts/assigment/AssignArrayDynamicMultiM2M.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_jO8R:9:30: Warning: Assertion checker does not yet implement this type of function call.
+        int[][] memory sm1 = new int[][](1);
+                             ^------------^
+smt_checker_input_jO8R:10:18: Warning: Assertion checker does not yet implement this type of function call.
+        sm1[0] = new int[](1);
+                 ^----------^
+smt_checker_input_jO8R:11:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        sm1[0][0] = a;
+        ^-------^
+smt_checker_input_jO8R:12:30: Warning: Assertion checker does not yet implement this type of function call.
+        int[][] memory sm2 = new int[][](1);
+                             ^------------^
+smt_checker_input_jO8R:13:18: Warning: Assertion checker does not yet implement this type of function call.
+        sm2[0] = new int[](1);
+                 ^----------^
+smt_checker_input_jO8R:14:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        sm2[0][0] = b;
+        ^-------^
+smt_checker_input_jO8R:22:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        sm1[0][0] = c;
+        ^-------^
+smt_checker_input_jO8R:15:9: Warning: Assertion violation happens here
+        assert(sm1[0][0] == a);
+        ^--------------------^
+  for:
+  a = 0
+  b = 2
+  c = 1
+  sm1[0][0] = (- 1)
+  sm2[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564812249)
+
+Callstack: 
+
+smt_checker_input_jO8R:16:9: Warning: Assertion violation happens here
+        assert(sm2[0][0] == b);
+        ^--------------------^
+  for:
+  a = (- 1)
+  b = 1
+  c = 0
+  sm1[0][0] = (- 1)
+  sm2[0][0] = 2
+
+Callstack: 
+
+smt_checker_input_jO8R:23:9: Warning: Assertion violation happens here
+        assert(sm1[0][0] == c);
+        ^--------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564817078)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564817077)
+  c = (- 57896044618658097711785492504343953926634992332820282019728792003956564817076)
+  sm1[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819359)
+  sm2[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564817077)
+
+Callstack: 
+
+smt_checker_input_jO8R:24:9: Warning: Assertion violation happens here
+        assert(sm2[0][0] == c);
+        ^--------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564818826)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564818825)
+  c = (- 57896044618658097711785492504343953926634992332820282019728792003956564818824)
+  sm1[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818824)
+  sm2[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818825)
+
+Callstack: 
+
+smt_checker_input_jO8R:9:30: Warning: Assertion checker does not yet implement this type of function call.
+        int[][] memory sm1 = new int[][](1);
+                             ^------------^
+smt_checker_input_jO8R:10:18: Warning: Assertion checker does not yet implement this type of function call.
+        sm1[0] = new int[](1);
+                 ^----------^
+smt_checker_input_jO8R:11:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        sm1[0][0] = a;
+        ^-------^
+smt_checker_input_jO8R:12:30: Warning: Assertion checker does not yet implement this type of function call.
+        int[][] memory sm2 = new int[][](1);
+                             ^------------^
+smt_checker_input_jO8R:13:18: Warning: Assertion checker does not yet implement this type of function call.
+        sm2[0] = new int[](1);
+                 ^----------^
+smt_checker_input_jO8R:14:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        sm2[0][0] = b;
+        ^-------^
+smt_checker_input_jO8R:22:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        sm1[0][0] = c;
+        ^-------^
+smt_checker_input_jO8R:15:9: Warning: Assertion violation happens here
+        assert(sm1[0][0] == a);
+        ^--------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  sm1[0][0] = (- 1)
+  sm2[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564814048)
+
+Callstack: 
+smt_checker_input_jO8R:29:9: 
+        memToMem(0, 1, 2);
+        ^---------------^
+
+smt_checker_input_jO8R:16:9: Warning: Assertion violation happens here
+        assert(sm2[0][0] == b);
+        ^--------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  sm1[0][0] = 0
+  sm2[0][0] = 2
+
+Callstack: 
+smt_checker_input_jO8R:29:9: 
+        memToMem(0, 1, 2);
+        ^---------------^
+
+smt_checker_input_jO8R:23:9: Warning: Assertion violation happens here
+        assert(sm1[0][0] == c);
+        ^--------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  sm1[0][0] = 3
+  sm2[0][0] = 1
+
+Callstack: 
+smt_checker_input_jO8R:29:9: 
+        memToMem(0, 1, 2);
+        ^---------------^
+
+smt_checker_input_jO8R:24:9: Warning: Assertion violation happens here
+        assert(sm2[0][0] == c);
+        ^--------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  sm1[0][0] = 2
+  sm2[0][0] = 1
+
+Callstack: 
+smt_checker_input_jO8R:29:9: 
+        memToMem(0, 1, 2);
+        ^---------------^
+
+0.18user 0.02system 0:00.21elapsed 100%CPU (0avgtext+0avgdata 47284maxresident)k
+0inputs+0outputs (0major+3721minor)pagefaults 0swaps

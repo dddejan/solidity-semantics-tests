@@ -1,0 +1,7 @@
+Running contracts/storage/MappingStructStorageNoAliasSubArrayFixedSize.sol
+MappingStructStorageNoAliasSubArrayFixedSize::test: OK
+MappingStructStorageNoAliasSubArrayFixedSize::truffleMain: OK
+MappingStructStorageNoAliasSubArrayFixedSize::[implicit_constructor]: OK
+No errors found.
+0.70user 0.21system 0:00.88elapsed 103%CPU (0avgtext+0avgdata 41716maxresident)k
+0inputs+24outputs (0major+16593minor)pagefaults 0swaps

@@ -1,0 +1,127 @@
+Running contracts/assigment/AssignTupleStructMM2MM.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_JFPc:8:5: Warning: Function state mutability can be restricted to pure
+    function assign(int a, int b) public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+smt_checker_input_JFPc:10:9: Warning: Assertion checker does not yet support the type of this variable.
+        S memory sm1 = S(a);
+        ^----------^
+smt_checker_input_JFPc:11:9: Warning: Assertion checker does not yet support the type of this variable.
+        S memory sm2 = S(b);
+        ^----------^
+smt_checker_input_JFPc:10:24: Warning: Assertion checker does not yet implement type struct AssignTupleStructMM2MM.S memory
+        S memory sm1 = S(a);
+                       ^--^
+smt_checker_input_JFPc:10:24: Warning: Assertion checker does not yet implement this expression.
+        S memory sm1 = S(a);
+                       ^--^
+smt_checker_input_JFPc:11:24: Warning: Assertion checker does not yet implement type struct AssignTupleStructMM2MM.S memory
+        S memory sm2 = S(b);
+                       ^--^
+smt_checker_input_JFPc:11:24: Warning: Assertion checker does not yet implement this expression.
+        S memory sm2 = S(b);
+                       ^--^
+smt_checker_input_JFPc:12:23: Warning: Assertion checker does not yet implement type struct AssignTupleStructMM2MM.S memory
+        (sm1, sm2) = (sm2, sm1); // Checking this assignment
+                      ^-^
+smt_checker_input_JFPc:12:28: Warning: Assertion checker does not yet implement type struct AssignTupleStructMM2MM.S memory
+        (sm1, sm2) = (sm2, sm1); // Checking this assignment
+                           ^-^
+smt_checker_input_JFPc:12:10: Warning: Assertion checker does not yet implement type struct AssignTupleStructMM2MM.S memory
+        (sm1, sm2) = (sm2, sm1); // Checking this assignment
+         ^-^
+smt_checker_input_JFPc:12:15: Warning: Assertion checker does not yet implement type struct AssignTupleStructMM2MM.S memory
+        (sm1, sm2) = (sm2, sm1); // Checking this assignment
+              ^-^
+smt_checker_input_JFPc:13:16: Warning: Assertion checker does not yet support this expression.
+        assert(sm1.x == b);
+               ^---^
+smt_checker_input_JFPc:13:16: Warning: Assertion checker does not yet implement type struct AssignTupleStructMM2MM.S memory
+        assert(sm1.x == b);
+               ^-^
+smt_checker_input_JFPc:14:16: Warning: Assertion checker does not yet support this expression.
+        assert(sm2.x == a);
+               ^---^
+smt_checker_input_JFPc:14:16: Warning: Assertion checker does not yet implement type struct AssignTupleStructMM2MM.S memory
+        assert(sm2.x == a);
+               ^-^
+smt_checker_input_JFPc:13:9: Warning: Assertion violation happens here
+        assert(sm1.x == b);
+        ^----------------^
+  for:
+  a = 1
+  b = 0
+
+Callstack: 
+
+smt_checker_input_JFPc:14:9: Warning: Assertion violation happens here
+        assert(sm2.x == a);
+        ^----------------^
+  for:
+  a = 0
+  b = 1
+
+Callstack: 
+
+smt_checker_input_JFPc:10:24: Warning: Assertion checker does not yet implement type struct AssignTupleStructMM2MM.S memory
+        S memory sm1 = S(a);
+                       ^--^
+smt_checker_input_JFPc:10:24: Warning: Assertion checker does not yet implement this expression.
+        S memory sm1 = S(a);
+                       ^--^
+smt_checker_input_JFPc:11:24: Warning: Assertion checker does not yet implement type struct AssignTupleStructMM2MM.S memory
+        S memory sm2 = S(b);
+                       ^--^
+smt_checker_input_JFPc:11:24: Warning: Assertion checker does not yet implement this expression.
+        S memory sm2 = S(b);
+                       ^--^
+smt_checker_input_JFPc:12:23: Warning: Assertion checker does not yet implement type struct AssignTupleStructMM2MM.S memory
+        (sm1, sm2) = (sm2, sm1); // Checking this assignment
+                      ^-^
+smt_checker_input_JFPc:12:28: Warning: Assertion checker does not yet implement type struct AssignTupleStructMM2MM.S memory
+        (sm1, sm2) = (sm2, sm1); // Checking this assignment
+                           ^-^
+smt_checker_input_JFPc:12:10: Warning: Assertion checker does not yet implement type struct AssignTupleStructMM2MM.S memory
+        (sm1, sm2) = (sm2, sm1); // Checking this assignment
+         ^-^
+smt_checker_input_JFPc:12:15: Warning: Assertion checker does not yet implement type struct AssignTupleStructMM2MM.S memory
+        (sm1, sm2) = (sm2, sm1); // Checking this assignment
+              ^-^
+smt_checker_input_JFPc:13:16: Warning: Assertion checker does not yet support this expression.
+        assert(sm1.x == b);
+               ^---^
+smt_checker_input_JFPc:13:16: Warning: Assertion checker does not yet implement type struct AssignTupleStructMM2MM.S memory
+        assert(sm1.x == b);
+               ^-^
+smt_checker_input_JFPc:14:16: Warning: Assertion checker does not yet support this expression.
+        assert(sm2.x == a);
+               ^---^
+smt_checker_input_JFPc:14:16: Warning: Assertion checker does not yet implement type struct AssignTupleStructMM2MM.S memory
+        assert(sm2.x == a);
+               ^-^
+smt_checker_input_JFPc:13:9: Warning: Assertion violation happens here
+        assert(sm1.x == b);
+        ^----------------^
+  for:
+  a = 1
+  b = 2
+
+Callstack: 
+smt_checker_input_JFPc:19:9: 
+        assign(1, 2);
+        ^----------^
+
+smt_checker_input_JFPc:14:9: Warning: Assertion violation happens here
+        assert(sm2.x == a);
+        ^----------------^
+  for:
+  a = 1
+  b = 2
+
+Callstack: 
+smt_checker_input_JFPc:19:9: 
+        assign(1, 2);
+        ^----------^
+
+0.04user 0.01system 0:00.05elapsed 100%CPU (0avgtext+0avgdata 41452maxresident)k
+0inputs+0outputs (0major+2583minor)pagefaults 0swaps

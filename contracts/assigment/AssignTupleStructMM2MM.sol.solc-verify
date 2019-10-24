@@ -1,0 +1,8 @@
+Running contracts/assigment/AssignTupleStructMM2MM.sol
+AssignTupleStructMM2MM::assign: OK
+AssignTupleStructMM2MM::truffleMain: OK
+AssignTupleStructMM2MM::[implicit_constructor]: OK
+Use --show-warnings to see 1 warning.
+No errors found.
+0.69user 0.24system 0:00.92elapsed 101%CPU (0avgtext+0avgdata 41528maxresident)k
+0inputs+16outputs (0major+16174minor)pagefaults 0swaps

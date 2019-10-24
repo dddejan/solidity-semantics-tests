@@ -1,0 +1,8 @@
+Running contracts/init/InitMemoryArrayFixedSizeStruct.sol
+InitMemoryArrayFixedSizeStruct::[constructor]: ERROR
+ - contracts/init/InitMemoryArrayFixedSizeStruct.sol:9:9: Assertion might not hold.
+InitMemoryArrayFixedSizeStruct::truffleMain: OK
+Errors were found by the verifier.
+Command exited with non-zero status 251
+0.62user 0.28system 0:00.87elapsed 103%CPU (0avgtext+0avgdata 41872maxresident)k
+0inputs+24outputs (0major+16646minor)pagefaults 0swaps

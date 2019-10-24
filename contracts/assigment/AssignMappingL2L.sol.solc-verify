@@ -1,0 +1,10 @@
+Running contracts/assigment/AssignMappingL2L.sol
+AssignMappingL2L::truffleMain: OK
+AssignMappingL2L::[implicit_constructor]: OK
+AssignMappingL2L::locToLoc: SKIPPED
+Use --show-warnings to see 1 warning.
+Some functions were skipped. Use --verbose to see details.
+No errors found.
+Command exited with non-zero status 250
+0.61user 0.24system 0:00.83elapsed 103%CPU (0avgtext+0avgdata 40708maxresident)k
+0inputs+16outputs (0major+16191minor)pagefaults 0swaps

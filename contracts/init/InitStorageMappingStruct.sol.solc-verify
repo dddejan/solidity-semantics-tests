@@ -1,0 +1,6 @@
+Running contracts/init/InitStorageMappingStruct.sol
+InitStorageMappingStruct::[constructor]: OK
+InitStorageMappingStruct::truffleMain: OK
+No errors found.
+0.64user 0.23system 0:00.85elapsed 103%CPU (0avgtext+0avgdata 41248maxresident)k
+0inputs+16outputs (0major+16183minor)pagefaults 0swaps

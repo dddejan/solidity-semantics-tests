@@ -1,0 +1,5 @@
+Running contracts/assigment/AssignTupleArrayDynamicMM2MM.sol
+The analysis was completed successfully. No issues were detected.
+
+5.82user 1.78system 0:06.03elapsed 126%CPU (0avgtext+0avgdata 96472maxresident)k
+0inputs+24368outputs (0major+36991minor)pagefaults 0swaps

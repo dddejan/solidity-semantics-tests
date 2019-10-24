@@ -1,0 +1,121 @@
+Running contracts/storageptr/MappingArrayFixedSizeLibraryStorageNoAliasBase.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_hxC0:10:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        a[msg.sender][1] = a[msg.sender][1] + b[msg.sender][1];
+        ^--------------^
+smt_checker_input_hxC0:11:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        b[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
+        ^--------------^
+smt_checker_input_hxC0:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        a[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
+        ^--------------^
+smt_checker_input_hxC0:10:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+        a[msg.sender][1] = a[msg.sender][1] + b[msg.sender][1];
+                           ^---------------------------------^
+  for:
+  <result> = (- 57896044618658097711785492504343953926634992332820282019728792003956564819969)
+  a[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819968)
+  a_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564819968)
+  b[msg.sender][1] = (- 1)
+  b_old = (- 1)
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_hxC0:10:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        a[msg.sender][1] = a[msg.sender][1] + b[msg.sender][1];
+                           ^---------------------------------^
+  for:
+  <result> = 0x80 * 2**248
+  a[msg.sender][1] = 0x3FFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFf737
+  a_old = 0x3FFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFf737
+  b[msg.sender][1] = 0x40000000000000000000000000000000000000000000000000000000000008c9
+  b_old = 0x40000000000000000000000000000000000000000000000000000000000008c9
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_hxC0:11:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+        b[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
+                           ^---------------------------------^
+  for:
+  <result> = (- 57896044618658097711785492504343953926634992332820282019728792003956564819969)
+  a[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819433)
+  a_old = 0
+  b[msg.sender][1] = 536
+  b_old = 536
+  msg.sender = 5920
+
+Callstack: 
+
+smt_checker_input_hxC0:11:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        b[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
+                           ^---------------------------------^
+  for:
+  <result> = 0x80 * 2**248
+  a[msg.sender][1] = 0x80 * 2**248 - 1
+  a_old = 0
+  b[msg.sender][1] = (- 1)
+  b_old = (- 1)
+  msg.sender = 8945
+
+Callstack: 
+
+smt_checker_input_hxC0:12:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+        a[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
+                           ^---------------------------------^
+  for:
+  <result> = (- 57896044618658097711785492504343953926634992332820282019728792003956564819969)
+  a[msg.sender][1] = (- 2)
+  a_old = 0x80 * 2**248 - 1
+  b[msg.sender][1] = 0x80 * 2**248 - 1
+  b_old = 0
+  msg.sender = 6283
+
+Callstack: 
+
+smt_checker_input_hxC0:12:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        a[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
+                           ^---------------------------------^
+  for:
+  <result> = 0x80 * 2**248
+  a[msg.sender][1] = 0
+  a_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564819968)
+  b[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819968)
+  b_old = 5904
+  msg.sender = 1653
+
+Callstack: 
+
+smt_checker_input_hxC0:13:9: Warning: Assertion violation happens here
+        assert(a[msg.sender][1] == b_old); // no alias => swap correct
+        ^-------------------------------^
+  for:
+  a[msg.sender][1] = 0
+  a_old = 2891
+  b[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811089)
+  b_old = 2892
+  msg.sender = 2455
+
+Callstack: 
+
+smt_checker_input_hxC0:14:9: Warning: Assertion violation happens here
+        assert(b[msg.sender][1] == a_old); // no alias => swap correct
+        ^-------------------------------^
+  for:
+  a[msg.sender][1] = (- 28948022309329048855892746252171976963317496166410141009864396001978282402918)
+  a_old = (- 28948022309329048855892746252171976963317496166410141009864396001978282402919)
+  b[msg.sender][1] = (- 28948022309329048855892746252171976963317496166410141009864396001978282402920)
+  b_old = (- 28948022309329048855892746252171976963317496166410141009864396001978282402918)
+  msg.sender = 7629
+
+Callstack: 
+
+smt_checker_input_hxC0:25:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s1[msg.sender][1] = 1;
+        ^---------------^
+smt_checker_input_hxC0:26:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s2[msg.sender][1] = 2;
+        ^---------------^
+0.19user 0.02system 0:00.22elapsed 99%CPU (0avgtext+0avgdata 40140maxresident)k
+0inputs+0outputs (0major+2306minor)pagefaults 0swaps

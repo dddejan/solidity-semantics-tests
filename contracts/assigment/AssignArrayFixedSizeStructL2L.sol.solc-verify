@@ -1,0 +1,7 @@
+Running contracts/assigment/AssignArrayFixedSizeStructL2L.sol
+AssignArrayFixedSizeStructL2L::locToLoc: OK
+AssignArrayFixedSizeStructL2L::truffleMain: OK
+AssignArrayFixedSizeStructL2L::[implicit_constructor]: OK
+No errors found.
+0.62user 0.29system 0:00.88elapsed 103%CPU (0avgtext+0avgdata 42864maxresident)k
+0inputs+24outputs (0major+17008minor)pagefaults 0swaps

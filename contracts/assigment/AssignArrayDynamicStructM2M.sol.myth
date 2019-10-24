@@ -1,0 +1,5 @@
+Running contracts/assigment/AssignArrayDynamicStructM2M.sol
+The analysis was completed successfully. No issues were detected.
+
+10.55user 3.80system 0:10.63elapsed 135%CPU (0avgtext+0avgdata 102572maxresident)k
+0inputs+24368outputs (0major+39214minor)pagefaults 0swaps

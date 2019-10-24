@@ -1,0 +1,9 @@
+Running contracts/assigment/AssignStructArrayDynamicMultiS2L.sol
+Command line args = {contracts/assigment/AssignStructArrayDynamicMultiS2L.sol, AssignStructArrayDynamicMultiS2L}
+SpecFilesDir = /solc-verify-examples/contracts/assigment
+... running Solc on /solc-verify-examples/contracts/assigment/AssignStructArrayDynamicMultiS2L.sol
+... running SolToBoogie to translate Solidity to Boogie
+VeriSol translation error: File /solc-verify-examples/contracts/assigment/AssignStructArrayDynamicMultiS2L.sol, Line 10, Contract AssignStructArrayDynamicMultiS2L, Function truffleMain:: ....
+Command exited with non-zero status 1
+0.75user 0.12system 0:00.96elapsed 90%CPU (0avgtext+0avgdata 59620maxresident)k
+0inputs+0outputs (0major+27409minor)pagefaults 0swaps

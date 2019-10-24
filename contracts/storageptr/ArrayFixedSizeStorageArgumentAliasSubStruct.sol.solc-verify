@@ -1,0 +1,6 @@
+Running contracts/storageptr/ArrayFixedSizeStorageArgumentAliasSubStruct.sol
+ArrayFixedSizeStorageArgumentAliasSubStruct::truffleMain: OK
+ArrayFixedSizeStorageArgumentAliasSubStruct::[implicit_constructor]: OK
+No errors found.
+0.73user 0.22system 0:00.93elapsed 102%CPU (0avgtext+0avgdata 43340maxresident)k
+0inputs+24outputs (0major+16946minor)pagefaults 0swaps

@@ -1,0 +1,115 @@
+Running contracts/assigment/AssignMappingL2L.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_M4Xj:21:9: Warning: Assertion violation happens here
+        assert(sl2[msg.sender] == c);
+        ^--------------------------^
+  for:
+  a = 1235
+  b = 1236
+  c = 1237
+  msg.sender = 1796
+  s1[msg.sender] = 1235
+  s2[msg.sender] = 1236
+  sl1[msg.sender] = 1237
+  sl2[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811603)
+
+Callstack: 
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+smt_checker_input_M4Xj:22:9: Warning: Assertion violation happens here
+        assert(s1[msg.sender] == a);
+        ^-------------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564819519)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564819518)
+  c = (- 57896044618658097711785492504343953926634992332820282019728792003956564819517)
+  msg.sender = 8098
+  s1[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818376)
+  s2[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819518)
+  sl1[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819517)
+  sl2[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819517)
+
+Callstack: 
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+smt_checker_input_M4Xj:23:9: Warning: Assertion violation happens here
+        assert(s2[msg.sender] == c);
+        ^-------------------------^
+  for:
+  a = (- 57896044618658097711785492504343953926634992332820282019728792003956564811023)
+  b = (- 57896044618658097711785492504343953926634992332820282019728792003956564811022)
+  c = (- 57896044618658097711785492504343953926634992332820282019728792003956564811021)
+  msg.sender = 5920
+  s1[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811023)
+  s2[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811020)
+  sl1[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811021)
+  sl2[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811021)
+
+Callstack: 
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+smt_checker_input_M4Xj:21:9: Warning: Assertion violation happens here
+        assert(sl2[msg.sender] == c);
+        ^--------------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  msg.sender = 4679
+  s1[msg.sender] = 0
+  s2[msg.sender] = 1
+  sl1[msg.sender] = 2
+  sl2[msg.sender] = 3
+
+Callstack: 
+smt_checker_input_M4Xj:28:9: 
+        locToLoc(0, 1, 2);
+        ^---------------^
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+smt_checker_input_M4Xj:22:9: Warning: Assertion violation happens here
+        assert(s1[msg.sender] == a);
+        ^-------------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  msg.sender = 5904
+  s1[msg.sender] = 975
+  s2[msg.sender] = 1
+  sl1[msg.sender] = 2
+  sl2[msg.sender] = 2
+
+Callstack: 
+smt_checker_input_M4Xj:28:9: 
+        locToLoc(0, 1, 2);
+        ^---------------^
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+smt_checker_input_M4Xj:23:9: Warning: Assertion violation happens here
+        assert(s2[msg.sender] == c);
+        ^-------------------------^
+  for:
+  a = 0
+  b = 1
+  c = 2
+  msg.sender = 8879
+  s1[msg.sender] = 0
+  s2[msg.sender] = 3
+  sl1[msg.sender] = 2
+  sl2[msg.sender] = 2
+
+Callstack: 
+smt_checker_input_M4Xj:28:9: 
+        locToLoc(0, 1, 2);
+        ^---------------^
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+0.14user 0.03system 0:00.18elapsed 100%CPU (0avgtext+0avgdata 49176maxresident)k
+0inputs+0outputs (0major+4136minor)pagefaults 0swaps

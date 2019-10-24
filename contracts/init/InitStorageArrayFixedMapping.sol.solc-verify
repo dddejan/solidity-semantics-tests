@@ -1,0 +1,6 @@
+Running contracts/init/InitStorageArrayFixedMapping.sol
+InitStorageArrayFixedMapping::[constructor]: OK
+InitStorageArrayFixedMapping::truffleMain: OK
+No errors found.
+0.63user 0.21system 0:00.81elapsed 103%CPU (0avgtext+0avgdata 41208maxresident)k
+0inputs+16outputs (0major+16573minor)pagefaults 0swaps

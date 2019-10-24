@@ -1,0 +1,9 @@
+Running contracts/init/InitMemoryArrayFixedSize.sol
+InitMemoryArrayFixedSize::test: ERROR
+ - contracts/init/InitMemoryArrayFixedSize.sol:6:9: Assertion might not hold.
+InitMemoryArrayFixedSize::truffleMain: OK
+InitMemoryArrayFixedSize::[implicit_constructor]: OK
+Errors were found by the verifier.
+Command exited with non-zero status 251
+0.63user 0.24system 0:00.87elapsed 101%CPU (0avgtext+0avgdata 41564maxresident)k
+0inputs+16outputs (0major+16327minor)pagefaults 0swaps

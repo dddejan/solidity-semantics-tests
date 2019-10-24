@@ -1,0 +1,30 @@
+Running contracts/delete/DeleteMemoryArrayFixedSize.sol
+==== Exception State ====
+SWC ID: 110
+Severity: Low
+Contract: DeleteMemoryArrayFixedSize
+Function name: test()
+PC address: 135
+Estimated Gas Usage: 465 - 5637
+A reachable exception has been detected.
+It is possible to trigger an exception (opcode 0xfe). Exceptions can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. Note that explicit `assert()` should only be used to check invariants. Use `require()` for regular input checking.
+--------------------
+In file: contracts/delete/DeleteMemoryArrayFixedSize.sol:9
+
+assert(a[0] == 0)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x1, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
+Account: [SOMEGUY], balance: 0x0, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], data: 0x608060405234801561001057600080fd5b5060fb8061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c8063bbac8963146037578063f8a8fd6d14603f575b600080fd5b603d6047565b005b6045604f565b005b604d604f565b565b605560a4565b60028014605e57fe5b606460a4565b905060028014606f57fe5b600081600060028110607d57fe5b602002015114608857fe5b600081600160028110609657fe5b60200201511460a157fe5b50565b604051806040016040528060029060208202803883398082019150509050509056fea265627a7a723158208a28862ba9be5e7dc896055d613e2161f714a9e5ff8c8cba0d1185dbda8d911d64736f6c634300050c0032, value: 0x0
+Caller: [CREATOR], function: test(), txdata: 0xf8a8fd6d, value: 0x0
+
+
+3.73user 1.08system 0:03.89elapsed 123%CPU (0avgtext+0avgdata 94956maxresident)k
+0inputs+24280outputs (0major+34716minor)pagefaults 0swaps

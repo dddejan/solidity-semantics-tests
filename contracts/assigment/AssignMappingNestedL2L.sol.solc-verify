@@ -1,0 +1,10 @@
+Running contracts/assigment/AssignMappingNestedL2L.sol
+AssignMappingNestedL2L::truffleMain: OK
+AssignMappingNestedL2L::[implicit_constructor]: OK
+AssignMappingNestedL2L::locToLoc: SKIPPED
+Use --show-warnings to see 1 warning.
+Some functions were skipped. Use --verbose to see details.
+No errors found.
+Command exited with non-zero status 250
+0.60user 0.24system 0:00.81elapsed 102%CPU (0avgtext+0avgdata 40888maxresident)k
+0inputs+16outputs (0major+16208minor)pagefaults 0swaps

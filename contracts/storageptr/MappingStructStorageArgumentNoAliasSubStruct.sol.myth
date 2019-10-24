@@ -1,0 +1,5 @@
+Running contracts/storageptr/MappingStructStorageArgumentNoAliasSubStruct.sol
+The analysis was completed successfully. No issues were detected.
+
+3.57user 0.40system 0:03.86elapsed 103%CPU (0avgtext+0avgdata 81260maxresident)k
+0inputs+24304outputs (0major+31898minor)pagefaults 0swaps

@@ -1,0 +1,132 @@
+Running contracts/storageptr/ArrayFixedSizeLibraryStorageAliasBase.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_5WFG:11:16: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        a[1] = b[1] + 1;
+               ^------^
+  for:
+  <result> = 0x80 * 2**248
+  a[1] = 0
+  a_b_alias = false
+  a_old = 0
+  b[1] = 0x80 * 2**248 - 1
+  b_old = 0x80 * 2**248 - 1
+
+Callstack: 
+
+smt_checker_input_5WFG:12:30: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        a_b_alias = (b[1] == b_old + 1);
+                             ^-------^
+  for:
+  <result> = 0x80 * 2**248
+  a[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819968)
+  a_b_alias = false
+  a_old = 0
+  b[1] = 1323
+  b_old = 0x80 * 2**248 - 1
+
+Callstack: 
+
+smt_checker_input_5WFG:15:16: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+        a[1] = a[1] + b[1];
+               ^---------^
+  for:
+  <result> = (- 115792089237316195423570985008687907853269984665640564039457584007913129638968)
+  a[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819377)
+  a_b_alias = false
+  a_old = 0
+  b[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819591)
+  b_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564819378)
+
+Callstack: 
+
+smt_checker_input_5WFG:15:16: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        a[1] = a[1] + b[1];
+               ^---------^
+  for:
+  <result> = 0x80000000000000000000000000000000000000000000000000000000000005e8
+  a[1] = 0x40000000000000000000000000000000000000000000000000000000000002f3
+  a_b_alias = false
+  a_old = 0
+  b[1] = 0x40000000000000000000000000000000000000000000000000000000000002f5
+  b_old = 0x40000000000000000000000000000000000000000000000000000000000002f2
+
+Callstack: 
+
+smt_checker_input_5WFG:16:16: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+        b[1] = a[1] - b[1];
+               ^---------^
+  for:
+  <result> = (- 115792089237316195423570985008687907853269984665640564039457584007913129633954)
+  a[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819968)
+  a_b_alias = false
+  a_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564816945)
+  b[1] = 0x7FFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFe8a2
+  b_old = (- 28948022309329048855892746252171976963317496166410141009864396001978282409986)
+
+Callstack: 
+
+smt_checker_input_5WFG:16:16: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        b[1] = a[1] - b[1];
+               ^---------^
+  for:
+  <result> = 0xFFFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFf574
+  a[1] = 0x7FFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFf574
+  a_b_alias = false
+  a_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564817733)
+  b[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819968)
+  b_old = (- 2700)
+
+Callstack: 
+
+smt_checker_input_5WFG:17:16: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+        a[1] = a[1] - b[1];
+               ^---------^
+  for:
+  <result> = (- 115792089237316195423570985008687907853269984665640564039457584007913129634890)
+  a[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564814923)
+  a_b_alias = false
+  a_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564812445)
+  b[1] = 0x80 * 2**248 - 1
+  b_old = 0x7FFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFe741
+
+Callstack: 
+
+smt_checker_input_5WFG:17:16: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        a[1] = a[1] - b[1];
+               ^---------^
+  for:
+  <result> = 0x80 * 2**248
+  a[1] = 1
+  a_b_alias = false
+  a_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564819757)
+  b[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819967)
+  b_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564819966)
+
+Callstack: 
+
+smt_checker_input_5WFG:18:9: Warning: Assertion violation happens here
+        assert(!a_b_alias || a[1] == 0); // alias => zero
+        ^-----------------------------^
+  for:
+  a[1] = (- 18910)
+  a_b_alias = true
+  a_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564814502)
+  b[1] = 18910
+  b_old = (- 28948022309329048855892746252171976963317496166410141009864396001978282395351)
+
+Callstack: 
+
+smt_checker_input_5WFG:19:9: Warning: Assertion violation happens here
+        assert(!a_b_alias || b[1] == 0); // alias => zero
+        ^-----------------------------^
+  for:
+  a[1] = 0
+  a_b_alias = true
+  a_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564815737)
+  b[1] = 9097
+  b_old = (- 28948022309329048855892746252171976963317496166410141009864396001978282404108)
+
+Callstack: 
+
+0.56user 0.11system 0:00.68elapsed 99%CPU (0avgtext+0avgdata 44568maxresident)k
+0inputs+0outputs (0major+3383minor)pagefaults 0swaps

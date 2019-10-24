@@ -1,0 +1,7 @@
+Running contracts/storageptr/ArrayFixedSizeStoragePointerArrayPop.sol
+ArrayFixedSizeStoragePointerArrayPop::test: OK
+ArrayFixedSizeStoragePointerArrayPop::truffleMain: OK
+ArrayFixedSizeStoragePointerArrayPop::[implicit_constructor]: OK
+No errors found.
+0.68user 0.24system 0:00.91elapsed 102%CPU (0avgtext+0avgdata 42552maxresident)k
+0inputs+24outputs (0major+16732minor)pagefaults 0swaps

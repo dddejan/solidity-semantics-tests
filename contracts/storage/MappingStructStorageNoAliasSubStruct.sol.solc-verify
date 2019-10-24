@@ -1,0 +1,7 @@
+Running contracts/storage/MappingStructStorageNoAliasSubStruct.sol
+MappingStructStorageNoAliasSubStruct::test: OK
+MappingStructStorageNoAliasSubStruct::truffleMain: OK
+MappingStructStorageNoAliasSubStruct::[implicit_constructor]: OK
+No errors found.
+0.68user 0.22system 0:00.88elapsed 102%CPU (0avgtext+0avgdata 41692maxresident)k
+0inputs+16outputs (0major+16580minor)pagefaults 0swaps

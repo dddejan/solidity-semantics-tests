@@ -1,0 +1,211 @@
+Running contracts/storageptr/MappingStructStorageArgumentNoAliasBase.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_f9W2:13:17: Warning: Assertion checker does not yet support this expression.
+        require(s1ref[msg.sender].x != s2ref[msg.sender].x);
+                ^-----------------^
+smt_checker_input_f9W2:13:17: Warning: Assertion checker does not yet implement type struct MappingStructStorageArgumentNoAliasBase.S storage ref
+        require(s1ref[msg.sender].x != s2ref[msg.sender].x);
+                ^---------------^
+smt_checker_input_f9W2:13:40: Warning: Assertion checker does not yet support this expression.
+        require(s1ref[msg.sender].x != s2ref[msg.sender].x);
+                                       ^-----------------^
+smt_checker_input_f9W2:13:40: Warning: Assertion checker does not yet implement type struct MappingStructStorageArgumentNoAliasBase.S storage ref
+        require(s1ref[msg.sender].x != s2ref[msg.sender].x);
+                                       ^---------------^
+smt_checker_input_f9W2:14:9: Warning: Assertion checker does not yet support this expression.
+        s1ref[msg.sender].x = a;
+        ^-----------------^
+smt_checker_input_f9W2:14:9: Warning: Assertion checker does not yet implement type struct MappingStructStorageArgumentNoAliasBase.S storage ref
+        s1ref[msg.sender].x = a;
+        ^---------------^
+smt_checker_input_f9W2:14:9: Warning: Assertion checker does not yet implement such assignments.
+        s1ref[msg.sender].x = a;
+        ^---------------------^
+smt_checker_input_f9W2:15:9: Warning: Assertion checker does not yet support this expression.
+        s2ref[msg.sender].x = b;
+        ^-----------------^
+smt_checker_input_f9W2:15:9: Warning: Assertion checker does not yet implement type struct MappingStructStorageArgumentNoAliasBase.S storage ref
+        s2ref[msg.sender].x = b;
+        ^---------------^
+smt_checker_input_f9W2:15:9: Warning: Assertion checker does not yet implement such assignments.
+        s2ref[msg.sender].x = b;
+        ^---------------------^
+smt_checker_input_f9W2:16:16: Warning: Assertion checker does not yet support this expression.
+        assert(s1[msg.sender].x != s2[msg.sender].x);
+               ^--------------^
+smt_checker_input_f9W2:16:16: Warning: Assertion checker does not yet implement type struct MappingStructStorageArgumentNoAliasBase.S storage ref
+        assert(s1[msg.sender].x != s2[msg.sender].x);
+               ^------------^
+smt_checker_input_f9W2:16:36: Warning: Assertion checker does not yet support this expression.
+        assert(s1[msg.sender].x != s2[msg.sender].x);
+                                   ^--------------^
+smt_checker_input_f9W2:16:36: Warning: Assertion checker does not yet implement type struct MappingStructStorageArgumentNoAliasBase.S storage ref
+        assert(s1[msg.sender].x != s2[msg.sender].x);
+                                   ^------------^
+smt_checker_input_f9W2:17:16: Warning: Assertion checker does not yet support this expression.
+        assert(s1[msg.sender].x == a || s1[msg.sender].x == b);
+               ^--------------^
+smt_checker_input_f9W2:17:16: Warning: Assertion checker does not yet implement type struct MappingStructStorageArgumentNoAliasBase.S storage ref
+        assert(s1[msg.sender].x == a || s1[msg.sender].x == b);
+               ^------------^
+smt_checker_input_f9W2:17:41: Warning: Assertion checker does not yet support this expression.
+        assert(s1[msg.sender].x == a || s1[msg.sender].x == b);
+                                        ^--------------^
+smt_checker_input_f9W2:17:41: Warning: Assertion checker does not yet implement type struct MappingStructStorageArgumentNoAliasBase.S storage ref
+        assert(s1[msg.sender].x == a || s1[msg.sender].x == b);
+                                        ^------------^
+smt_checker_input_f9W2:18:16: Warning: Assertion checker does not yet support this expression.
+        assert(s2[msg.sender].x == a || s2[msg.sender].x == b);
+               ^--------------^
+smt_checker_input_f9W2:18:16: Warning: Assertion checker does not yet implement type struct MappingStructStorageArgumentNoAliasBase.S storage ref
+        assert(s2[msg.sender].x == a || s2[msg.sender].x == b);
+               ^------------^
+smt_checker_input_f9W2:18:41: Warning: Assertion checker does not yet support this expression.
+        assert(s2[msg.sender].x == a || s2[msg.sender].x == b);
+                                        ^--------------^
+smt_checker_input_f9W2:18:41: Warning: Assertion checker does not yet implement type struct MappingStructStorageArgumentNoAliasBase.S storage ref
+        assert(s2[msg.sender].x == a || s2[msg.sender].x == b);
+                                        ^------------^
+smt_checker_input_f9W2:16:9: Warning: Assertion violation happens here
+        assert(s1[msg.sender].x != s2[msg.sender].x);
+        ^------------------------------------------^
+  for:
+  a = 1
+  b = 0
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_f9W2:17:9: Warning: Assertion violation happens here
+        assert(s1[msg.sender].x == a || s1[msg.sender].x == b);
+        ^----------------------------------------------------^
+  for:
+  a = (- 1)
+  b = 0
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_f9W2:18:9: Warning: Assertion violation happens here
+        assert(s2[msg.sender].x == a || s2[msg.sender].x == b);
+        ^----------------------------------------------------^
+  for:
+  a = 1
+  b = 0
+  msg.sender = 0
+
+Callstack: 
+
+smt_checker_input_f9W2:13:17: Warning: Assertion checker does not yet support this expression.
+        require(s1ref[msg.sender].x != s2ref[msg.sender].x);
+                ^-----------------^
+smt_checker_input_f9W2:13:17: Warning: Assertion checker does not yet implement type struct MappingStructStorageArgumentNoAliasBase.S storage ref
+        require(s1ref[msg.sender].x != s2ref[msg.sender].x);
+                ^---------------^
+smt_checker_input_f9W2:13:40: Warning: Assertion checker does not yet support this expression.
+        require(s1ref[msg.sender].x != s2ref[msg.sender].x);
+                                       ^-----------------^
+smt_checker_input_f9W2:13:40: Warning: Assertion checker does not yet implement type struct MappingStructStorageArgumentNoAliasBase.S storage ref
+        require(s1ref[msg.sender].x != s2ref[msg.sender].x);
+                                       ^---------------^
+smt_checker_input_f9W2:14:9: Warning: Assertion checker does not yet support this expression.
+        s1ref[msg.sender].x = a;
+        ^-----------------^
+smt_checker_input_f9W2:14:9: Warning: Assertion checker does not yet implement type struct MappingStructStorageArgumentNoAliasBase.S storage ref
+        s1ref[msg.sender].x = a;
+        ^---------------^
+smt_checker_input_f9W2:14:9: Warning: Assertion checker does not yet implement such assignments.
+        s1ref[msg.sender].x = a;
+        ^---------------------^
+smt_checker_input_f9W2:15:9: Warning: Assertion checker does not yet support this expression.
+        s2ref[msg.sender].x = b;
+        ^-----------------^
+smt_checker_input_f9W2:15:9: Warning: Assertion checker does not yet implement type struct MappingStructStorageArgumentNoAliasBase.S storage ref
+        s2ref[msg.sender].x = b;
+        ^---------------^
+smt_checker_input_f9W2:15:9: Warning: Assertion checker does not yet implement such assignments.
+        s2ref[msg.sender].x = b;
+        ^---------------------^
+smt_checker_input_f9W2:16:16: Warning: Assertion checker does not yet support this expression.
+        assert(s1[msg.sender].x != s2[msg.sender].x);
+               ^--------------^
+smt_checker_input_f9W2:16:16: Warning: Assertion checker does not yet implement type struct MappingStructStorageArgumentNoAliasBase.S storage ref
+        assert(s1[msg.sender].x != s2[msg.sender].x);
+               ^------------^
+smt_checker_input_f9W2:16:36: Warning: Assertion checker does not yet support this expression.
+        assert(s1[msg.sender].x != s2[msg.sender].x);
+                                   ^--------------^
+smt_checker_input_f9W2:16:36: Warning: Assertion checker does not yet implement type struct MappingStructStorageArgumentNoAliasBase.S storage ref
+        assert(s1[msg.sender].x != s2[msg.sender].x);
+                                   ^------------^
+smt_checker_input_f9W2:17:16: Warning: Assertion checker does not yet support this expression.
+        assert(s1[msg.sender].x == a || s1[msg.sender].x == b);
+               ^--------------^
+smt_checker_input_f9W2:17:16: Warning: Assertion checker does not yet implement type struct MappingStructStorageArgumentNoAliasBase.S storage ref
+        assert(s1[msg.sender].x == a || s1[msg.sender].x == b);
+               ^------------^
+smt_checker_input_f9W2:17:41: Warning: Assertion checker does not yet support this expression.
+        assert(s1[msg.sender].x == a || s1[msg.sender].x == b);
+                                        ^--------------^
+smt_checker_input_f9W2:17:41: Warning: Assertion checker does not yet implement type struct MappingStructStorageArgumentNoAliasBase.S storage ref
+        assert(s1[msg.sender].x == a || s1[msg.sender].x == b);
+                                        ^------------^
+smt_checker_input_f9W2:18:16: Warning: Assertion checker does not yet support this expression.
+        assert(s2[msg.sender].x == a || s2[msg.sender].x == b);
+               ^--------------^
+smt_checker_input_f9W2:18:16: Warning: Assertion checker does not yet implement type struct MappingStructStorageArgumentNoAliasBase.S storage ref
+        assert(s2[msg.sender].x == a || s2[msg.sender].x == b);
+               ^------------^
+smt_checker_input_f9W2:18:41: Warning: Assertion checker does not yet support this expression.
+        assert(s2[msg.sender].x == a || s2[msg.sender].x == b);
+                                        ^--------------^
+smt_checker_input_f9W2:18:41: Warning: Assertion checker does not yet implement type struct MappingStructStorageArgumentNoAliasBase.S storage ref
+        assert(s2[msg.sender].x == a || s2[msg.sender].x == b);
+                                        ^------------^
+smt_checker_input_f9W2:16:9: Warning: Assertion violation happens here
+        assert(s1[msg.sender].x != s2[msg.sender].x);
+        ^------------------------------------------^
+  for:
+  a = 0
+  b = 1
+  msg.sender = 0
+
+Callstack: 
+smt_checker_input_f9W2:23:9: 
+        test(s1, s2, 0, 1);
+        ^----------------^
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+smt_checker_input_f9W2:17:9: Warning: Assertion violation happens here
+        assert(s1[msg.sender].x == a || s1[msg.sender].x == b);
+        ^----------------------------------------------------^
+  for:
+  a = 0
+  b = 1
+  msg.sender = 0
+
+Callstack: 
+smt_checker_input_f9W2:23:9: 
+        test(s1, s2, 0, 1);
+        ^----------------^
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+smt_checker_input_f9W2:18:9: Warning: Assertion violation happens here
+        assert(s2[msg.sender].x == a || s2[msg.sender].x == b);
+        ^----------------------------------------------------^
+  for:
+  a = 0
+  b = 1
+  msg.sender = 0
+
+Callstack: 
+smt_checker_input_f9W2:23:9: 
+        test(s1, s2, 0, 1);
+        ^----------------^
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+0.06user 0.02system 0:00.09elapsed 98%CPU (0avgtext+0avgdata 38772maxresident)k
+0inputs+0outputs (0major+1982minor)pagefaults 0swaps

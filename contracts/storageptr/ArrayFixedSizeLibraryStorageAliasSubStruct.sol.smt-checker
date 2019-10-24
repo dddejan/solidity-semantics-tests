@@ -1,0 +1,147 @@
+Running contracts/storageptr/ArrayFixedSizeLibraryStorageAliasSubStruct.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_M7sv:13:16: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        a[1] = b[1] + 1;
+               ^------^
+  for:
+  <result> = 0x80 * 2**248
+  a[1] = 0
+  a_b_alias = false
+  a_old = 0
+  b[1] = 0x80 * 2**248 - 1
+  b_old = 0x80 * 2**248 - 1
+
+Callstack: 
+
+smt_checker_input_M7sv:14:30: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        a_b_alias = (b[1] == b_old + 1);
+                             ^-------^
+  for:
+  <result> = 0x80 * 2**248
+  a[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819968)
+  a_b_alias = false
+  a_old = 0
+  b[1] = 1323
+  b_old = 0x80 * 2**248 - 1
+
+Callstack: 
+
+smt_checker_input_M7sv:17:16: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+        a[1] = a[1] + b[1];
+               ^---------^
+  for:
+  <result> = (- 115792089237316195423570985008687907853269984665640564039457584007913129638968)
+  a[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819377)
+  a_b_alias = false
+  a_old = 0
+  b[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819591)
+  b_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564819378)
+
+Callstack: 
+
+smt_checker_input_M7sv:17:16: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        a[1] = a[1] + b[1];
+               ^---------^
+  for:
+  <result> = 0x80000000000000000000000000000000000000000000000000000000000005e8
+  a[1] = 0x40000000000000000000000000000000000000000000000000000000000002f3
+  a_b_alias = false
+  a_old = 0
+  b[1] = 0x40000000000000000000000000000000000000000000000000000000000002f5
+  b_old = 0x40000000000000000000000000000000000000000000000000000000000002f2
+
+Callstack: 
+
+smt_checker_input_M7sv:18:16: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+        b[1] = a[1] - b[1];
+               ^---------^
+  for:
+  <result> = (- 115792089237316195423570985008687907853269984665640564039457584007913129639852)
+  a[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819968)
+  a_b_alias = false
+  a_old = 0
+  b[1] = 0x7FFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFffac
+  b_old = (- 28948022309329048855892746252171976963317496166410141009864396001978282409986)
+
+Callstack: 
+
+smt_checker_input_M7sv:18:16: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        b[1] = a[1] - b[1];
+               ^---------^
+  for:
+  <result> = 0x80000000000000000000000000000000000000000000000000000000000010de
+  a[1] = 4318
+  a_b_alias = false
+  a_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564813813)
+  b[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819968)
+  b_old = (- 28948022309329048855892746252171976963317496166410141009864396001978282407632)
+
+Callstack: 
+
+smt_checker_input_M7sv:19:16: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+        a[1] = a[1] - b[1];
+               ^---------^
+  for:
+  <result> = (- 115792089237316195423570985008687907853269984665640564039457584007913129636237)
+  a[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564816270)
+  a_b_alias = false
+  a_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564811991)
+  b[1] = 0x80 * 2**248 - 1
+  b_old = 9181
+
+Callstack: 
+
+smt_checker_input_M7sv:19:16: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+        a[1] = a[1] - b[1];
+               ^---------^
+  for:
+  <result> = 0x80 * 2**248
+  a[1] = 7723
+  a_b_alias = false
+  a_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564819968)
+  b[1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564812245)
+  b_old = 0x7FFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFfffd
+
+Callstack: 
+
+smt_checker_input_M7sv:20:9: Warning: Assertion violation happens here
+        assert(!a_b_alias || a[1] == 0); // alias => zero
+        ^-----------------------------^
+  for:
+  a[1] = (- 4592)
+  a_b_alias = true
+  a_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564819967)
+  b[1] = 4592
+  b_old = (- 28948022309329048855892746252171976963317496166410141009864396001978282403442)
+
+Callstack: 
+
+smt_checker_input_M7sv:21:9: Warning: Assertion violation happens here
+        assert(!a_b_alias || b[1] == 0); // alias => zero
+        ^-----------------------------^
+  for:
+  a[1] = 0
+  a_b_alias = true
+  a_old = (- 57896044618658097711785492504343953926634992332820282019728792003956564812607)
+  b[1] = 8114
+  b_old = (- 28948022309329048855892746252171976963317496166410141009864396001978282409236)
+
+Callstack: 
+
+smt_checker_input_M7sv:27:5: Warning: Assertion checker does not yet support the type of this variable.
+    L.Sub s2;
+    ^------^
+smt_checker_input_M7sv:31:16: Warning: Assertion checker does not yet support this expression.
+        L.swap(s2.s, s2.s);
+               ^--^
+smt_checker_input_M7sv:31:16: Warning: Assertion checker does not yet implement type struct L.Sub storage ref
+        L.swap(s2.s, s2.s);
+               ^^
+smt_checker_input_M7sv:31:22: Warning: Assertion checker does not yet support this expression.
+        L.swap(s2.s, s2.s);
+                     ^--^
+smt_checker_input_M7sv:31:22: Warning: Assertion checker does not yet implement type struct L.Sub storage ref
+        L.swap(s2.s, s2.s);
+                     ^^
+0.56user 0.06system 0:00.63elapsed 100%CPU (0avgtext+0avgdata 44076maxresident)k
+0inputs+0outputs (0major+3344minor)pagefaults 0swaps

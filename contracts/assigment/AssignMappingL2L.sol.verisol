@@ -1,0 +1,9 @@
+Running contracts/assigment/AssignMappingL2L.sol
+Command line args = {contracts/assigment/AssignMappingL2L.sol, AssignMappingL2L}
+SpecFilesDir = /solc-verify-examples/contracts/assigment
+... running Solc on /solc-verify-examples/contracts/assigment/AssignMappingL2L.sol
+... running SolToBoogie to translate Solidity to Boogie
+... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
+	*** Proof found! Formal Verification successful! (see boogie.txt)
+1.31user 0.29system 0:01.63elapsed 98%CPU (0avgtext+0avgdata 54804maxresident)k
+0inputs+32outputs (0major+60539minor)pagefaults 0swaps

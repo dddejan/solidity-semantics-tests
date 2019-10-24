@@ -1,0 +1,60 @@
+Running contracts/delete/DeleteMemoryArrayDynamic.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_RcCc:7:26: Warning: Assertion checker does not yet implement this type of function call.
+        int[] memory a = new int[](n);
+                         ^----------^
+smt_checker_input_RcCc:8:16: Warning: Assertion checker does not yet support this expression.
+        assert(a.length == n);
+               ^------^
+smt_checker_input_RcCc:10:16: Warning: Assertion checker does not yet support this expression.
+        assert(a.length == 0);
+               ^------^
+smt_checker_input_RcCc:8:9: Warning: Assertion violation happens here
+        assert(a.length == n);
+        ^-------------------^
+  for:
+  n = 1
+
+Callstack: 
+
+smt_checker_input_RcCc:10:9: Warning: Assertion violation happens here
+        assert(a.length == 0);
+        ^-------------------^
+  for:
+  n = 1
+
+Callstack: 
+
+smt_checker_input_RcCc:7:26: Warning: Assertion checker does not yet implement this type of function call.
+        int[] memory a = new int[](n);
+                         ^----------^
+smt_checker_input_RcCc:8:16: Warning: Assertion checker does not yet support this expression.
+        assert(a.length == n);
+               ^------^
+smt_checker_input_RcCc:10:16: Warning: Assertion checker does not yet support this expression.
+        assert(a.length == 0);
+               ^------^
+smt_checker_input_RcCc:8:9: Warning: Assertion violation happens here
+        assert(a.length == n);
+        ^-------------------^
+  for:
+  n = 100
+
+Callstack: 
+smt_checker_input_RcCc:14:9: 
+        test(100);
+        ^-------^
+
+smt_checker_input_RcCc:10:9: Warning: Assertion violation happens here
+        assert(a.length == 0);
+        ^-------------------^
+  for:
+  n = 100
+
+Callstack: 
+smt_checker_input_RcCc:14:9: 
+        test(100);
+        ^-------^
+
+0.04user 0.01system 0:00.05elapsed 100%CPU (0avgtext+0avgdata 41412maxresident)k
+0inputs+0outputs (0major+2532minor)pagefaults 0swaps

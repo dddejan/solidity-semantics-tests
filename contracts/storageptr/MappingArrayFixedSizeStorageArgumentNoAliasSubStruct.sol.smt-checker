@@ -1,0 +1,193 @@
+Running contracts/storageptr/MappingArrayFixedSizeStorageArgumentNoAliasSubStruct.sol
+Warning: This is a pre-release compiler version, please do not use it in production.
+smt_checker_input_MIsB:9:5: Warning: Assertion checker does not yet support the type of this variable.
+    Sub s2;
+    ^----^
+smt_checker_input_MIsB:14:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s1ref[msg.sender][1] = a;
+        ^------------------^
+smt_checker_input_MIsB:15:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s2ref[msg.sender][1] = b;
+        ^------------------^
+smt_checker_input_MIsB:16:37: Warning: Assertion checker does not yet support this expression.
+        assert(s1[msg.sender][1] != s2.s[msg.sender][1]);
+                                    ^--^
+smt_checker_input_MIsB:16:37: Warning: Assertion checker does not yet implement type struct MappingArrayFixedSizeStorageArgumentNoAliasSubStruct.Sub storage ref
+        assert(s1[msg.sender][1] != s2.s[msg.sender][1]);
+                                    ^^
+smt_checker_input_MIsB:16:37: Warning: Assertion checker does not yet implement this expression.
+        assert(s1[msg.sender][1] != s2.s[msg.sender][1]);
+                                    ^--------------^
+smt_checker_input_MIsB:18:16: Warning: Assertion checker does not yet support this expression.
+        assert(s2.s[msg.sender][1] == a || s2.s[msg.sender][1] == b);
+               ^--^
+smt_checker_input_MIsB:18:16: Warning: Assertion checker does not yet implement type struct MappingArrayFixedSizeStorageArgumentNoAliasSubStruct.Sub storage ref
+        assert(s2.s[msg.sender][1] == a || s2.s[msg.sender][1] == b);
+               ^^
+smt_checker_input_MIsB:18:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s2.s[msg.sender][1] == a || s2.s[msg.sender][1] == b);
+               ^--------------^
+smt_checker_input_MIsB:18:44: Warning: Assertion checker does not yet support this expression.
+        assert(s2.s[msg.sender][1] == a || s2.s[msg.sender][1] == b);
+                                           ^--^
+smt_checker_input_MIsB:18:44: Warning: Assertion checker does not yet implement type struct MappingArrayFixedSizeStorageArgumentNoAliasSubStruct.Sub storage ref
+        assert(s2.s[msg.sender][1] == a || s2.s[msg.sender][1] == b);
+                                           ^^
+smt_checker_input_MIsB:18:44: Warning: Assertion checker does not yet implement this expression.
+        assert(s2.s[msg.sender][1] == a || s2.s[msg.sender][1] == b);
+                                           ^--------------^
+smt_checker_input_MIsB:16:9: Warning: Assertion violation happens here
+        assert(s1[msg.sender][1] != s2.s[msg.sender][1]);
+        ^----------------------------------------------^
+  for:
+  a = (- 1)
+  b = 0
+  msg.sender = 5853
+  s1[msg.sender][1] = 0
+  s1ref[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819359)
+  s2.s[msg.sender][1] = 0
+  s2ref[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819358)
+
+Callstack: 
+
+smt_checker_input_MIsB:17:9: Warning: Assertion violation happens here
+        assert(s1[msg.sender][1] == a || s1[msg.sender][1] == b);
+        ^------------------------------------------------------^
+  for:
+  a = 2
+  b = 1
+  msg.sender = 2997
+  s1[msg.sender][1] = 0
+  s1ref[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564813685)
+  s2.s[msg.sender][1] = 0x7FFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFfee6
+  s2ref[msg.sender][1] = 0x7FFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFffffFFFFde79
+
+Callstack: 
+
+smt_checker_input_MIsB:18:9: Warning: Assertion violation happens here
+        assert(s2.s[msg.sender][1] == a || s2.s[msg.sender][1] == b);
+        ^----------------------------------------------------------^
+  for:
+  a = 2275
+  b = 2276
+  msg.sender = 9725
+  s1[msg.sender][1] = 2276
+  s1ref[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564817727)
+  s2.s[msg.sender][1] = 0
+  s2ref[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564817728)
+
+Callstack: 
+
+smt_checker_input_MIsB:23:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s1[msg.sender][1] = -1;
+        ^---------------^
+smt_checker_input_MIsB:24:9: Warning: Assertion checker does not yet support this expression.
+        s2.s[msg.sender][1] = -2;
+        ^--^
+smt_checker_input_MIsB:24:9: Warning: Assertion checker does not yet implement type struct MappingArrayFixedSizeStorageArgumentNoAliasSubStruct.Sub storage ref
+        s2.s[msg.sender][1] = -2;
+        ^^
+smt_checker_input_MIsB:24:9: Warning: Assertion checker does not yet implement this expression.
+        s2.s[msg.sender][1] = -2;
+        ^--------------^
+smt_checker_input_MIsB:24:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s2.s[msg.sender][1] = -2;
+        ^-----------------^
+smt_checker_input_MIsB:25:18: Warning: Assertion checker does not yet support this expression.
+        test(s1, s2.s, 0, 1);
+                 ^--^
+smt_checker_input_MIsB:25:18: Warning: Assertion checker does not yet implement type struct MappingArrayFixedSizeStorageArgumentNoAliasSubStruct.Sub storage ref
+        test(s1, s2.s, 0, 1);
+                 ^^
+smt_checker_input_MIsB:14:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s1ref[msg.sender][1] = a;
+        ^------------------^
+smt_checker_input_MIsB:15:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+        s2ref[msg.sender][1] = b;
+        ^------------------^
+smt_checker_input_MIsB:16:37: Warning: Assertion checker does not yet support this expression.
+        assert(s1[msg.sender][1] != s2.s[msg.sender][1]);
+                                    ^--^
+smt_checker_input_MIsB:16:37: Warning: Assertion checker does not yet implement type struct MappingArrayFixedSizeStorageArgumentNoAliasSubStruct.Sub storage ref
+        assert(s1[msg.sender][1] != s2.s[msg.sender][1]);
+                                    ^^
+smt_checker_input_MIsB:16:37: Warning: Assertion checker does not yet implement this expression.
+        assert(s1[msg.sender][1] != s2.s[msg.sender][1]);
+                                    ^--------------^
+smt_checker_input_MIsB:18:16: Warning: Assertion checker does not yet support this expression.
+        assert(s2.s[msg.sender][1] == a || s2.s[msg.sender][1] == b);
+               ^--^
+smt_checker_input_MIsB:18:16: Warning: Assertion checker does not yet implement type struct MappingArrayFixedSizeStorageArgumentNoAliasSubStruct.Sub storage ref
+        assert(s2.s[msg.sender][1] == a || s2.s[msg.sender][1] == b);
+               ^^
+smt_checker_input_MIsB:18:16: Warning: Assertion checker does not yet implement this expression.
+        assert(s2.s[msg.sender][1] == a || s2.s[msg.sender][1] == b);
+               ^--------------^
+smt_checker_input_MIsB:18:44: Warning: Assertion checker does not yet support this expression.
+        assert(s2.s[msg.sender][1] == a || s2.s[msg.sender][1] == b);
+                                           ^--^
+smt_checker_input_MIsB:18:44: Warning: Assertion checker does not yet implement type struct MappingArrayFixedSizeStorageArgumentNoAliasSubStruct.Sub storage ref
+        assert(s2.s[msg.sender][1] == a || s2.s[msg.sender][1] == b);
+                                           ^^
+smt_checker_input_MIsB:18:44: Warning: Assertion checker does not yet implement this expression.
+        assert(s2.s[msg.sender][1] == a || s2.s[msg.sender][1] == b);
+                                           ^--------------^
+smt_checker_input_MIsB:16:9: Warning: Assertion violation happens here
+        assert(s1[msg.sender][1] != s2.s[msg.sender][1]);
+        ^----------------------------------------------^
+  for:
+  a = 0
+  b = 1
+  msg.sender = 8586
+  s1[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819128)
+  s1ref[msg.sender][1] = 0
+  s2.s[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819378)
+  s2ref[msg.sender][1] = (- 1)
+
+Callstack: 
+smt_checker_input_MIsB:25:9: 
+        test(s1, s2.s, 0, 1);
+        ^------------------^
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+smt_checker_input_MIsB:17:9: Warning: Assertion violation happens here
+        assert(s1[msg.sender][1] == a || s1[msg.sender][1] == b);
+        ^------------------------------------------------------^
+  for:
+  a = 0
+  b = 1
+  msg.sender = 3609
+  s1[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818733)
+  s1ref[msg.sender][1] = 2
+  s2.s[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564813062)
+  s2ref[msg.sender][1] = 0
+
+Callstack: 
+smt_checker_input_MIsB:25:9: 
+        test(s1, s2.s, 0, 1);
+        ^------------------^
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+smt_checker_input_MIsB:18:9: Warning: Assertion violation happens here
+        assert(s2.s[msg.sender][1] == a || s2.s[msg.sender][1] == b);
+        ^----------------------------------------------------------^
+  for:
+  a = 0
+  b = 1
+  msg.sender = 6878
+  s1[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564810437)
+  s1ref[msg.sender][1] = 1
+  s2.s[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819101)
+  s2ref[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564817513)
+
+Callstack: 
+smt_checker_input_MIsB:25:9: 
+        test(s1, s2.s, 0, 1);
+        ^------------------^
+
+Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
+You can re-introduce information using require().
+0.13user 0.01system 0:00.14elapsed 100%CPU (0avgtext+0avgdata 39564maxresident)k
+0inputs+0outputs (0major+2225minor)pagefaults 0swaps
