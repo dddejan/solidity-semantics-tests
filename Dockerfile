@@ -46,7 +46,7 @@ RUN /solc-verify-examples/scripts/install_boogie.sh
 
 # Install solc-verify
 ADD scripts/install_solc_verify.sh /solc-verify-examples/scripts/
-RUN /solc-verify-examples/scripts/install_solc_verify.sh 7b01918dff3601632c2d68ce4429c6b3aca81eaf
+RUN /solc-verify-examples/scripts/install_solc_verify.sh ebf74d321e8da9db5d004df0b69a0128ebad2d00
 
 #
 # Add stuff that changes often below so that the heavy stuff above is cached on changes

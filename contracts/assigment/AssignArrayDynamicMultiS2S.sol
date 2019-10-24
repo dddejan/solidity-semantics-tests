@@ -7,6 +7,8 @@ contract AssignArrayDynamicMultiS2S {
 
     function storToStor(int a, int b, int c) public {
         require(a != b && b != c && a != c);
+        require(s1.length > 0 && s1[0].length > 0);
+        require(s2.length > 0 && s2[0].length > 0);
 
         s1[0][0] = a;
         s2[0][0] = b;

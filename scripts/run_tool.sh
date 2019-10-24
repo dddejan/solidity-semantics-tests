@@ -9,7 +9,7 @@ options="$@"
 echo Running $bench
 
 # timelimit 1min (in s)
-timelimit=600
+timelimit=60
 
 # cpu time limit
 ulimit -S -t $timelimit &> /dev/null
