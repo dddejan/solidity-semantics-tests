@@ -1,96 +1,96 @@
 Running contracts/assigment/AssignArrayFixedSizeStructS2L.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_mnRF:14:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_OTtx:14:9: Warning: Assertion checker does not yet support this expression.
         s1[1].x = a;
         ^-----^
-smt_checker_input_mnRF:14:9: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
+smt_checker_input_OTtx:14:9: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
         s1[1].x = a;
         ^---^
-smt_checker_input_mnRF:14:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_OTtx:14:9: Warning: Assertion checker does not yet implement such assignments.
         s1[1].x = a;
         ^---------^
-smt_checker_input_mnRF:15:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_OTtx:15:9: Warning: Assertion checker does not yet support this expression.
         s2[1].x = b;
         ^-----^
-smt_checker_input_mnRF:15:9: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
+smt_checker_input_OTtx:15:9: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
         s2[1].x = b;
         ^---^
-smt_checker_input_mnRF:15:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_OTtx:15:9: Warning: Assertion checker does not yet implement such assignments.
         s2[1].x = b;
         ^---------^
-smt_checker_input_mnRF:17:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_OTtx:17:16: Warning: Assertion checker does not yet support this expression.
         assert(s1[1].x == a);
                ^-----^
-smt_checker_input_mnRF:17:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
+smt_checker_input_OTtx:17:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
         assert(s1[1].x == a);
                ^---^
-smt_checker_input_mnRF:18:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_OTtx:18:16: Warning: Assertion checker does not yet support this expression.
         assert(s2[1].x == b);
                ^-----^
-smt_checker_input_mnRF:18:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
+smt_checker_input_OTtx:18:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
         assert(s2[1].x == b);
                ^---^
-smt_checker_input_mnRF:19:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_OTtx:19:16: Warning: Assertion checker does not yet support this expression.
         assert(loc[1].x == a);
                ^------^
-smt_checker_input_mnRF:19:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
+smt_checker_input_OTtx:19:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
         assert(loc[1].x == a);
                ^----^
-smt_checker_input_mnRF:21:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_OTtx:21:9: Warning: Assertion checker does not yet support this expression.
         s1[1].x = c;
         ^-----^
-smt_checker_input_mnRF:21:9: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
+smt_checker_input_OTtx:21:9: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
         s1[1].x = c;
         ^---^
-smt_checker_input_mnRF:21:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_OTtx:21:9: Warning: Assertion checker does not yet implement such assignments.
         s1[1].x = c;
         ^---------^
-smt_checker_input_mnRF:22:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_OTtx:22:16: Warning: Assertion checker does not yet support this expression.
         assert(s1[1].x == c);
                ^-----^
-smt_checker_input_mnRF:22:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
+smt_checker_input_OTtx:22:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
         assert(s1[1].x == c);
                ^---^
-smt_checker_input_mnRF:23:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_OTtx:23:16: Warning: Assertion checker does not yet support this expression.
         assert(s2[1].x == b);
                ^-----^
-smt_checker_input_mnRF:23:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
+smt_checker_input_OTtx:23:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
         assert(s2[1].x == b);
                ^---^
-smt_checker_input_mnRF:24:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_OTtx:24:16: Warning: Assertion checker does not yet support this expression.
         assert(loc[1].x == c);
                ^------^
-smt_checker_input_mnRF:24:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
+smt_checker_input_OTtx:24:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
         assert(loc[1].x == c);
                ^----^
-smt_checker_input_mnRF:26:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_OTtx:26:9: Warning: Assertion checker does not yet support this expression.
         loc[1].x = a;
         ^------^
-smt_checker_input_mnRF:26:9: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
+smt_checker_input_OTtx:26:9: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
         loc[1].x = a;
         ^----^
-smt_checker_input_mnRF:26:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_OTtx:26:9: Warning: Assertion checker does not yet implement such assignments.
         loc[1].x = a;
         ^----------^
-smt_checker_input_mnRF:27:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_OTtx:27:16: Warning: Assertion checker does not yet support this expression.
         assert(s1[1].x == a);
                ^-----^
-smt_checker_input_mnRF:27:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
+smt_checker_input_OTtx:27:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
         assert(s1[1].x == a);
                ^---^
-smt_checker_input_mnRF:28:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_OTtx:28:16: Warning: Assertion checker does not yet support this expression.
         assert(s2[1].x == b);
                ^-----^
-smt_checker_input_mnRF:28:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
+smt_checker_input_OTtx:28:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
         assert(s2[1].x == b);
                ^---^
-smt_checker_input_mnRF:29:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_OTtx:29:16: Warning: Assertion checker does not yet support this expression.
         assert(loc[1].x == a);
                ^------^
-smt_checker_input_mnRF:29:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
+smt_checker_input_OTtx:29:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
         assert(loc[1].x == a);
                ^----^
-smt_checker_input_mnRF:17:9: Warning: Assertion violation happens here
+smt_checker_input_OTtx:17:9: Warning: Assertion violation happens here
         assert(s1[1].x == a);
         ^------------------^
   for:
@@ -100,7 +100,7 @@ smt_checker_input_mnRF:17:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_mnRF:18:9: Warning: Assertion violation happens here
+smt_checker_input_OTtx:18:9: Warning: Assertion violation happens here
         assert(s2[1].x == b);
         ^------------------^
   for:
@@ -110,7 +110,7 @@ smt_checker_input_mnRF:18:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_mnRF:19:9: Warning: Assertion violation happens here
+smt_checker_input_OTtx:19:9: Warning: Assertion violation happens here
         assert(loc[1].x == a);
         ^-------------------^
   for:
@@ -120,7 +120,7 @@ smt_checker_input_mnRF:19:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_mnRF:22:9: Warning: Assertion violation happens here
+smt_checker_input_OTtx:22:9: Warning: Assertion violation happens here
         assert(s1[1].x == c);
         ^------------------^
   for:
@@ -130,7 +130,7 @@ smt_checker_input_mnRF:22:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_mnRF:23:9: Warning: Assertion violation happens here
+smt_checker_input_OTtx:23:9: Warning: Assertion violation happens here
         assert(s2[1].x == b);
         ^------------------^
   for:
@@ -140,7 +140,7 @@ smt_checker_input_mnRF:23:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_mnRF:24:9: Warning: Assertion violation happens here
+smt_checker_input_OTtx:24:9: Warning: Assertion violation happens here
         assert(loc[1].x == c);
         ^-------------------^
   for:
@@ -150,7 +150,7 @@ smt_checker_input_mnRF:24:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_mnRF:27:9: Warning: Assertion violation happens here
+smt_checker_input_OTtx:27:9: Warning: Assertion violation happens here
         assert(s1[1].x == a);
         ^------------------^
   for:
@@ -160,7 +160,7 @@ smt_checker_input_mnRF:27:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_mnRF:28:9: Warning: Assertion violation happens here
+smt_checker_input_OTtx:28:9: Warning: Assertion violation happens here
         assert(s2[1].x == b);
         ^------------------^
   for:
@@ -170,7 +170,7 @@ smt_checker_input_mnRF:28:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_mnRF:29:9: Warning: Assertion violation happens here
+smt_checker_input_OTtx:29:9: Warning: Assertion violation happens here
         assert(loc[1].x == a);
         ^-------------------^
   for:
@@ -180,97 +180,97 @@ smt_checker_input_mnRF:29:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_mnRF:14:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_OTtx:14:9: Warning: Assertion checker does not yet support this expression.
         s1[1].x = a;
         ^-----^
-smt_checker_input_mnRF:14:9: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
+smt_checker_input_OTtx:14:9: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
         s1[1].x = a;
         ^---^
-smt_checker_input_mnRF:14:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_OTtx:14:9: Warning: Assertion checker does not yet implement such assignments.
         s1[1].x = a;
         ^---------^
-smt_checker_input_mnRF:15:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_OTtx:15:9: Warning: Assertion checker does not yet support this expression.
         s2[1].x = b;
         ^-----^
-smt_checker_input_mnRF:15:9: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
+smt_checker_input_OTtx:15:9: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
         s2[1].x = b;
         ^---^
-smt_checker_input_mnRF:15:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_OTtx:15:9: Warning: Assertion checker does not yet implement such assignments.
         s2[1].x = b;
         ^---------^
-smt_checker_input_mnRF:17:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_OTtx:17:16: Warning: Assertion checker does not yet support this expression.
         assert(s1[1].x == a);
                ^-----^
-smt_checker_input_mnRF:17:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
+smt_checker_input_OTtx:17:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
         assert(s1[1].x == a);
                ^---^
-smt_checker_input_mnRF:18:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_OTtx:18:16: Warning: Assertion checker does not yet support this expression.
         assert(s2[1].x == b);
                ^-----^
-smt_checker_input_mnRF:18:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
+smt_checker_input_OTtx:18:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
         assert(s2[1].x == b);
                ^---^
-smt_checker_input_mnRF:19:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_OTtx:19:16: Warning: Assertion checker does not yet support this expression.
         assert(loc[1].x == a);
                ^------^
-smt_checker_input_mnRF:19:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
+smt_checker_input_OTtx:19:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
         assert(loc[1].x == a);
                ^----^
-smt_checker_input_mnRF:21:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_OTtx:21:9: Warning: Assertion checker does not yet support this expression.
         s1[1].x = c;
         ^-----^
-smt_checker_input_mnRF:21:9: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
+smt_checker_input_OTtx:21:9: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
         s1[1].x = c;
         ^---^
-smt_checker_input_mnRF:21:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_OTtx:21:9: Warning: Assertion checker does not yet implement such assignments.
         s1[1].x = c;
         ^---------^
-smt_checker_input_mnRF:22:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_OTtx:22:16: Warning: Assertion checker does not yet support this expression.
         assert(s1[1].x == c);
                ^-----^
-smt_checker_input_mnRF:22:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
+smt_checker_input_OTtx:22:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
         assert(s1[1].x == c);
                ^---^
-smt_checker_input_mnRF:23:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_OTtx:23:16: Warning: Assertion checker does not yet support this expression.
         assert(s2[1].x == b);
                ^-----^
-smt_checker_input_mnRF:23:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
+smt_checker_input_OTtx:23:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
         assert(s2[1].x == b);
                ^---^
-smt_checker_input_mnRF:24:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_OTtx:24:16: Warning: Assertion checker does not yet support this expression.
         assert(loc[1].x == c);
                ^------^
-smt_checker_input_mnRF:24:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
+smt_checker_input_OTtx:24:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
         assert(loc[1].x == c);
                ^----^
-smt_checker_input_mnRF:26:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_OTtx:26:9: Warning: Assertion checker does not yet support this expression.
         loc[1].x = a;
         ^------^
-smt_checker_input_mnRF:26:9: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
+smt_checker_input_OTtx:26:9: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
         loc[1].x = a;
         ^----^
-smt_checker_input_mnRF:26:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_OTtx:26:9: Warning: Assertion checker does not yet implement such assignments.
         loc[1].x = a;
         ^----------^
-smt_checker_input_mnRF:27:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_OTtx:27:16: Warning: Assertion checker does not yet support this expression.
         assert(s1[1].x == a);
                ^-----^
-smt_checker_input_mnRF:27:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
+smt_checker_input_OTtx:27:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
         assert(s1[1].x == a);
                ^---^
-smt_checker_input_mnRF:28:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_OTtx:28:16: Warning: Assertion checker does not yet support this expression.
         assert(s2[1].x == b);
                ^-----^
-smt_checker_input_mnRF:28:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
+smt_checker_input_OTtx:28:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
         assert(s2[1].x == b);
                ^---^
-smt_checker_input_mnRF:29:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_OTtx:29:16: Warning: Assertion checker does not yet support this expression.
         assert(loc[1].x == a);
                ^------^
-smt_checker_input_mnRF:29:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
+smt_checker_input_OTtx:29:16: Warning: Assertion checker does not yet implement type struct AssignArrayFixedSizeStructS2L.S storage ref
         assert(loc[1].x == a);
                ^----^
-smt_checker_input_mnRF:17:9: Warning: Assertion violation happens here
+smt_checker_input_OTtx:17:9: Warning: Assertion violation happens here
         assert(s1[1].x == a);
         ^------------------^
   for:
@@ -279,11 +279,11 @@ smt_checker_input_mnRF:17:9: Warning: Assertion violation happens here
   c = 2
 
 Callstack: 
-smt_checker_input_mnRF:34:9: 
+smt_checker_input_OTtx:34:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
-smt_checker_input_mnRF:18:9: Warning: Assertion violation happens here
+smt_checker_input_OTtx:18:9: Warning: Assertion violation happens here
         assert(s2[1].x == b);
         ^------------------^
   for:
@@ -292,11 +292,11 @@ smt_checker_input_mnRF:18:9: Warning: Assertion violation happens here
   c = 2
 
 Callstack: 
-smt_checker_input_mnRF:34:9: 
+smt_checker_input_OTtx:34:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
-smt_checker_input_mnRF:19:9: Warning: Assertion violation happens here
+smt_checker_input_OTtx:19:9: Warning: Assertion violation happens here
         assert(loc[1].x == a);
         ^-------------------^
   for:
@@ -305,11 +305,11 @@ smt_checker_input_mnRF:19:9: Warning: Assertion violation happens here
   c = 2
 
 Callstack: 
-smt_checker_input_mnRF:34:9: 
+smt_checker_input_OTtx:34:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
-smt_checker_input_mnRF:22:9: Warning: Assertion violation happens here
+smt_checker_input_OTtx:22:9: Warning: Assertion violation happens here
         assert(s1[1].x == c);
         ^------------------^
   for:
@@ -318,11 +318,11 @@ smt_checker_input_mnRF:22:9: Warning: Assertion violation happens here
   c = 2
 
 Callstack: 
-smt_checker_input_mnRF:34:9: 
+smt_checker_input_OTtx:34:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
-smt_checker_input_mnRF:23:9: Warning: Assertion violation happens here
+smt_checker_input_OTtx:23:9: Warning: Assertion violation happens here
         assert(s2[1].x == b);
         ^------------------^
   for:
@@ -331,11 +331,11 @@ smt_checker_input_mnRF:23:9: Warning: Assertion violation happens here
   c = 2
 
 Callstack: 
-smt_checker_input_mnRF:34:9: 
+smt_checker_input_OTtx:34:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
-smt_checker_input_mnRF:24:9: Warning: Assertion violation happens here
+smt_checker_input_OTtx:24:9: Warning: Assertion violation happens here
         assert(loc[1].x == c);
         ^-------------------^
   for:
@@ -344,11 +344,11 @@ smt_checker_input_mnRF:24:9: Warning: Assertion violation happens here
   c = 2
 
 Callstack: 
-smt_checker_input_mnRF:34:9: 
+smt_checker_input_OTtx:34:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
-smt_checker_input_mnRF:27:9: Warning: Assertion violation happens here
+smt_checker_input_OTtx:27:9: Warning: Assertion violation happens here
         assert(s1[1].x == a);
         ^------------------^
   for:
@@ -357,11 +357,11 @@ smt_checker_input_mnRF:27:9: Warning: Assertion violation happens here
   c = 2
 
 Callstack: 
-smt_checker_input_mnRF:34:9: 
+smt_checker_input_OTtx:34:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
-smt_checker_input_mnRF:28:9: Warning: Assertion violation happens here
+smt_checker_input_OTtx:28:9: Warning: Assertion violation happens here
         assert(s2[1].x == b);
         ^------------------^
   for:
@@ -370,11 +370,11 @@ smt_checker_input_mnRF:28:9: Warning: Assertion violation happens here
   c = 2
 
 Callstack: 
-smt_checker_input_mnRF:34:9: 
+smt_checker_input_OTtx:34:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
-smt_checker_input_mnRF:29:9: Warning: Assertion violation happens here
+smt_checker_input_OTtx:29:9: Warning: Assertion violation happens here
         assert(loc[1].x == a);
         ^-------------------^
   for:
@@ -383,9 +383,9 @@ smt_checker_input_mnRF:29:9: Warning: Assertion violation happens here
   c = 2
 
 Callstack: 
-smt_checker_input_mnRF:34:9: 
+smt_checker_input_OTtx:34:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
-0.21user 0.05system 0:00.26elapsed 100%CPU (0avgtext+0avgdata 60144maxresident)k
-0inputs+0outputs (0major+7082minor)pagefaults 0swaps
+0.22user 0.25system 0:00.47elapsed 100%CPU (0avgtext+0avgdata 60404maxresident)k
+0inputs+0outputs (0major+7086minor)pagefaults 0swaps

@@ -1,12 +1,12 @@
 Running contracts/storageptr/MappingLibraryStorageNoAliasSubArrayFixedSize.sol
 Error while running verifier, details:
 [TRACE] Using prover: /usr/local/bin/z3
-Parsing /tmp/tmpmjhah479/MappingLibraryStorageNoAliasSubArrayFixedSize.sol.bpl
-/tmp/tmpmjhah479/MappingLibraryStorageNoAliasSubArrayFixedSize.sol.bpl(22,5): Error: command assigns to an immutable variable: a#5
-/tmp/tmpmjhah479/MappingLibraryStorageNoAliasSubArrayFixedSize.sol.bpl(23,5): Error: command assigns to an immutable variable: b#9
-/tmp/tmpmjhah479/MappingLibraryStorageNoAliasSubArrayFixedSize.sol.bpl(24,5): Error: command assigns to an immutable variable: a#5
-3 type checking errors detected in /tmp/tmpmjhah479/MappingLibraryStorageNoAliasSubArrayFixedSize.sol.bpl
+Parsing /tmp/tmpb85w7xel/MappingLibraryStorageNoAliasSubArrayFixedSize.sol.bpl
+/tmp/tmpb85w7xel/MappingLibraryStorageNoAliasSubArrayFixedSize.sol.bpl(22,5): Error: command assigns to an immutable variable: a#5
+/tmp/tmpb85w7xel/MappingLibraryStorageNoAliasSubArrayFixedSize.sol.bpl(23,5): Error: command assigns to an immutable variable: b#9
+/tmp/tmpb85w7xel/MappingLibraryStorageNoAliasSubArrayFixedSize.sol.bpl(24,5): Error: command assigns to an immutable variable: a#5
+3 type checking errors detected in /tmp/tmpb85w7xel/MappingLibraryStorageNoAliasSubArrayFixedSize.sol.bpl
 
 Command exited with non-zero status 252
-0.33user 0.12system 0:00.45elapsed 100%CPU (0avgtext+0avgdata 32968maxresident)k
-0inputs+24outputs (0major+10232minor)pagefaults 0swaps
+0.32user 0.59system 0:00.91elapsed 100%CPU (0avgtext+0avgdata 33096maxresident)k
+0inputs+24outputs (0major+10223minor)pagefaults 0swaps

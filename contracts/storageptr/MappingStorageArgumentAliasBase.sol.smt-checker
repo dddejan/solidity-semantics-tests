@@ -1,6 +1,6 @@
 Running contracts/storageptr/MappingStorageArgumentAliasBase.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_VXKx:11:29: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_8Vsn:11:29: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         s1ref[msg.sender] = s2ref[msg.sender] + 1;
                             ^-------------------^
   for:
@@ -14,7 +14,7 @@ smt_checker_input_VXKx:11:29: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_VXKx:16:9: Warning: Assertion violation happens here
+smt_checker_input_8Vsn:16:9: Warning: Assertion violation happens here
         assert(s1ref[msg.sender] == s2ref[msg.sender]);
         ^--------------------------------------------^
   for:
@@ -27,7 +27,7 @@ smt_checker_input_VXKx:16:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_VXKx:17:9: Warning: Assertion violation happens here
+smt_checker_input_8Vsn:17:9: Warning: Assertion violation happens here
         assert(s[msg.sender] == b);
         ^------------------------^
   for:
@@ -41,7 +41,7 @@ smt_checker_input_VXKx:17:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_VXKx:11:29: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_8Vsn:11:29: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         s1ref[msg.sender] = s2ref[msg.sender] + 1;
                             ^-------------------^
   for:
@@ -54,13 +54,13 @@ smt_checker_input_VXKx:11:29: Warning: Overflow (resulting value larger than 0x8
   s2ref[msg.sender] = 0x80 * 2**248 - 1
 
 Callstack: 
-smt_checker_input_VXKx:22:9: 
+smt_checker_input_8Vsn:22:9: 
         test(s, s, 0, 1);
         ^--------------^
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_VXKx:16:9: Warning: Assertion violation happens here
+smt_checker_input_8Vsn:16:9: Warning: Assertion violation happens here
         assert(s1ref[msg.sender] == s2ref[msg.sender]);
         ^--------------------------------------------^
   for:
@@ -72,13 +72,13 @@ smt_checker_input_VXKx:16:9: Warning: Assertion violation happens here
   s2ref[msg.sender] = 1
 
 Callstack: 
-smt_checker_input_VXKx:22:9: 
+smt_checker_input_8Vsn:22:9: 
         test(s, s, 0, 1);
         ^--------------^
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_VXKx:17:9: Warning: Assertion violation happens here
+smt_checker_input_8Vsn:17:9: Warning: Assertion violation happens here
         assert(s[msg.sender] == b);
         ^------------------------^
   for:
@@ -91,11 +91,11 @@ smt_checker_input_VXKx:17:9: Warning: Assertion violation happens here
   s[msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564813090)
 
 Callstack: 
-smt_checker_input_VXKx:22:9: 
+smt_checker_input_8Vsn:22:9: 
         test(s, s, 0, 1);
         ^--------------^
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-0.15user 0.02system 0:00.17elapsed 99%CPU (0avgtext+0avgdata 39856maxresident)k
+0.15user 0.24system 0:00.39elapsed 100%CPU (0avgtext+0avgdata 40012maxresident)k
 0inputs+0outputs (0major+2304minor)pagefaults 0swaps

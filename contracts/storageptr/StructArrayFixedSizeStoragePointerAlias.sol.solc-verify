@@ -3,5 +3,5 @@ StructArrayFixedSizeStoragePointerAlias::test: OK
 StructArrayFixedSizeStoragePointerAlias::truffleMain: OK
 StructArrayFixedSizeStoragePointerAlias::[implicit_constructor]: OK
 No errors found.
-0.62user 0.26system 0:00.87elapsed 103%CPU (0avgtext+0avgdata 41956maxresident)k
-0inputs+24outputs (0major+16746minor)pagefaults 0swaps
+0.72user 0.67system 0:01.37elapsed 101%CPU (0avgtext+0avgdata 42128maxresident)k
+0inputs+24outputs (0major+16642minor)pagefaults 0swaps

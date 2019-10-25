@@ -1,105 +1,105 @@
 Running contracts/storageptr/StructMappingStorageArgumentAliasBase.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_VPqU:8:5: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_kjl2:8:5: Warning: Assertion checker does not yet support the type of this variable.
     S s;
     ^-^
-smt_checker_input_VPqU:10:19: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_kjl2:10:19: Warning: Assertion checker does not yet support the type of this variable.
     function test(S storage s1ref, S storage s2ref, int a, int b) internal {
                   ^-------------^
-smt_checker_input_VPqU:10:36: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_kjl2:10:36: Warning: Assertion checker does not yet support the type of this variable.
     function test(S storage s1ref, S storage s2ref, int a, int b) internal {
                                    ^-------------^
-smt_checker_input_VPqU:13:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_kjl2:13:9: Warning: Assertion checker does not yet support this expression.
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
         ^-----^
-smt_checker_input_VPqU:13:9: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
+smt_checker_input_kjl2:13:9: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
         ^---^
-smt_checker_input_VPqU:13:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_kjl2:13:9: Warning: Assertion checker does not yet implement this expression.
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
         ^-----------------^
-smt_checker_input_VPqU:13:31: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_kjl2:13:31: Warning: Assertion checker does not yet support this expression.
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
                               ^-----^
-smt_checker_input_VPqU:13:31: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
+smt_checker_input_kjl2:13:31: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
                               ^---^
-smt_checker_input_VPqU:13:31: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_kjl2:13:31: Warning: Assertion checker does not yet implement this expression.
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
                               ^-----------------^
-smt_checker_input_VPqU:13:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_kjl2:13:9: Warning: Assertion checker does not yet implement this expression.
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
         ^-----------------^
-smt_checker_input_VPqU:14:30: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_kjl2:14:30: Warning: Assertion checker does not yet support this expression.
         s1ref_alias_s2ref = (s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                              ^-----^
-smt_checker_input_VPqU:14:30: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
+smt_checker_input_kjl2:14:30: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
         s1ref_alias_s2ref = (s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                              ^---^
-smt_checker_input_VPqU:14:30: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_kjl2:14:30: Warning: Assertion checker does not yet implement this expression.
         s1ref_alias_s2ref = (s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                              ^-----------------^
-smt_checker_input_VPqU:14:53: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_kjl2:14:53: Warning: Assertion checker does not yet support this expression.
         s1ref_alias_s2ref = (s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                                                     ^-----^
-smt_checker_input_VPqU:14:53: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
+smt_checker_input_kjl2:14:53: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
         s1ref_alias_s2ref = (s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                                                     ^---^
-smt_checker_input_VPqU:14:53: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_kjl2:14:53: Warning: Assertion checker does not yet implement this expression.
         s1ref_alias_s2ref = (s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                                                     ^-----------------^
-smt_checker_input_VPqU:16:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_kjl2:16:9: Warning: Assertion checker does not yet support this expression.
         s1ref.x[msg.sender] = a;
         ^-----^
-smt_checker_input_VPqU:16:9: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
+smt_checker_input_kjl2:16:9: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
         s1ref.x[msg.sender] = a;
         ^---^
-smt_checker_input_VPqU:16:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_kjl2:16:9: Warning: Assertion checker does not yet implement this expression.
         s1ref.x[msg.sender] = a;
         ^-----------------^
-smt_checker_input_VPqU:16:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_kjl2:16:9: Warning: Assertion checker does not yet implement this expression.
         s1ref.x[msg.sender] = a;
         ^-----------------^
-smt_checker_input_VPqU:17:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_kjl2:17:9: Warning: Assertion checker does not yet support this expression.
         s2ref.x[msg.sender] = b;
         ^-----^
-smt_checker_input_VPqU:17:9: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
+smt_checker_input_kjl2:17:9: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
         s2ref.x[msg.sender] = b;
         ^---^
-smt_checker_input_VPqU:17:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_kjl2:17:9: Warning: Assertion checker does not yet implement this expression.
         s2ref.x[msg.sender] = b;
         ^-----------------^
-smt_checker_input_VPqU:17:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_kjl2:17:9: Warning: Assertion checker does not yet implement this expression.
         s2ref.x[msg.sender] = b;
         ^-----------------^
-smt_checker_input_VPqU:18:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_kjl2:18:16: Warning: Assertion checker does not yet support this expression.
         assert(s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                ^-----^
-smt_checker_input_VPqU:18:16: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
+smt_checker_input_kjl2:18:16: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
         assert(s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                ^---^
-smt_checker_input_VPqU:18:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_kjl2:18:16: Warning: Assertion checker does not yet implement this expression.
         assert(s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                ^-----------------^
-smt_checker_input_VPqU:18:39: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_kjl2:18:39: Warning: Assertion checker does not yet support this expression.
         assert(s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                                       ^-----^
-smt_checker_input_VPqU:18:39: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
+smt_checker_input_kjl2:18:39: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
         assert(s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                                       ^---^
-smt_checker_input_VPqU:18:39: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_kjl2:18:39: Warning: Assertion checker does not yet implement this expression.
         assert(s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                                       ^-----------------^
-smt_checker_input_VPqU:19:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_kjl2:19:16: Warning: Assertion checker does not yet support this expression.
         assert(s.x[msg.sender] == b);
                ^-^
-smt_checker_input_VPqU:19:16: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage ref
+smt_checker_input_kjl2:19:16: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage ref
         assert(s.x[msg.sender] == b);
                ^
-smt_checker_input_VPqU:19:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_kjl2:19:16: Warning: Assertion checker does not yet implement this expression.
         assert(s.x[msg.sender] == b);
                ^-------------^
-smt_checker_input_VPqU:13:31: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_kjl2:13:31: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
                               ^---------------------^
   for:
@@ -111,7 +111,7 @@ smt_checker_input_VPqU:13:31: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_VPqU:13:31: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_kjl2:13:31: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
                               ^---------------------^
   for:
@@ -123,7 +123,7 @@ smt_checker_input_VPqU:13:31: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_VPqU:18:9: Warning: Assertion violation happens here
+smt_checker_input_kjl2:18:9: Warning: Assertion violation happens here
         assert(s1ref.x[msg.sender] == s2ref.x[msg.sender]);
         ^------------------------------------------------^
   for:
@@ -134,7 +134,7 @@ smt_checker_input_VPqU:18:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_VPqU:19:9: Warning: Assertion violation happens here
+smt_checker_input_kjl2:19:9: Warning: Assertion violation happens here
         assert(s.x[msg.sender] == b);
         ^--------------------------^
   for:
@@ -145,103 +145,103 @@ smt_checker_input_VPqU:19:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_VPqU:24:14: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage ref
+smt_checker_input_kjl2:24:14: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage ref
         test(s, s, 0, 1);
              ^
-smt_checker_input_VPqU:24:17: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage ref
+smt_checker_input_kjl2:24:17: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage ref
         test(s, s, 0, 1);
                 ^
-smt_checker_input_VPqU:13:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_kjl2:13:9: Warning: Assertion checker does not yet support this expression.
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
         ^-----^
-smt_checker_input_VPqU:13:9: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
+smt_checker_input_kjl2:13:9: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
         ^---^
-smt_checker_input_VPqU:13:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_kjl2:13:9: Warning: Assertion checker does not yet implement this expression.
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
         ^-----------------^
-smt_checker_input_VPqU:13:31: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_kjl2:13:31: Warning: Assertion checker does not yet support this expression.
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
                               ^-----^
-smt_checker_input_VPqU:13:31: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
+smt_checker_input_kjl2:13:31: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
                               ^---^
-smt_checker_input_VPqU:13:31: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_kjl2:13:31: Warning: Assertion checker does not yet implement this expression.
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
                               ^-----------------^
-smt_checker_input_VPqU:13:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_kjl2:13:9: Warning: Assertion checker does not yet implement this expression.
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
         ^-----------------^
-smt_checker_input_VPqU:14:30: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_kjl2:14:30: Warning: Assertion checker does not yet support this expression.
         s1ref_alias_s2ref = (s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                              ^-----^
-smt_checker_input_VPqU:14:30: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
+smt_checker_input_kjl2:14:30: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
         s1ref_alias_s2ref = (s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                              ^---^
-smt_checker_input_VPqU:14:30: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_kjl2:14:30: Warning: Assertion checker does not yet implement this expression.
         s1ref_alias_s2ref = (s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                              ^-----------------^
-smt_checker_input_VPqU:14:53: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_kjl2:14:53: Warning: Assertion checker does not yet support this expression.
         s1ref_alias_s2ref = (s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                                                     ^-----^
-smt_checker_input_VPqU:14:53: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
+smt_checker_input_kjl2:14:53: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
         s1ref_alias_s2ref = (s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                                                     ^---^
-smt_checker_input_VPqU:14:53: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_kjl2:14:53: Warning: Assertion checker does not yet implement this expression.
         s1ref_alias_s2ref = (s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                                                     ^-----------------^
-smt_checker_input_VPqU:16:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_kjl2:16:9: Warning: Assertion checker does not yet support this expression.
         s1ref.x[msg.sender] = a;
         ^-----^
-smt_checker_input_VPqU:16:9: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
+smt_checker_input_kjl2:16:9: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
         s1ref.x[msg.sender] = a;
         ^---^
-smt_checker_input_VPqU:16:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_kjl2:16:9: Warning: Assertion checker does not yet implement this expression.
         s1ref.x[msg.sender] = a;
         ^-----------------^
-smt_checker_input_VPqU:16:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_kjl2:16:9: Warning: Assertion checker does not yet implement this expression.
         s1ref.x[msg.sender] = a;
         ^-----------------^
-smt_checker_input_VPqU:17:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_kjl2:17:9: Warning: Assertion checker does not yet support this expression.
         s2ref.x[msg.sender] = b;
         ^-----^
-smt_checker_input_VPqU:17:9: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
+smt_checker_input_kjl2:17:9: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
         s2ref.x[msg.sender] = b;
         ^---^
-smt_checker_input_VPqU:17:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_kjl2:17:9: Warning: Assertion checker does not yet implement this expression.
         s2ref.x[msg.sender] = b;
         ^-----------------^
-smt_checker_input_VPqU:17:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_kjl2:17:9: Warning: Assertion checker does not yet implement this expression.
         s2ref.x[msg.sender] = b;
         ^-----------------^
-smt_checker_input_VPqU:18:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_kjl2:18:16: Warning: Assertion checker does not yet support this expression.
         assert(s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                ^-----^
-smt_checker_input_VPqU:18:16: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
+smt_checker_input_kjl2:18:16: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
         assert(s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                ^---^
-smt_checker_input_VPqU:18:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_kjl2:18:16: Warning: Assertion checker does not yet implement this expression.
         assert(s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                ^-----------------^
-smt_checker_input_VPqU:18:39: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_kjl2:18:39: Warning: Assertion checker does not yet support this expression.
         assert(s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                                       ^-----^
-smt_checker_input_VPqU:18:39: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
+smt_checker_input_kjl2:18:39: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage pointer
         assert(s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                                       ^---^
-smt_checker_input_VPqU:18:39: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_kjl2:18:39: Warning: Assertion checker does not yet implement this expression.
         assert(s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                                       ^-----------------^
-smt_checker_input_VPqU:19:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_kjl2:19:16: Warning: Assertion checker does not yet support this expression.
         assert(s.x[msg.sender] == b);
                ^-^
-smt_checker_input_VPqU:19:16: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage ref
+smt_checker_input_kjl2:19:16: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasBase.S storage ref
         assert(s.x[msg.sender] == b);
                ^
-smt_checker_input_VPqU:19:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_kjl2:19:16: Warning: Assertion checker does not yet implement this expression.
         assert(s.x[msg.sender] == b);
                ^-------------^
-smt_checker_input_VPqU:13:31: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_kjl2:13:31: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
                               ^---------------------^
   for:
@@ -252,11 +252,11 @@ smt_checker_input_VPqU:13:31: Warning: Underflow (resulting value less than -578
   s1ref_alias_s2ref = false
 
 Callstack: 
-smt_checker_input_VPqU:24:9: 
+smt_checker_input_kjl2:24:9: 
         test(s, s, 0, 1);
         ^--------------^
 
-smt_checker_input_VPqU:13:31: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_kjl2:13:31: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
                               ^---------------------^
   for:
@@ -267,11 +267,11 @@ smt_checker_input_VPqU:13:31: Warning: Overflow (resulting value larger than 0x8
   s1ref_alias_s2ref = false
 
 Callstack: 
-smt_checker_input_VPqU:24:9: 
+smt_checker_input_kjl2:24:9: 
         test(s, s, 0, 1);
         ^--------------^
 
-smt_checker_input_VPqU:18:9: Warning: Assertion violation happens here
+smt_checker_input_kjl2:18:9: Warning: Assertion violation happens here
         assert(s1ref.x[msg.sender] == s2ref.x[msg.sender]);
         ^------------------------------------------------^
   for:
@@ -281,11 +281,11 @@ smt_checker_input_VPqU:18:9: Warning: Assertion violation happens here
   s1ref_alias_s2ref = true
 
 Callstack: 
-smt_checker_input_VPqU:24:9: 
+smt_checker_input_kjl2:24:9: 
         test(s, s, 0, 1);
         ^--------------^
 
-smt_checker_input_VPqU:19:9: Warning: Assertion violation happens here
+smt_checker_input_kjl2:19:9: Warning: Assertion violation happens here
         assert(s.x[msg.sender] == b);
         ^--------------------------^
   for:
@@ -295,9 +295,9 @@ smt_checker_input_VPqU:19:9: Warning: Assertion violation happens here
   s1ref_alias_s2ref = true
 
 Callstack: 
-smt_checker_input_VPqU:24:9: 
+smt_checker_input_kjl2:24:9: 
         test(s, s, 0, 1);
         ^--------------^
 
-0.08user 0.03system 0:00.11elapsed 100%CPU (0avgtext+0avgdata 38948maxresident)k
-0inputs+0outputs (0major+1984minor)pagefaults 0swaps
+0.10user 0.21system 0:00.32elapsed 100%CPU (0avgtext+0avgdata 38728maxresident)k
+0inputs+0outputs (0major+1977minor)pagefaults 0swaps

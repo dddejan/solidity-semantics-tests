@@ -3,5 +3,5 @@ AssignMappingS2L::storToLoc: OK
 AssignMappingS2L::truffleMain: OK
 AssignMappingS2L::[implicit_constructor]: OK
 No errors found.
-0.64user 0.24system 0:00.85elapsed 103%CPU (0avgtext+0avgdata 41920maxresident)k
-0inputs+16outputs (0major+16255minor)pagefaults 0swaps
+0.69user 0.68system 0:01.34elapsed 102%CPU (0avgtext+0avgdata 41980maxresident)k
+0inputs+16outputs (0major+16387minor)pagefaults 0swaps

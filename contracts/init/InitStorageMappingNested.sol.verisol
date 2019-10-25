@@ -15,5 +15,5 @@ Warning: A mapping with complex value type m of valuetype mapping (address => in
 
 	See full execution trace inside corral.txt
 Command exited with non-zero status 1
-2.03user 0.39system 0:02.42elapsed 100%CPU (0avgtext+0avgdata 52344maxresident)k
-0inputs+64outputs (0major+96670minor)pagefaults 0swaps
+2.11user 0.81system 0:02.91elapsed 100%CPU (0avgtext+0avgdata 52560maxresident)k
+0inputs+64outputs (0major+96723minor)pagefaults 0swaps

@@ -1,5 +1,5 @@
 Running contracts/init/InitStorageArrayDynamicStruct.sol
 The analysis was completed successfully. No issues were detected.
 
-1.53user 0.34system 0:01.77elapsed 106%CPU (0avgtext+0avgdata 78056maxresident)k
-0inputs+24280outputs (0major+30361minor)pagefaults 0swaps
+1.52user 0.45system 0:01.90elapsed 103%CPU (0avgtext+0avgdata 78360maxresident)k
+0inputs+24304outputs (0major+30337minor)pagefaults 0swaps

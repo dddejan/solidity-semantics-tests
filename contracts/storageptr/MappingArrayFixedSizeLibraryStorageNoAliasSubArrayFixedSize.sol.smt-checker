@@ -1,15 +1,15 @@
 Running contracts/storageptr/MappingArrayFixedSizeLibraryStorageNoAliasSubArrayFixedSize.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_yzNZ:10:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_uQJ0:10:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         a[msg.sender][1] = a[msg.sender][1] + b[msg.sender][1];
         ^--------------^
-smt_checker_input_yzNZ:11:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_uQJ0:11:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         b[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
         ^--------------^
-smt_checker_input_yzNZ:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_uQJ0:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         a[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
         ^--------------^
-smt_checker_input_yzNZ:10:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_uQJ0:10:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         a[msg.sender][1] = a[msg.sender][1] + b[msg.sender][1];
                            ^---------------------------------^
   for:
@@ -22,7 +22,7 @@ smt_checker_input_yzNZ:10:28: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_yzNZ:10:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_uQJ0:10:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a[msg.sender][1] = a[msg.sender][1] + b[msg.sender][1];
                            ^---------------------------------^
   for:
@@ -35,7 +35,7 @@ smt_checker_input_yzNZ:10:28: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_yzNZ:11:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_uQJ0:11:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         b[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
                            ^---------------------------------^
   for:
@@ -48,7 +48,7 @@ smt_checker_input_yzNZ:11:28: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_yzNZ:11:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_uQJ0:11:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         b[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
                            ^---------------------------------^
   for:
@@ -61,7 +61,7 @@ smt_checker_input_yzNZ:11:28: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_yzNZ:12:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_uQJ0:12:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         a[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
                            ^---------------------------------^
   for:
@@ -74,7 +74,7 @@ smt_checker_input_yzNZ:12:28: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_yzNZ:12:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_uQJ0:12:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
                            ^---------------------------------^
   for:
@@ -87,7 +87,7 @@ smt_checker_input_yzNZ:12:28: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_yzNZ:13:9: Warning: Assertion violation happens here
+smt_checker_input_uQJ0:13:9: Warning: Assertion violation happens here
         assert(a[msg.sender][1] == b_old); // no alias => swap correct
         ^-------------------------------^
   for:
@@ -99,7 +99,7 @@ smt_checker_input_yzNZ:13:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_yzNZ:14:9: Warning: Assertion violation happens here
+smt_checker_input_uQJ0:14:9: Warning: Assertion violation happens here
         assert(b[msg.sender][1] == a_old); // no alias => swap correct
         ^-------------------------------^
   for:
@@ -111,11 +111,11 @@ smt_checker_input_yzNZ:14:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_yzNZ:25:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_uQJ0:25:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s1[msg.sender][1] = 1;
         ^---------------^
-smt_checker_input_yzNZ:26:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_uQJ0:26:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s2[1][msg.sender][1] = 2;
         ^------------------^
-0.20user 0.03system 0:00.24elapsed 97%CPU (0avgtext+0avgdata 39780maxresident)k
-0inputs+0outputs (0major+2300minor)pagefaults 0swaps
+0.18user 0.26system 0:00.44elapsed 99%CPU (0avgtext+0avgdata 40268maxresident)k
+0inputs+0outputs (0major+2307minor)pagefaults 0swaps

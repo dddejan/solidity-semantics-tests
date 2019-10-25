@@ -8,11 +8,11 @@ SpecFilesDir = /solc-verify-examples/contracts/init
 ... running /root/.dotnet/tools/corral /recursionBound:4 /k:1 /main:CorralEntry_InitStorageMappingStruct /tryCTrace /printDataValues:1 __SolToBoogieTest_out.bpl
 	*** Found a counterexample (see corral.txt)
 	-----Transaction Sequence for Defect ------
-Command exited with non-zero status 1
-2.15user 0.36system 0:02.49elapsed 101%CPU (0avgtext+0avgdata 52600maxresident)k
-0inputs+64outputs (0major+97030minor)pagefaults 0swaps
 /solc-verify-examples/contracts/init/InitStorageMappingStruct.sol(6,1): : InitStorageMappingStruct::Constructor (this = address!0, msg.sender = address!1, msg.value = 1)
 /solc-verify-examples/contracts/init/InitStorageMappingStruct.sol(7,1): : ASSERTION FAILS!
 	---------------
 
 	See full execution trace inside corral.txt
+Command exited with non-zero status 1
+2.22user 0.78system 0:02.96elapsed 101%CPU (0avgtext+0avgdata 52712maxresident)k
+0inputs+64outputs (0major+97081minor)pagefaults 0swaps

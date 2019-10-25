@@ -1,14 +1,14 @@
 Running contracts/storageptr/MappingStructLibraryStorageNoAliasBase.sol
 Error while running verifier, details:
 [TRACE] Using prover: /usr/local/bin/z3
-Parsing /tmp/tmpzlihinte/MappingStructLibraryStorageNoAliasBase.sol.bpl
-/tmp/tmpzlihinte/MappingStructLibraryStorageNoAliasBase.sol.bpl(33,5): Error: command assigns to an immutable variable: a#8
-/tmp/tmpzlihinte/MappingStructLibraryStorageNoAliasBase.sol.bpl(34,6): Error: command assigns to an immutable variable: b#12
-/tmp/tmpzlihinte/MappingStructLibraryStorageNoAliasBase.sol.bpl(35,5): Error: command assigns to an immutable variable: a#8
-/tmp/tmpzlihinte/MappingStructLibraryStorageNoAliasBase.sol.bpl(68,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]struct_storage_S#4)
-/tmp/tmpzlihinte/MappingStructLibraryStorageNoAliasBase.sol.bpl(71,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]struct_storage_S#4)
-5 type checking errors detected in /tmp/tmpzlihinte/MappingStructLibraryStorageNoAliasBase.sol.bpl
+Parsing /tmp/tmps4ulqfrq/MappingStructLibraryStorageNoAliasBase.sol.bpl
+/tmp/tmps4ulqfrq/MappingStructLibraryStorageNoAliasBase.sol.bpl(33,5): Error: command assigns to an immutable variable: a#8
+/tmp/tmps4ulqfrq/MappingStructLibraryStorageNoAliasBase.sol.bpl(34,6): Error: command assigns to an immutable variable: b#12
+/tmp/tmps4ulqfrq/MappingStructLibraryStorageNoAliasBase.sol.bpl(35,5): Error: command assigns to an immutable variable: a#8
+/tmp/tmps4ulqfrq/MappingStructLibraryStorageNoAliasBase.sol.bpl(68,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]struct_storage_S#4)
+/tmp/tmps4ulqfrq/MappingStructLibraryStorageNoAliasBase.sol.bpl(71,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]struct_storage_S#4)
+5 type checking errors detected in /tmp/tmps4ulqfrq/MappingStructLibraryStorageNoAliasBase.sol.bpl
 
 Command exited with non-zero status 252
-0.32user 0.11system 0:00.43elapsed 100%CPU (0avgtext+0avgdata 32956maxresident)k
-0inputs+24outputs (0major+10252minor)pagefaults 0swaps
+0.35user 0.61system 0:00.96elapsed 100%CPU (0avgtext+0avgdata 33120maxresident)k
+0inputs+24outputs (0major+10254minor)pagefaults 0swaps

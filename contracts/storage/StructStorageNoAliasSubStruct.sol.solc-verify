@@ -3,5 +3,5 @@ StructStorageNoAliasSubStruct::test: OK
 StructStorageNoAliasSubStruct::truffleMain: OK
 StructStorageNoAliasSubStruct::[implicit_constructor]: OK
 No errors found.
-0.71user 0.20system 0:00.90elapsed 101%CPU (0avgtext+0avgdata 41316maxresident)k
-0inputs+16outputs (0major+16194minor)pagefaults 0swaps
+0.66user 0.73system 0:01.36elapsed 102%CPU (0avgtext+0avgdata 41788maxresident)k
+0inputs+16outputs (0major+16566minor)pagefaults 0swaps

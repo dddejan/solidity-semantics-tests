@@ -1,18 +1,18 @@
 Running contracts/storageptr/ArrayFixedSizeStorageArgumentAliasSubStruct.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_O7ki:8:5: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_l1jJ:8:5: Warning: Assertion checker does not yet support the type of this variable.
     Sub s;
     ^---^
-smt_checker_input_O7ki:19:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_l1jJ:19:16: Warning: Assertion checker does not yet support this expression.
         assert(s.s[1] == b);
                ^-^
-smt_checker_input_O7ki:19:16: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStorageArgumentAliasSubStruct.Sub storage ref
+smt_checker_input_l1jJ:19:16: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStorageArgumentAliasSubStruct.Sub storage ref
         assert(s.s[1] == b);
                ^
-smt_checker_input_O7ki:19:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_l1jJ:19:16: Warning: Assertion checker does not yet implement this expression.
         assert(s.s[1] == b);
                ^----^
-smt_checker_input_O7ki:13:20: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_l1jJ:13:20: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         s1ref[0] = s2ref[0] + 1;
                    ^----------^
   for:
@@ -25,7 +25,7 @@ smt_checker_input_O7ki:13:20: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_O7ki:18:9: Warning: Assertion violation happens here
+smt_checker_input_l1jJ:18:9: Warning: Assertion violation happens here
         assert(s1ref[1] == s2ref[1]);
         ^--------------------------^
   for:
@@ -39,7 +39,7 @@ smt_checker_input_O7ki:18:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_O7ki:19:9: Warning: Assertion violation happens here
+smt_checker_input_l1jJ:19:9: Warning: Assertion violation happens here
         assert(s.s[1] == b);
         ^-----------------^
   for:
@@ -53,28 +53,28 @@ smt_checker_input_O7ki:19:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_O7ki:24:14: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_l1jJ:24:14: Warning: Assertion checker does not yet support this expression.
         test(s.s, s.s, 0, 1);
              ^-^
-smt_checker_input_O7ki:24:14: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStorageArgumentAliasSubStruct.Sub storage ref
+smt_checker_input_l1jJ:24:14: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStorageArgumentAliasSubStruct.Sub storage ref
         test(s.s, s.s, 0, 1);
              ^
-smt_checker_input_O7ki:24:19: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_l1jJ:24:19: Warning: Assertion checker does not yet support this expression.
         test(s.s, s.s, 0, 1);
                   ^-^
-smt_checker_input_O7ki:24:19: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStorageArgumentAliasSubStruct.Sub storage ref
+smt_checker_input_l1jJ:24:19: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStorageArgumentAliasSubStruct.Sub storage ref
         test(s.s, s.s, 0, 1);
                   ^
-smt_checker_input_O7ki:19:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_l1jJ:19:16: Warning: Assertion checker does not yet support this expression.
         assert(s.s[1] == b);
                ^-^
-smt_checker_input_O7ki:19:16: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStorageArgumentAliasSubStruct.Sub storage ref
+smt_checker_input_l1jJ:19:16: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStorageArgumentAliasSubStruct.Sub storage ref
         assert(s.s[1] == b);
                ^
-smt_checker_input_O7ki:19:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_l1jJ:19:16: Warning: Assertion checker does not yet implement this expression.
         assert(s.s[1] == b);
                ^----^
-smt_checker_input_O7ki:13:20: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_l1jJ:13:20: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         s1ref[0] = s2ref[0] + 1;
                    ^----------^
   for:
@@ -86,11 +86,11 @@ smt_checker_input_O7ki:13:20: Warning: Overflow (resulting value larger than 0x8
   s2ref[0] = 0x80 * 2**248 - 1
 
 Callstack: 
-smt_checker_input_O7ki:24:9: 
+smt_checker_input_l1jJ:24:9: 
         test(s.s, s.s, 0, 1);
         ^------------------^
 
-smt_checker_input_O7ki:18:9: Warning: Assertion violation happens here
+smt_checker_input_l1jJ:18:9: Warning: Assertion violation happens here
         assert(s1ref[1] == s2ref[1]);
         ^--------------------------^
   for:
@@ -103,11 +103,11 @@ smt_checker_input_O7ki:18:9: Warning: Assertion violation happens here
   s2ref[1] = 1
 
 Callstack: 
-smt_checker_input_O7ki:24:9: 
+smt_checker_input_l1jJ:24:9: 
         test(s.s, s.s, 0, 1);
         ^------------------^
 
-smt_checker_input_O7ki:19:9: Warning: Assertion violation happens here
+smt_checker_input_l1jJ:19:9: Warning: Assertion violation happens here
         assert(s.s[1] == b);
         ^-----------------^
   for:
@@ -120,9 +120,9 @@ smt_checker_input_O7ki:19:9: Warning: Assertion violation happens here
   s2ref[1] = 1
 
 Callstack: 
-smt_checker_input_O7ki:24:9: 
+smt_checker_input_l1jJ:24:9: 
         test(s.s, s.s, 0, 1);
         ^------------------^
 
-0.15user 0.02system 0:00.17elapsed 99%CPU (0avgtext+0avgdata 40004maxresident)k
-0inputs+0outputs (0major+2271minor)pagefaults 0swaps
+0.14user 0.25system 0:00.39elapsed 99%CPU (0avgtext+0avgdata 39624maxresident)k
+0inputs+0outputs (0major+2262minor)pagefaults 0swaps

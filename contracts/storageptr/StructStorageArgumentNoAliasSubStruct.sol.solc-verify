@@ -2,5 +2,5 @@ Running contracts/storageptr/StructStorageArgumentNoAliasSubStruct.sol
 StructStorageArgumentNoAliasSubStruct::truffleMain: OK
 StructStorageArgumentNoAliasSubStruct::[implicit_constructor]: OK
 No errors found.
-0.68user 0.26system 0:00.91elapsed 103%CPU (0avgtext+0avgdata 42880maxresident)k
-0inputs+24outputs (0major+16930minor)pagefaults 0swaps
+0.70user 0.71system 0:01.39elapsed 101%CPU (0avgtext+0avgdata 42872maxresident)k
+0inputs+24outputs (0major+17014minor)pagefaults 0swaps

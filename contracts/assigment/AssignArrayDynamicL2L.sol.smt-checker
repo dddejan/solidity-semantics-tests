@@ -1,12 +1,12 @@
 Running contracts/assigment/AssignArrayDynamicL2L.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_2kFk:10:17: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VxPd:10:17: Warning: Assertion checker does not yet support this expression.
         require(s1.length > 0);
                 ^-------^
-smt_checker_input_2kFk:11:17: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VxPd:11:17: Warning: Assertion checker does not yet support this expression.
         require(s2.length > 0);
                 ^-------^
-smt_checker_input_2kFk:23:9: Warning: Assertion violation happens here
+smt_checker_input_VxPd:23:9: Warning: Assertion violation happens here
         assert(sl2[0] == c);
         ^-----------------^
   for:
@@ -20,7 +20,7 @@ smt_checker_input_2kFk:23:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_2kFk:24:9: Warning: Assertion violation happens here
+smt_checker_input_VxPd:24:9: Warning: Assertion violation happens here
         assert(s1[0] == a);
         ^----------------^
   for:
@@ -34,7 +34,7 @@ smt_checker_input_2kFk:24:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_2kFk:25:9: Warning: Assertion violation happens here
+smt_checker_input_VxPd:25:9: Warning: Assertion violation happens here
         assert(s2[0] == c);
         ^----------------^
   for:
@@ -48,19 +48,19 @@ smt_checker_input_2kFk:25:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_2kFk:30:9: Warning: Assertion checker does not yet implement this type of function call.
+smt_checker_input_VxPd:30:9: Warning: Assertion checker does not yet implement this type of function call.
         s1.push(-1);
         ^---------^
-smt_checker_input_2kFk:31:9: Warning: Assertion checker does not yet implement this type of function call.
+smt_checker_input_VxPd:31:9: Warning: Assertion checker does not yet implement this type of function call.
         s2.push(-1);
         ^---------^
-smt_checker_input_2kFk:10:17: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VxPd:10:17: Warning: Assertion checker does not yet support this expression.
         require(s1.length > 0);
                 ^-------^
-smt_checker_input_2kFk:11:17: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VxPd:11:17: Warning: Assertion checker does not yet support this expression.
         require(s2.length > 0);
                 ^-------^
-smt_checker_input_2kFk:23:9: Warning: Assertion violation happens here
+smt_checker_input_VxPd:23:9: Warning: Assertion violation happens here
         assert(sl2[0] == c);
         ^-----------------^
   for:
@@ -73,11 +73,11 @@ smt_checker_input_2kFk:23:9: Warning: Assertion violation happens here
   sl2[0] = 3
 
 Callstack: 
-smt_checker_input_2kFk:32:9: 
+smt_checker_input_VxPd:32:9: 
         locToLoc(0, 1, 2);
         ^---------------^
 
-smt_checker_input_2kFk:24:9: Warning: Assertion violation happens here
+smt_checker_input_VxPd:24:9: Warning: Assertion violation happens here
         assert(s1[0] == a);
         ^----------------^
   for:
@@ -90,11 +90,11 @@ smt_checker_input_2kFk:24:9: Warning: Assertion violation happens here
   sl2[0] = 2
 
 Callstack: 
-smt_checker_input_2kFk:32:9: 
+smt_checker_input_VxPd:32:9: 
         locToLoc(0, 1, 2);
         ^---------------^
 
-smt_checker_input_2kFk:25:9: Warning: Assertion violation happens here
+smt_checker_input_VxPd:25:9: Warning: Assertion violation happens here
         assert(s2[0] == c);
         ^----------------^
   for:
@@ -107,9 +107,9 @@ smt_checker_input_2kFk:25:9: Warning: Assertion violation happens here
   sl2[0] = 2
 
 Callstack: 
-smt_checker_input_2kFk:32:9: 
+smt_checker_input_VxPd:32:9: 
         locToLoc(0, 1, 2);
         ^---------------^
 
-0.17user 0.02system 0:00.20elapsed 100%CPU (0avgtext+0avgdata 48660maxresident)k
-0inputs+0outputs (0major+4116minor)pagefaults 0swaps
+0.16user 0.24system 0:00.40elapsed 100%CPU (0avgtext+0avgdata 49052maxresident)k
+0inputs+0outputs (0major+4118minor)pagefaults 0swaps

@@ -1,18 +1,18 @@
 Running contracts/storageptr/MappingArrayFixedSizeLibraryStorageAliasSubArrayFixedSize.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_hgHX:11:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_fiKN:11:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         a[msg.sender][1] = b[msg.sender][1] + 1;
         ^--------------^
-smt_checker_input_hgHX:15:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_fiKN:15:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         a[msg.sender][1] = a[msg.sender][1] + b[msg.sender][1];
         ^--------------^
-smt_checker_input_hgHX:16:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_fiKN:16:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         b[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
         ^--------------^
-smt_checker_input_hgHX:17:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_fiKN:17:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         a[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
         ^--------------^
-smt_checker_input_hgHX:11:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_fiKN:11:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a[msg.sender][1] = b[msg.sender][1] + 1;
                            ^------------------^
   for:
@@ -26,7 +26,7 @@ smt_checker_input_hgHX:11:28: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_hgHX:12:42: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_fiKN:12:42: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a_b_alias = (b[msg.sender][1] == b_old + 1);
                                          ^-------^
   for:
@@ -40,7 +40,7 @@ smt_checker_input_hgHX:12:42: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_hgHX:15:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_fiKN:15:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         a[msg.sender][1] = a[msg.sender][1] + b[msg.sender][1];
                            ^---------------------------------^
   for:
@@ -54,7 +54,7 @@ smt_checker_input_hgHX:15:28: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_hgHX:15:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_fiKN:15:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a[msg.sender][1] = a[msg.sender][1] + b[msg.sender][1];
                            ^---------------------------------^
   for:
@@ -68,7 +68,7 @@ smt_checker_input_hgHX:15:28: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_hgHX:16:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_fiKN:16:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         b[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
                            ^---------------------------------^
   for:
@@ -82,7 +82,7 @@ smt_checker_input_hgHX:16:28: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_hgHX:16:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_fiKN:16:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         b[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
                            ^---------------------------------^
   for:
@@ -96,7 +96,7 @@ smt_checker_input_hgHX:16:28: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_hgHX:17:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_fiKN:17:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         a[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
                            ^---------------------------------^
   for:
@@ -110,7 +110,7 @@ smt_checker_input_hgHX:17:28: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_hgHX:17:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_fiKN:17:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
                            ^---------------------------------^
   for:
@@ -124,5 +124,5 @@ smt_checker_input_hgHX:17:28: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-0.33user 0.05system 0:00.39elapsed 100%CPU (0avgtext+0avgdata 41376maxresident)k
-0inputs+0outputs (0major+2660minor)pagefaults 0swaps
+0.34user 0.26system 0:00.61elapsed 100%CPU (0avgtext+0avgdata 41760maxresident)k
+0inputs+0outputs (0major+2665minor)pagefaults 0swaps

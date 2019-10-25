@@ -1,15 +1,15 @@
 Running contracts/assigment/AssignArrayFixedSizeMultiM2S.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_Hxu9:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_as9k:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         sm[2][1] = a;
         ^------^
-smt_checker_input_Hxu9:18:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_as9k:18:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s1[2][1] = b;
         ^------^
-smt_checker_input_Hxu9:22:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_as9k:22:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         sm[2][1] = c;
         ^------^
-smt_checker_input_Hxu9:15:9: Warning: Assertion violation happens here
+smt_checker_input_as9k:15:9: Warning: Assertion violation happens here
         assert(s1[2][1] == a);
         ^-------------------^
   for:
@@ -21,7 +21,7 @@ smt_checker_input_Hxu9:15:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_Hxu9:19:9: Warning: Assertion violation happens here
+smt_checker_input_as9k:19:9: Warning: Assertion violation happens here
         assert(s1[2][1] == b);
         ^-------------------^
   for:
@@ -33,7 +33,7 @@ smt_checker_input_Hxu9:19:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_Hxu9:24:9: Warning: Assertion violation happens here
+smt_checker_input_as9k:24:9: Warning: Assertion violation happens here
         assert(sm[2][1] == c);
         ^-------------------^
   for:
@@ -45,16 +45,16 @@ smt_checker_input_Hxu9:24:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_Hxu9:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_as9k:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         sm[2][1] = a;
         ^------^
-smt_checker_input_Hxu9:18:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_as9k:18:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s1[2][1] = b;
         ^------^
-smt_checker_input_Hxu9:22:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_as9k:22:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         sm[2][1] = c;
         ^------^
-smt_checker_input_Hxu9:15:9: Warning: Assertion violation happens here
+smt_checker_input_as9k:15:9: Warning: Assertion violation happens here
         assert(s1[2][1] == a);
         ^-------------------^
   for:
@@ -65,11 +65,11 @@ smt_checker_input_Hxu9:15:9: Warning: Assertion violation happens here
   sm[2][1] = 0
 
 Callstack: 
-smt_checker_input_Hxu9:29:9: 
+smt_checker_input_as9k:29:9: 
         memToStor(0, 1, 2);
         ^----------------^
 
-smt_checker_input_Hxu9:19:9: Warning: Assertion violation happens here
+smt_checker_input_as9k:19:9: Warning: Assertion violation happens here
         assert(s1[2][1] == b);
         ^-------------------^
   for:
@@ -80,11 +80,11 @@ smt_checker_input_Hxu9:19:9: Warning: Assertion violation happens here
   sm[2][1] = 0
 
 Callstack: 
-smt_checker_input_Hxu9:29:9: 
+smt_checker_input_as9k:29:9: 
         memToStor(0, 1, 2);
         ^----------------^
 
-smt_checker_input_Hxu9:24:9: Warning: Assertion violation happens here
+smt_checker_input_as9k:24:9: Warning: Assertion violation happens here
         assert(sm[2][1] == c);
         ^-------------------^
   for:
@@ -95,9 +95,9 @@ smt_checker_input_Hxu9:24:9: Warning: Assertion violation happens here
   sm[2][1] = 3
 
 Callstack: 
-smt_checker_input_Hxu9:29:9: 
+smt_checker_input_as9k:29:9: 
         memToStor(0, 1, 2);
         ^----------------^
 
-0.14user 0.03system 0:00.17elapsed 100%CPU (0avgtext+0avgdata 48172maxresident)k
-0inputs+0outputs (0major+4050minor)pagefaults 0swaps
+0.13user 0.21system 0:00.35elapsed 100%CPU (0avgtext+0avgdata 48952maxresident)k
+0inputs+0outputs (0major+4061minor)pagefaults 0swaps

@@ -20,6 +20,7 @@ contract ArrayFixedSizeStorageArgumentNoAliasSubArrayFixedSize {
     function truffleMain() external {
         s1[1] = -1;
         s2[1][1] = -2;
+        s2[0][1] = -3;
         test(s1, s2[1], 0, 1);
     }
 

@@ -1,4 +1,4 @@
 Running contracts/assigment/AssignArrayFixedSizeS2M.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-0.07user 0.02system 0:00.10elapsed 100%CPU (0avgtext+0avgdata 40424maxresident)k
-0inputs+0outputs (0major+2231minor)pagefaults 0swaps
+0.08user 0.22system 0:00.30elapsed 100%CPU (0avgtext+0avgdata 40212maxresident)k
+0inputs+0outputs (0major+2227minor)pagefaults 0swaps

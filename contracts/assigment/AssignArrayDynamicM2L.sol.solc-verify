@@ -3,5 +3,5 @@ AssignArrayDynamicM2L::memToLoc: OK
 AssignArrayDynamicM2L::truffleMain: OK
 AssignArrayDynamicM2L::[implicit_constructor]: OK
 No errors found.
-0.66user 0.23system 0:00.87elapsed 102%CPU (0avgtext+0avgdata 41824maxresident)k
-0inputs+24outputs (0major+16765minor)pagefaults 0swaps
+0.70user 0.62system 0:01.30elapsed 102%CPU (0avgtext+0avgdata 42184maxresident)k
+0inputs+24outputs (0major+16438minor)pagefaults 0swaps

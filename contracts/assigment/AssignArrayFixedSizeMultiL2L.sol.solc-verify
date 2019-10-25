@@ -1,7 +1,7 @@
 Running contracts/assigment/AssignArrayFixedSizeMultiL2L.sol
+0.68user 0.66system 0:01.33elapsed 101%CPU (0avgtext+0avgdata 42904maxresident)k
+0inputs+24outputs (0major+17090minor)pagefaults 0swaps
 AssignArrayFixedSizeMultiL2L::locToLoc: OK
 AssignArrayFixedSizeMultiL2L::truffleMain: OK
 AssignArrayFixedSizeMultiL2L::[implicit_constructor]: OK
 No errors found.
-0.72user 0.22system 0:00.92elapsed 103%CPU (0avgtext+0avgdata 43100maxresident)k
-0inputs+24outputs (0major+17002minor)pagefaults 0swaps

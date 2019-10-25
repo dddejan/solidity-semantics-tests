@@ -1,15 +1,15 @@
 Running contracts/storageptr/MappingStructLibraryStorageAliasSubArrayFixedSize.sol
 Error while running verifier, details:
 [TRACE] Using prover: /usr/local/bin/z3
-Parsing /tmp/tmpk8vzkvjz/MappingStructLibraryStorageAliasSubArrayFixedSize.sol.bpl
-/tmp/tmpk8vzkvjz/MappingStructLibraryStorageAliasSubArrayFixedSize.sol.bpl(34,5): Error: command assigns to an immutable variable: a#8
-/tmp/tmpk8vzkvjz/MappingStructLibraryStorageAliasSubArrayFixedSize.sol.bpl(38,5): Error: command assigns to an immutable variable: a#8
-/tmp/tmpk8vzkvjz/MappingStructLibraryStorageAliasSubArrayFixedSize.sol.bpl(39,6): Error: command assigns to an immutable variable: b#12
-/tmp/tmpk8vzkvjz/MappingStructLibraryStorageAliasSubArrayFixedSize.sol.bpl(40,5): Error: command assigns to an immutable variable: a#8
-/tmp/tmpk8vzkvjz/MappingStructLibraryStorageAliasSubArrayFixedSize.sol.bpl(73,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]struct_storage_S#4)
-/tmp/tmpk8vzkvjz/MappingStructLibraryStorageAliasSubArrayFixedSize.sol.bpl(77,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]struct_storage_S#4)
-6 type checking errors detected in /tmp/tmpk8vzkvjz/MappingStructLibraryStorageAliasSubArrayFixedSize.sol.bpl
+Parsing /tmp/tmp_s1499zj/MappingStructLibraryStorageAliasSubArrayFixedSize.sol.bpl
+/tmp/tmp_s1499zj/MappingStructLibraryStorageAliasSubArrayFixedSize.sol.bpl(34,5): Error: command assigns to an immutable variable: a#8
+/tmp/tmp_s1499zj/MappingStructLibraryStorageAliasSubArrayFixedSize.sol.bpl(38,5): Error: command assigns to an immutable variable: a#8
+/tmp/tmp_s1499zj/MappingStructLibraryStorageAliasSubArrayFixedSize.sol.bpl(39,6): Error: command assigns to an immutable variable: b#12
+/tmp/tmp_s1499zj/MappingStructLibraryStorageAliasSubArrayFixedSize.sol.bpl(40,5): Error: command assigns to an immutable variable: a#8
+/tmp/tmp_s1499zj/MappingStructLibraryStorageAliasSubArrayFixedSize.sol.bpl(73,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]struct_storage_S#4)
+/tmp/tmp_s1499zj/MappingStructLibraryStorageAliasSubArrayFixedSize.sol.bpl(77,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]struct_storage_S#4)
+6 type checking errors detected in /tmp/tmp_s1499zj/MappingStructLibraryStorageAliasSubArrayFixedSize.sol.bpl
 
 Command exited with non-zero status 252
-0.34user 0.12system 0:00.46elapsed 100%CPU (0avgtext+0avgdata 33120maxresident)k
-0inputs+24outputs (0major+10280minor)pagefaults 0swaps
+0.33user 0.61system 0:00.94elapsed 100%CPU (0avgtext+0avgdata 33248maxresident)k
+0inputs+24outputs (0major+10304minor)pagefaults 0swaps

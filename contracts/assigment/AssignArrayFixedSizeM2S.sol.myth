@@ -11,9 +11,9 @@ A storage modification is executed in a loop. Be aware that the transaction may 
 --------------------
 Initial State:
 
-Account: [CREATOR], balance: 0x100, nonce:0, storage:{}
+Account: [CREATOR], balance: 0x1000, nonce:0, storage:{}
 Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
-Account: [SOMEGUY], balance: 0x800000010a46a6, nonce:0, storage:{}
+Account: [SOMEGUY], balance: 0x800000000280d0, nonce:0, storage:{}
 
 Transaction Sequence:
 
@@ -22,5 +22,5 @@ Caller: [SOMEGUY], function: memToStor(int256,int256,int256), txdata: 0xe952d93c
 Caller: [CREATOR], function: memToStor(int256,int256,int256), txdata: 0xe952d93c030303030303030303030303030303030303030303030303030303030303030302020202020202020202020202020202020202020202020202020202020202020101010101010101010101010101010101010101010101010101010101010101, value: 0x0
 
 
-35.49user 17.10system 0:34.65elapsed 151%CPU (0avgtext+0avgdata 142480maxresident)k
-0inputs+24344outputs (0major+48645minor)pagefaults 0swaps
+33.31user 17.02system 0:32.67elapsed 154%CPU (0avgtext+0avgdata 143692maxresident)k
+0inputs+24344outputs (0major+48904minor)pagefaults 0swaps

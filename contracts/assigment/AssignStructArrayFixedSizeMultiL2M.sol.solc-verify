@@ -8,5 +8,5 @@ Warning: This is a pre-release compiler version, please do not use it in product
 Segmentation fault (core dumped)
 
 Command exited with non-zero status 255
-0.06user 0.03system 0:00.09elapsed 100%CPU (0avgtext+0avgdata 26216maxresident)k
-0inputs+4128outputs (0major+4794minor)pagefaults 0swaps
+0.07user 0.25system 0:00.33elapsed 99%CPU (0avgtext+0avgdata 26280maxresident)k
+0inputs+4128outputs (0major+4796minor)pagefaults 0swaps

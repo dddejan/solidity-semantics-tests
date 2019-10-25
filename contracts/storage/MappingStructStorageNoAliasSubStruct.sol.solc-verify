@@ -3,5 +3,5 @@ MappingStructStorageNoAliasSubStruct::test: OK
 MappingStructStorageNoAliasSubStruct::truffleMain: OK
 MappingStructStorageNoAliasSubStruct::[implicit_constructor]: OK
 No errors found.
-0.68user 0.22system 0:00.88elapsed 102%CPU (0avgtext+0avgdata 41692maxresident)k
-0inputs+16outputs (0major+16580minor)pagefaults 0swaps
+0.68user 0.75system 0:01.41elapsed 102%CPU (0avgtext+0avgdata 41832maxresident)k
+0inputs+16outputs (0major+16400minor)pagefaults 0swaps

@@ -1,111 +1,111 @@
 Running contracts/storageptr/StructMappingStorageArgumentAliasSubArrayFixedSize.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_PXhr:10:19: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_9OIj:10:19: Warning: Assertion checker does not yet support the type of this variable.
     function test(S storage s1ref, S storage s2ref, int a, int b) internal {
                   ^-------------^
-smt_checker_input_PXhr:10:36: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_9OIj:10:36: Warning: Assertion checker does not yet support the type of this variable.
     function test(S storage s1ref, S storage s2ref, int a, int b) internal {
                                    ^-------------^
-smt_checker_input_PXhr:13:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_9OIj:13:9: Warning: Assertion checker does not yet support this expression.
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
         ^-----^
-smt_checker_input_PXhr:13:9: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
+smt_checker_input_9OIj:13:9: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
         ^---^
-smt_checker_input_PXhr:13:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_9OIj:13:9: Warning: Assertion checker does not yet implement this expression.
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
         ^-----------------^
-smt_checker_input_PXhr:13:31: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_9OIj:13:31: Warning: Assertion checker does not yet support this expression.
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
                               ^-----^
-smt_checker_input_PXhr:13:31: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
+smt_checker_input_9OIj:13:31: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
                               ^---^
-smt_checker_input_PXhr:13:31: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_9OIj:13:31: Warning: Assertion checker does not yet implement this expression.
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
                               ^-----------------^
-smt_checker_input_PXhr:13:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_9OIj:13:9: Warning: Assertion checker does not yet implement this expression.
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
         ^-----------------^
-smt_checker_input_PXhr:14:30: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_9OIj:14:30: Warning: Assertion checker does not yet support this expression.
         s1ref_alias_s2ref = (s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                              ^-----^
-smt_checker_input_PXhr:14:30: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
+smt_checker_input_9OIj:14:30: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
         s1ref_alias_s2ref = (s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                              ^---^
-smt_checker_input_PXhr:14:30: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_9OIj:14:30: Warning: Assertion checker does not yet implement this expression.
         s1ref_alias_s2ref = (s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                              ^-----------------^
-smt_checker_input_PXhr:14:53: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_9OIj:14:53: Warning: Assertion checker does not yet support this expression.
         s1ref_alias_s2ref = (s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                                                     ^-----^
-smt_checker_input_PXhr:14:53: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
+smt_checker_input_9OIj:14:53: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
         s1ref_alias_s2ref = (s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                                                     ^---^
-smt_checker_input_PXhr:14:53: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_9OIj:14:53: Warning: Assertion checker does not yet implement this expression.
         s1ref_alias_s2ref = (s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                                                     ^-----------------^
-smt_checker_input_PXhr:16:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_9OIj:16:9: Warning: Assertion checker does not yet support this expression.
         s1ref.x[msg.sender] = a;
         ^-----^
-smt_checker_input_PXhr:16:9: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
+smt_checker_input_9OIj:16:9: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
         s1ref.x[msg.sender] = a;
         ^---^
-smt_checker_input_PXhr:16:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_9OIj:16:9: Warning: Assertion checker does not yet implement this expression.
         s1ref.x[msg.sender] = a;
         ^-----------------^
-smt_checker_input_PXhr:16:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_9OIj:16:9: Warning: Assertion checker does not yet implement this expression.
         s1ref.x[msg.sender] = a;
         ^-----------------^
-smt_checker_input_PXhr:17:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_9OIj:17:9: Warning: Assertion checker does not yet support this expression.
         s2ref.x[msg.sender] = b;
         ^-----^
-smt_checker_input_PXhr:17:9: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
+smt_checker_input_9OIj:17:9: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
         s2ref.x[msg.sender] = b;
         ^---^
-smt_checker_input_PXhr:17:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_9OIj:17:9: Warning: Assertion checker does not yet implement this expression.
         s2ref.x[msg.sender] = b;
         ^-----------------^
-smt_checker_input_PXhr:17:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_9OIj:17:9: Warning: Assertion checker does not yet implement this expression.
         s2ref.x[msg.sender] = b;
         ^-----------------^
-smt_checker_input_PXhr:18:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_9OIj:18:16: Warning: Assertion checker does not yet support this expression.
         assert(s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                ^-----^
-smt_checker_input_PXhr:18:16: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
+smt_checker_input_9OIj:18:16: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
         assert(s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                ^---^
-smt_checker_input_PXhr:18:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_9OIj:18:16: Warning: Assertion checker does not yet implement this expression.
         assert(s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                ^-----------------^
-smt_checker_input_PXhr:18:39: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_9OIj:18:39: Warning: Assertion checker does not yet support this expression.
         assert(s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                                       ^-----^
-smt_checker_input_PXhr:18:39: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
+smt_checker_input_9OIj:18:39: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
         assert(s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                                       ^---^
-smt_checker_input_PXhr:18:39: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_9OIj:18:39: Warning: Assertion checker does not yet implement this expression.
         assert(s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                                       ^-----------------^
-smt_checker_input_PXhr:19:17: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_9OIj:19:17: Warning: Assertion checker does not yet support this expression.
         require(s[0].x[msg.sender] != b);
                 ^----^
-smt_checker_input_PXhr:19:17: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage ref
+smt_checker_input_9OIj:19:17: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage ref
         require(s[0].x[msg.sender] != b);
                 ^--^
-smt_checker_input_PXhr:19:17: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_9OIj:19:17: Warning: Assertion checker does not yet implement this expression.
         require(s[0].x[msg.sender] != b);
                 ^----------------^
-smt_checker_input_PXhr:20:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_9OIj:20:16: Warning: Assertion checker does not yet support this expression.
         assert(s[1].x[msg.sender] == b);
                ^----^
-smt_checker_input_PXhr:20:16: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage ref
+smt_checker_input_9OIj:20:16: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage ref
         assert(s[1].x[msg.sender] == b);
                ^--^
-smt_checker_input_PXhr:20:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_9OIj:20:16: Warning: Assertion checker does not yet implement this expression.
         assert(s[1].x[msg.sender] == b);
                ^----------------^
-smt_checker_input_PXhr:13:31: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_9OIj:13:31: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
                               ^---------------------^
   for:
@@ -117,7 +117,7 @@ smt_checker_input_PXhr:13:31: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_PXhr:13:31: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_9OIj:13:31: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
                               ^---------------------^
   for:
@@ -129,7 +129,7 @@ smt_checker_input_PXhr:13:31: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_PXhr:18:9: Warning: Assertion violation happens here
+smt_checker_input_9OIj:18:9: Warning: Assertion violation happens here
         assert(s1ref.x[msg.sender] == s2ref.x[msg.sender]);
         ^------------------------------------------------^
   for:
@@ -140,7 +140,7 @@ smt_checker_input_PXhr:18:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_PXhr:20:9: Warning: Assertion violation happens here
+smt_checker_input_9OIj:20:9: Warning: Assertion violation happens here
         assert(s[1].x[msg.sender] == b);
         ^-----------------------------^
   for:
@@ -151,112 +151,112 @@ smt_checker_input_PXhr:20:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_PXhr:25:14: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage ref
+smt_checker_input_9OIj:25:14: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage ref
         test(s[1], s[1], 0, 1);
              ^--^
-smt_checker_input_PXhr:25:20: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage ref
+smt_checker_input_9OIj:25:20: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage ref
         test(s[1], s[1], 0, 1);
                    ^--^
-smt_checker_input_PXhr:13:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_9OIj:13:9: Warning: Assertion checker does not yet support this expression.
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
         ^-----^
-smt_checker_input_PXhr:13:9: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
+smt_checker_input_9OIj:13:9: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
         ^---^
-smt_checker_input_PXhr:13:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_9OIj:13:9: Warning: Assertion checker does not yet implement this expression.
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
         ^-----------------^
-smt_checker_input_PXhr:13:31: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_9OIj:13:31: Warning: Assertion checker does not yet support this expression.
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
                               ^-----^
-smt_checker_input_PXhr:13:31: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
+smt_checker_input_9OIj:13:31: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
                               ^---^
-smt_checker_input_PXhr:13:31: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_9OIj:13:31: Warning: Assertion checker does not yet implement this expression.
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
                               ^-----------------^
-smt_checker_input_PXhr:13:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_9OIj:13:9: Warning: Assertion checker does not yet implement this expression.
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
         ^-----------------^
-smt_checker_input_PXhr:14:30: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_9OIj:14:30: Warning: Assertion checker does not yet support this expression.
         s1ref_alias_s2ref = (s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                              ^-----^
-smt_checker_input_PXhr:14:30: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
+smt_checker_input_9OIj:14:30: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
         s1ref_alias_s2ref = (s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                              ^---^
-smt_checker_input_PXhr:14:30: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_9OIj:14:30: Warning: Assertion checker does not yet implement this expression.
         s1ref_alias_s2ref = (s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                              ^-----------------^
-smt_checker_input_PXhr:14:53: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_9OIj:14:53: Warning: Assertion checker does not yet support this expression.
         s1ref_alias_s2ref = (s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                                                     ^-----^
-smt_checker_input_PXhr:14:53: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
+smt_checker_input_9OIj:14:53: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
         s1ref_alias_s2ref = (s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                                                     ^---^
-smt_checker_input_PXhr:14:53: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_9OIj:14:53: Warning: Assertion checker does not yet implement this expression.
         s1ref_alias_s2ref = (s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                                                     ^-----------------^
-smt_checker_input_PXhr:16:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_9OIj:16:9: Warning: Assertion checker does not yet support this expression.
         s1ref.x[msg.sender] = a;
         ^-----^
-smt_checker_input_PXhr:16:9: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
+smt_checker_input_9OIj:16:9: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
         s1ref.x[msg.sender] = a;
         ^---^
-smt_checker_input_PXhr:16:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_9OIj:16:9: Warning: Assertion checker does not yet implement this expression.
         s1ref.x[msg.sender] = a;
         ^-----------------^
-smt_checker_input_PXhr:16:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_9OIj:16:9: Warning: Assertion checker does not yet implement this expression.
         s1ref.x[msg.sender] = a;
         ^-----------------^
-smt_checker_input_PXhr:17:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_9OIj:17:9: Warning: Assertion checker does not yet support this expression.
         s2ref.x[msg.sender] = b;
         ^-----^
-smt_checker_input_PXhr:17:9: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
+smt_checker_input_9OIj:17:9: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
         s2ref.x[msg.sender] = b;
         ^---^
-smt_checker_input_PXhr:17:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_9OIj:17:9: Warning: Assertion checker does not yet implement this expression.
         s2ref.x[msg.sender] = b;
         ^-----------------^
-smt_checker_input_PXhr:17:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_9OIj:17:9: Warning: Assertion checker does not yet implement this expression.
         s2ref.x[msg.sender] = b;
         ^-----------------^
-smt_checker_input_PXhr:18:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_9OIj:18:16: Warning: Assertion checker does not yet support this expression.
         assert(s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                ^-----^
-smt_checker_input_PXhr:18:16: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
+smt_checker_input_9OIj:18:16: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
         assert(s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                ^---^
-smt_checker_input_PXhr:18:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_9OIj:18:16: Warning: Assertion checker does not yet implement this expression.
         assert(s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                ^-----------------^
-smt_checker_input_PXhr:18:39: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_9OIj:18:39: Warning: Assertion checker does not yet support this expression.
         assert(s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                                       ^-----^
-smt_checker_input_PXhr:18:39: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
+smt_checker_input_9OIj:18:39: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage pointer
         assert(s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                                       ^---^
-smt_checker_input_PXhr:18:39: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_9OIj:18:39: Warning: Assertion checker does not yet implement this expression.
         assert(s1ref.x[msg.sender] == s2ref.x[msg.sender]);
                                       ^-----------------^
-smt_checker_input_PXhr:19:17: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_9OIj:19:17: Warning: Assertion checker does not yet support this expression.
         require(s[0].x[msg.sender] != b);
                 ^----^
-smt_checker_input_PXhr:19:17: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage ref
+smt_checker_input_9OIj:19:17: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage ref
         require(s[0].x[msg.sender] != b);
                 ^--^
-smt_checker_input_PXhr:19:17: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_9OIj:19:17: Warning: Assertion checker does not yet implement this expression.
         require(s[0].x[msg.sender] != b);
                 ^----------------^
-smt_checker_input_PXhr:20:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_9OIj:20:16: Warning: Assertion checker does not yet support this expression.
         assert(s[1].x[msg.sender] == b);
                ^----^
-smt_checker_input_PXhr:20:16: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage ref
+smt_checker_input_9OIj:20:16: Warning: Assertion checker does not yet implement type struct StructMappingStorageArgumentAliasSubArrayFixedSize.S storage ref
         assert(s[1].x[msg.sender] == b);
                ^--^
-smt_checker_input_PXhr:20:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_9OIj:20:16: Warning: Assertion checker does not yet implement this expression.
         assert(s[1].x[msg.sender] == b);
                ^----------------^
-smt_checker_input_PXhr:13:31: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_9OIj:13:31: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
                               ^---------------------^
   for:
@@ -267,11 +267,11 @@ smt_checker_input_PXhr:13:31: Warning: Underflow (resulting value less than -578
   s1ref_alias_s2ref = false
 
 Callstack: 
-smt_checker_input_PXhr:25:9: 
+smt_checker_input_9OIj:25:9: 
         test(s[1], s[1], 0, 1);
         ^--------------------^
 
-smt_checker_input_PXhr:13:31: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_9OIj:13:31: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         s1ref.x[msg.sender] = s2ref.x[msg.sender] + 1;
                               ^---------------------^
   for:
@@ -282,11 +282,11 @@ smt_checker_input_PXhr:13:31: Warning: Overflow (resulting value larger than 0x8
   s1ref_alias_s2ref = false
 
 Callstack: 
-smt_checker_input_PXhr:25:9: 
+smt_checker_input_9OIj:25:9: 
         test(s[1], s[1], 0, 1);
         ^--------------------^
 
-smt_checker_input_PXhr:18:9: Warning: Assertion violation happens here
+smt_checker_input_9OIj:18:9: Warning: Assertion violation happens here
         assert(s1ref.x[msg.sender] == s2ref.x[msg.sender]);
         ^------------------------------------------------^
   for:
@@ -296,11 +296,11 @@ smt_checker_input_PXhr:18:9: Warning: Assertion violation happens here
   s1ref_alias_s2ref = true
 
 Callstack: 
-smt_checker_input_PXhr:25:9: 
+smt_checker_input_9OIj:25:9: 
         test(s[1], s[1], 0, 1);
         ^--------------------^
 
-smt_checker_input_PXhr:20:9: Warning: Assertion violation happens here
+smt_checker_input_9OIj:20:9: Warning: Assertion violation happens here
         assert(s[1].x[msg.sender] == b);
         ^-----------------------------^
   for:
@@ -310,9 +310,9 @@ smt_checker_input_PXhr:20:9: Warning: Assertion violation happens here
   s1ref_alias_s2ref = true
 
 Callstack: 
-smt_checker_input_PXhr:25:9: 
+smt_checker_input_9OIj:25:9: 
         test(s[1], s[1], 0, 1);
         ^--------------------^
 
-0.10user 0.02system 0:00.12elapsed 100%CPU (0avgtext+0avgdata 38972maxresident)k
-0inputs+0outputs (0major+2032minor)pagefaults 0swaps
+0.10user 0.25system 0:00.35elapsed 99%CPU (0avgtext+0avgdata 38800maxresident)k
+0inputs+0outputs (0major+2025minor)pagefaults 0swaps

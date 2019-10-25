@@ -16,5 +16,5 @@ Warning: A mapping with nested array s1 of valuetype int256[2]
 
 	See full execution trace inside corral.txt
 Command exited with non-zero status 1
-2.26user 0.44system 0:02.69elapsed 100%CPU (0avgtext+0avgdata 54644maxresident)k
-0inputs+80outputs (0major+100406minor)pagefaults 0swaps
+2.26user 0.84system 0:03.05elapsed 101%CPU (0avgtext+0avgdata 54568maxresident)k
+0inputs+80outputs (0major+100402minor)pagefaults 0swaps

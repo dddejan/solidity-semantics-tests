@@ -22,6 +22,7 @@ contract StructMappingStorageArgumentNoAliasSubArrayFixedSize {
     function truffleMain() external {
         s1.x[msg.sender] = -1;
         s2[1].x[msg.sender] = -2;
+        s2[0].x[msg.sender] = -3;
         test(s1, s2[1], 0, 1);
     }
 

@@ -1,6 +1,6 @@
 Running contracts/storageptr/ArrayFixedSizeLibraryStorageNoAliasSubArrayFixedSize.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_yehk:10:16: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_svQ6:10:16: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         a[1] = a[1] + b[1];
                ^---------^
   for:
@@ -12,7 +12,7 @@ smt_checker_input_yehk:10:16: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_yehk:10:16: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_svQ6:10:16: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a[1] = a[1] + b[1];
                ^---------^
   for:
@@ -24,7 +24,7 @@ smt_checker_input_yehk:10:16: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_yehk:11:16: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_svQ6:11:16: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         b[1] = a[1] - b[1];
                ^---------^
   for:
@@ -36,7 +36,7 @@ smt_checker_input_yehk:11:16: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_yehk:11:16: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_svQ6:11:16: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         b[1] = a[1] - b[1];
                ^---------^
   for:
@@ -48,7 +48,7 @@ smt_checker_input_yehk:11:16: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_yehk:12:16: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_svQ6:12:16: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         a[1] = a[1] - b[1];
                ^---------^
   for:
@@ -60,7 +60,7 @@ smt_checker_input_yehk:12:16: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_yehk:12:16: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_svQ6:12:16: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a[1] = a[1] - b[1];
                ^---------^
   for:
@@ -72,7 +72,7 @@ smt_checker_input_yehk:12:16: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_yehk:13:9: Warning: Assertion violation happens here
+smt_checker_input_svQ6:13:9: Warning: Assertion violation happens here
         assert(a[1] == b_old); // no alias => swap correct
         ^-------------------^
   for:
@@ -83,7 +83,7 @@ smt_checker_input_yehk:13:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_yehk:14:9: Warning: Assertion violation happens here
+smt_checker_input_svQ6:14:9: Warning: Assertion violation happens here
         assert(b[1] == a_old); // no alias => swap correct
         ^-------------------^
   for:
@@ -94,8 +94,8 @@ smt_checker_input_yehk:14:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_yehk:26:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_svQ6:26:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s2[1][1] = 2;
         ^------^
-0.31user 0.06system 0:00.37elapsed 100%CPU (0avgtext+0avgdata 42172maxresident)k
-0inputs+0outputs (0major+2793minor)pagefaults 0swaps
+0.30user 0.28system 0:00.59elapsed 99%CPU (0avgtext+0avgdata 41588maxresident)k
+0inputs+0outputs (0major+2781minor)pagefaults 0swaps

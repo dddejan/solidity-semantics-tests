@@ -6,5 +6,5 @@ AssignStructArrayFixedSizeMultiM2M::[implicit_constructor]: OK
 Use --show-warnings to see 2 warnings.
 Errors were found by the verifier.
 Command exited with non-zero status 251
-0.72user 0.24system 0:00.93elapsed 103%CPU (0avgtext+0avgdata 42564maxresident)k
-0inputs+24outputs (0major+16950minor)pagefaults 0swaps
+0.71user 0.71system 0:01.40elapsed 101%CPU (0avgtext+0avgdata 42612maxresident)k
+0inputs+24outputs (0major+16926minor)pagefaults 0swaps

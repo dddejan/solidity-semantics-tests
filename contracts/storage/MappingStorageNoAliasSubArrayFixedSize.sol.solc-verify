@@ -3,5 +3,5 @@ MappingStorageNoAliasSubArrayFixedSize::test: OK
 MappingStorageNoAliasSubArrayFixedSize::truffleMain: OK
 MappingStorageNoAliasSubArrayFixedSize::[implicit_constructor]: OK
 No errors found.
-0.65user 0.26system 0:00.89elapsed 102%CPU (0avgtext+0avgdata 41540maxresident)k
-0inputs+16outputs (0major+16607minor)pagefaults 0swaps
+0.64user 0.73system 0:01.34elapsed 102%CPU (0avgtext+0avgdata 41744maxresident)k
+0inputs+16outputs (0major+16655minor)pagefaults 0swaps

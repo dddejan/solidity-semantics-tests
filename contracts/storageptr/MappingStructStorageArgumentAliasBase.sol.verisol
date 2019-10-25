@@ -5,5 +5,5 @@ SpecFilesDir = /solc-verify-examples/contracts/storageptr
 ... running SolToBoogie to translate Solidity to Boogie
 VeriSol translation error: File /solc-verify-examples/contracts/storageptr/MappingStructStorageArgumentAliasBase.sol, Line 9, Contract MappingStructStorageArgumentAliasBase, Function truffleMain:: Cannot find a function with signature: test(mapping(address => struct MappingStructStorageArgumentAliasBase.S, mapping(address => struct MappingStructStorageArgumentAliasBase.S, int256, int256)....
 Command exited with non-zero status 1
-0.67user 0.12system 0:00.79elapsed 100%CPU (0avgtext+0avgdata 54768maxresident)k
-0inputs+0outputs (0major+25721minor)pagefaults 0swaps
+0.64user 0.18system 0:00.83elapsed 98%CPU (0avgtext+0avgdata 54740maxresident)k
+0inputs+0outputs (0major+25725minor)pagefaults 0swaps

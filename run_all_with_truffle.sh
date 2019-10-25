@@ -9,7 +9,7 @@ truffle init
 popd
 
 # Copy the contracts to the truffle
-ALL_CONTRACTS=$(find contracts -name "*.sol")
+ALL_CONTRACTS=$(find contracts -name "*.sol" | grep -v Library)
 CONTRACTS_WITH_TEST=$(grep -l 'truffleMain' $ALL_CONTRACTS)
 cp $CONTRACTS_WITH_TEST truffle/contracts/
 

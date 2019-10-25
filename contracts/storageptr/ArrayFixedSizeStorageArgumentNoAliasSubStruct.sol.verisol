@@ -4,6 +4,6 @@ SpecFilesDir = /solc-verify-examples/contracts/storageptr
 ... running Solc on /solc-verify-examples/contracts/storageptr/ArrayFixedSizeStorageArgumentNoAliasSubStruct.sol
 ... running SolToBoogie to translate Solidity to Boogie
 ... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
-1.34user 0.28system 0:01.86elapsed 87%CPU (0avgtext+0avgdata 54836maxresident)k
-0inputs+32outputs (0major+60138minor)pagefaults 0swaps
 	*** Proof found! Formal Verification successful! (see boogie.txt)
+1.38user 0.50system 0:01.86elapsed 101%CPU (0avgtext+0avgdata 54880maxresident)k
+0inputs+40outputs (0major+60345minor)pagefaults 0swaps

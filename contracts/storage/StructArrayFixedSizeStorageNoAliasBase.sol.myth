@@ -1,5 +1,5 @@
 Running contracts/storage/StructArrayFixedSizeStorageNoAliasBase.sol
 The analysis was completed successfully. No issues were detected.
 
-8.64user 4.62system 0:08.83elapsed 150%CPU (0avgtext+0avgdata 108000maxresident)k
-0inputs+24368outputs (0major+41359minor)pagefaults 0swaps
+8.79user 4.76system 0:08.95elapsed 151%CPU (0avgtext+0avgdata 107896maxresident)k
+0inputs+24344outputs (0major+40327minor)pagefaults 0swaps

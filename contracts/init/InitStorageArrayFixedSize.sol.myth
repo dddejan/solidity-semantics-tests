@@ -1,5 +1,5 @@
 Running contracts/init/InitStorageArrayFixedSize.sol
 The analysis was completed successfully. No issues were detected.
 
-1.50user 0.28system 0:01.66elapsed 107%CPU (0avgtext+0avgdata 78032maxresident)k
-0inputs+24280outputs (0major+30435minor)pagefaults 0swaps
+1.56user 0.44system 0:01.86elapsed 107%CPU (0avgtext+0avgdata 78204maxresident)k
+0inputs+24280outputs (0major+30409minor)pagefaults 0swaps

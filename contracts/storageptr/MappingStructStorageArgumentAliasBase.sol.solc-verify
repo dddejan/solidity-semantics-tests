@@ -1,14 +1,14 @@
 Running contracts/storageptr/MappingStructStorageArgumentAliasBase.sol
 Error while running verifier, details:
 [TRACE] Using prover: /usr/local/bin/z3
-Parsing /tmp/tmppyc7btb7/MappingStructStorageArgumentAliasBase.sol.bpl
-/tmp/tmppyc7btb7/MappingStructStorageArgumentAliasBase.sol.bpl(34,10): Error: command assigns to an immutable variable: s1ref#12
-/tmp/tmppyc7btb7/MappingStructStorageArgumentAliasBase.sol.bpl(37,10): Error: command assigns to an immutable variable: s1ref#12
-/tmp/tmppyc7btb7/MappingStructStorageArgumentAliasBase.sol.bpl(38,10): Error: command assigns to an immutable variable: s2ref#16
-/tmp/tmppyc7btb7/MappingStructStorageArgumentAliasBase.sol.bpl(58,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]struct_storage_S#4)
-/tmp/tmppyc7btb7/MappingStructStorageArgumentAliasBase.sol.bpl(61,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]struct_storage_S#4)
-5 type checking errors detected in /tmp/tmppyc7btb7/MappingStructStorageArgumentAliasBase.sol.bpl
+Parsing /tmp/tmp351wlo7j/MappingStructStorageArgumentAliasBase.sol.bpl
+/tmp/tmp351wlo7j/MappingStructStorageArgumentAliasBase.sol.bpl(34,10): Error: command assigns to an immutable variable: s1ref#12
+/tmp/tmp351wlo7j/MappingStructStorageArgumentAliasBase.sol.bpl(37,10): Error: command assigns to an immutable variable: s1ref#12
+/tmp/tmp351wlo7j/MappingStructStorageArgumentAliasBase.sol.bpl(38,10): Error: command assigns to an immutable variable: s2ref#16
+/tmp/tmp351wlo7j/MappingStructStorageArgumentAliasBase.sol.bpl(58,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]struct_storage_S#4)
+/tmp/tmp351wlo7j/MappingStructStorageArgumentAliasBase.sol.bpl(61,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]struct_storage_S#4)
+5 type checking errors detected in /tmp/tmp351wlo7j/MappingStructStorageArgumentAliasBase.sol.bpl
 
 Command exited with non-zero status 252
-0.35user 0.09system 0:00.44elapsed 100%CPU (0avgtext+0avgdata 33076maxresident)k
+0.32user 0.58system 0:00.91elapsed 100%CPU (0avgtext+0avgdata 32916maxresident)k
 0inputs+16outputs (0major+10232minor)pagefaults 0swaps

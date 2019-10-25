@@ -3,5 +3,5 @@ StructMappingStoragePointerAliasSubArrayFixedSize::test: OK
 StructMappingStoragePointerAliasSubArrayFixedSize::truffleMain: OK
 StructMappingStoragePointerAliasSubArrayFixedSize::[implicit_constructor]: OK
 No errors found.
-0.67user 0.25system 0:00.90elapsed 103%CPU (0avgtext+0avgdata 41732maxresident)k
-0inputs+24outputs (0major+16816minor)pagefaults 0swaps
+0.68user 0.70system 0:01.35elapsed 101%CPU (0avgtext+0avgdata 42128maxresident)k
+0inputs+24outputs (0major+16580minor)pagefaults 0swaps

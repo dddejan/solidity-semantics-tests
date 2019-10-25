@@ -3,5 +3,5 @@ AssignMappingNestedS2L::storToLoc: OK
 AssignMappingNestedS2L::truffleMain: OK
 AssignMappingNestedS2L::[implicit_constructor]: OK
 No errors found.
-0.74user 0.16system 0:00.88elapsed 102%CPU (0avgtext+0avgdata 41888maxresident)k
-0inputs+24outputs (0major+16710minor)pagefaults 0swaps
+0.67user 0.70system 0:01.37elapsed 100%CPU (0avgtext+0avgdata 42140maxresident)k
+0inputs+24outputs (0major+16535minor)pagefaults 0swaps

@@ -1,5 +1,5 @@
 Running contracts/assigment/AssignTupleStructSS2SS.sol
 The analysis was completed successfully. No issues were detected.
 
-8.78user 4.10system 0:08.91elapsed 144%CPU (0avgtext+0avgdata 103616maxresident)k
-0inputs+24344outputs (0major+38467minor)pagefaults 0swaps
+8.61user 4.12system 0:08.82elapsed 144%CPU (0avgtext+0avgdata 103820maxresident)k
+0inputs+24344outputs (0major+38562minor)pagefaults 0swaps

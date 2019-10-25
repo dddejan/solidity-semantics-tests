@@ -2,5 +2,5 @@ Running contracts/init/InitStorageArrayFixedSizeMulti.sol
 InitStorageArrayFixedSizeMulti::[constructor]: OK
 InitStorageArrayFixedSizeMulti::truffleMain: OK
 No errors found.
-0.63user 0.26system 0:00.87elapsed 101%CPU (0avgtext+0avgdata 41720maxresident)k
-0inputs+16outputs (0major+16494minor)pagefaults 0swaps
+0.64user 0.71system 0:01.32elapsed 102%CPU (0avgtext+0avgdata 41568maxresident)k
+0inputs+16outputs (0major+16636minor)pagefaults 0swaps

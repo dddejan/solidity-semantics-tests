@@ -5,5 +5,5 @@ SpecFilesDir = /solc-verify-examples/contracts/delete
 ... running SolToBoogie to translate Solidity to Boogie
 VeriSol translation error: File /solc-verify-examples/contracts/delete/DeleteMemoryArrayDynamicStruct.sol, Line 6, Contract DeleteMemoryArrayDynamicStruct, Function test:: ....
 Command exited with non-zero status 1
-0.67user 0.06system 0:00.79elapsed 93%CPU (0avgtext+0avgdata 52936maxresident)k
-0inputs+0outputs (0major+24583minor)pagefaults 0swaps
+0.64user 0.16system 0:00.85elapsed 95%CPU (0avgtext+0avgdata 53252maxresident)k
+0inputs+0outputs (0major+24591minor)pagefaults 0swaps

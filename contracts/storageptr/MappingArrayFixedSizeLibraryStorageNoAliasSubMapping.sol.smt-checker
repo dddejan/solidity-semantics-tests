@@ -1,15 +1,15 @@
 Running contracts/storageptr/MappingArrayFixedSizeLibraryStorageNoAliasSubMapping.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_xOEc:10:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_WuV2:10:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         a[msg.sender][1] = a[msg.sender][1] + b[msg.sender][1];
         ^--------------^
-smt_checker_input_xOEc:11:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_WuV2:11:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         b[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
         ^--------------^
-smt_checker_input_xOEc:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_WuV2:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         a[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
         ^--------------^
-smt_checker_input_xOEc:10:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_WuV2:10:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         a[msg.sender][1] = a[msg.sender][1] + b[msg.sender][1];
                            ^---------------------------------^
   for:
@@ -22,7 +22,7 @@ smt_checker_input_xOEc:10:28: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_xOEc:10:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_WuV2:10:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a[msg.sender][1] = a[msg.sender][1] + b[msg.sender][1];
                            ^---------------------------------^
   for:
@@ -35,7 +35,7 @@ smt_checker_input_xOEc:10:28: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_xOEc:11:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_WuV2:11:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         b[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
                            ^---------------------------------^
   for:
@@ -48,7 +48,7 @@ smt_checker_input_xOEc:11:28: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_xOEc:11:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_WuV2:11:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         b[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
                            ^---------------------------------^
   for:
@@ -61,7 +61,7 @@ smt_checker_input_xOEc:11:28: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_xOEc:12:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_WuV2:12:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         a[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
                            ^---------------------------------^
   for:
@@ -74,7 +74,7 @@ smt_checker_input_xOEc:12:28: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_xOEc:12:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_WuV2:12:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
                            ^---------------------------------^
   for:
@@ -87,7 +87,7 @@ smt_checker_input_xOEc:12:28: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_xOEc:13:9: Warning: Assertion violation happens here
+smt_checker_input_WuV2:13:9: Warning: Assertion violation happens here
         assert(a[msg.sender][1] == b_old); // no alias => swap correct
         ^-------------------------------^
   for:
@@ -99,7 +99,7 @@ smt_checker_input_xOEc:13:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_xOEc:14:9: Warning: Assertion violation happens here
+smt_checker_input_WuV2:14:9: Warning: Assertion violation happens here
         assert(b[msg.sender][1] == a_old); // no alias => swap correct
         ^-------------------------------^
   for:
@@ -111,11 +111,11 @@ smt_checker_input_xOEc:14:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_xOEc:25:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_WuV2:25:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s1[msg.sender][1] = 1;
         ^---------------^
-smt_checker_input_xOEc:26:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_WuV2:26:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s2[msg.sender][msg.sender][1] = 2;
         ^---------------------------^
-0.18user 0.04system 0:00.22elapsed 100%CPU (0avgtext+0avgdata 39816maxresident)k
-0inputs+0outputs (0major+2304minor)pagefaults 0swaps
+0.20user 0.23system 0:00.43elapsed 100%CPU (0avgtext+0avgdata 40044maxresident)k
+0inputs+0outputs (0major+2306minor)pagefaults 0swaps

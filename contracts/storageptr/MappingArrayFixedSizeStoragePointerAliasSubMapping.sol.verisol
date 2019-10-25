@@ -7,5 +7,5 @@ Warning: A mapping with nested array s1 of valuetype int256[2]
 Warning: A mapping with complex value type s2 of valuetype mapping (address => int256[2])
 ... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
 	*** Proof found! Formal Verification successful! (see boogie.txt)
-1.36user 0.23system 0:01.68elapsed 94%CPU (0avgtext+0avgdata 54816maxresident)k
-0inputs+40outputs (0major+60480minor)pagefaults 0swaps
+1.44user 0.46system 0:01.94elapsed 98%CPU (0avgtext+0avgdata 54752maxresident)k
+0inputs+40outputs (0major+60440minor)pagefaults 0swaps

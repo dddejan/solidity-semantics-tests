@@ -5,5 +5,5 @@ SpecFilesDir = /solc-verify-examples/contracts/assigment
 ... running SolToBoogie to translate Solidity to Boogie
 VeriSol translation error: File /solc-verify-examples/contracts/assigment/AssignArrayDynamicS2M.sol, Line 9, Contract AssignArrayDynamicS2M, Function storToMem:: ....
 Command exited with non-zero status 1
-0.67user 0.10system 0:00.78elapsed 99%CPU (0avgtext+0avgdata 54788maxresident)k
-0inputs+0outputs (0major+25353minor)pagefaults 0swaps
+0.70user 0.14system 0:00.98elapsed 86%CPU (0avgtext+0avgdata 54908maxresident)k
+0inputs+0outputs (0major+25367minor)pagefaults 0swaps

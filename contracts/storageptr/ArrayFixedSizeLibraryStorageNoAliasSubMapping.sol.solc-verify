@@ -1,8 +1,8 @@
 Running contracts/storageptr/ArrayFixedSizeLibraryStorageNoAliasSubMapping.sol
+0.72user 0.70system 0:01.41elapsed 100%CPU (0avgtext+0avgdata 45052maxresident)k
+0inputs+32outputs (0major+17923minor)pagefaults 0swaps
 L::swap: OK
 L::[implicit_constructor]: OK
 ArrayFixedSizeLibraryStorageNoAliasSubMapping::truffleMain: OK
 ArrayFixedSizeLibraryStorageNoAliasSubMapping::[implicit_constructor]: OK
 No errors found.
-0.74user 0.22system 0:00.93elapsed 104%CPU (0avgtext+0avgdata 45068maxresident)k
-0inputs+32outputs (0major+17717minor)pagefaults 0swaps

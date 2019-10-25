@@ -15,5 +15,5 @@ Warning!!: Currently not handling delete of static arrays
 
 	See full execution trace inside corral.txt
 Command exited with non-zero status 1
-2.48user 0.43system 0:02.84elapsed 102%CPU (0avgtext+0avgdata 55332maxresident)k
-0inputs+80outputs (0major+114294minor)pagefaults 0swaps
+2.45user 0.90system 0:03.35elapsed 100%CPU (0avgtext+0avgdata 55580maxresident)k
+0inputs+80outputs (0major+116569minor)pagefaults 0swaps

@@ -1,13 +1,13 @@
 Running contracts/storageptr/MappingLibraryStorageAliasSubMapping.sol
 Error while running verifier, details:
 [TRACE] Using prover: /usr/local/bin/z3
-Parsing /tmp/tmpbqa2pgxt/MappingLibraryStorageAliasSubMapping.sol.bpl
-/tmp/tmpbqa2pgxt/MappingLibraryStorageAliasSubMapping.sol.bpl(23,5): Error: command assigns to an immutable variable: a#5
-/tmp/tmpbqa2pgxt/MappingLibraryStorageAliasSubMapping.sol.bpl(27,5): Error: command assigns to an immutable variable: a#5
-/tmp/tmpbqa2pgxt/MappingLibraryStorageAliasSubMapping.sol.bpl(28,5): Error: command assigns to an immutable variable: b#9
-/tmp/tmpbqa2pgxt/MappingLibraryStorageAliasSubMapping.sol.bpl(29,5): Error: command assigns to an immutable variable: a#5
-4 type checking errors detected in /tmp/tmpbqa2pgxt/MappingLibraryStorageAliasSubMapping.sol.bpl
+Parsing /tmp/tmp90k3jstf/MappingLibraryStorageAliasSubMapping.sol.bpl
+/tmp/tmp90k3jstf/MappingLibraryStorageAliasSubMapping.sol.bpl(23,5): Error: command assigns to an immutable variable: a#5
+/tmp/tmp90k3jstf/MappingLibraryStorageAliasSubMapping.sol.bpl(27,5): Error: command assigns to an immutable variable: a#5
+/tmp/tmp90k3jstf/MappingLibraryStorageAliasSubMapping.sol.bpl(28,5): Error: command assigns to an immutable variable: b#9
+/tmp/tmp90k3jstf/MappingLibraryStorageAliasSubMapping.sol.bpl(29,5): Error: command assigns to an immutable variable: a#5
+4 type checking errors detected in /tmp/tmp90k3jstf/MappingLibraryStorageAliasSubMapping.sol.bpl
 
 Command exited with non-zero status 252
-0.34user 0.13system 0:00.47elapsed 99%CPU (0avgtext+0avgdata 32988maxresident)k
-0inputs+16outputs (0major+10213minor)pagefaults 0swaps
+0.32user 0.61system 0:00.94elapsed 99%CPU (0avgtext+0avgdata 32632maxresident)k
+0inputs+16outputs (0major+10229minor)pagefaults 0swaps

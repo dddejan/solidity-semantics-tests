@@ -1,5 +1,5 @@
 Running contracts/storage/MappingArrayFixedSizeStorageNoAliasBase.sol
 The analysis was completed successfully. No issues were detected.
 
-14.08user 4.56system 0:14.18elapsed 131%CPU (0avgtext+0avgdata 118368maxresident)k
-0inputs+24344outputs (0major+43925minor)pagefaults 0swaps
+14.39user 4.77system 0:14.69elapsed 130%CPU (0avgtext+0avgdata 118760maxresident)k
+0inputs+24344outputs (0major+43608minor)pagefaults 0swaps

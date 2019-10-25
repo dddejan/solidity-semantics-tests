@@ -4,5 +4,5 @@ L::[implicit_constructor]: OK
 StructMappingLibraryStorageNoAliasSubMapping::truffleMain: OK
 StructMappingLibraryStorageNoAliasSubMapping::[implicit_constructor]: OK
 No errors found.
-0.66user 0.27system 0:00.90elapsed 103%CPU (0avgtext+0avgdata 44496maxresident)k
-0inputs+32outputs (0major+17602minor)pagefaults 0swaps
+0.68user 0.73system 0:01.38elapsed 102%CPU (0avgtext+0avgdata 44844maxresident)k
+0inputs+32outputs (0major+17599minor)pagefaults 0swaps

@@ -1,15 +1,15 @@
 Running contracts/storageptr/MappingStructLibraryStorageAliasSubStruct.sol
 Error while running verifier, details:
 [TRACE] Using prover: /usr/local/bin/z3
-Parsing /tmp/tmpkarilart/MappingStructLibraryStorageAliasSubStruct.sol.bpl
-/tmp/tmpkarilart/MappingStructLibraryStorageAliasSubStruct.sol.bpl(45,6): Error: command assigns to an immutable variable: a#13
-/tmp/tmpkarilart/MappingStructLibraryStorageAliasSubStruct.sol.bpl(49,6): Error: command assigns to an immutable variable: a#13
-/tmp/tmpkarilart/MappingStructLibraryStorageAliasSubStruct.sol.bpl(50,6): Error: command assigns to an immutable variable: b#17
-/tmp/tmpkarilart/MappingStructLibraryStorageAliasSubStruct.sol.bpl(51,6): Error: command assigns to an immutable variable: a#13
-/tmp/tmpkarilart/MappingStructLibraryStorageAliasSubStruct.sol.bpl(82,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]struct_storage_S#4)
-/tmp/tmpkarilart/MappingStructLibraryStorageAliasSubStruct.sol.bpl(86,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]struct_storage_S#4)
-6 type checking errors detected in /tmp/tmpkarilart/MappingStructLibraryStorageAliasSubStruct.sol.bpl
+Parsing /tmp/tmp5buwr52d/MappingStructLibraryStorageAliasSubStruct.sol.bpl
+/tmp/tmp5buwr52d/MappingStructLibraryStorageAliasSubStruct.sol.bpl(45,6): Error: command assigns to an immutable variable: a#13
+/tmp/tmp5buwr52d/MappingStructLibraryStorageAliasSubStruct.sol.bpl(49,6): Error: command assigns to an immutable variable: a#13
+/tmp/tmp5buwr52d/MappingStructLibraryStorageAliasSubStruct.sol.bpl(50,6): Error: command assigns to an immutable variable: b#17
+/tmp/tmp5buwr52d/MappingStructLibraryStorageAliasSubStruct.sol.bpl(51,6): Error: command assigns to an immutable variable: a#13
+/tmp/tmp5buwr52d/MappingStructLibraryStorageAliasSubStruct.sol.bpl(82,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]struct_storage_S#4)
+/tmp/tmp5buwr52d/MappingStructLibraryStorageAliasSubStruct.sol.bpl(86,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]struct_storage_S#4)
+6 type checking errors detected in /tmp/tmp5buwr52d/MappingStructLibraryStorageAliasSubStruct.sol.bpl
 
 Command exited with non-zero status 252
-0.36user 0.11system 0:00.47elapsed 99%CPU (0avgtext+0avgdata 32936maxresident)k
-0inputs+24outputs (0major+10243minor)pagefaults 0swaps
+0.32user 0.62system 0:00.93elapsed 100%CPU (0avgtext+0avgdata 32920maxresident)k
+0inputs+24outputs (0major+10266minor)pagefaults 0swaps

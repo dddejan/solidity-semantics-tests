@@ -1,14 +1,14 @@
 Running contracts/storageptr/MappingStructStorageArgumentAliasSubArrayFixedSize.sol
 Error while running verifier, details:
 [TRACE] Using prover: /usr/local/bin/z3
-Parsing /tmp/tmpvjtpcm_2/MappingStructStorageArgumentAliasSubArrayFixedSize.sol.bpl
-/tmp/tmpvjtpcm_2/MappingStructStorageArgumentAliasSubArrayFixedSize.sol.bpl(36,10): Error: command assigns to an immutable variable: s1ref#14
-/tmp/tmpvjtpcm_2/MappingStructStorageArgumentAliasSubArrayFixedSize.sol.bpl(39,10): Error: command assigns to an immutable variable: s1ref#14
-/tmp/tmpvjtpcm_2/MappingStructStorageArgumentAliasSubArrayFixedSize.sol.bpl(40,10): Error: command assigns to an immutable variable: s2ref#18
-/tmp/tmpvjtpcm_2/MappingStructStorageArgumentAliasSubArrayFixedSize.sol.bpl(62,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]struct_storage_S#4)
-/tmp/tmpvjtpcm_2/MappingStructStorageArgumentAliasSubArrayFixedSize.sol.bpl(66,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]struct_storage_S#4)
-5 type checking errors detected in /tmp/tmpvjtpcm_2/MappingStructStorageArgumentAliasSubArrayFixedSize.sol.bpl
+Parsing /tmp/tmpemt3qggw/MappingStructStorageArgumentAliasSubArrayFixedSize.sol.bpl
+/tmp/tmpemt3qggw/MappingStructStorageArgumentAliasSubArrayFixedSize.sol.bpl(36,10): Error: command assigns to an immutable variable: s1ref#14
+/tmp/tmpemt3qggw/MappingStructStorageArgumentAliasSubArrayFixedSize.sol.bpl(39,10): Error: command assigns to an immutable variable: s1ref#14
+/tmp/tmpemt3qggw/MappingStructStorageArgumentAliasSubArrayFixedSize.sol.bpl(40,10): Error: command assigns to an immutable variable: s2ref#18
+/tmp/tmpemt3qggw/MappingStructStorageArgumentAliasSubArrayFixedSize.sol.bpl(63,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]struct_storage_S#4)
+/tmp/tmpemt3qggw/MappingStructStorageArgumentAliasSubArrayFixedSize.sol.bpl(67,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]struct_storage_S#4)
+5 type checking errors detected in /tmp/tmpemt3qggw/MappingStructStorageArgumentAliasSubArrayFixedSize.sol.bpl
 
 Command exited with non-zero status 252
-0.32user 0.13system 0:00.45elapsed 100%CPU (0avgtext+0avgdata 32804maxresident)k
-0inputs+24outputs (0major+10258minor)pagefaults 0swaps
+0.31user 0.61system 0:00.92elapsed 100%CPU (0avgtext+0avgdata 33000maxresident)k
+0inputs+24outputs (0major+10235minor)pagefaults 0swaps

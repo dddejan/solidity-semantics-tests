@@ -1,102 +1,102 @@
 Running contracts/storageptr/StructStorageArgumentNoAliasSubStruct.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_gi4S:9:5: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_VciL:9:5: Warning: Assertion checker does not yet support the type of this variable.
     S s1;
     ^--^
-smt_checker_input_gi4S:10:5: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_VciL:10:5: Warning: Assertion checker does not yet support the type of this variable.
     Sub s2;
     ^----^
-smt_checker_input_gi4S:12:19: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_VciL:12:19: Warning: Assertion checker does not yet support the type of this variable.
     function test(S storage s1ref, S storage s2ref, int a, int b) internal {
                   ^-------------^
-smt_checker_input_gi4S:12:36: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_VciL:12:36: Warning: Assertion checker does not yet support the type of this variable.
     function test(S storage s1ref, S storage s2ref, int a, int b) internal {
                                    ^-------------^
-smt_checker_input_gi4S:14:17: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:14:17: Warning: Assertion checker does not yet support this expression.
         require(s1ref.x != s2ref.x);
                 ^-----^
-smt_checker_input_gi4S:14:17: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage pointer
+smt_checker_input_VciL:14:17: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage pointer
         require(s1ref.x != s2ref.x);
                 ^---^
-smt_checker_input_gi4S:14:28: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:14:28: Warning: Assertion checker does not yet support this expression.
         require(s1ref.x != s2ref.x);
                            ^-----^
-smt_checker_input_gi4S:14:28: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage pointer
+smt_checker_input_VciL:14:28: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage pointer
         require(s1ref.x != s2ref.x);
                            ^---^
-smt_checker_input_gi4S:15:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:15:9: Warning: Assertion checker does not yet support this expression.
         s1ref.x = a;
         ^-----^
-smt_checker_input_gi4S:15:9: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage pointer
+smt_checker_input_VciL:15:9: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage pointer
         s1ref.x = a;
         ^---^
-smt_checker_input_gi4S:15:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_VciL:15:9: Warning: Assertion checker does not yet implement such assignments.
         s1ref.x = a;
         ^---------^
-smt_checker_input_gi4S:16:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:16:9: Warning: Assertion checker does not yet support this expression.
         s2ref.x = b;
         ^-----^
-smt_checker_input_gi4S:16:9: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage pointer
+smt_checker_input_VciL:16:9: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage pointer
         s2ref.x = b;
         ^---^
-smt_checker_input_gi4S:16:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_VciL:16:9: Warning: Assertion checker does not yet implement such assignments.
         s2ref.x = b;
         ^---------^
-smt_checker_input_gi4S:17:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:17:16: Warning: Assertion checker does not yet support this expression.
         assert(s1.x != s2.s.x);
                ^--^
-smt_checker_input_gi4S:17:16: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
+smt_checker_input_VciL:17:16: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
         assert(s1.x != s2.s.x);
                ^^
-smt_checker_input_gi4S:17:24: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:17:24: Warning: Assertion checker does not yet support this expression.
         assert(s1.x != s2.s.x);
                        ^----^
-smt_checker_input_gi4S:17:24: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
+smt_checker_input_VciL:17:24: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
         assert(s1.x != s2.s.x);
                        ^--^
-smt_checker_input_gi4S:17:24: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:17:24: Warning: Assertion checker does not yet support this expression.
         assert(s1.x != s2.s.x);
                        ^--^
-smt_checker_input_gi4S:17:24: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.Sub storage ref
+smt_checker_input_VciL:17:24: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.Sub storage ref
         assert(s1.x != s2.s.x);
                        ^^
-smt_checker_input_gi4S:18:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:18:16: Warning: Assertion checker does not yet support this expression.
         assert(s1.x == a || s1.x == b);
                ^--^
-smt_checker_input_gi4S:18:16: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
+smt_checker_input_VciL:18:16: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
         assert(s1.x == a || s1.x == b);
                ^^
-smt_checker_input_gi4S:18:29: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:18:29: Warning: Assertion checker does not yet support this expression.
         assert(s1.x == a || s1.x == b);
                             ^--^
-smt_checker_input_gi4S:18:29: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
+smt_checker_input_VciL:18:29: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
         assert(s1.x == a || s1.x == b);
                             ^^
-smt_checker_input_gi4S:19:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:19:16: Warning: Assertion checker does not yet support this expression.
         assert(s2.s.x == a || s2.s.x == b);
                ^----^
-smt_checker_input_gi4S:19:16: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
+smt_checker_input_VciL:19:16: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
         assert(s2.s.x == a || s2.s.x == b);
                ^--^
-smt_checker_input_gi4S:19:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:19:16: Warning: Assertion checker does not yet support this expression.
         assert(s2.s.x == a || s2.s.x == b);
                ^--^
-smt_checker_input_gi4S:19:16: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.Sub storage ref
+smt_checker_input_VciL:19:16: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.Sub storage ref
         assert(s2.s.x == a || s2.s.x == b);
                ^^
-smt_checker_input_gi4S:19:31: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:19:31: Warning: Assertion checker does not yet support this expression.
         assert(s2.s.x == a || s2.s.x == b);
                               ^----^
-smt_checker_input_gi4S:19:31: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
+smt_checker_input_VciL:19:31: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
         assert(s2.s.x == a || s2.s.x == b);
                               ^--^
-smt_checker_input_gi4S:19:31: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:19:31: Warning: Assertion checker does not yet support this expression.
         assert(s2.s.x == a || s2.s.x == b);
                               ^--^
-smt_checker_input_gi4S:19:31: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.Sub storage ref
+smt_checker_input_VciL:19:31: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.Sub storage ref
         assert(s2.s.x == a || s2.s.x == b);
                               ^^
-smt_checker_input_gi4S:17:9: Warning: Assertion violation happens here
+smt_checker_input_VciL:17:9: Warning: Assertion violation happens here
         assert(s1.x != s2.s.x);
         ^--------------------^
   for:
@@ -105,7 +105,7 @@ smt_checker_input_gi4S:17:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_gi4S:18:9: Warning: Assertion violation happens here
+smt_checker_input_VciL:18:9: Warning: Assertion violation happens here
         assert(s1.x == a || s1.x == b);
         ^----------------------------^
   for:
@@ -114,7 +114,7 @@ smt_checker_input_gi4S:18:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_gi4S:19:9: Warning: Assertion violation happens here
+smt_checker_input_VciL:19:9: Warning: Assertion violation happens here
         assert(s2.s.x == a || s2.s.x == b);
         ^--------------------------------^
   for:
@@ -123,127 +123,127 @@ smt_checker_input_gi4S:19:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_gi4S:24:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:24:9: Warning: Assertion checker does not yet support this expression.
         s1.x = -1;
         ^--^
-smt_checker_input_gi4S:24:9: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
+smt_checker_input_VciL:24:9: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
         s1.x = -1;
         ^^
-smt_checker_input_gi4S:24:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_VciL:24:9: Warning: Assertion checker does not yet implement such assignments.
         s1.x = -1;
         ^-------^
-smt_checker_input_gi4S:25:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:25:9: Warning: Assertion checker does not yet support this expression.
         s2.s.x = -2;
         ^----^
-smt_checker_input_gi4S:25:9: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
+smt_checker_input_VciL:25:9: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
         s2.s.x = -2;
         ^--^
-smt_checker_input_gi4S:25:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:25:9: Warning: Assertion checker does not yet support this expression.
         s2.s.x = -2;
         ^--^
-smt_checker_input_gi4S:25:9: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.Sub storage ref
+smt_checker_input_VciL:25:9: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.Sub storage ref
         s2.s.x = -2;
         ^^
-smt_checker_input_gi4S:25:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_VciL:25:9: Warning: Assertion checker does not yet implement such assignments.
         s2.s.x = -2;
         ^---------^
-smt_checker_input_gi4S:26:14: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
+smt_checker_input_VciL:26:14: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
         test(s1, s2.s, 0, 1);
              ^^
-smt_checker_input_gi4S:26:18: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
+smt_checker_input_VciL:26:18: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
         test(s1, s2.s, 0, 1);
                  ^--^
-smt_checker_input_gi4S:26:18: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:26:18: Warning: Assertion checker does not yet support this expression.
         test(s1, s2.s, 0, 1);
                  ^--^
-smt_checker_input_gi4S:26:18: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.Sub storage ref
+smt_checker_input_VciL:26:18: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.Sub storage ref
         test(s1, s2.s, 0, 1);
                  ^^
-smt_checker_input_gi4S:14:17: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:14:17: Warning: Assertion checker does not yet support this expression.
         require(s1ref.x != s2ref.x);
                 ^-----^
-smt_checker_input_gi4S:14:17: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage pointer
+smt_checker_input_VciL:14:17: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage pointer
         require(s1ref.x != s2ref.x);
                 ^---^
-smt_checker_input_gi4S:14:28: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:14:28: Warning: Assertion checker does not yet support this expression.
         require(s1ref.x != s2ref.x);
                            ^-----^
-smt_checker_input_gi4S:14:28: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage pointer
+smt_checker_input_VciL:14:28: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage pointer
         require(s1ref.x != s2ref.x);
                            ^---^
-smt_checker_input_gi4S:15:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:15:9: Warning: Assertion checker does not yet support this expression.
         s1ref.x = a;
         ^-----^
-smt_checker_input_gi4S:15:9: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage pointer
+smt_checker_input_VciL:15:9: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage pointer
         s1ref.x = a;
         ^---^
-smt_checker_input_gi4S:15:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_VciL:15:9: Warning: Assertion checker does not yet implement such assignments.
         s1ref.x = a;
         ^---------^
-smt_checker_input_gi4S:16:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:16:9: Warning: Assertion checker does not yet support this expression.
         s2ref.x = b;
         ^-----^
-smt_checker_input_gi4S:16:9: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage pointer
+smt_checker_input_VciL:16:9: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage pointer
         s2ref.x = b;
         ^---^
-smt_checker_input_gi4S:16:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_VciL:16:9: Warning: Assertion checker does not yet implement such assignments.
         s2ref.x = b;
         ^---------^
-smt_checker_input_gi4S:17:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:17:16: Warning: Assertion checker does not yet support this expression.
         assert(s1.x != s2.s.x);
                ^--^
-smt_checker_input_gi4S:17:16: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
+smt_checker_input_VciL:17:16: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
         assert(s1.x != s2.s.x);
                ^^
-smt_checker_input_gi4S:17:24: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:17:24: Warning: Assertion checker does not yet support this expression.
         assert(s1.x != s2.s.x);
                        ^----^
-smt_checker_input_gi4S:17:24: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
+smt_checker_input_VciL:17:24: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
         assert(s1.x != s2.s.x);
                        ^--^
-smt_checker_input_gi4S:17:24: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:17:24: Warning: Assertion checker does not yet support this expression.
         assert(s1.x != s2.s.x);
                        ^--^
-smt_checker_input_gi4S:17:24: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.Sub storage ref
+smt_checker_input_VciL:17:24: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.Sub storage ref
         assert(s1.x != s2.s.x);
                        ^^
-smt_checker_input_gi4S:18:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:18:16: Warning: Assertion checker does not yet support this expression.
         assert(s1.x == a || s1.x == b);
                ^--^
-smt_checker_input_gi4S:18:16: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
+smt_checker_input_VciL:18:16: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
         assert(s1.x == a || s1.x == b);
                ^^
-smt_checker_input_gi4S:18:29: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:18:29: Warning: Assertion checker does not yet support this expression.
         assert(s1.x == a || s1.x == b);
                             ^--^
-smt_checker_input_gi4S:18:29: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
+smt_checker_input_VciL:18:29: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
         assert(s1.x == a || s1.x == b);
                             ^^
-smt_checker_input_gi4S:19:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:19:16: Warning: Assertion checker does not yet support this expression.
         assert(s2.s.x == a || s2.s.x == b);
                ^----^
-smt_checker_input_gi4S:19:16: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
+smt_checker_input_VciL:19:16: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
         assert(s2.s.x == a || s2.s.x == b);
                ^--^
-smt_checker_input_gi4S:19:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:19:16: Warning: Assertion checker does not yet support this expression.
         assert(s2.s.x == a || s2.s.x == b);
                ^--^
-smt_checker_input_gi4S:19:16: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.Sub storage ref
+smt_checker_input_VciL:19:16: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.Sub storage ref
         assert(s2.s.x == a || s2.s.x == b);
                ^^
-smt_checker_input_gi4S:19:31: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:19:31: Warning: Assertion checker does not yet support this expression.
         assert(s2.s.x == a || s2.s.x == b);
                               ^----^
-smt_checker_input_gi4S:19:31: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
+smt_checker_input_VciL:19:31: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.S storage ref
         assert(s2.s.x == a || s2.s.x == b);
                               ^--^
-smt_checker_input_gi4S:19:31: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VciL:19:31: Warning: Assertion checker does not yet support this expression.
         assert(s2.s.x == a || s2.s.x == b);
                               ^--^
-smt_checker_input_gi4S:19:31: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.Sub storage ref
+smt_checker_input_VciL:19:31: Warning: Assertion checker does not yet implement type struct StructStorageArgumentNoAliasSubStruct.Sub storage ref
         assert(s2.s.x == a || s2.s.x == b);
                               ^^
-smt_checker_input_gi4S:17:9: Warning: Assertion violation happens here
+smt_checker_input_VciL:17:9: Warning: Assertion violation happens here
         assert(s1.x != s2.s.x);
         ^--------------------^
   for:
@@ -251,11 +251,11 @@ smt_checker_input_gi4S:17:9: Warning: Assertion violation happens here
   b = 1
 
 Callstack: 
-smt_checker_input_gi4S:26:9: 
+smt_checker_input_VciL:26:9: 
         test(s1, s2.s, 0, 1);
         ^------------------^
 
-smt_checker_input_gi4S:18:9: Warning: Assertion violation happens here
+smt_checker_input_VciL:18:9: Warning: Assertion violation happens here
         assert(s1.x == a || s1.x == b);
         ^----------------------------^
   for:
@@ -263,11 +263,11 @@ smt_checker_input_gi4S:18:9: Warning: Assertion violation happens here
   b = 1
 
 Callstack: 
-smt_checker_input_gi4S:26:9: 
+smt_checker_input_VciL:26:9: 
         test(s1, s2.s, 0, 1);
         ^------------------^
 
-smt_checker_input_gi4S:19:9: Warning: Assertion violation happens here
+smt_checker_input_VciL:19:9: Warning: Assertion violation happens here
         assert(s2.s.x == a || s2.s.x == b);
         ^--------------------------------^
   for:
@@ -275,9 +275,9 @@ smt_checker_input_gi4S:19:9: Warning: Assertion violation happens here
   b = 1
 
 Callstack: 
-smt_checker_input_gi4S:26:9: 
+smt_checker_input_VciL:26:9: 
         test(s1, s2.s, 0, 1);
         ^------------------^
 
-0.05user 0.02system 0:00.08elapsed 98%CPU (0avgtext+0avgdata 38404maxresident)k
-0inputs+0outputs (0major+1950minor)pagefaults 0swaps
+0.06user 0.21system 0:00.27elapsed 100%CPU (0avgtext+0avgdata 38844maxresident)k
+0inputs+0outputs (0major+1958minor)pagefaults 0swaps

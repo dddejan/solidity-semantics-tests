@@ -1,6 +1,6 @@
 Running contracts/storageptr/ArrayFixedSizeStorageArgumentAliasSubArrayFixedSize.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_LHy3:11:20: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_pghh:11:20: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         s1ref[0] = s2ref[0] + 1;
                    ^----------^
   for:
@@ -13,7 +13,7 @@ smt_checker_input_LHy3:11:20: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_LHy3:16:9: Warning: Assertion violation happens here
+smt_checker_input_pghh:16:9: Warning: Assertion violation happens here
         assert(s1ref[1] == s2ref[1]);
         ^--------------------------^
   for:
@@ -27,7 +27,7 @@ smt_checker_input_LHy3:16:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_LHy3:17:9: Warning: Assertion violation happens here
+smt_checker_input_pghh:17:9: Warning: Assertion violation happens here
         assert(s[1][1] == b);
         ^------------------^
   for:
@@ -42,7 +42,7 @@ smt_checker_input_LHy3:17:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_LHy3:11:20: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_pghh:11:20: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         s1ref[0] = s2ref[0] + 1;
                    ^----------^
   for:
@@ -54,11 +54,11 @@ smt_checker_input_LHy3:11:20: Warning: Overflow (resulting value larger than 0x8
   s2ref[0] = 0x80 * 2**248 - 1
 
 Callstack: 
-smt_checker_input_LHy3:22:9: 
+smt_checker_input_pghh:22:9: 
         test(s[1], s[1], 0, 1);
         ^--------------------^
 
-smt_checker_input_LHy3:16:9: Warning: Assertion violation happens here
+smt_checker_input_pghh:16:9: Warning: Assertion violation happens here
         assert(s1ref[1] == s2ref[1]);
         ^--------------------------^
   for:
@@ -71,11 +71,11 @@ smt_checker_input_LHy3:16:9: Warning: Assertion violation happens here
   s2ref[1] = 1
 
 Callstack: 
-smt_checker_input_LHy3:22:9: 
+smt_checker_input_pghh:22:9: 
         test(s[1], s[1], 0, 1);
         ^--------------------^
 
-smt_checker_input_LHy3:17:9: Warning: Assertion violation happens here
+smt_checker_input_pghh:17:9: Warning: Assertion violation happens here
         assert(s[1][1] == b);
         ^------------------^
   for:
@@ -89,9 +89,9 @@ smt_checker_input_LHy3:17:9: Warning: Assertion violation happens here
   s[1][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818374)
 
 Callstack: 
-smt_checker_input_LHy3:22:9: 
+smt_checker_input_pghh:22:9: 
         test(s[1], s[1], 0, 1);
         ^--------------------^
 
-0.15user 0.04system 0:00.19elapsed 100%CPU (0avgtext+0avgdata 39744maxresident)k
-0inputs+0outputs (0major+2287minor)pagefaults 0swaps
+0.14user 0.24system 0:00.38elapsed 99%CPU (0avgtext+0avgdata 39664maxresident)k
+0inputs+0outputs (0major+2284minor)pagefaults 0swaps

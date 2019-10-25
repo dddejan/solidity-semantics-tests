@@ -1,5 +1,5 @@
 Running contracts/storage/MappingStorageNoAliasBase.sol
 The analysis was completed successfully. No issues were detected.
 
-10.71user 3.01system 0:10.93elapsed 125%CPU (0avgtext+0avgdata 113976maxresident)k
-0inputs+24344outputs (0major+52880minor)pagefaults 0swaps
+10.50user 3.13system 0:10.83elapsed 125%CPU (0avgtext+0avgdata 114960maxresident)k
+0inputs+24344outputs (0major+54206minor)pagefaults 0swaps

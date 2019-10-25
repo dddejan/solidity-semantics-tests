@@ -1,7 +1,7 @@
 Running contracts/init/InitMemoryArrayFixedSizeStruct.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_IwLo:8:5: Warning: Assertion checker does not yet support constructors.
+smt_checker_input_50vI:8:5: Warning: Assertion checker does not yet support constructors.
     constructor() public {
     ^ (Relevant source part starts here and spans across multiple lines).
-0.01user 0.01system 0:00.02elapsed 95%CPU (0avgtext+0avgdata 26248maxresident)k
-0inputs+0outputs (0major+903minor)pagefaults 0swaps
+0.01user 0.22system 0:00.24elapsed 97%CPU (0avgtext+0avgdata 26272maxresident)k
+0inputs+0outputs (0major+904minor)pagefaults 0swaps

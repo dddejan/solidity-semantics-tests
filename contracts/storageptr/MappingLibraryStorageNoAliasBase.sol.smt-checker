@@ -1,6 +1,6 @@
 Running contracts/storageptr/MappingLibraryStorageNoAliasBase.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_nFTi:10:25: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_6cg4:10:25: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         a[msg.sender] = a[msg.sender] + b[msg.sender];
                         ^---------------------------^
   for:
@@ -13,7 +13,7 @@ smt_checker_input_nFTi:10:25: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_nFTi:10:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_6cg4:10:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a[msg.sender] = a[msg.sender] + b[msg.sender];
                         ^---------------------------^
   for:
@@ -26,7 +26,7 @@ smt_checker_input_nFTi:10:25: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_nFTi:11:25: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_6cg4:11:25: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         b[msg.sender] = a[msg.sender] - b[msg.sender];
                         ^---------------------------^
   for:
@@ -39,7 +39,7 @@ smt_checker_input_nFTi:11:25: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_nFTi:11:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_6cg4:11:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         b[msg.sender] = a[msg.sender] - b[msg.sender];
                         ^---------------------------^
   for:
@@ -52,7 +52,7 @@ smt_checker_input_nFTi:11:25: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_nFTi:12:25: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_6cg4:12:25: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         a[msg.sender] = a[msg.sender] - b[msg.sender];
                         ^---------------------------^
   for:
@@ -65,7 +65,7 @@ smt_checker_input_nFTi:12:25: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_nFTi:12:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_6cg4:12:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a[msg.sender] = a[msg.sender] - b[msg.sender];
                         ^---------------------------^
   for:
@@ -78,7 +78,7 @@ smt_checker_input_nFTi:12:25: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_nFTi:13:9: Warning: Assertion violation happens here
+smt_checker_input_6cg4:13:9: Warning: Assertion violation happens here
         assert(a[msg.sender] == b_old); // no alias => swap correct
         ^----------------------------^
   for:
@@ -90,7 +90,7 @@ smt_checker_input_nFTi:13:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_nFTi:14:9: Warning: Assertion violation happens here
+smt_checker_input_6cg4:14:9: Warning: Assertion violation happens here
         assert(b[msg.sender] == a_old); // no alias => swap correct
         ^----------------------------^
   for:
@@ -102,5 +102,5 @@ smt_checker_input_nFTi:14:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-0.33user 0.05system 0:00.38elapsed 99%CPU (0avgtext+0avgdata 42092maxresident)k
-0inputs+0outputs (0major+2835minor)pagefaults 0swaps
+0.31user 0.26system 0:00.58elapsed 99%CPU (0avgtext+0avgdata 42108maxresident)k
+0inputs+0outputs (0major+2829minor)pagefaults 0swaps

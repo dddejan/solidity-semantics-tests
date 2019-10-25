@@ -1,5 +1,5 @@
 Running contracts/storageptr/StructArrayFixedSizeLibraryStorageNoAliasSubArrayFixedSize.sol
 The analysis was completed successfully. No issues were detected.
 
-3.91user 0.82system 0:04.21elapsed 112%CPU (0avgtext+0avgdata 86716maxresident)k
-0inputs+24368outputs (0major+34684minor)pagefaults 0swaps
+3.83user 0.91system 0:04.24elapsed 112%CPU (0avgtext+0avgdata 86948maxresident)k
+0inputs+24368outputs (0major+34707minor)pagefaults 0swaps

@@ -1,33 +1,33 @@
 Running contracts/storageptr/ArrayFixedSizeStoragePointerAliasSubStruct.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_vj1T:9:5: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_qJTj:9:5: Warning: Assertion checker does not yet support the type of this variable.
     Sub s2;
     ^----^
-smt_checker_input_vj1T:14:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qJTj:14:9: Warning: Assertion checker does not yet support this expression.
         s2.s[1] = b;
         ^--^
-smt_checker_input_vj1T:14:9: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStoragePointerAliasSubStruct.Sub storage ref
+smt_checker_input_qJTj:14:9: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStoragePointerAliasSubStruct.Sub storage ref
         s2.s[1] = b;
         ^^
-smt_checker_input_vj1T:14:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_qJTj:14:9: Warning: Assertion checker does not yet implement this expression.
         s2.s[1] = b;
         ^-----^
-smt_checker_input_vj1T:14:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_qJTj:14:9: Warning: Assertion checker does not yet implement this expression.
         s2.s[1] = b;
         ^-----^
-smt_checker_input_vj1T:15:32: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qJTj:15:32: Warning: Assertion checker does not yet support this expression.
         int[2] storage s1ref = s2.s;
                                ^--^
-smt_checker_input_vj1T:15:32: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStoragePointerAliasSubStruct.Sub storage ref
+smt_checker_input_qJTj:15:32: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStoragePointerAliasSubStruct.Sub storage ref
         int[2] storage s1ref = s2.s;
                                ^^
-smt_checker_input_vj1T:16:32: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qJTj:16:32: Warning: Assertion checker does not yet support this expression.
         int[2] storage s2ref = s2.s;
                                ^--^
-smt_checker_input_vj1T:16:32: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStoragePointerAliasSubStruct.Sub storage ref
+smt_checker_input_qJTj:16:32: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStoragePointerAliasSubStruct.Sub storage ref
         int[2] storage s2ref = s2.s;
                                ^^
-smt_checker_input_vj1T:17:9: Warning: Assertion violation happens here
+smt_checker_input_qJTj:17:9: Warning: Assertion violation happens here
         assert(s1ref[1] == b);
         ^-------------------^
   for:
@@ -38,7 +38,7 @@ smt_checker_input_vj1T:17:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_vj1T:18:9: Warning: Assertion violation happens here
+smt_checker_input_qJTj:18:9: Warning: Assertion violation happens here
         assert(s2ref[1] == b);
         ^-------------------^
   for:
@@ -50,31 +50,31 @@ smt_checker_input_vj1T:18:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_vj1T:14:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qJTj:14:9: Warning: Assertion checker does not yet support this expression.
         s2.s[1] = b;
         ^--^
-smt_checker_input_vj1T:14:9: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStoragePointerAliasSubStruct.Sub storage ref
+smt_checker_input_qJTj:14:9: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStoragePointerAliasSubStruct.Sub storage ref
         s2.s[1] = b;
         ^^
-smt_checker_input_vj1T:14:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_qJTj:14:9: Warning: Assertion checker does not yet implement this expression.
         s2.s[1] = b;
         ^-----^
-smt_checker_input_vj1T:14:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_qJTj:14:9: Warning: Assertion checker does not yet implement this expression.
         s2.s[1] = b;
         ^-----^
-smt_checker_input_vj1T:15:32: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qJTj:15:32: Warning: Assertion checker does not yet support this expression.
         int[2] storage s1ref = s2.s;
                                ^--^
-smt_checker_input_vj1T:15:32: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStoragePointerAliasSubStruct.Sub storage ref
+smt_checker_input_qJTj:15:32: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStoragePointerAliasSubStruct.Sub storage ref
         int[2] storage s1ref = s2.s;
                                ^^
-smt_checker_input_vj1T:16:32: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qJTj:16:32: Warning: Assertion checker does not yet support this expression.
         int[2] storage s2ref = s2.s;
                                ^--^
-smt_checker_input_vj1T:16:32: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStoragePointerAliasSubStruct.Sub storage ref
+smt_checker_input_qJTj:16:32: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStoragePointerAliasSubStruct.Sub storage ref
         int[2] storage s2ref = s2.s;
                                ^^
-smt_checker_input_vj1T:17:9: Warning: Assertion violation happens here
+smt_checker_input_qJTj:17:9: Warning: Assertion violation happens here
         assert(s1ref[1] == b);
         ^-------------------^
   for:
@@ -84,11 +84,11 @@ smt_checker_input_vj1T:17:9: Warning: Assertion violation happens here
   s1ref[1] = 2
 
 Callstack: 
-smt_checker_input_vj1T:23:9: 
+smt_checker_input_qJTj:23:9: 
         test(0, 1);
         ^--------^
 
-smt_checker_input_vj1T:18:9: Warning: Assertion violation happens here
+smt_checker_input_qJTj:18:9: Warning: Assertion violation happens here
         assert(s2ref[1] == b);
         ^-------------------^
   for:
@@ -99,9 +99,9 @@ smt_checker_input_vj1T:18:9: Warning: Assertion violation happens here
   s2ref[1] = 2
 
 Callstack: 
-smt_checker_input_vj1T:23:9: 
+smt_checker_input_qJTj:23:9: 
         test(0, 1);
         ^--------^
 
-0.06user 0.01system 0:00.08elapsed 100%CPU (0avgtext+0avgdata 44624maxresident)k
-0inputs+0outputs (0major+3193minor)pagefaults 0swaps
+0.07user 0.22system 0:00.30elapsed 100%CPU (0avgtext+0avgdata 44920maxresident)k
+0inputs+0outputs (0major+3196minor)pagefaults 0swaps

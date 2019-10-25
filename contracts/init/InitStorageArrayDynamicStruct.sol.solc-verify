@@ -2,5 +2,5 @@ Running contracts/init/InitStorageArrayDynamicStruct.sol
 InitStorageArrayDynamicStruct::[constructor]: OK
 InitStorageArrayDynamicStruct::truffleMain: OK
 No errors found.
-0.66user 0.18system 0:00.81elapsed 103%CPU (0avgtext+0avgdata 41004maxresident)k
-0inputs+16outputs (0major+16537minor)pagefaults 0swaps
+0.67user 0.65system 0:01.29elapsed 102%CPU (0avgtext+0avgdata 41320maxresident)k
+0inputs+16outputs (0major+16273minor)pagefaults 0swaps

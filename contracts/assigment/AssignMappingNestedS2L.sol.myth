@@ -1,4 +1,4 @@
 Running contracts/assigment/AssignMappingNestedS2L.sol
 Command terminated by signal 24
-52.89user 7.43system 0:53.64elapsed 112%CPU (0avgtext+0avgdata 254992maxresident)k
-8inputs+484152outputs (0major+91241minor)pagefaults 0swaps
+53.01user 7.39system 0:53.65elapsed 112%CPU (0avgtext+0avgdata 251332maxresident)k
+16inputs+476440outputs (0major+86674minor)pagefaults 0swaps

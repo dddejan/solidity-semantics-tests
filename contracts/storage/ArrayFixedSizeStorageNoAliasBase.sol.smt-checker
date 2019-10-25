@@ -1,4 +1,4 @@
 Running contracts/storage/ArrayFixedSizeStorageNoAliasBase.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-0.02user 0.00system 0:00.03elapsed 97%CPU (0avgtext+0avgdata 30996maxresident)k
-0inputs+0outputs (0major+1302minor)pagefaults 0swaps
+0.02user 0.22system 0:00.25elapsed 99%CPU (0avgtext+0avgdata 31060maxresident)k
+0inputs+0outputs (0major+1324minor)pagefaults 0swaps

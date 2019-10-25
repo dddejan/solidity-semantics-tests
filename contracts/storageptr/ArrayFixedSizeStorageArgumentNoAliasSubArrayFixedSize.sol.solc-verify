@@ -2,5 +2,5 @@ Running contracts/storageptr/ArrayFixedSizeStorageArgumentNoAliasSubArrayFixedSi
 ArrayFixedSizeStorageArgumentNoAliasSubArrayFixedSize::truffleMain: OK
 ArrayFixedSizeStorageArgumentNoAliasSubArrayFixedSize::[implicit_constructor]: OK
 No errors found.
-0.72user 0.21system 0:00.90elapsed 103%CPU (0avgtext+0avgdata 44536maxresident)k
-0inputs+24outputs (0major+17153minor)pagefaults 0swaps
+0.65user 0.75system 0:01.39elapsed 100%CPU (0avgtext+0avgdata 44676maxresident)k
+0inputs+24outputs (0major+17110minor)pagefaults 0swaps

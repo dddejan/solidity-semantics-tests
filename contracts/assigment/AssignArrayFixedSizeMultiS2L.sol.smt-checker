@@ -1,18 +1,18 @@
 Running contracts/assigment/AssignArrayFixedSizeMultiS2L.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_eslv:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_iBTr:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s1[2][1] = a;
         ^------^
-smt_checker_input_eslv:13:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_iBTr:13:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s2[2][1] = b;
         ^------^
-smt_checker_input_eslv:19:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_iBTr:19:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s1[2][1] = c;
         ^------^
-smt_checker_input_eslv:24:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_iBTr:24:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         loc[2][1] = a;
         ^-------^
-smt_checker_input_eslv:15:9: Warning: Assertion violation happens here
+smt_checker_input_iBTr:15:9: Warning: Assertion violation happens here
         assert(s1[2][1] == a);
         ^-------------------^
   for:
@@ -24,7 +24,7 @@ smt_checker_input_eslv:15:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_eslv:16:9: Warning: Assertion violation happens here
+smt_checker_input_iBTr:16:9: Warning: Assertion violation happens here
         assert(s2[2][1] == b);
         ^-------------------^
   for:
@@ -36,7 +36,7 @@ smt_checker_input_eslv:16:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_eslv:20:9: Warning: Assertion violation happens here
+smt_checker_input_iBTr:20:9: Warning: Assertion violation happens here
         assert(s1[2][1] == c);
         ^-------------------^
   for:
@@ -49,7 +49,7 @@ smt_checker_input_eslv:20:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_eslv:22:9: Warning: Assertion violation happens here
+smt_checker_input_iBTr:22:9: Warning: Assertion violation happens here
         assert(loc[2][1] == c);
         ^--------------------^
   for:
@@ -62,19 +62,19 @@ smt_checker_input_eslv:22:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_eslv:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_iBTr:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s1[2][1] = a;
         ^------^
-smt_checker_input_eslv:13:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_iBTr:13:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s2[2][1] = b;
         ^------^
-smt_checker_input_eslv:19:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_iBTr:19:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s1[2][1] = c;
         ^------^
-smt_checker_input_eslv:24:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_iBTr:24:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         loc[2][1] = a;
         ^-------^
-smt_checker_input_eslv:15:9: Warning: Assertion violation happens here
+smt_checker_input_iBTr:15:9: Warning: Assertion violation happens here
         assert(s1[2][1] == a);
         ^-------------------^
   for:
@@ -85,11 +85,11 @@ smt_checker_input_eslv:15:9: Warning: Assertion violation happens here
   s2[2][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818994)
 
 Callstack: 
-smt_checker_input_eslv:32:9: 
+smt_checker_input_iBTr:32:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
-smt_checker_input_eslv:16:9: Warning: Assertion violation happens here
+smt_checker_input_iBTr:16:9: Warning: Assertion violation happens here
         assert(s2[2][1] == b);
         ^-------------------^
   for:
@@ -100,11 +100,11 @@ smt_checker_input_eslv:16:9: Warning: Assertion violation happens here
   s2[2][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818315)
 
 Callstack: 
-smt_checker_input_eslv:32:9: 
+smt_checker_input_iBTr:32:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
-smt_checker_input_eslv:20:9: Warning: Assertion violation happens here
+smt_checker_input_iBTr:20:9: Warning: Assertion violation happens here
         assert(s1[2][1] == c);
         ^-------------------^
   for:
@@ -116,11 +116,11 @@ smt_checker_input_eslv:20:9: Warning: Assertion violation happens here
   s2[2][1] = 1
 
 Callstack: 
-smt_checker_input_eslv:32:9: 
+smt_checker_input_iBTr:32:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
-smt_checker_input_eslv:22:9: Warning: Assertion violation happens here
+smt_checker_input_iBTr:22:9: Warning: Assertion violation happens here
         assert(loc[2][1] == c);
         ^--------------------^
   for:
@@ -132,9 +132,9 @@ smt_checker_input_eslv:22:9: Warning: Assertion violation happens here
   s2[2][1] = 1
 
 Callstack: 
-smt_checker_input_eslv:32:9: 
+smt_checker_input_iBTr:32:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
-0.22user 0.03system 0:00.26elapsed 100%CPU (0avgtext+0avgdata 51332maxresident)k
+0.21user 0.23system 0:00.44elapsed 99%CPU (0avgtext+0avgdata 51420maxresident)k
 0inputs+0outputs (0major+4742minor)pagefaults 0swaps

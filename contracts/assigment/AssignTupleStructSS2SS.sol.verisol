@@ -5,5 +5,5 @@ SpecFilesDir = /solc-verify-examples/contracts/assigment
 ... running SolToBoogie to translate Solidity to Boogie
 VeriSol translation error: File /solc-verify-examples/contracts/assigment/AssignTupleStructSS2SS.sol, Line 13, Contract AssignTupleStructSS2SS, Function assign:: Not implemented...currently only support assignment of tuples as returns of a function call....
 Command exited with non-zero status 1
-0.65user 0.09system 0:00.78elapsed 96%CPU (0avgtext+0avgdata 53148maxresident)k
-0inputs+0outputs (0major+24740minor)pagefaults 0swaps
+0.63user 0.11system 0:00.87elapsed 85%CPU (0avgtext+0avgdata 53072maxresident)k
+0inputs+0outputs (0major+24748minor)pagefaults 0swaps

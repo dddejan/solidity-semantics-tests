@@ -6,5 +6,5 @@ SpecFilesDir = /solc-verify-examples/contracts/storageptr
 Warning: A mapping with nested array s1 of valuetype int256[2]
 ... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
 	*** Proof found! Formal Verification successful! (see boogie.txt)
-1.43user 0.26system 0:01.75elapsed 96%CPU (0avgtext+0avgdata 55828maxresident)k
-0inputs+40outputs (0major+61170minor)pagefaults 0swaps
+1.44user 0.52system 0:02.06elapsed 94%CPU (0avgtext+0avgdata 55852maxresident)k
+0inputs+40outputs (0major+61190minor)pagefaults 0swaps

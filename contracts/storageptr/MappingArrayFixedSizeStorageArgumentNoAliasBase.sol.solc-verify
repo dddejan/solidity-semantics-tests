@@ -1,13 +1,13 @@
 Running contracts/storageptr/MappingArrayFixedSizeStorageArgumentNoAliasBase.sol
 Error while running verifier, details:
 [TRACE] Using prover: /usr/local/bin/z3
-Parsing /tmp/tmpz4drj1ey/MappingArrayFixedSizeStorageArgumentNoAliasBase.sol.bpl
-/tmp/tmpz4drj1ey/MappingArrayFixedSizeStorageArgumentNoAliasBase.sol.bpl(27,10): Error: command assigns to an immutable variable: s1ref#19
-/tmp/tmpz4drj1ey/MappingArrayFixedSizeStorageArgumentNoAliasBase.sol.bpl(28,10): Error: command assigns to an immutable variable: s2ref#25
-/tmp/tmpz4drj1ey/MappingArrayFixedSizeStorageArgumentNoAliasBase.sol.bpl(51,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]int_arr_type)
-/tmp/tmpz4drj1ey/MappingArrayFixedSizeStorageArgumentNoAliasBase.sol.bpl(54,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]int_arr_type)
-4 type checking errors detected in /tmp/tmpz4drj1ey/MappingArrayFixedSizeStorageArgumentNoAliasBase.sol.bpl
+Parsing /tmp/tmpwh692t_0/MappingArrayFixedSizeStorageArgumentNoAliasBase.sol.bpl
+/tmp/tmpwh692t_0/MappingArrayFixedSizeStorageArgumentNoAliasBase.sol.bpl(27,10): Error: command assigns to an immutable variable: s1ref#19
+/tmp/tmpwh692t_0/MappingArrayFixedSizeStorageArgumentNoAliasBase.sol.bpl(28,10): Error: command assigns to an immutable variable: s2ref#25
+/tmp/tmpwh692t_0/MappingArrayFixedSizeStorageArgumentNoAliasBase.sol.bpl(51,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]int_arr_type)
+/tmp/tmpwh692t_0/MappingArrayFixedSizeStorageArgumentNoAliasBase.sol.bpl(54,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]int_arr_type)
+4 type checking errors detected in /tmp/tmpwh692t_0/MappingArrayFixedSizeStorageArgumentNoAliasBase.sol.bpl
 
 Command exited with non-zero status 252
-0.34user 0.12system 0:00.46elapsed 100%CPU (0avgtext+0avgdata 33140maxresident)k
-0inputs+24outputs (0major+10280minor)pagefaults 0swaps
+0.34user 0.59system 0:00.93elapsed 100%CPU (0avgtext+0avgdata 33188maxresident)k
+0inputs+24outputs (0major+10339minor)pagefaults 0swaps

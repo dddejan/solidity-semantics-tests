@@ -1,5 +1,5 @@
 Running contracts/storageptr/ArrayFixedSizeLibraryStorageAliasBase.sol
 The analysis was completed successfully. No issues were detected.
 
-3.96user 0.83system 0:04.20elapsed 114%CPU (0avgtext+0avgdata 86956maxresident)k
-0inputs+24344outputs (0major+34712minor)pagefaults 0swaps
+3.93user 0.93system 0:04.30elapsed 113%CPU (0avgtext+0avgdata 87256maxresident)k
+568inputs+24344outputs (6major+34810minor)pagefaults 0swaps

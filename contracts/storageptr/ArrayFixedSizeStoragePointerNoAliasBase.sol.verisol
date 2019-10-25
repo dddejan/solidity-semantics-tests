@@ -5,5 +5,5 @@ SpecFilesDir = /solc-verify-examples/contracts/storageptr
 ... running SolToBoogie to translate Solidity to Boogie
 ... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
 	*** Proof found! Formal Verification successful! (see boogie.txt)
-1.39user 0.21system 0:01.88elapsed 85%CPU (0avgtext+0avgdata 53684maxresident)k
-0inputs+32outputs (0major+59655minor)pagefaults 0swaps
+1.35user 0.49system 0:01.84elapsed 100%CPU (0avgtext+0avgdata 53760maxresident)k
+0inputs+32outputs (0major+59599minor)pagefaults 0swaps

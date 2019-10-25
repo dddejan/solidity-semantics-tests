@@ -15,5 +15,5 @@ Do no handle nested structs yet!
    at VeriSolRunner.VeriSolExecutor.Execute() in c:\verisol\sources\VeriSol\VeriSolExecuter.cs:line 63
    at VeriSolRunner.Program.Main(String[] args) in c:\verisol\sources\VeriSol\Program.cs:line 58
 Command terminated by signal 6
-0.63user 0.16system 0:00.87elapsed 91%CPU (0avgtext+0avgdata 57012maxresident)k
-8inputs+56576outputs (0major+23075minor)pagefaults 0swaps
+0.62user 0.22system 0:00.97elapsed 86%CPU (0avgtext+0avgdata 56668maxresident)k
+8inputs+56584outputs (0major+23077minor)pagefaults 0swaps

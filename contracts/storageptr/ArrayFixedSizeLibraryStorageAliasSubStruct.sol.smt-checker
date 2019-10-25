@@ -1,6 +1,6 @@
 Running contracts/storageptr/ArrayFixedSizeLibraryStorageAliasSubStruct.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_M7sv:13:16: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_yILY:13:16: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a[1] = b[1] + 1;
                ^------^
   for:
@@ -13,7 +13,7 @@ smt_checker_input_M7sv:13:16: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_M7sv:14:30: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_yILY:14:30: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a_b_alias = (b[1] == b_old + 1);
                              ^-------^
   for:
@@ -26,7 +26,7 @@ smt_checker_input_M7sv:14:30: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_M7sv:17:16: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_yILY:17:16: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         a[1] = a[1] + b[1];
                ^---------^
   for:
@@ -39,7 +39,7 @@ smt_checker_input_M7sv:17:16: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_M7sv:17:16: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_yILY:17:16: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a[1] = a[1] + b[1];
                ^---------^
   for:
@@ -52,7 +52,7 @@ smt_checker_input_M7sv:17:16: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_M7sv:18:16: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_yILY:18:16: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         b[1] = a[1] - b[1];
                ^---------^
   for:
@@ -65,7 +65,7 @@ smt_checker_input_M7sv:18:16: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_M7sv:18:16: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_yILY:18:16: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         b[1] = a[1] - b[1];
                ^---------^
   for:
@@ -78,7 +78,7 @@ smt_checker_input_M7sv:18:16: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_M7sv:19:16: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_yILY:19:16: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         a[1] = a[1] - b[1];
                ^---------^
   for:
@@ -91,7 +91,7 @@ smt_checker_input_M7sv:19:16: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_M7sv:19:16: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_yILY:19:16: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a[1] = a[1] - b[1];
                ^---------^
   for:
@@ -104,7 +104,7 @@ smt_checker_input_M7sv:19:16: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_M7sv:20:9: Warning: Assertion violation happens here
+smt_checker_input_yILY:20:9: Warning: Assertion violation happens here
         assert(!a_b_alias || a[1] == 0); // alias => zero
         ^-----------------------------^
   for:
@@ -116,7 +116,7 @@ smt_checker_input_M7sv:20:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_M7sv:21:9: Warning: Assertion violation happens here
+smt_checker_input_yILY:21:9: Warning: Assertion violation happens here
         assert(!a_b_alias || b[1] == 0); // alias => zero
         ^-----------------------------^
   for:
@@ -128,20 +128,20 @@ smt_checker_input_M7sv:21:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_M7sv:27:5: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_yILY:27:5: Warning: Assertion checker does not yet support the type of this variable.
     L.Sub s2;
     ^------^
-smt_checker_input_M7sv:31:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_yILY:31:16: Warning: Assertion checker does not yet support this expression.
         L.swap(s2.s, s2.s);
                ^--^
-smt_checker_input_M7sv:31:16: Warning: Assertion checker does not yet implement type struct L.Sub storage ref
+smt_checker_input_yILY:31:16: Warning: Assertion checker does not yet implement type struct L.Sub storage ref
         L.swap(s2.s, s2.s);
                ^^
-smt_checker_input_M7sv:31:22: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_yILY:31:22: Warning: Assertion checker does not yet support this expression.
         L.swap(s2.s, s2.s);
                      ^--^
-smt_checker_input_M7sv:31:22: Warning: Assertion checker does not yet implement type struct L.Sub storage ref
+smt_checker_input_yILY:31:22: Warning: Assertion checker does not yet implement type struct L.Sub storage ref
         L.swap(s2.s, s2.s);
                      ^^
-0.56user 0.06system 0:00.63elapsed 100%CPU (0avgtext+0avgdata 44076maxresident)k
-0inputs+0outputs (0major+3344minor)pagefaults 0swaps
+0.58user 0.28system 0:00.88elapsed 99%CPU (0avgtext+0avgdata 43892maxresident)k
+0inputs+0outputs (0major+3339minor)pagefaults 0swaps

@@ -1,96 +1,96 @@
 Running contracts/delete/DeleteMemoryArrayFixedSizeMulti.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_XxIf:7:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_wEdY:7:16: Warning: Assertion checker does not yet support this expression.
         assert(a.length == 3);
                ^------^
-smt_checker_input_XxIf:9:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_wEdY:9:16: Warning: Assertion checker does not yet support this expression.
         assert(a.length == 3);
                ^------^
-smt_checker_input_XxIf:10:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_wEdY:10:16: Warning: Assertion checker does not yet support this expression.
         assert(a[0].length == 2);
                ^---------^
-smt_checker_input_XxIf:11:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_wEdY:11:16: Warning: Assertion checker does not yet support this expression.
         assert(a[1].length == 2);
                ^---------^
-smt_checker_input_XxIf:7:9: Warning: Assertion violation happens here
+smt_checker_input_wEdY:7:9: Warning: Assertion violation happens here
         assert(a.length == 3);
         ^-------------------^
   for:
 
 Callstack: 
 
-smt_checker_input_XxIf:9:9: Warning: Assertion violation happens here
+smt_checker_input_wEdY:9:9: Warning: Assertion violation happens here
         assert(a.length == 3);
         ^-------------------^
   for:
 
 Callstack: 
 
-smt_checker_input_XxIf:10:9: Warning: Assertion violation happens here
+smt_checker_input_wEdY:10:9: Warning: Assertion violation happens here
         assert(a[0].length == 2);
         ^----------------------^
   for:
 
 Callstack: 
 
-smt_checker_input_XxIf:11:9: Warning: Assertion violation happens here
+smt_checker_input_wEdY:11:9: Warning: Assertion violation happens here
         assert(a[1].length == 2);
         ^----------------------^
   for:
 
 Callstack: 
 
-smt_checker_input_XxIf:7:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_wEdY:7:16: Warning: Assertion checker does not yet support this expression.
         assert(a.length == 3);
                ^------^
-smt_checker_input_XxIf:9:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_wEdY:9:16: Warning: Assertion checker does not yet support this expression.
         assert(a.length == 3);
                ^------^
-smt_checker_input_XxIf:10:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_wEdY:10:16: Warning: Assertion checker does not yet support this expression.
         assert(a[0].length == 2);
                ^---------^
-smt_checker_input_XxIf:11:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_wEdY:11:16: Warning: Assertion checker does not yet support this expression.
         assert(a[1].length == 2);
                ^---------^
-smt_checker_input_XxIf:7:9: Warning: Assertion violation happens here
+smt_checker_input_wEdY:7:9: Warning: Assertion violation happens here
         assert(a.length == 3);
         ^-------------------^
   for:
 
 Callstack: 
-smt_checker_input_XxIf:21:9: 
+smt_checker_input_wEdY:21:9: 
         test();
         ^----^
 
-smt_checker_input_XxIf:9:9: Warning: Assertion violation happens here
+smt_checker_input_wEdY:9:9: Warning: Assertion violation happens here
         assert(a.length == 3);
         ^-------------------^
   for:
 
 Callstack: 
-smt_checker_input_XxIf:21:9: 
+smt_checker_input_wEdY:21:9: 
         test();
         ^----^
 
-smt_checker_input_XxIf:10:9: Warning: Assertion violation happens here
+smt_checker_input_wEdY:10:9: Warning: Assertion violation happens here
         assert(a[0].length == 2);
         ^----------------------^
   for:
 
 Callstack: 
-smt_checker_input_XxIf:21:9: 
+smt_checker_input_wEdY:21:9: 
         test();
         ^----^
 
-smt_checker_input_XxIf:11:9: Warning: Assertion violation happens here
+smt_checker_input_wEdY:11:9: Warning: Assertion violation happens here
         assert(a[1].length == 2);
         ^----------------------^
   for:
 
 Callstack: 
-smt_checker_input_XxIf:21:9: 
+smt_checker_input_wEdY:21:9: 
         test();
         ^----^
 
-0.07user 0.03system 0:00.10elapsed 100%CPU (0avgtext+0avgdata 44180maxresident)k
-0inputs+0outputs (0major+3220minor)pagefaults 0swaps
+0.08user 0.23system 0:00.31elapsed 100%CPU (0avgtext+0avgdata 44320maxresident)k
+0inputs+0outputs (0major+3224minor)pagefaults 0swaps

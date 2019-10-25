@@ -1,14 +1,14 @@
 Running contracts/storageptr/MappingArrayFixedSizeLibraryStorageNoAliasSubStruct.sol
 Error while running verifier, details:
 [TRACE] Using prover: /usr/local/bin/z3
-Parsing /tmp/tmprn5so2wm/MappingArrayFixedSizeLibraryStorageNoAliasSubStruct.sol.bpl
-/tmp/tmprn5so2wm/MappingArrayFixedSizeLibraryStorageNoAliasSubStruct.sol.bpl(35,6): Error: command assigns to an immutable variable: a#14
-/tmp/tmprn5so2wm/MappingArrayFixedSizeLibraryStorageNoAliasSubStruct.sol.bpl(36,6): Error: command assigns to an immutable variable: b#20
-/tmp/tmprn5so2wm/MappingArrayFixedSizeLibraryStorageNoAliasSubStruct.sol.bpl(37,6): Error: command assigns to an immutable variable: a#14
-/tmp/tmprn5so2wm/MappingArrayFixedSizeLibraryStorageNoAliasSubStruct.sol.bpl(72,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]int_arr_type)
-/tmp/tmprn5so2wm/MappingArrayFixedSizeLibraryStorageNoAliasSubStruct.sol.bpl(76,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]int_arr_type)
-5 type checking errors detected in /tmp/tmprn5so2wm/MappingArrayFixedSizeLibraryStorageNoAliasSubStruct.sol.bpl
+Parsing /tmp/tmpxfchjtv8/MappingArrayFixedSizeLibraryStorageNoAliasSubStruct.sol.bpl
+/tmp/tmpxfchjtv8/MappingArrayFixedSizeLibraryStorageNoAliasSubStruct.sol.bpl(35,6): Error: command assigns to an immutable variable: a#14
+/tmp/tmpxfchjtv8/MappingArrayFixedSizeLibraryStorageNoAliasSubStruct.sol.bpl(36,6): Error: command assigns to an immutable variable: b#20
+/tmp/tmpxfchjtv8/MappingArrayFixedSizeLibraryStorageNoAliasSubStruct.sol.bpl(37,6): Error: command assigns to an immutable variable: a#14
+/tmp/tmpxfchjtv8/MappingArrayFixedSizeLibraryStorageNoAliasSubStruct.sol.bpl(72,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]int_arr_type)
+/tmp/tmpxfchjtv8/MappingArrayFixedSizeLibraryStorageNoAliasSubStruct.sol.bpl(76,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]int_arr_type)
+5 type checking errors detected in /tmp/tmpxfchjtv8/MappingArrayFixedSizeLibraryStorageNoAliasSubStruct.sol.bpl
 
 Command exited with non-zero status 252
-0.34user 0.12system 0:00.46elapsed 100%CPU (0avgtext+0avgdata 33196maxresident)k
-0inputs+24outputs (0major+10304minor)pagefaults 0swaps
+0.35user 0.59system 0:00.95elapsed 99%CPU (0avgtext+0avgdata 33220maxresident)k
+0inputs+24outputs (0major+10311minor)pagefaults 0swaps

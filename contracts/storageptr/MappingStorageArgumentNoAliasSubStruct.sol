@@ -19,6 +19,8 @@ contract MappingStorageArgumentNoAliasSubStruct {
 
     // Boilerplate to run with truffle
     function truffleMain() external {
+        s1[msg.sender] = -1;
+        s2.s[msg.sender] = -2;
         test(s1, s2.s, 0, 1);
     }
 

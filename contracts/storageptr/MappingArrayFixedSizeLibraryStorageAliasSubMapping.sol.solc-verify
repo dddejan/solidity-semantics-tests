@@ -1,15 +1,15 @@
 Running contracts/storageptr/MappingArrayFixedSizeLibraryStorageAliasSubMapping.sol
 Error while running verifier, details:
 [TRACE] Using prover: /usr/local/bin/z3
-Parsing /tmp/tmpjtkr4gac/MappingArrayFixedSizeLibraryStorageAliasSubMapping.sol.bpl
-/tmp/tmpjtkr4gac/MappingArrayFixedSizeLibraryStorageAliasSubMapping.sol.bpl(25,5): Error: command assigns to an immutable variable: a#7
-/tmp/tmpjtkr4gac/MappingArrayFixedSizeLibraryStorageAliasSubMapping.sol.bpl(29,5): Error: command assigns to an immutable variable: a#7
-/tmp/tmpjtkr4gac/MappingArrayFixedSizeLibraryStorageAliasSubMapping.sol.bpl(30,6): Error: command assigns to an immutable variable: b#13
-/tmp/tmpjtkr4gac/MappingArrayFixedSizeLibraryStorageAliasSubMapping.sol.bpl(31,5): Error: command assigns to an immutable variable: a#7
-/tmp/tmpjtkr4gac/MappingArrayFixedSizeLibraryStorageAliasSubMapping.sol.bpl(62,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]int_arr_type)
-/tmp/tmpjtkr4gac/MappingArrayFixedSizeLibraryStorageAliasSubMapping.sol.bpl(66,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]int_arr_type)
-6 type checking errors detected in /tmp/tmpjtkr4gac/MappingArrayFixedSizeLibraryStorageAliasSubMapping.sol.bpl
+Parsing /tmp/tmp08l6ruf4/MappingArrayFixedSizeLibraryStorageAliasSubMapping.sol.bpl
+/tmp/tmp08l6ruf4/MappingArrayFixedSizeLibraryStorageAliasSubMapping.sol.bpl(25,5): Error: command assigns to an immutable variable: a#7
+/tmp/tmp08l6ruf4/MappingArrayFixedSizeLibraryStorageAliasSubMapping.sol.bpl(29,5): Error: command assigns to an immutable variable: a#7
+/tmp/tmp08l6ruf4/MappingArrayFixedSizeLibraryStorageAliasSubMapping.sol.bpl(30,6): Error: command assigns to an immutable variable: b#13
+/tmp/tmp08l6ruf4/MappingArrayFixedSizeLibraryStorageAliasSubMapping.sol.bpl(31,5): Error: command assigns to an immutable variable: a#7
+/tmp/tmp08l6ruf4/MappingArrayFixedSizeLibraryStorageAliasSubMapping.sol.bpl(62,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]int_arr_type)
+/tmp/tmp08l6ruf4/MappingArrayFixedSizeLibraryStorageAliasSubMapping.sol.bpl(66,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]int_arr_type)
+6 type checking errors detected in /tmp/tmp08l6ruf4/MappingArrayFixedSizeLibraryStorageAliasSubMapping.sol.bpl
 
 Command exited with non-zero status 252
-0.34user 0.13system 0:00.47elapsed 100%CPU (0avgtext+0avgdata 33228maxresident)k
-0inputs+24outputs (0major+10296minor)pagefaults 0swaps
+0.33user 0.59system 0:00.96elapsed 96%CPU (0avgtext+0avgdata 33320maxresident)k
+0inputs+24outputs (0major+10303minor)pagefaults 0swaps

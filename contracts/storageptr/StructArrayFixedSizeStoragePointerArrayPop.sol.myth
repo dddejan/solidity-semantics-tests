@@ -21,5 +21,5 @@ Caller: [CREATOR], data: 0x608060405234801561001057600080fd5b5061026880610020600
 Caller: [ATTACKER], function: test(int256,int256), txdata: 0x24d45ec3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3, value: 0x0
 
 
-6.85user 2.08system 0:07.00elapsed 127%CPU (0avgtext+0avgdata 111208maxresident)k
-0inputs+24344outputs (0major+39690minor)pagefaults 0swaps
+6.95user 2.20system 0:07.20elapsed 127%CPU (0avgtext+0avgdata 111216maxresident)k
+0inputs+24344outputs (0major+39985minor)pagefaults 0swaps

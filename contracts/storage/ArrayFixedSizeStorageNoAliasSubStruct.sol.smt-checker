@@ -1,30 +1,30 @@
 Running contracts/storage/ArrayFixedSizeStorageNoAliasSubStruct.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_vzVc:9:5: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_0FKN:9:5: Warning: Assertion checker does not yet support the type of this variable.
     Sub s2;
     ^----^
-smt_checker_input_vzVc:13:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_0FKN:13:9: Warning: Assertion checker does not yet support this expression.
         s2.s[1] = b;
         ^--^
-smt_checker_input_vzVc:13:9: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStorageNoAliasSubStruct.Sub storage ref
+smt_checker_input_0FKN:13:9: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStorageNoAliasSubStruct.Sub storage ref
         s2.s[1] = b;
         ^^
-smt_checker_input_vzVc:13:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_0FKN:13:9: Warning: Assertion checker does not yet implement this expression.
         s2.s[1] = b;
         ^-----^
-smt_checker_input_vzVc:13:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_0FKN:13:9: Warning: Assertion checker does not yet implement this expression.
         s2.s[1] = b;
         ^-----^
-smt_checker_input_vzVc:15:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_0FKN:15:16: Warning: Assertion checker does not yet support this expression.
         assert(s2.s[1] == b);
                ^--^
-smt_checker_input_vzVc:15:16: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStorageNoAliasSubStruct.Sub storage ref
+smt_checker_input_0FKN:15:16: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStorageNoAliasSubStruct.Sub storage ref
         assert(s2.s[1] == b);
                ^^
-smt_checker_input_vzVc:15:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_0FKN:15:16: Warning: Assertion checker does not yet implement this expression.
         assert(s2.s[1] == b);
                ^-----^
-smt_checker_input_vzVc:15:9: Warning: Assertion violation happens here
+smt_checker_input_0FKN:15:9: Warning: Assertion violation happens here
         assert(s2.s[1] == b);
         ^------------------^
   for:
@@ -34,28 +34,28 @@ smt_checker_input_vzVc:15:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_vzVc:13:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_0FKN:13:9: Warning: Assertion checker does not yet support this expression.
         s2.s[1] = b;
         ^--^
-smt_checker_input_vzVc:13:9: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStorageNoAliasSubStruct.Sub storage ref
+smt_checker_input_0FKN:13:9: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStorageNoAliasSubStruct.Sub storage ref
         s2.s[1] = b;
         ^^
-smt_checker_input_vzVc:13:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_0FKN:13:9: Warning: Assertion checker does not yet implement this expression.
         s2.s[1] = b;
         ^-----^
-smt_checker_input_vzVc:13:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_0FKN:13:9: Warning: Assertion checker does not yet implement this expression.
         s2.s[1] = b;
         ^-----^
-smt_checker_input_vzVc:15:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_0FKN:15:16: Warning: Assertion checker does not yet support this expression.
         assert(s2.s[1] == b);
                ^--^
-smt_checker_input_vzVc:15:16: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStorageNoAliasSubStruct.Sub storage ref
+smt_checker_input_0FKN:15:16: Warning: Assertion checker does not yet implement type struct ArrayFixedSizeStorageNoAliasSubStruct.Sub storage ref
         assert(s2.s[1] == b);
                ^^
-smt_checker_input_vzVc:15:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_0FKN:15:16: Warning: Assertion checker does not yet implement this expression.
         assert(s2.s[1] == b);
                ^-----^
-smt_checker_input_vzVc:15:9: Warning: Assertion violation happens here
+smt_checker_input_0FKN:15:9: Warning: Assertion violation happens here
         assert(s2.s[1] == b);
         ^------------------^
   for:
@@ -64,9 +64,9 @@ smt_checker_input_vzVc:15:9: Warning: Assertion violation happens here
   s1[1] = 0
 
 Callstack: 
-smt_checker_input_vzVc:20:9: 
+smt_checker_input_0FKN:20:9: 
         test(0, 1);
         ^--------^
 
-0.05user 0.01system 0:00.06elapsed 100%CPU (0avgtext+0avgdata 42056maxresident)k
-0inputs+0outputs (0major+2604minor)pagefaults 0swaps
+0.04user 0.22system 0:00.27elapsed 100%CPU (0avgtext+0avgdata 41264maxresident)k
+0inputs+0outputs (0major+2588minor)pagefaults 0swaps

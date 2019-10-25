@@ -1,5 +1,5 @@
 Running contracts/delete/DeleteMemoryArrayDynamicMulti.sol
 The analysis was completed successfully. No issues were detected.
 
-5.08user 2.21system 0:05.17elapsed 141%CPU (0avgtext+0avgdata 92676maxresident)k
-0inputs+24288outputs (0major+35764minor)pagefaults 0swaps
+5.34user 2.49system 0:05.56elapsed 140%CPU (0avgtext+0avgdata 92548maxresident)k
+0inputs+24304outputs (0major+35748minor)pagefaults 0swaps

@@ -1,6 +1,6 @@
 Running contracts/storageptr/MappingLibraryStorageAliasSubStruct.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_lgNO:13:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_qjG5:13:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a[msg.sender] = b[msg.sender] + 1;
                         ^---------------^
   for:
@@ -14,7 +14,7 @@ smt_checker_input_lgNO:13:25: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_lgNO:14:39: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_qjG5:14:39: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a_b_alias = (b[msg.sender] == b_old + 1);
                                       ^-------^
   for:
@@ -28,7 +28,7 @@ smt_checker_input_lgNO:14:39: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_lgNO:17:25: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_qjG5:17:25: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         a[msg.sender] = a[msg.sender] + b[msg.sender];
                         ^---------------------------^
   for:
@@ -42,7 +42,7 @@ smt_checker_input_lgNO:17:25: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_lgNO:17:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_qjG5:17:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a[msg.sender] = a[msg.sender] + b[msg.sender];
                         ^---------------------------^
   for:
@@ -56,7 +56,7 @@ smt_checker_input_lgNO:17:25: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_lgNO:18:25: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_qjG5:18:25: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         b[msg.sender] = a[msg.sender] - b[msg.sender];
                         ^---------------------------^
   for:
@@ -70,7 +70,7 @@ smt_checker_input_lgNO:18:25: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_lgNO:18:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_qjG5:18:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         b[msg.sender] = a[msg.sender] - b[msg.sender];
                         ^---------------------------^
   for:
@@ -84,7 +84,7 @@ smt_checker_input_lgNO:18:25: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_lgNO:19:25: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_qjG5:19:25: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         a[msg.sender] = a[msg.sender] - b[msg.sender];
                         ^---------------------------^
   for:
@@ -98,7 +98,7 @@ smt_checker_input_lgNO:19:25: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_lgNO:19:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_qjG5:19:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a[msg.sender] = a[msg.sender] - b[msg.sender];
                         ^---------------------------^
   for:
@@ -112,7 +112,7 @@ smt_checker_input_lgNO:19:25: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_lgNO:20:9: Warning: Assertion violation happens here
+smt_checker_input_qjG5:20:9: Warning: Assertion violation happens here
         assert(!a_b_alias || a[msg.sender] == 0); // alias => zero
         ^--------------------------------------^
   for:
@@ -125,7 +125,7 @@ smt_checker_input_lgNO:20:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_lgNO:21:9: Warning: Assertion violation happens here
+smt_checker_input_qjG5:21:9: Warning: Assertion violation happens here
         assert(!a_b_alias || b[msg.sender] == 0); // alias => zero
         ^--------------------------------------^
   for:
@@ -138,20 +138,20 @@ smt_checker_input_lgNO:21:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_lgNO:27:5: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_qjG5:27:5: Warning: Assertion checker does not yet support the type of this variable.
     L.Sub s2;
     ^------^
-smt_checker_input_lgNO:31:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qjG5:31:16: Warning: Assertion checker does not yet support this expression.
         L.swap(s2.s, s2.s);
                ^--^
-smt_checker_input_lgNO:31:16: Warning: Assertion checker does not yet implement type struct L.Sub storage ref
+smt_checker_input_qjG5:31:16: Warning: Assertion checker does not yet implement type struct L.Sub storage ref
         L.swap(s2.s, s2.s);
                ^^
-smt_checker_input_lgNO:31:22: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qjG5:31:22: Warning: Assertion checker does not yet support this expression.
         L.swap(s2.s, s2.s);
                      ^--^
-smt_checker_input_lgNO:31:22: Warning: Assertion checker does not yet implement type struct L.Sub storage ref
+smt_checker_input_qjG5:31:22: Warning: Assertion checker does not yet implement type struct L.Sub storage ref
         L.swap(s2.s, s2.s);
                      ^^
-0.53user 0.14system 0:00.68elapsed 98%CPU (0avgtext+0avgdata 44044maxresident)k
-0inputs+0outputs (0major+3393minor)pagefaults 0swaps
+0.54user 0.29system 0:00.83elapsed 99%CPU (0avgtext+0avgdata 44868maxresident)k
+0inputs+0outputs (0major+3407minor)pagefaults 0swaps

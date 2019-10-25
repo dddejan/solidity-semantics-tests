@@ -1,120 +1,120 @@
 Running contracts/storageptr/StructLibraryStorageAliasSubStruct.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_y8Tx:9:19: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_VUvY:9:19: Warning: Assertion checker does not yet support the type of this variable.
     function swap(S storage a, S storage b) public {
                   ^---------^
-smt_checker_input_y8Tx:9:32: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_VUvY:9:32: Warning: Assertion checker does not yet support the type of this variable.
     function swap(S storage a, S storage b) public {
                                ^---------^
-smt_checker_input_y8Tx:10:21: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VUvY:10:21: Warning: Assertion checker does not yet support this expression.
         int a_old = a.x;
                     ^-^
-smt_checker_input_y8Tx:10:21: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_VUvY:10:21: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         int a_old = a.x;
                     ^
-smt_checker_input_y8Tx:11:21: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VUvY:11:21: Warning: Assertion checker does not yet support this expression.
         int b_old = b.x;
                     ^-^
-smt_checker_input_y8Tx:11:21: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_VUvY:11:21: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         int b_old = b.x;
                     ^
-smt_checker_input_y8Tx:14:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VUvY:14:9: Warning: Assertion checker does not yet support this expression.
         a.x = b.x + 1;
         ^-^
-smt_checker_input_y8Tx:14:9: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_VUvY:14:9: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         a.x = b.x + 1;
         ^
-smt_checker_input_y8Tx:14:15: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VUvY:14:15: Warning: Assertion checker does not yet support this expression.
         a.x = b.x + 1;
               ^-^
-smt_checker_input_y8Tx:14:15: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_VUvY:14:15: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         a.x = b.x + 1;
               ^
-smt_checker_input_y8Tx:14:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_VUvY:14:9: Warning: Assertion checker does not yet implement such assignments.
         a.x = b.x + 1;
         ^-----------^
-smt_checker_input_y8Tx:15:22: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VUvY:15:22: Warning: Assertion checker does not yet support this expression.
         a_b_alias = (b.x == b_old + 1);
                      ^-^
-smt_checker_input_y8Tx:15:22: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_VUvY:15:22: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         a_b_alias = (b.x == b_old + 1);
                      ^
-smt_checker_input_y8Tx:18:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VUvY:18:9: Warning: Assertion checker does not yet support this expression.
         a.x = a.x + b.x;
         ^-^
-smt_checker_input_y8Tx:18:9: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_VUvY:18:9: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         a.x = a.x + b.x;
         ^
-smt_checker_input_y8Tx:18:15: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VUvY:18:15: Warning: Assertion checker does not yet support this expression.
         a.x = a.x + b.x;
               ^-^
-smt_checker_input_y8Tx:18:15: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_VUvY:18:15: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         a.x = a.x + b.x;
               ^
-smt_checker_input_y8Tx:18:21: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VUvY:18:21: Warning: Assertion checker does not yet support this expression.
         a.x = a.x + b.x;
                     ^-^
-smt_checker_input_y8Tx:18:21: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_VUvY:18:21: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         a.x = a.x + b.x;
                     ^
-smt_checker_input_y8Tx:18:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_VUvY:18:9: Warning: Assertion checker does not yet implement such assignments.
         a.x = a.x + b.x;
         ^-------------^
-smt_checker_input_y8Tx:19:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VUvY:19:9: Warning: Assertion checker does not yet support this expression.
         b.x = a.x - b.x;
         ^-^
-smt_checker_input_y8Tx:19:9: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_VUvY:19:9: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         b.x = a.x - b.x;
         ^
-smt_checker_input_y8Tx:19:15: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VUvY:19:15: Warning: Assertion checker does not yet support this expression.
         b.x = a.x - b.x;
               ^-^
-smt_checker_input_y8Tx:19:15: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_VUvY:19:15: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         b.x = a.x - b.x;
               ^
-smt_checker_input_y8Tx:19:21: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VUvY:19:21: Warning: Assertion checker does not yet support this expression.
         b.x = a.x - b.x;
                     ^-^
-smt_checker_input_y8Tx:19:21: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_VUvY:19:21: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         b.x = a.x - b.x;
                     ^
-smt_checker_input_y8Tx:19:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_VUvY:19:9: Warning: Assertion checker does not yet implement such assignments.
         b.x = a.x - b.x;
         ^-------------^
-smt_checker_input_y8Tx:20:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VUvY:20:9: Warning: Assertion checker does not yet support this expression.
         a.x = a.x - b.x;
         ^-^
-smt_checker_input_y8Tx:20:9: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_VUvY:20:9: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         a.x = a.x - b.x;
         ^
-smt_checker_input_y8Tx:20:15: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VUvY:20:15: Warning: Assertion checker does not yet support this expression.
         a.x = a.x - b.x;
               ^-^
-smt_checker_input_y8Tx:20:15: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_VUvY:20:15: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         a.x = a.x - b.x;
               ^
-smt_checker_input_y8Tx:20:21: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VUvY:20:21: Warning: Assertion checker does not yet support this expression.
         a.x = a.x - b.x;
                     ^-^
-smt_checker_input_y8Tx:20:21: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_VUvY:20:21: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         a.x = a.x - b.x;
                     ^
-smt_checker_input_y8Tx:20:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_VUvY:20:9: Warning: Assertion checker does not yet implement such assignments.
         a.x = a.x - b.x;
         ^-------------^
-smt_checker_input_y8Tx:21:30: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VUvY:21:30: Warning: Assertion checker does not yet support this expression.
         assert(!a_b_alias || a.x == 0); // alias => zero
                              ^-^
-smt_checker_input_y8Tx:21:30: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_VUvY:21:30: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         assert(!a_b_alias || a.x == 0); // alias => zero
                              ^
-smt_checker_input_y8Tx:22:30: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VUvY:22:30: Warning: Assertion checker does not yet support this expression.
         assert(!a_b_alias || b.x == 0); // alias => zero
                              ^-^
-smt_checker_input_y8Tx:22:30: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_VUvY:22:30: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         assert(!a_b_alias || b.x == 0); // alias => zero
                              ^
-smt_checker_input_y8Tx:14:15: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_VUvY:14:15: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         a.x = b.x + 1;
               ^-----^
   for:
@@ -125,7 +125,7 @@ smt_checker_input_y8Tx:14:15: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_y8Tx:14:15: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_VUvY:14:15: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a.x = b.x + 1;
               ^-----^
   for:
@@ -136,7 +136,7 @@ smt_checker_input_y8Tx:14:15: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_y8Tx:15:29: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_VUvY:15:29: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         a_b_alias = (b.x == b_old + 1);
                             ^-------^
   for:
@@ -147,7 +147,7 @@ smt_checker_input_y8Tx:15:29: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_y8Tx:15:29: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_VUvY:15:29: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a_b_alias = (b.x == b_old + 1);
                             ^-------^
   for:
@@ -158,7 +158,7 @@ smt_checker_input_y8Tx:15:29: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_y8Tx:18:15: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_VUvY:18:15: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         a.x = a.x + b.x;
               ^-------^
   for:
@@ -169,7 +169,7 @@ smt_checker_input_y8Tx:18:15: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_y8Tx:18:15: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_VUvY:18:15: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a.x = a.x + b.x;
               ^-------^
   for:
@@ -180,7 +180,7 @@ smt_checker_input_y8Tx:18:15: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_y8Tx:19:15: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_VUvY:19:15: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         b.x = a.x - b.x;
               ^-------^
   for:
@@ -191,7 +191,7 @@ smt_checker_input_y8Tx:19:15: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_y8Tx:19:15: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_VUvY:19:15: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         b.x = a.x - b.x;
               ^-------^
   for:
@@ -202,7 +202,7 @@ smt_checker_input_y8Tx:19:15: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_y8Tx:20:15: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_VUvY:20:15: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         a.x = a.x - b.x;
               ^-------^
   for:
@@ -213,7 +213,7 @@ smt_checker_input_y8Tx:20:15: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_y8Tx:20:15: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_VUvY:20:15: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a.x = a.x - b.x;
               ^-------^
   for:
@@ -224,7 +224,7 @@ smt_checker_input_y8Tx:20:15: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_y8Tx:21:9: Warning: Assertion violation happens here
+smt_checker_input_VUvY:21:9: Warning: Assertion violation happens here
         assert(!a_b_alias || a.x == 0); // alias => zero
         ^----------------------------^
   for:
@@ -234,7 +234,7 @@ smt_checker_input_y8Tx:21:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_y8Tx:22:9: Warning: Assertion violation happens here
+smt_checker_input_VUvY:22:9: Warning: Assertion violation happens here
         assert(!a_b_alias || b.x == 0); // alias => zero
         ^----------------------------^
   for:
@@ -244,26 +244,26 @@ smt_checker_input_y8Tx:22:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_y8Tx:28:5: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_VUvY:28:5: Warning: Assertion checker does not yet support the type of this variable.
     L.Sub s2;
     ^------^
-smt_checker_input_y8Tx:32:16: Warning: Assertion checker does not yet implement type struct L.S storage ref
+smt_checker_input_VUvY:32:16: Warning: Assertion checker does not yet implement type struct L.S storage ref
         L.swap(s2.s, s2.s);
                ^--^
-smt_checker_input_y8Tx:32:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VUvY:32:16: Warning: Assertion checker does not yet support this expression.
         L.swap(s2.s, s2.s);
                ^--^
-smt_checker_input_y8Tx:32:16: Warning: Assertion checker does not yet implement type struct L.Sub storage ref
+smt_checker_input_VUvY:32:16: Warning: Assertion checker does not yet implement type struct L.Sub storage ref
         L.swap(s2.s, s2.s);
                ^^
-smt_checker_input_y8Tx:32:22: Warning: Assertion checker does not yet implement type struct L.S storage ref
+smt_checker_input_VUvY:32:22: Warning: Assertion checker does not yet implement type struct L.S storage ref
         L.swap(s2.s, s2.s);
                      ^--^
-smt_checker_input_y8Tx:32:22: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_VUvY:32:22: Warning: Assertion checker does not yet support this expression.
         L.swap(s2.s, s2.s);
                      ^--^
-smt_checker_input_y8Tx:32:22: Warning: Assertion checker does not yet implement type struct L.Sub storage ref
+smt_checker_input_VUvY:32:22: Warning: Assertion checker does not yet implement type struct L.Sub storage ref
         L.swap(s2.s, s2.s);
                      ^^
-0.19user 0.03system 0:00.23elapsed 99%CPU (0avgtext+0avgdata 39876maxresident)k
-0inputs+0outputs (0major+2317minor)pagefaults 0swaps
+0.20user 0.23system 0:00.44elapsed 100%CPU (0avgtext+0avgdata 40412maxresident)k
+0inputs+0outputs (0major+2325minor)pagefaults 0swaps

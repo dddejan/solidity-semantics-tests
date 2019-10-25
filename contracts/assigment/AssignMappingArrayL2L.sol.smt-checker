@@ -1,21 +1,21 @@
 Running contracts/assigment/AssignMappingArrayL2L.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_ubMV:11:9: Warning: Assertion checker does not yet implement this type of function call.
+smt_checker_input_FCx9:11:9: Warning: Assertion checker does not yet implement this type of function call.
         s1[msg.sender].push(a);
         ^--------------------^
-smt_checker_input_ubMV:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_FCx9:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s1[msg.sender][0] = a;
         ^---------------^
-smt_checker_input_ubMV:13:9: Warning: Assertion checker does not yet implement this type of function call.
+smt_checker_input_FCx9:13:9: Warning: Assertion checker does not yet implement this type of function call.
         s2[msg.sender].push(b);
         ^--------------------^
-smt_checker_input_ubMV:14:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_FCx9:14:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s2[msg.sender][0] = b;
         ^---------------^
-smt_checker_input_ubMV:21:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_FCx9:21:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         sl1[msg.sender][0] = c;
         ^----------------^
-smt_checker_input_ubMV:17:9: Warning: Assertion violation happens here
+smt_checker_input_FCx9:17:9: Warning: Assertion violation happens here
         assert(sl1[msg.sender][0] == a);
         ^-----------------------------^
   for:
@@ -31,7 +31,7 @@ Callstack:
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_ubMV:18:9: Warning: Assertion violation happens here
+smt_checker_input_FCx9:18:9: Warning: Assertion violation happens here
         assert(sl2[msg.sender][0] == b);
         ^-----------------------------^
   for:
@@ -48,7 +48,7 @@ Callstack:
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_ubMV:22:9: Warning: Assertion violation happens here
+smt_checker_input_FCx9:22:9: Warning: Assertion violation happens here
         assert(sl1[msg.sender][0] == c);
         ^-----------------------------^
   for:
@@ -65,7 +65,7 @@ Callstack:
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_ubMV:23:9: Warning: Assertion violation happens here
+smt_checker_input_FCx9:23:9: Warning: Assertion violation happens here
         assert(sl2[msg.sender][0] == c);
         ^-----------------------------^
   for:
@@ -82,22 +82,22 @@ Callstack:
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_ubMV:11:9: Warning: Assertion checker does not yet implement this type of function call.
+smt_checker_input_FCx9:11:9: Warning: Assertion checker does not yet implement this type of function call.
         s1[msg.sender].push(a);
         ^--------------------^
-smt_checker_input_ubMV:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_FCx9:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s1[msg.sender][0] = a;
         ^---------------^
-smt_checker_input_ubMV:13:9: Warning: Assertion checker does not yet implement this type of function call.
+smt_checker_input_FCx9:13:9: Warning: Assertion checker does not yet implement this type of function call.
         s2[msg.sender].push(b);
         ^--------------------^
-smt_checker_input_ubMV:14:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_FCx9:14:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s2[msg.sender][0] = b;
         ^---------------^
-smt_checker_input_ubMV:21:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_FCx9:21:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         sl1[msg.sender][0] = c;
         ^----------------^
-smt_checker_input_ubMV:17:9: Warning: Assertion violation happens here
+smt_checker_input_FCx9:17:9: Warning: Assertion violation happens here
         assert(sl1[msg.sender][0] == a);
         ^-----------------------------^
   for:
@@ -110,13 +110,13 @@ smt_checker_input_ubMV:17:9: Warning: Assertion violation happens here
   sl1[msg.sender][0] = (- 1)
 
 Callstack: 
-smt_checker_input_ubMV:30:9: 
+smt_checker_input_FCx9:30:9: 
         locToLoc(0, 1, 2);
         ^---------------^
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_ubMV:18:9: Warning: Assertion violation happens here
+smt_checker_input_FCx9:18:9: Warning: Assertion violation happens here
         assert(sl2[msg.sender][0] == b);
         ^-----------------------------^
   for:
@@ -130,13 +130,13 @@ smt_checker_input_ubMV:18:9: Warning: Assertion violation happens here
   sl2[msg.sender][0] = 2
 
 Callstack: 
-smt_checker_input_ubMV:30:9: 
+smt_checker_input_FCx9:30:9: 
         locToLoc(0, 1, 2);
         ^---------------^
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_ubMV:22:9: Warning: Assertion violation happens here
+smt_checker_input_FCx9:22:9: Warning: Assertion violation happens here
         assert(sl1[msg.sender][0] == c);
         ^-----------------------------^
   for:
@@ -150,13 +150,13 @@ smt_checker_input_ubMV:22:9: Warning: Assertion violation happens here
   sl2[msg.sender][0] = 1
 
 Callstack: 
-smt_checker_input_ubMV:30:9: 
+smt_checker_input_FCx9:30:9: 
         locToLoc(0, 1, 2);
         ^---------------^
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_ubMV:23:9: Warning: Assertion violation happens here
+smt_checker_input_FCx9:23:9: Warning: Assertion violation happens here
         assert(sl2[msg.sender][0] == c);
         ^-----------------------------^
   for:
@@ -170,11 +170,11 @@ smt_checker_input_ubMV:23:9: Warning: Assertion violation happens here
   sl2[msg.sender][0] = 1
 
 Callstack: 
-smt_checker_input_ubMV:30:9: 
+smt_checker_input_FCx9:30:9: 
         locToLoc(0, 1, 2);
         ^---------------^
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-0.20user 0.02system 0:00.23elapsed 100%CPU (0avgtext+0avgdata 50684maxresident)k
-0inputs+0outputs (0major+4713minor)pagefaults 0swaps
+0.15user 0.25system 0:00.40elapsed 100%CPU (0avgtext+0avgdata 50788maxresident)k
+0inputs+0outputs (0major+4714minor)pagefaults 0swaps

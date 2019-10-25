@@ -3,5 +3,5 @@ InitMemoryArrayDynamic::test: OK
 InitMemoryArrayDynamic::truffleMain: OK
 InitMemoryArrayDynamic::[implicit_constructor]: OK
 No errors found.
-0.65user 0.25system 0:00.88elapsed 103%CPU (0avgtext+0avgdata 41636maxresident)k
-0inputs+16outputs (0major+16871minor)pagefaults 0swaps
+0.69user 0.70system 0:01.36elapsed 102%CPU (0avgtext+0avgdata 41532maxresident)k
+0inputs+16outputs (0major+16390minor)pagefaults 0swaps

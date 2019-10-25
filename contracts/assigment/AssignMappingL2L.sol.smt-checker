@@ -1,6 +1,6 @@
 Running contracts/assigment/AssignMappingL2L.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_M4Xj:21:9: Warning: Assertion violation happens here
+smt_checker_input_uLy9:21:9: Warning: Assertion violation happens here
         assert(sl2[msg.sender] == c);
         ^--------------------------^
   for:
@@ -17,7 +17,7 @@ Callstack:
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_M4Xj:22:9: Warning: Assertion violation happens here
+smt_checker_input_uLy9:22:9: Warning: Assertion violation happens here
         assert(s1[msg.sender] == a);
         ^-------------------------^
   for:
@@ -34,7 +34,7 @@ Callstack:
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_M4Xj:23:9: Warning: Assertion violation happens here
+smt_checker_input_uLy9:23:9: Warning: Assertion violation happens here
         assert(s2[msg.sender] == c);
         ^-------------------------^
   for:
@@ -51,7 +51,7 @@ Callstack:
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_M4Xj:21:9: Warning: Assertion violation happens here
+smt_checker_input_uLy9:21:9: Warning: Assertion violation happens here
         assert(sl2[msg.sender] == c);
         ^--------------------------^
   for:
@@ -65,13 +65,13 @@ smt_checker_input_M4Xj:21:9: Warning: Assertion violation happens here
   sl2[msg.sender] = 3
 
 Callstack: 
-smt_checker_input_M4Xj:28:9: 
+smt_checker_input_uLy9:28:9: 
         locToLoc(0, 1, 2);
         ^---------------^
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_M4Xj:22:9: Warning: Assertion violation happens here
+smt_checker_input_uLy9:22:9: Warning: Assertion violation happens here
         assert(s1[msg.sender] == a);
         ^-------------------------^
   for:
@@ -85,13 +85,13 @@ smt_checker_input_M4Xj:22:9: Warning: Assertion violation happens here
   sl2[msg.sender] = 2
 
 Callstack: 
-smt_checker_input_M4Xj:28:9: 
+smt_checker_input_uLy9:28:9: 
         locToLoc(0, 1, 2);
         ^---------------^
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_M4Xj:23:9: Warning: Assertion violation happens here
+smt_checker_input_uLy9:23:9: Warning: Assertion violation happens here
         assert(s2[msg.sender] == c);
         ^-------------------------^
   for:
@@ -105,11 +105,11 @@ smt_checker_input_M4Xj:23:9: Warning: Assertion violation happens here
   sl2[msg.sender] = 2
 
 Callstack: 
-smt_checker_input_M4Xj:28:9: 
+smt_checker_input_uLy9:28:9: 
         locToLoc(0, 1, 2);
         ^---------------^
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-0.14user 0.03system 0:00.18elapsed 100%CPU (0avgtext+0avgdata 49176maxresident)k
-0inputs+0outputs (0major+4136minor)pagefaults 0swaps
+0.13user 0.23system 0:00.36elapsed 100%CPU (0avgtext+0avgdata 48944maxresident)k
+0inputs+0outputs (0major+4130minor)pagefaults 0swaps

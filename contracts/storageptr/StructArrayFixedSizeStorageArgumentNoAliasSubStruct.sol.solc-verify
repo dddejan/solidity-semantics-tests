@@ -2,5 +2,5 @@ Running contracts/storageptr/StructArrayFixedSizeStorageArgumentNoAliasSubStruct
 StructArrayFixedSizeStorageArgumentNoAliasSubStruct::truffleMain: OK
 StructArrayFixedSizeStorageArgumentNoAliasSubStruct::[implicit_constructor]: OK
 No errors found.
-0.74user 0.21system 0:00.93elapsed 102%CPU (0avgtext+0avgdata 43456maxresident)k
-0inputs+24outputs (0major+17266minor)pagefaults 0swaps
+0.70user 0.71system 0:01.38elapsed 102%CPU (0avgtext+0avgdata 43680maxresident)k
+0inputs+24outputs (0major+17570minor)pagefaults 0swaps

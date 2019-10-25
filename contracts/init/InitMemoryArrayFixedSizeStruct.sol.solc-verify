@@ -4,5 +4,5 @@ InitMemoryArrayFixedSizeStruct::[constructor]: ERROR
 InitMemoryArrayFixedSizeStruct::truffleMain: OK
 Errors were found by the verifier.
 Command exited with non-zero status 251
-0.62user 0.28system 0:00.87elapsed 103%CPU (0avgtext+0avgdata 41872maxresident)k
-0inputs+24outputs (0major+16646minor)pagefaults 0swaps
+0.66user 0.72system 0:01.36elapsed 101%CPU (0avgtext+0avgdata 42128maxresident)k
+0inputs+24outputs (0major+16676minor)pagefaults 0swaps

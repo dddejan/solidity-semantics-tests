@@ -1,7 +1,7 @@
 Running contracts/storage/ArrayFixedSizeStorageNoAliasBase.sol
-0.70user 0.19system 0:00.87elapsed 103%CPU (0avgtext+0avgdata 41648maxresident)k
-0inputs+16outputs (0major+16454minor)pagefaults 0swaps
 ArrayFixedSizeStorageNoAliasBase::test: OK
 ArrayFixedSizeStorageNoAliasBase::truffleMain: OK
 ArrayFixedSizeStorageNoAliasBase::[implicit_constructor]: OK
 No errors found.
+0.63user 0.75system 0:01.37elapsed 101%CPU (0avgtext+0avgdata 41856maxresident)k
+0inputs+16outputs (0major+16557minor)pagefaults 0swaps

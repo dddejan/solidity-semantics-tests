@@ -1,13 +1,13 @@
 Running contracts/storageptr/MappingLibraryStorageAliasSubArrayFixedSize.sol
 Error while running verifier, details:
 [TRACE] Using prover: /usr/local/bin/z3
-Parsing /tmp/tmpip7ujci3/MappingLibraryStorageAliasSubArrayFixedSize.sol.bpl
-/tmp/tmpip7ujci3/MappingLibraryStorageAliasSubArrayFixedSize.sol.bpl(23,5): Error: command assigns to an immutable variable: a#5
-/tmp/tmpip7ujci3/MappingLibraryStorageAliasSubArrayFixedSize.sol.bpl(27,5): Error: command assigns to an immutable variable: a#5
-/tmp/tmpip7ujci3/MappingLibraryStorageAliasSubArrayFixedSize.sol.bpl(28,5): Error: command assigns to an immutable variable: b#9
-/tmp/tmpip7ujci3/MappingLibraryStorageAliasSubArrayFixedSize.sol.bpl(29,5): Error: command assigns to an immutable variable: a#5
-4 type checking errors detected in /tmp/tmpip7ujci3/MappingLibraryStorageAliasSubArrayFixedSize.sol.bpl
+Parsing /tmp/tmpnzvpxiw7/MappingLibraryStorageAliasSubArrayFixedSize.sol.bpl
+/tmp/tmpnzvpxiw7/MappingLibraryStorageAliasSubArrayFixedSize.sol.bpl(23,5): Error: command assigns to an immutable variable: a#5
+/tmp/tmpnzvpxiw7/MappingLibraryStorageAliasSubArrayFixedSize.sol.bpl(27,5): Error: command assigns to an immutable variable: a#5
+/tmp/tmpnzvpxiw7/MappingLibraryStorageAliasSubArrayFixedSize.sol.bpl(28,5): Error: command assigns to an immutable variable: b#9
+/tmp/tmpnzvpxiw7/MappingLibraryStorageAliasSubArrayFixedSize.sol.bpl(29,5): Error: command assigns to an immutable variable: a#5
+4 type checking errors detected in /tmp/tmpnzvpxiw7/MappingLibraryStorageAliasSubArrayFixedSize.sol.bpl
 
 Command exited with non-zero status 252
-0.31user 0.17system 0:00.47elapsed 100%CPU (0avgtext+0avgdata 33096maxresident)k
-0inputs+24outputs (0major+10233minor)pagefaults 0swaps
+0.31user 0.60system 0:00.91elapsed 100%CPU (0avgtext+0avgdata 33132maxresident)k
+0inputs+24outputs (0major+10309minor)pagefaults 0swaps

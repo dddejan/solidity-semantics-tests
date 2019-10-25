@@ -1,4 +1,4 @@
 Running contracts/assigment/AssignStructArrayFixedSizeMultiS2L.sol
 Command terminated by signal 24
-39.58user 20.60system 0:38.65elapsed 155%CPU (0avgtext+0avgdata 142672maxresident)k
-16inputs+258928outputs (0major+45965minor)pagefaults 0swaps
+39.29user 20.97system 0:38.50elapsed 156%CPU (0avgtext+0avgdata 142648maxresident)k
+8inputs+259032outputs (0major+45622minor)pagefaults 0swaps

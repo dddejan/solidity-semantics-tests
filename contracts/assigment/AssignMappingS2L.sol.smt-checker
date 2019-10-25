@@ -1,6 +1,6 @@
 Running contracts/assigment/AssignMappingS2L.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_urNV:22:9: Warning: Assertion violation happens here
+smt_checker_input_zYlr:22:9: Warning: Assertion violation happens here
         assert(loc[msg.sender] == c);
         ^--------------------------^
   for:
@@ -16,7 +16,7 @@ Callstack:
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_urNV:25:9: Warning: Assertion violation happens here
+smt_checker_input_zYlr:25:9: Warning: Assertion violation happens here
         assert(s1[msg.sender] == a);
         ^-------------------------^
   for:
@@ -32,7 +32,7 @@ Callstack:
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_urNV:26:9: Warning: Assertion violation happens here
+smt_checker_input_zYlr:26:9: Warning: Assertion violation happens here
         assert(s2[msg.sender] == b);
         ^-------------------------^
   for:
@@ -48,7 +48,7 @@ Callstack:
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_urNV:22:9: Warning: Assertion violation happens here
+smt_checker_input_zYlr:22:9: Warning: Assertion violation happens here
         assert(loc[msg.sender] == c);
         ^--------------------------^
   for:
@@ -61,13 +61,13 @@ smt_checker_input_urNV:22:9: Warning: Assertion violation happens here
   s2[msg.sender] = 1
 
 Callstack: 
-smt_checker_input_urNV:32:9: 
+smt_checker_input_zYlr:32:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_urNV:25:9: Warning: Assertion violation happens here
+smt_checker_input_zYlr:25:9: Warning: Assertion violation happens here
         assert(s1[msg.sender] == a);
         ^-------------------------^
   for:
@@ -80,13 +80,13 @@ smt_checker_input_urNV:25:9: Warning: Assertion violation happens here
   s2[msg.sender] = 1
 
 Callstack: 
-smt_checker_input_urNV:32:9: 
+smt_checker_input_zYlr:32:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_urNV:26:9: Warning: Assertion violation happens here
+smt_checker_input_zYlr:26:9: Warning: Assertion violation happens here
         assert(s2[msg.sender] == b);
         ^-------------------------^
   for:
@@ -99,11 +99,11 @@ smt_checker_input_urNV:26:9: Warning: Assertion violation happens here
   s2[msg.sender] = 5906
 
 Callstack: 
-smt_checker_input_urNV:32:9: 
+smt_checker_input_zYlr:32:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-0.17user 0.04system 0:00.22elapsed 100%CPU (0avgtext+0avgdata 49256maxresident)k
-0inputs+0outputs (0major+4283minor)pagefaults 0swaps
+0.18user 0.25system 0:00.43elapsed 99%CPU (0avgtext+0avgdata 49124maxresident)k
+0inputs+0outputs (0major+4317minor)pagefaults 0swaps

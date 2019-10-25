@@ -1,27 +1,27 @@
 Running contracts/init/InitMemoryArrayDynamicStruct.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_uTKV:9:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_02uI:9:16: Warning: Assertion checker does not yet support this expression.
         assert(a.length == 0);
                ^------^
-smt_checker_input_uTKV:10:13: Warning: Assertion checker does not yet implement this type of function call.
+smt_checker_input_02uI:10:13: Warning: Assertion checker does not yet implement this type of function call.
         a = new S[](n);
             ^--------^
-smt_checker_input_uTKV:11:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_02uI:11:16: Warning: Assertion checker does not yet support this expression.
         assert(a.length == n);
                ^------^
-smt_checker_input_uTKV:12:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_02uI:12:16: Warning: Assertion checker does not yet support this expression.
         assert(a[0].x == 0);
                ^----^
-smt_checker_input_uTKV:12:16: Warning: Assertion checker does not yet implement type struct InitMemoryArrayDynamicStruct.S memory
+smt_checker_input_02uI:12:16: Warning: Assertion checker does not yet implement type struct InitMemoryArrayDynamicStruct.S memory
         assert(a[0].x == 0);
                ^--^
-smt_checker_input_uTKV:13:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_02uI:13:16: Warning: Assertion checker does not yet support this expression.
         assert(a[n-1].x == 0);
                ^------^
-smt_checker_input_uTKV:13:16: Warning: Assertion checker does not yet implement type struct InitMemoryArrayDynamicStruct.S memory
+smt_checker_input_02uI:13:16: Warning: Assertion checker does not yet implement type struct InitMemoryArrayDynamicStruct.S memory
         assert(a[n-1].x == 0);
                ^----^
-smt_checker_input_uTKV:9:9: Warning: Assertion violation happens here
+smt_checker_input_02uI:9:9: Warning: Assertion violation happens here
         assert(a.length == 0);
         ^-------------------^
   for:
@@ -29,7 +29,7 @@ smt_checker_input_uTKV:9:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_uTKV:11:9: Warning: Assertion violation happens here
+smt_checker_input_02uI:11:9: Warning: Assertion violation happens here
         assert(a.length == n);
         ^-------------------^
   for:
@@ -37,7 +37,7 @@ smt_checker_input_uTKV:11:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_uTKV:12:9: Warning: Assertion violation happens here
+smt_checker_input_02uI:12:9: Warning: Assertion violation happens here
         assert(a[0].x == 0);
         ^-----------------^
   for:
@@ -45,7 +45,7 @@ smt_checker_input_uTKV:12:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_uTKV:13:9: Warning: Assertion violation happens here
+smt_checker_input_02uI:13:9: Warning: Assertion violation happens here
         assert(a[n-1].x == 0);
         ^-------------------^
   for:
@@ -53,70 +53,70 @@ smt_checker_input_uTKV:13:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_uTKV:9:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_02uI:9:16: Warning: Assertion checker does not yet support this expression.
         assert(a.length == 0);
                ^------^
-smt_checker_input_uTKV:10:13: Warning: Assertion checker does not yet implement this type of function call.
+smt_checker_input_02uI:10:13: Warning: Assertion checker does not yet implement this type of function call.
         a = new S[](n);
             ^--------^
-smt_checker_input_uTKV:11:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_02uI:11:16: Warning: Assertion checker does not yet support this expression.
         assert(a.length == n);
                ^------^
-smt_checker_input_uTKV:12:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_02uI:12:16: Warning: Assertion checker does not yet support this expression.
         assert(a[0].x == 0);
                ^----^
-smt_checker_input_uTKV:12:16: Warning: Assertion checker does not yet implement type struct InitMemoryArrayDynamicStruct.S memory
+smt_checker_input_02uI:12:16: Warning: Assertion checker does not yet implement type struct InitMemoryArrayDynamicStruct.S memory
         assert(a[0].x == 0);
                ^--^
-smt_checker_input_uTKV:13:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_02uI:13:16: Warning: Assertion checker does not yet support this expression.
         assert(a[n-1].x == 0);
                ^------^
-smt_checker_input_uTKV:13:16: Warning: Assertion checker does not yet implement type struct InitMemoryArrayDynamicStruct.S memory
+smt_checker_input_02uI:13:16: Warning: Assertion checker does not yet implement type struct InitMemoryArrayDynamicStruct.S memory
         assert(a[n-1].x == 0);
                ^----^
-smt_checker_input_uTKV:9:9: Warning: Assertion violation happens here
+smt_checker_input_02uI:9:9: Warning: Assertion violation happens here
         assert(a.length == 0);
         ^-------------------^
   for:
   n = 100
 
 Callstack: 
-smt_checker_input_uTKV:17:9: 
+smt_checker_input_02uI:17:9: 
         test(100);
         ^-------^
 
-smt_checker_input_uTKV:11:9: Warning: Assertion violation happens here
+smt_checker_input_02uI:11:9: Warning: Assertion violation happens here
         assert(a.length == n);
         ^-------------------^
   for:
   n = 100
 
 Callstack: 
-smt_checker_input_uTKV:17:9: 
+smt_checker_input_02uI:17:9: 
         test(100);
         ^-------^
 
-smt_checker_input_uTKV:12:9: Warning: Assertion violation happens here
+smt_checker_input_02uI:12:9: Warning: Assertion violation happens here
         assert(a[0].x == 0);
         ^-----------------^
   for:
   n = 100
 
 Callstack: 
-smt_checker_input_uTKV:17:9: 
+smt_checker_input_02uI:17:9: 
         test(100);
         ^-------^
 
-smt_checker_input_uTKV:13:9: Warning: Assertion violation happens here
+smt_checker_input_02uI:13:9: Warning: Assertion violation happens here
         assert(a[n-1].x == 0);
         ^-------------------^
   for:
   n = 100
 
 Callstack: 
-smt_checker_input_uTKV:17:9: 
+smt_checker_input_02uI:17:9: 
         test(100);
         ^-------^
 
-0.07user 0.00system 0:00.08elapsed 100%CPU (0avgtext+0avgdata 43920maxresident)k
-0inputs+0outputs (0major+3129minor)pagefaults 0swaps
+0.06user 0.22system 0:00.28elapsed 100%CPU (0avgtext+0avgdata 44148maxresident)k
+0inputs+0outputs (0major+3131minor)pagefaults 0swaps

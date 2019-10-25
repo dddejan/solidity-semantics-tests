@@ -1,96 +1,96 @@
 Running contracts/assigment/AssignMappingStructS2L.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_iN7d:14:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_6RAK:14:9: Warning: Assertion checker does not yet support this expression.
         s1[msg.sender].x = a;
         ^--------------^
-smt_checker_input_iN7d:14:9: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
+smt_checker_input_6RAK:14:9: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
         s1[msg.sender].x = a;
         ^------------^
-smt_checker_input_iN7d:14:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_6RAK:14:9: Warning: Assertion checker does not yet implement such assignments.
         s1[msg.sender].x = a;
         ^------------------^
-smt_checker_input_iN7d:15:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_6RAK:15:9: Warning: Assertion checker does not yet support this expression.
         s2[msg.sender].x = b;
         ^--------------^
-smt_checker_input_iN7d:15:9: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
+smt_checker_input_6RAK:15:9: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
         s2[msg.sender].x = b;
         ^------------^
-smt_checker_input_iN7d:15:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_6RAK:15:9: Warning: Assertion checker does not yet implement such assignments.
         s2[msg.sender].x = b;
         ^------------------^
-smt_checker_input_iN7d:17:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_6RAK:17:16: Warning: Assertion checker does not yet support this expression.
         assert(s1[msg.sender].x == a);
                ^--------------^
-smt_checker_input_iN7d:17:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
+smt_checker_input_6RAK:17:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
         assert(s1[msg.sender].x == a);
                ^------------^
-smt_checker_input_iN7d:18:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_6RAK:18:16: Warning: Assertion checker does not yet support this expression.
         assert(s2[msg.sender].x == b);
                ^--------------^
-smt_checker_input_iN7d:18:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
+smt_checker_input_6RAK:18:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
         assert(s2[msg.sender].x == b);
                ^------------^
-smt_checker_input_iN7d:19:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_6RAK:19:16: Warning: Assertion checker does not yet support this expression.
         assert(loc[msg.sender].x == a);
                ^---------------^
-smt_checker_input_iN7d:19:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
+smt_checker_input_6RAK:19:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
         assert(loc[msg.sender].x == a);
                ^-------------^
-smt_checker_input_iN7d:21:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_6RAK:21:9: Warning: Assertion checker does not yet support this expression.
         s1[msg.sender].x = c;
         ^--------------^
-smt_checker_input_iN7d:21:9: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
+smt_checker_input_6RAK:21:9: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
         s1[msg.sender].x = c;
         ^------------^
-smt_checker_input_iN7d:21:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_6RAK:21:9: Warning: Assertion checker does not yet implement such assignments.
         s1[msg.sender].x = c;
         ^------------------^
-smt_checker_input_iN7d:22:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_6RAK:22:16: Warning: Assertion checker does not yet support this expression.
         assert(s1[msg.sender].x == c);
                ^--------------^
-smt_checker_input_iN7d:22:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
+smt_checker_input_6RAK:22:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
         assert(s1[msg.sender].x == c);
                ^------------^
-smt_checker_input_iN7d:23:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_6RAK:23:16: Warning: Assertion checker does not yet support this expression.
         assert(s2[msg.sender].x == b);
                ^--------------^
-smt_checker_input_iN7d:23:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
+smt_checker_input_6RAK:23:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
         assert(s2[msg.sender].x == b);
                ^------------^
-smt_checker_input_iN7d:24:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_6RAK:24:16: Warning: Assertion checker does not yet support this expression.
         assert(loc[msg.sender].x == c);
                ^---------------^
-smt_checker_input_iN7d:24:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
+smt_checker_input_6RAK:24:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
         assert(loc[msg.sender].x == c);
                ^-------------^
-smt_checker_input_iN7d:26:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_6RAK:26:9: Warning: Assertion checker does not yet support this expression.
         loc[msg.sender].x = a;
         ^---------------^
-smt_checker_input_iN7d:26:9: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
+smt_checker_input_6RAK:26:9: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
         loc[msg.sender].x = a;
         ^-------------^
-smt_checker_input_iN7d:26:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_6RAK:26:9: Warning: Assertion checker does not yet implement such assignments.
         loc[msg.sender].x = a;
         ^-------------------^
-smt_checker_input_iN7d:27:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_6RAK:27:16: Warning: Assertion checker does not yet support this expression.
         assert(s1[msg.sender].x == a);
                ^--------------^
-smt_checker_input_iN7d:27:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
+smt_checker_input_6RAK:27:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
         assert(s1[msg.sender].x == a);
                ^------------^
-smt_checker_input_iN7d:28:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_6RAK:28:16: Warning: Assertion checker does not yet support this expression.
         assert(s2[msg.sender].x == b);
                ^--------------^
-smt_checker_input_iN7d:28:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
+smt_checker_input_6RAK:28:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
         assert(s2[msg.sender].x == b);
                ^------------^
-smt_checker_input_iN7d:29:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_6RAK:29:16: Warning: Assertion checker does not yet support this expression.
         assert(loc[msg.sender].x == a);
                ^---------------^
-smt_checker_input_iN7d:29:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
+smt_checker_input_6RAK:29:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
         assert(loc[msg.sender].x == a);
                ^-------------^
-smt_checker_input_iN7d:17:9: Warning: Assertion violation happens here
+smt_checker_input_6RAK:17:9: Warning: Assertion violation happens here
         assert(s1[msg.sender].x == a);
         ^---------------------------^
   for:
@@ -103,7 +103,7 @@ Callstack:
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_iN7d:18:9: Warning: Assertion violation happens here
+smt_checker_input_6RAK:18:9: Warning: Assertion violation happens here
         assert(s2[msg.sender].x == b);
         ^---------------------------^
   for:
@@ -116,7 +116,7 @@ Callstack:
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_iN7d:19:9: Warning: Assertion violation happens here
+smt_checker_input_6RAK:19:9: Warning: Assertion violation happens here
         assert(loc[msg.sender].x == a);
         ^----------------------------^
   for:
@@ -129,7 +129,7 @@ Callstack:
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_iN7d:22:9: Warning: Assertion violation happens here
+smt_checker_input_6RAK:22:9: Warning: Assertion violation happens here
         assert(s1[msg.sender].x == c);
         ^---------------------------^
   for:
@@ -142,7 +142,7 @@ Callstack:
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_iN7d:23:9: Warning: Assertion violation happens here
+smt_checker_input_6RAK:23:9: Warning: Assertion violation happens here
         assert(s2[msg.sender].x == b);
         ^---------------------------^
   for:
@@ -155,7 +155,7 @@ Callstack:
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_iN7d:24:9: Warning: Assertion violation happens here
+smt_checker_input_6RAK:24:9: Warning: Assertion violation happens here
         assert(loc[msg.sender].x == c);
         ^----------------------------^
   for:
@@ -168,7 +168,7 @@ Callstack:
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_iN7d:27:9: Warning: Assertion violation happens here
+smt_checker_input_6RAK:27:9: Warning: Assertion violation happens here
         assert(s1[msg.sender].x == a);
         ^---------------------------^
   for:
@@ -181,7 +181,7 @@ Callstack:
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_iN7d:28:9: Warning: Assertion violation happens here
+smt_checker_input_6RAK:28:9: Warning: Assertion violation happens here
         assert(s2[msg.sender].x == b);
         ^---------------------------^
   for:
@@ -194,7 +194,7 @@ Callstack:
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_iN7d:29:9: Warning: Assertion violation happens here
+smt_checker_input_6RAK:29:9: Warning: Assertion violation happens here
         assert(loc[msg.sender].x == a);
         ^----------------------------^
   for:
@@ -207,97 +207,97 @@ Callstack:
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_iN7d:14:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_6RAK:14:9: Warning: Assertion checker does not yet support this expression.
         s1[msg.sender].x = a;
         ^--------------^
-smt_checker_input_iN7d:14:9: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
+smt_checker_input_6RAK:14:9: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
         s1[msg.sender].x = a;
         ^------------^
-smt_checker_input_iN7d:14:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_6RAK:14:9: Warning: Assertion checker does not yet implement such assignments.
         s1[msg.sender].x = a;
         ^------------------^
-smt_checker_input_iN7d:15:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_6RAK:15:9: Warning: Assertion checker does not yet support this expression.
         s2[msg.sender].x = b;
         ^--------------^
-smt_checker_input_iN7d:15:9: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
+smt_checker_input_6RAK:15:9: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
         s2[msg.sender].x = b;
         ^------------^
-smt_checker_input_iN7d:15:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_6RAK:15:9: Warning: Assertion checker does not yet implement such assignments.
         s2[msg.sender].x = b;
         ^------------------^
-smt_checker_input_iN7d:17:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_6RAK:17:16: Warning: Assertion checker does not yet support this expression.
         assert(s1[msg.sender].x == a);
                ^--------------^
-smt_checker_input_iN7d:17:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
+smt_checker_input_6RAK:17:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
         assert(s1[msg.sender].x == a);
                ^------------^
-smt_checker_input_iN7d:18:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_6RAK:18:16: Warning: Assertion checker does not yet support this expression.
         assert(s2[msg.sender].x == b);
                ^--------------^
-smt_checker_input_iN7d:18:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
+smt_checker_input_6RAK:18:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
         assert(s2[msg.sender].x == b);
                ^------------^
-smt_checker_input_iN7d:19:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_6RAK:19:16: Warning: Assertion checker does not yet support this expression.
         assert(loc[msg.sender].x == a);
                ^---------------^
-smt_checker_input_iN7d:19:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
+smt_checker_input_6RAK:19:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
         assert(loc[msg.sender].x == a);
                ^-------------^
-smt_checker_input_iN7d:21:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_6RAK:21:9: Warning: Assertion checker does not yet support this expression.
         s1[msg.sender].x = c;
         ^--------------^
-smt_checker_input_iN7d:21:9: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
+smt_checker_input_6RAK:21:9: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
         s1[msg.sender].x = c;
         ^------------^
-smt_checker_input_iN7d:21:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_6RAK:21:9: Warning: Assertion checker does not yet implement such assignments.
         s1[msg.sender].x = c;
         ^------------------^
-smt_checker_input_iN7d:22:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_6RAK:22:16: Warning: Assertion checker does not yet support this expression.
         assert(s1[msg.sender].x == c);
                ^--------------^
-smt_checker_input_iN7d:22:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
+smt_checker_input_6RAK:22:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
         assert(s1[msg.sender].x == c);
                ^------------^
-smt_checker_input_iN7d:23:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_6RAK:23:16: Warning: Assertion checker does not yet support this expression.
         assert(s2[msg.sender].x == b);
                ^--------------^
-smt_checker_input_iN7d:23:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
+smt_checker_input_6RAK:23:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
         assert(s2[msg.sender].x == b);
                ^------------^
-smt_checker_input_iN7d:24:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_6RAK:24:16: Warning: Assertion checker does not yet support this expression.
         assert(loc[msg.sender].x == c);
                ^---------------^
-smt_checker_input_iN7d:24:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
+smt_checker_input_6RAK:24:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
         assert(loc[msg.sender].x == c);
                ^-------------^
-smt_checker_input_iN7d:26:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_6RAK:26:9: Warning: Assertion checker does not yet support this expression.
         loc[msg.sender].x = a;
         ^---------------^
-smt_checker_input_iN7d:26:9: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
+smt_checker_input_6RAK:26:9: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
         loc[msg.sender].x = a;
         ^-------------^
-smt_checker_input_iN7d:26:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_6RAK:26:9: Warning: Assertion checker does not yet implement such assignments.
         loc[msg.sender].x = a;
         ^-------------------^
-smt_checker_input_iN7d:27:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_6RAK:27:16: Warning: Assertion checker does not yet support this expression.
         assert(s1[msg.sender].x == a);
                ^--------------^
-smt_checker_input_iN7d:27:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
+smt_checker_input_6RAK:27:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
         assert(s1[msg.sender].x == a);
                ^------------^
-smt_checker_input_iN7d:28:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_6RAK:28:16: Warning: Assertion checker does not yet support this expression.
         assert(s2[msg.sender].x == b);
                ^--------------^
-smt_checker_input_iN7d:28:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
+smt_checker_input_6RAK:28:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
         assert(s2[msg.sender].x == b);
                ^------------^
-smt_checker_input_iN7d:29:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_6RAK:29:16: Warning: Assertion checker does not yet support this expression.
         assert(loc[msg.sender].x == a);
                ^---------------^
-smt_checker_input_iN7d:29:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
+smt_checker_input_6RAK:29:16: Warning: Assertion checker does not yet implement type struct AssignMappingStructS2L.S storage ref
         assert(loc[msg.sender].x == a);
                ^-------------^
-smt_checker_input_iN7d:17:9: Warning: Assertion violation happens here
+smt_checker_input_6RAK:17:9: Warning: Assertion violation happens here
         assert(s1[msg.sender].x == a);
         ^---------------------------^
   for:
@@ -307,13 +307,13 @@ smt_checker_input_iN7d:17:9: Warning: Assertion violation happens here
   msg.sender = 4679
 
 Callstack: 
-smt_checker_input_iN7d:34:9: 
+smt_checker_input_6RAK:34:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_iN7d:18:9: Warning: Assertion violation happens here
+smt_checker_input_6RAK:18:9: Warning: Assertion violation happens here
         assert(s2[msg.sender].x == b);
         ^---------------------------^
   for:
@@ -323,13 +323,13 @@ smt_checker_input_iN7d:18:9: Warning: Assertion violation happens here
   msg.sender = 974
 
 Callstack: 
-smt_checker_input_iN7d:34:9: 
+smt_checker_input_6RAK:34:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_iN7d:19:9: Warning: Assertion violation happens here
+smt_checker_input_6RAK:19:9: Warning: Assertion violation happens here
         assert(loc[msg.sender].x == a);
         ^----------------------------^
   for:
@@ -339,13 +339,13 @@ smt_checker_input_iN7d:19:9: Warning: Assertion violation happens here
   msg.sender = 1888
 
 Callstack: 
-smt_checker_input_iN7d:34:9: 
+smt_checker_input_6RAK:34:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_iN7d:22:9: Warning: Assertion violation happens here
+smt_checker_input_6RAK:22:9: Warning: Assertion violation happens here
         assert(s1[msg.sender].x == c);
         ^---------------------------^
   for:
@@ -355,13 +355,13 @@ smt_checker_input_iN7d:22:9: Warning: Assertion violation happens here
   msg.sender = 1653
 
 Callstack: 
-smt_checker_input_iN7d:34:9: 
+smt_checker_input_6RAK:34:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_iN7d:23:9: Warning: Assertion violation happens here
+smt_checker_input_6RAK:23:9: Warning: Assertion violation happens here
         assert(s2[msg.sender].x == b);
         ^---------------------------^
   for:
@@ -371,13 +371,13 @@ smt_checker_input_iN7d:23:9: Warning: Assertion violation happens here
   msg.sender = 5904
 
 Callstack: 
-smt_checker_input_iN7d:34:9: 
+smt_checker_input_6RAK:34:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_iN7d:24:9: Warning: Assertion violation happens here
+smt_checker_input_6RAK:24:9: Warning: Assertion violation happens here
         assert(loc[msg.sender].x == c);
         ^----------------------------^
   for:
@@ -387,13 +387,13 @@ smt_checker_input_iN7d:24:9: Warning: Assertion violation happens here
   msg.sender = 8456
 
 Callstack: 
-smt_checker_input_iN7d:34:9: 
+smt_checker_input_6RAK:34:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_iN7d:27:9: Warning: Assertion violation happens here
+smt_checker_input_6RAK:27:9: Warning: Assertion violation happens here
         assert(s1[msg.sender].x == a);
         ^---------------------------^
   for:
@@ -403,13 +403,13 @@ smt_checker_input_iN7d:27:9: Warning: Assertion violation happens here
   msg.sender = 1323
 
 Callstack: 
-smt_checker_input_iN7d:34:9: 
+smt_checker_input_6RAK:34:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_iN7d:28:9: Warning: Assertion violation happens here
+smt_checker_input_6RAK:28:9: Warning: Assertion violation happens here
         assert(s2[msg.sender].x == b);
         ^---------------------------^
   for:
@@ -419,13 +419,13 @@ smt_checker_input_iN7d:28:9: Warning: Assertion violation happens here
   msg.sender = 8879
 
 Callstack: 
-smt_checker_input_iN7d:34:9: 
+smt_checker_input_6RAK:34:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_iN7d:29:9: Warning: Assertion violation happens here
+smt_checker_input_6RAK:29:9: Warning: Assertion violation happens here
         assert(loc[msg.sender].x == a);
         ^----------------------------^
   for:
@@ -435,11 +435,11 @@ smt_checker_input_iN7d:29:9: Warning: Assertion violation happens here
   msg.sender = 2240
 
 Callstack: 
-smt_checker_input_iN7d:34:9: 
+smt_checker_input_6RAK:34:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-0.19user 0.05system 0:00.25elapsed 100%CPU (0avgtext+0avgdata 60308maxresident)k
-0inputs+0outputs (0major+7124minor)pagefaults 0swaps
+0.23user 0.24system 0:00.47elapsed 100%CPU (0avgtext+0avgdata 60972maxresident)k
+0inputs+0outputs (0major+7134minor)pagefaults 0swaps

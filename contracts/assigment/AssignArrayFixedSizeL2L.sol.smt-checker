@@ -1,6 +1,6 @@
 Running contracts/assigment/AssignArrayFixedSizeL2L.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_Rqau:21:9: Warning: Assertion violation happens here
+smt_checker_input_JN77:21:9: Warning: Assertion violation happens here
         assert(sl2[1] == c);
         ^-----------------^
   for:
@@ -14,7 +14,7 @@ smt_checker_input_Rqau:21:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_Rqau:22:9: Warning: Assertion violation happens here
+smt_checker_input_JN77:22:9: Warning: Assertion violation happens here
         assert(s1[1] == a);
         ^----------------^
   for:
@@ -28,7 +28,7 @@ smt_checker_input_Rqau:22:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_Rqau:23:9: Warning: Assertion violation happens here
+smt_checker_input_JN77:23:9: Warning: Assertion violation happens here
         assert(s2[1] == c);
         ^----------------^
   for:
@@ -42,7 +42,7 @@ smt_checker_input_Rqau:23:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_Rqau:21:9: Warning: Assertion violation happens here
+smt_checker_input_JN77:21:9: Warning: Assertion violation happens here
         assert(sl2[1] == c);
         ^-----------------^
   for:
@@ -55,11 +55,11 @@ smt_checker_input_Rqau:21:9: Warning: Assertion violation happens here
   sl2[1] = 3
 
 Callstack: 
-smt_checker_input_Rqau:28:9: 
+smt_checker_input_JN77:28:9: 
         locToLoc(0, 1, 2);
         ^---------------^
 
-smt_checker_input_Rqau:22:9: Warning: Assertion violation happens here
+smt_checker_input_JN77:22:9: Warning: Assertion violation happens here
         assert(s1[1] == a);
         ^----------------^
   for:
@@ -72,11 +72,11 @@ smt_checker_input_Rqau:22:9: Warning: Assertion violation happens here
   sl2[1] = 2
 
 Callstack: 
-smt_checker_input_Rqau:28:9: 
+smt_checker_input_JN77:28:9: 
         locToLoc(0, 1, 2);
         ^---------------^
 
-smt_checker_input_Rqau:23:9: Warning: Assertion violation happens here
+smt_checker_input_JN77:23:9: Warning: Assertion violation happens here
         assert(s2[1] == c);
         ^----------------^
   for:
@@ -89,9 +89,9 @@ smt_checker_input_Rqau:23:9: Warning: Assertion violation happens here
   sl2[1] = 2
 
 Callstack: 
-smt_checker_input_Rqau:28:9: 
+smt_checker_input_JN77:28:9: 
         locToLoc(0, 1, 2);
         ^---------------^
 
-0.13user 0.03system 0:00.16elapsed 99%CPU (0avgtext+0avgdata 48692maxresident)k
-0inputs+0outputs (0major+4077minor)pagefaults 0swaps
+0.15user 0.23system 0:00.38elapsed 100%CPU (0avgtext+0avgdata 48472maxresident)k
+0inputs+0outputs (0major+4076minor)pagefaults 0swaps

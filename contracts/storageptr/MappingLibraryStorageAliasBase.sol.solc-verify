@@ -1,13 +1,13 @@
 Running contracts/storageptr/MappingLibraryStorageAliasBase.sol
-Command exited with non-zero status 252
-0.34user 0.11system 0:00.45elapsed 100%CPU (0avgtext+0avgdata 32956maxresident)k
-0inputs+16outputs (0major+10191minor)pagefaults 0swaps
 Error while running verifier, details:
 [TRACE] Using prover: /usr/local/bin/z3
-Parsing /tmp/tmp5varerag/MappingLibraryStorageAliasBase.sol.bpl
-/tmp/tmp5varerag/MappingLibraryStorageAliasBase.sol.bpl(23,5): Error: command assigns to an immutable variable: a#5
-/tmp/tmp5varerag/MappingLibraryStorageAliasBase.sol.bpl(27,5): Error: command assigns to an immutable variable: a#5
-/tmp/tmp5varerag/MappingLibraryStorageAliasBase.sol.bpl(28,5): Error: command assigns to an immutable variable: b#9
-/tmp/tmp5varerag/MappingLibraryStorageAliasBase.sol.bpl(29,5): Error: command assigns to an immutable variable: a#5
-4 type checking errors detected in /tmp/tmp5varerag/MappingLibraryStorageAliasBase.sol.bpl
+Parsing /tmp/tmpww1dnbzj/MappingLibraryStorageAliasBase.sol.bpl
+/tmp/tmpww1dnbzj/MappingLibraryStorageAliasBase.sol.bpl(23,5): Error: command assigns to an immutable variable: a#5
+/tmp/tmpww1dnbzj/MappingLibraryStorageAliasBase.sol.bpl(27,5): Error: command assigns to an immutable variable: a#5
+/tmp/tmpww1dnbzj/MappingLibraryStorageAliasBase.sol.bpl(28,5): Error: command assigns to an immutable variable: b#9
+/tmp/tmpww1dnbzj/MappingLibraryStorageAliasBase.sol.bpl(29,5): Error: command assigns to an immutable variable: a#5
+4 type checking errors detected in /tmp/tmpww1dnbzj/MappingLibraryStorageAliasBase.sol.bpl
 
+Command exited with non-zero status 252
+0.30user 0.60system 0:00.90elapsed 100%CPU (0avgtext+0avgdata 33140maxresident)k
+0inputs+16outputs (0major+10228minor)pagefaults 0swaps

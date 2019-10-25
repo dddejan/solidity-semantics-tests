@@ -1,8 +1,8 @@
 Running contracts/storageptr/StructLibraryStorageNoAliasSubStruct.sol
-0.69user 0.25system 0:00.92elapsed 102%CPU (0avgtext+0avgdata 44264maxresident)k
-0inputs+32outputs (0major+17308minor)pagefaults 0swaps
 L::swap: OK
 L::[implicit_constructor]: OK
 StructLibraryStorageNoAliasSubStruct::truffleMain: OK
 StructLibraryStorageNoAliasSubStruct::[implicit_constructor]: OK
 No errors found.
+0.71user 0.71system 0:01.39elapsed 102%CPU (0avgtext+0avgdata 44352maxresident)k
+0inputs+32outputs (0major+17476minor)pagefaults 0swaps

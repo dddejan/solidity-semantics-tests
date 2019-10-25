@@ -1,156 +1,156 @@
 Running contracts/storageptr/StructArrayFixedSizeLibraryStorageNoAliasBase.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_sakM:8:19: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_MYN6:8:19: Warning: Assertion checker does not yet support the type of this variable.
     function swap(S storage a, S storage b) public {
                   ^---------^
-smt_checker_input_sakM:8:32: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_MYN6:8:32: Warning: Assertion checker does not yet support the type of this variable.
     function swap(S storage a, S storage b) public {
                                ^---------^
-smt_checker_input_sakM:9:17: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_MYN6:9:17: Warning: Assertion checker does not yet support this expression.
         require(a.x[1] != b.x[1]);
                 ^-^
-smt_checker_input_sakM:9:17: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_MYN6:9:17: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         require(a.x[1] != b.x[1]);
                 ^
-smt_checker_input_sakM:9:17: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_MYN6:9:17: Warning: Assertion checker does not yet implement this expression.
         require(a.x[1] != b.x[1]);
                 ^----^
-smt_checker_input_sakM:9:27: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_MYN6:9:27: Warning: Assertion checker does not yet support this expression.
         require(a.x[1] != b.x[1]);
                           ^-^
-smt_checker_input_sakM:9:27: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_MYN6:9:27: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         require(a.x[1] != b.x[1]);
                           ^
-smt_checker_input_sakM:9:27: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_MYN6:9:27: Warning: Assertion checker does not yet implement this expression.
         require(a.x[1] != b.x[1]);
                           ^----^
-smt_checker_input_sakM:10:21: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_MYN6:10:21: Warning: Assertion checker does not yet support this expression.
         int a_old = a.x[1];
                     ^-^
-smt_checker_input_sakM:10:21: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_MYN6:10:21: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         int a_old = a.x[1];
                     ^
-smt_checker_input_sakM:10:21: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_MYN6:10:21: Warning: Assertion checker does not yet implement this expression.
         int a_old = a.x[1];
                     ^----^
-smt_checker_input_sakM:11:21: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_MYN6:11:21: Warning: Assertion checker does not yet support this expression.
         int b_old = b.x[1];
                     ^-^
-smt_checker_input_sakM:11:21: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_MYN6:11:21: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         int b_old = b.x[1];
                     ^
-smt_checker_input_sakM:11:21: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_MYN6:11:21: Warning: Assertion checker does not yet implement this expression.
         int b_old = b.x[1];
                     ^----^
-smt_checker_input_sakM:12:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_MYN6:12:9: Warning: Assertion checker does not yet support this expression.
         a.x[1] = a.x[1] + b.x[1];
         ^-^
-smt_checker_input_sakM:12:9: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_MYN6:12:9: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         a.x[1] = a.x[1] + b.x[1];
         ^
-smt_checker_input_sakM:12:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_MYN6:12:9: Warning: Assertion checker does not yet implement this expression.
         a.x[1] = a.x[1] + b.x[1];
         ^----^
-smt_checker_input_sakM:12:18: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_MYN6:12:18: Warning: Assertion checker does not yet support this expression.
         a.x[1] = a.x[1] + b.x[1];
                  ^-^
-smt_checker_input_sakM:12:18: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_MYN6:12:18: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         a.x[1] = a.x[1] + b.x[1];
                  ^
-smt_checker_input_sakM:12:18: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_MYN6:12:18: Warning: Assertion checker does not yet implement this expression.
         a.x[1] = a.x[1] + b.x[1];
                  ^----^
-smt_checker_input_sakM:12:27: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_MYN6:12:27: Warning: Assertion checker does not yet support this expression.
         a.x[1] = a.x[1] + b.x[1];
                           ^-^
-smt_checker_input_sakM:12:27: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_MYN6:12:27: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         a.x[1] = a.x[1] + b.x[1];
                           ^
-smt_checker_input_sakM:12:27: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_MYN6:12:27: Warning: Assertion checker does not yet implement this expression.
         a.x[1] = a.x[1] + b.x[1];
                           ^----^
-smt_checker_input_sakM:12:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_MYN6:12:9: Warning: Assertion checker does not yet implement this expression.
         a.x[1] = a.x[1] + b.x[1];
         ^----^
-smt_checker_input_sakM:13:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_MYN6:13:9: Warning: Assertion checker does not yet support this expression.
         b.x[1] = a.x[1] - b.x[1];
         ^-^
-smt_checker_input_sakM:13:9: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_MYN6:13:9: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         b.x[1] = a.x[1] - b.x[1];
         ^
-smt_checker_input_sakM:13:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_MYN6:13:9: Warning: Assertion checker does not yet implement this expression.
         b.x[1] = a.x[1] - b.x[1];
         ^----^
-smt_checker_input_sakM:13:18: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_MYN6:13:18: Warning: Assertion checker does not yet support this expression.
         b.x[1] = a.x[1] - b.x[1];
                  ^-^
-smt_checker_input_sakM:13:18: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_MYN6:13:18: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         b.x[1] = a.x[1] - b.x[1];
                  ^
-smt_checker_input_sakM:13:18: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_MYN6:13:18: Warning: Assertion checker does not yet implement this expression.
         b.x[1] = a.x[1] - b.x[1];
                  ^----^
-smt_checker_input_sakM:13:27: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_MYN6:13:27: Warning: Assertion checker does not yet support this expression.
         b.x[1] = a.x[1] - b.x[1];
                           ^-^
-smt_checker_input_sakM:13:27: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_MYN6:13:27: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         b.x[1] = a.x[1] - b.x[1];
                           ^
-smt_checker_input_sakM:13:27: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_MYN6:13:27: Warning: Assertion checker does not yet implement this expression.
         b.x[1] = a.x[1] - b.x[1];
                           ^----^
-smt_checker_input_sakM:13:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_MYN6:13:9: Warning: Assertion checker does not yet implement this expression.
         b.x[1] = a.x[1] - b.x[1];
         ^----^
-smt_checker_input_sakM:14:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_MYN6:14:9: Warning: Assertion checker does not yet support this expression.
         a.x[1] = a.x[1] - b.x[1];
         ^-^
-smt_checker_input_sakM:14:9: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_MYN6:14:9: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         a.x[1] = a.x[1] - b.x[1];
         ^
-smt_checker_input_sakM:14:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_MYN6:14:9: Warning: Assertion checker does not yet implement this expression.
         a.x[1] = a.x[1] - b.x[1];
         ^----^
-smt_checker_input_sakM:14:18: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_MYN6:14:18: Warning: Assertion checker does not yet support this expression.
         a.x[1] = a.x[1] - b.x[1];
                  ^-^
-smt_checker_input_sakM:14:18: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_MYN6:14:18: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         a.x[1] = a.x[1] - b.x[1];
                  ^
-smt_checker_input_sakM:14:18: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_MYN6:14:18: Warning: Assertion checker does not yet implement this expression.
         a.x[1] = a.x[1] - b.x[1];
                  ^----^
-smt_checker_input_sakM:14:27: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_MYN6:14:27: Warning: Assertion checker does not yet support this expression.
         a.x[1] = a.x[1] - b.x[1];
                           ^-^
-smt_checker_input_sakM:14:27: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_MYN6:14:27: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         a.x[1] = a.x[1] - b.x[1];
                           ^
-smt_checker_input_sakM:14:27: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_MYN6:14:27: Warning: Assertion checker does not yet implement this expression.
         a.x[1] = a.x[1] - b.x[1];
                           ^----^
-smt_checker_input_sakM:14:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_MYN6:14:9: Warning: Assertion checker does not yet implement this expression.
         a.x[1] = a.x[1] - b.x[1];
         ^----^
-smt_checker_input_sakM:15:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_MYN6:15:16: Warning: Assertion checker does not yet support this expression.
         assert(a.x[1] == b_old); // no alias => swap correct
                ^-^
-smt_checker_input_sakM:15:16: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_MYN6:15:16: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         assert(a.x[1] == b_old); // no alias => swap correct
                ^
-smt_checker_input_sakM:15:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_MYN6:15:16: Warning: Assertion checker does not yet implement this expression.
         assert(a.x[1] == b_old); // no alias => swap correct
                ^----^
-smt_checker_input_sakM:16:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_MYN6:16:16: Warning: Assertion checker does not yet support this expression.
         assert(b.x[1] == a_old); // no alias => swap correct
                ^-^
-smt_checker_input_sakM:16:16: Warning: Assertion checker does not yet implement type struct L.S storage pointer
+smt_checker_input_MYN6:16:16: Warning: Assertion checker does not yet implement type struct L.S storage pointer
         assert(b.x[1] == a_old); // no alias => swap correct
                ^
-smt_checker_input_sakM:16:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_MYN6:16:16: Warning: Assertion checker does not yet implement this expression.
         assert(b.x[1] == a_old); // no alias => swap correct
                ^----^
-smt_checker_input_sakM:12:18: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_MYN6:12:18: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         a.x[1] = a.x[1] + b.x[1];
                  ^-------------^
   for:
@@ -160,7 +160,7 @@ smt_checker_input_sakM:12:18: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_sakM:12:18: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_MYN6:12:18: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a.x[1] = a.x[1] + b.x[1];
                  ^-------------^
   for:
@@ -170,7 +170,7 @@ smt_checker_input_sakM:12:18: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_sakM:13:18: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_MYN6:13:18: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         b.x[1] = a.x[1] - b.x[1];
                  ^-------------^
   for:
@@ -180,7 +180,7 @@ smt_checker_input_sakM:13:18: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_sakM:13:18: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_MYN6:13:18: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         b.x[1] = a.x[1] - b.x[1];
                  ^-------------^
   for:
@@ -190,7 +190,7 @@ smt_checker_input_sakM:13:18: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_sakM:14:18: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_MYN6:14:18: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         a.x[1] = a.x[1] - b.x[1];
                  ^-------------^
   for:
@@ -200,7 +200,7 @@ smt_checker_input_sakM:14:18: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_sakM:14:18: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_MYN6:14:18: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a.x[1] = a.x[1] - b.x[1];
                  ^-------------^
   for:
@@ -210,7 +210,7 @@ smt_checker_input_sakM:14:18: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_sakM:15:9: Warning: Assertion violation happens here
+smt_checker_input_MYN6:15:9: Warning: Assertion violation happens here
         assert(a.x[1] == b_old); // no alias => swap correct
         ^---------------------^
   for:
@@ -219,7 +219,7 @@ smt_checker_input_sakM:15:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_sakM:16:9: Warning: Assertion violation happens here
+smt_checker_input_MYN6:16:9: Warning: Assertion violation happens here
         assert(b.x[1] == a_old); // no alias => swap correct
         ^---------------------^
   for:
@@ -228,17 +228,17 @@ smt_checker_input_sakM:16:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_sakM:22:5: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_MYN6:22:5: Warning: Assertion checker does not yet support the type of this variable.
     L.S s1;
     ^----^
-smt_checker_input_sakM:23:5: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_MYN6:23:5: Warning: Assertion checker does not yet support the type of this variable.
     L.S s2;
     ^----^
-smt_checker_input_sakM:27:16: Warning: Assertion checker does not yet implement type struct L.S storage ref
+smt_checker_input_MYN6:27:16: Warning: Assertion checker does not yet implement type struct L.S storage ref
         L.swap(s1, s2);
                ^^
-smt_checker_input_sakM:27:20: Warning: Assertion checker does not yet implement type struct L.S storage ref
+smt_checker_input_MYN6:27:20: Warning: Assertion checker does not yet implement type struct L.S storage ref
         L.swap(s1, s2);
                    ^^
-0.09user 0.03system 0:00.12elapsed 100%CPU (0avgtext+0avgdata 38644maxresident)k
-0inputs+0outputs (0major+1997minor)pagefaults 0swaps
+0.10user 0.22system 0:00.33elapsed 99%CPU (0avgtext+0avgdata 38516maxresident)k
+0inputs+0outputs (0major+1992minor)pagefaults 0swaps

@@ -1,6 +1,6 @@
 Running contracts/storageptr/MappingLibraryStorageAliasSubMapping.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_ZtCD:11:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_EpoJ:11:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a[msg.sender] = b[msg.sender] + 1;
                         ^---------------^
   for:
@@ -14,7 +14,7 @@ smt_checker_input_ZtCD:11:25: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_ZtCD:12:39: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_EpoJ:12:39: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a_b_alias = (b[msg.sender] == b_old + 1);
                                       ^-------^
   for:
@@ -28,7 +28,7 @@ smt_checker_input_ZtCD:12:39: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_ZtCD:15:25: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_EpoJ:15:25: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         a[msg.sender] = a[msg.sender] + b[msg.sender];
                         ^---------------------------^
   for:
@@ -42,7 +42,7 @@ smt_checker_input_ZtCD:15:25: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_ZtCD:15:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_EpoJ:15:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a[msg.sender] = a[msg.sender] + b[msg.sender];
                         ^---------------------------^
   for:
@@ -56,7 +56,7 @@ smt_checker_input_ZtCD:15:25: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_ZtCD:16:25: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_EpoJ:16:25: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         b[msg.sender] = a[msg.sender] - b[msg.sender];
                         ^---------------------------^
   for:
@@ -70,7 +70,7 @@ smt_checker_input_ZtCD:16:25: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_ZtCD:16:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_EpoJ:16:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         b[msg.sender] = a[msg.sender] - b[msg.sender];
                         ^---------------------------^
   for:
@@ -84,7 +84,7 @@ smt_checker_input_ZtCD:16:25: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_ZtCD:17:25: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_EpoJ:17:25: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         a[msg.sender] = a[msg.sender] - b[msg.sender];
                         ^---------------------------^
   for:
@@ -98,7 +98,7 @@ smt_checker_input_ZtCD:17:25: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_ZtCD:17:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_EpoJ:17:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a[msg.sender] = a[msg.sender] - b[msg.sender];
                         ^---------------------------^
   for:
@@ -112,7 +112,7 @@ smt_checker_input_ZtCD:17:25: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_ZtCD:18:9: Warning: Assertion violation happens here
+smt_checker_input_EpoJ:18:9: Warning: Assertion violation happens here
         assert(!a_b_alias || a[msg.sender] == 0); // alias => zero
         ^--------------------------------------^
   for:
@@ -125,7 +125,7 @@ smt_checker_input_ZtCD:18:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_ZtCD:19:9: Warning: Assertion violation happens here
+smt_checker_input_EpoJ:19:9: Warning: Assertion violation happens here
         assert(!a_b_alias || b[msg.sender] == 0); // alias => zero
         ^--------------------------------------^
   for:
@@ -138,5 +138,5 @@ smt_checker_input_ZtCD:19:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-0.54user 0.11system 0:00.65elapsed 100%CPU (0avgtext+0avgdata 44108maxresident)k
-0inputs+0outputs (0major+3381minor)pagefaults 0swaps
+0.57user 0.29system 0:00.86elapsed 100%CPU (0avgtext+0avgdata 44608maxresident)k
+0inputs+0outputs (0major+3391minor)pagefaults 0swaps

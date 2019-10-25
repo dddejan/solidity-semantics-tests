@@ -6,5 +6,5 @@ SpecFilesDir = /solc-verify-examples/contracts/storageptr
 Warning: A mapping with complex value type s2 of valuetype mapping (address => L.S)
 ... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
 	*** Proof found! Formal Verification successful! (see boogie.txt)
-1.46user 0.22system 0:01.67elapsed 101%CPU (0avgtext+0avgdata 55988maxresident)k
-0inputs+40outputs (0major+61128minor)pagefaults 0swaps
+1.38user 0.52system 0:02.02elapsed 94%CPU (0avgtext+0avgdata 55936maxresident)k
+0inputs+40outputs (0major+61173minor)pagefaults 0swaps

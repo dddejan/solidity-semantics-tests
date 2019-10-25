@@ -1,30 +1,30 @@
 Running contracts/assigment/AssignArrayDynamicMultiS2L.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_tKNa:11:17: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_WXdK:11:17: Warning: Assertion checker does not yet support this expression.
         require(s1.length > 0 && s1[0].length > 0);
                 ^-------^
-smt_checker_input_tKNa:11:34: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_WXdK:11:34: Warning: Assertion checker does not yet support this expression.
         require(s1.length > 0 && s1[0].length > 0);
                                  ^----------^
-smt_checker_input_tKNa:12:17: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_WXdK:12:17: Warning: Assertion checker does not yet support this expression.
         require(s2.length > 0 && s2[0].length > 0);
                 ^-------^
-smt_checker_input_tKNa:12:34: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_WXdK:12:34: Warning: Assertion checker does not yet support this expression.
         require(s2.length > 0 && s2[0].length > 0);
                                  ^----------^
-smt_checker_input_tKNa:14:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_WXdK:14:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s1[0][0] = a;
         ^------^
-smt_checker_input_tKNa:15:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_WXdK:15:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s2[0][0] = b;
         ^------^
-smt_checker_input_tKNa:21:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_WXdK:21:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s1[0][0] = c;
         ^------^
-smt_checker_input_tKNa:26:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_WXdK:26:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         loc[0][0] = a;
         ^-------^
-smt_checker_input_tKNa:17:9: Warning: Assertion violation happens here
+smt_checker_input_WXdK:17:9: Warning: Assertion violation happens here
         assert(s1[0][0] == a);
         ^-------------------^
   for:
@@ -36,7 +36,7 @@ smt_checker_input_tKNa:17:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_tKNa:18:9: Warning: Assertion violation happens here
+smt_checker_input_WXdK:18:9: Warning: Assertion violation happens here
         assert(s2[0][0] == b);
         ^-------------------^
   for:
@@ -48,7 +48,7 @@ smt_checker_input_tKNa:18:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_tKNa:22:9: Warning: Assertion violation happens here
+smt_checker_input_WXdK:22:9: Warning: Assertion violation happens here
         assert(s1[0][0] == c);
         ^-------------------^
   for:
@@ -61,7 +61,7 @@ smt_checker_input_tKNa:22:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_tKNa:24:9: Warning: Assertion violation happens here
+smt_checker_input_WXdK:24:9: Warning: Assertion violation happens here
         assert(loc[0][0] == c);
         ^--------------------^
   for:
@@ -74,43 +74,43 @@ smt_checker_input_tKNa:24:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_tKNa:34:17: Warning: Assertion checker does not yet implement this type of function call.
+smt_checker_input_WXdK:34:17: Warning: Assertion checker does not yet implement this type of function call.
         s1.push(new int[](1));
                 ^----------^
-smt_checker_input_tKNa:34:9: Warning: Assertion checker does not yet implement this type of function call.
+smt_checker_input_WXdK:34:9: Warning: Assertion checker does not yet implement this type of function call.
         s1.push(new int[](1));
         ^-------------------^
-smt_checker_input_tKNa:35:17: Warning: Assertion checker does not yet implement this type of function call.
+smt_checker_input_WXdK:35:17: Warning: Assertion checker does not yet implement this type of function call.
         s2.push(new int[](1));
                 ^----------^
-smt_checker_input_tKNa:35:9: Warning: Assertion checker does not yet implement this type of function call.
+smt_checker_input_WXdK:35:9: Warning: Assertion checker does not yet implement this type of function call.
         s2.push(new int[](1));
         ^-------------------^
-smt_checker_input_tKNa:11:17: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_WXdK:11:17: Warning: Assertion checker does not yet support this expression.
         require(s1.length > 0 && s1[0].length > 0);
                 ^-------^
-smt_checker_input_tKNa:11:34: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_WXdK:11:34: Warning: Assertion checker does not yet support this expression.
         require(s1.length > 0 && s1[0].length > 0);
                                  ^----------^
-smt_checker_input_tKNa:12:17: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_WXdK:12:17: Warning: Assertion checker does not yet support this expression.
         require(s2.length > 0 && s2[0].length > 0);
                 ^-------^
-smt_checker_input_tKNa:12:34: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_WXdK:12:34: Warning: Assertion checker does not yet support this expression.
         require(s2.length > 0 && s2[0].length > 0);
                                  ^----------^
-smt_checker_input_tKNa:14:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_WXdK:14:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s1[0][0] = a;
         ^------^
-smt_checker_input_tKNa:15:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_WXdK:15:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s2[0][0] = b;
         ^------^
-smt_checker_input_tKNa:21:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_WXdK:21:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s1[0][0] = c;
         ^------^
-smt_checker_input_tKNa:26:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_WXdK:26:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         loc[0][0] = a;
         ^-------^
-smt_checker_input_tKNa:17:9: Warning: Assertion violation happens here
+smt_checker_input_WXdK:17:9: Warning: Assertion violation happens here
         assert(s1[0][0] == a);
         ^-------------------^
   for:
@@ -121,11 +121,11 @@ smt_checker_input_tKNa:17:9: Warning: Assertion violation happens here
   s2[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811023)
 
 Callstack: 
-smt_checker_input_tKNa:36:9: 
+smt_checker_input_WXdK:36:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
-smt_checker_input_tKNa:18:9: Warning: Assertion violation happens here
+smt_checker_input_WXdK:18:9: Warning: Assertion violation happens here
         assert(s2[0][0] == b);
         ^-------------------^
   for:
@@ -136,11 +136,11 @@ smt_checker_input_tKNa:18:9: Warning: Assertion violation happens here
   s2[0][0] = 2
 
 Callstack: 
-smt_checker_input_tKNa:36:9: 
+smt_checker_input_WXdK:36:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
-smt_checker_input_tKNa:22:9: Warning: Assertion violation happens here
+smt_checker_input_WXdK:22:9: Warning: Assertion violation happens here
         assert(s1[0][0] == c);
         ^-------------------^
   for:
@@ -152,11 +152,11 @@ smt_checker_input_tKNa:22:9: Warning: Assertion violation happens here
   s2[0][0] = 1
 
 Callstack: 
-smt_checker_input_tKNa:36:9: 
+smt_checker_input_WXdK:36:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
-smt_checker_input_tKNa:24:9: Warning: Assertion violation happens here
+smt_checker_input_WXdK:24:9: Warning: Assertion violation happens here
         assert(loc[0][0] == c);
         ^--------------------^
   for:
@@ -168,9 +168,9 @@ smt_checker_input_tKNa:24:9: Warning: Assertion violation happens here
   s2[0][0] = 1
 
 Callstack: 
-smt_checker_input_tKNa:36:9: 
+smt_checker_input_WXdK:36:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
-0.26user 0.04system 0:00.30elapsed 99%CPU (0avgtext+0avgdata 51764maxresident)k
-0inputs+0outputs (0major+4881minor)pagefaults 0swaps
+0.26user 0.23system 0:00.49elapsed 100%CPU (0avgtext+0avgdata 51648maxresident)k
+0inputs+0outputs (0major+4882minor)pagefaults 0swaps

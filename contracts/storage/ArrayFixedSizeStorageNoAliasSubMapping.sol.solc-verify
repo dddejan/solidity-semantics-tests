@@ -1,7 +1,7 @@
 Running contracts/storage/ArrayFixedSizeStorageNoAliasSubMapping.sol
-0.66user 0.22system 0:00.86elapsed 103%CPU (0avgtext+0avgdata 41632maxresident)k
-0inputs+16outputs (0major+16370minor)pagefaults 0swaps
 ArrayFixedSizeStorageNoAliasSubMapping::test: OK
 ArrayFixedSizeStorageNoAliasSubMapping::truffleMain: OK
 ArrayFixedSizeStorageNoAliasSubMapping::[implicit_constructor]: OK
 No errors found.
+0.67user 0.71system 0:01.37elapsed 101%CPU (0avgtext+0avgdata 41772maxresident)k
+0inputs+16outputs (0major+16342minor)pagefaults 0swaps

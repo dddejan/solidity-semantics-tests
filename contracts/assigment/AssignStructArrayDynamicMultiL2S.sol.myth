@@ -21,5 +21,5 @@ Caller: [CREATOR], data: 0x608060405234801561001057600080fd5b506106aa80610020600
 Caller: [CREATOR], function: truffleMain(), txdata: 0xbbac8963, value: 0x0
 
 
-8.53user 2.01system 0:08.77elapsed 120%CPU (0avgtext+0avgdata 104168maxresident)k
-0inputs+24344outputs (0major+50192minor)pagefaults 0swaps
+9.03user 2.10system 0:09.34elapsed 119%CPU (0avgtext+0avgdata 104240maxresident)k
+0inputs+24368outputs (0major+49854minor)pagefaults 0swaps

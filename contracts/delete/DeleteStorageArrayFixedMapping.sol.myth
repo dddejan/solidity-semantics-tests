@@ -1,5 +1,5 @@
 Running contracts/delete/DeleteStorageArrayFixedMapping.sol
 The analysis was completed successfully. No issues were detected.
 
-2.37user 0.37system 0:02.72elapsed 100%CPU (0avgtext+0avgdata 79868maxresident)k
-0inputs+24304outputs (0major+31025minor)pagefaults 0swaps
+2.43user 0.45system 0:02.68elapsed 107%CPU (0avgtext+0avgdata 79888maxresident)k
+0inputs+24280outputs (0major+31030minor)pagefaults 0swaps

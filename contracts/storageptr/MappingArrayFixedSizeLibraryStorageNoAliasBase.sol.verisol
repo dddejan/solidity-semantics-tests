@@ -7,5 +7,5 @@ Warning: A mapping with nested array s1 of valuetype int256[2]
 Warning: A mapping with nested array s2 of valuetype int256[2]
 ... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
 	*** Proof found! Formal Verification successful! (see boogie.txt)
-1.40user 0.29system 0:01.83elapsed 92%CPU (0avgtext+0avgdata 55376maxresident)k
-0inputs+40outputs (0major+61032minor)pagefaults 0swaps
+1.50user 0.45system 0:01.95elapsed 100%CPU (0avgtext+0avgdata 55368maxresident)k
+0inputs+40outputs (0major+61031minor)pagefaults 0swaps

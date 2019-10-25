@@ -1,7 +1,7 @@
 Running contracts/storageptr/MappingArrayFixedSizeStoragePointerNoAliasSubStruct.sol
+0.72user 0.66system 0:01.35elapsed 102%CPU (0avgtext+0avgdata 41980maxresident)k
+0inputs+24outputs (0major+16479minor)pagefaults 0swaps
 MappingArrayFixedSizeStoragePointerNoAliasSubStruct::test: OK
 MappingArrayFixedSizeStoragePointerNoAliasSubStruct::truffleMain: OK
 MappingArrayFixedSizeStoragePointerNoAliasSubStruct::[implicit_constructor]: OK
 No errors found.
-0.65user 0.26system 0:00.89elapsed 103%CPU (0avgtext+0avgdata 42052maxresident)k
-0inputs+24outputs (0major+16470minor)pagefaults 0swaps

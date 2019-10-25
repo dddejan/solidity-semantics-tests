@@ -1,5 +1,5 @@
 Running contracts/delete/DeleteMemoryArrayDynamicStruct.sol
 The analysis was completed successfully. No issues were detected.
 
-6.09user 2.34system 0:06.14elapsed 137%CPU (0avgtext+0avgdata 94980maxresident)k
-0inputs+24280outputs (0major+36260minor)pagefaults 0swaps
+6.08user 2.53system 0:06.35elapsed 135%CPU (0avgtext+0avgdata 94724maxresident)k
+0inputs+24304outputs (0major+36241minor)pagefaults 0swaps

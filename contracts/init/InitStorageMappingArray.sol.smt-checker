@@ -1,7 +1,7 @@
 Running contracts/init/InitStorageMappingArray.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_E9ub:6:5: Warning: Assertion checker does not yet support constructors.
+smt_checker_input_d6Rz:6:5: Warning: Assertion checker does not yet support constructors.
     constructor() public {
     ^ (Relevant source part starts here and spans across multiple lines).
-0.01user 0.00system 0:00.02elapsed 95%CPU (0avgtext+0avgdata 26068maxresident)k
-0inputs+0outputs (0major+884minor)pagefaults 0swaps
+0.00user 0.21system 0:00.23elapsed 94%CPU (0avgtext+0avgdata 26008maxresident)k
+0inputs+0outputs (0major+883minor)pagefaults 0swaps

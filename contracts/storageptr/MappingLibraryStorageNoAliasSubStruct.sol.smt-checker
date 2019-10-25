@@ -1,6 +1,6 @@
 Running contracts/storageptr/MappingLibraryStorageNoAliasSubStruct.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_bmXa:12:25: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_kS57:12:25: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         a[msg.sender] = a[msg.sender] + b[msg.sender];
                         ^---------------------------^
   for:
@@ -13,7 +13,7 @@ smt_checker_input_bmXa:12:25: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_bmXa:12:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_kS57:12:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a[msg.sender] = a[msg.sender] + b[msg.sender];
                         ^---------------------------^
   for:
@@ -26,7 +26,7 @@ smt_checker_input_bmXa:12:25: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_bmXa:13:25: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_kS57:13:25: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         b[msg.sender] = a[msg.sender] - b[msg.sender];
                         ^---------------------------^
   for:
@@ -39,7 +39,7 @@ smt_checker_input_bmXa:13:25: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_bmXa:13:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_kS57:13:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         b[msg.sender] = a[msg.sender] - b[msg.sender];
                         ^---------------------------^
   for:
@@ -52,7 +52,7 @@ smt_checker_input_bmXa:13:25: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_bmXa:14:25: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_kS57:14:25: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         a[msg.sender] = a[msg.sender] - b[msg.sender];
                         ^---------------------------^
   for:
@@ -65,7 +65,7 @@ smt_checker_input_bmXa:14:25: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_bmXa:14:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_kS57:14:25: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a[msg.sender] = a[msg.sender] - b[msg.sender];
                         ^---------------------------^
   for:
@@ -78,7 +78,7 @@ smt_checker_input_bmXa:14:25: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_bmXa:15:9: Warning: Assertion violation happens here
+smt_checker_input_kS57:15:9: Warning: Assertion violation happens here
         assert(a[msg.sender] == b_old); // no alias => swap correct
         ^----------------------------^
   for:
@@ -90,7 +90,7 @@ smt_checker_input_bmXa:15:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_bmXa:16:9: Warning: Assertion violation happens here
+smt_checker_input_kS57:16:9: Warning: Assertion violation happens here
         assert(b[msg.sender] == a_old); // no alias => swap correct
         ^----------------------------^
   for:
@@ -102,14 +102,14 @@ smt_checker_input_bmXa:16:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_bmXa:23:5: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_kS57:23:5: Warning: Assertion checker does not yet support the type of this variable.
     L.Sub s2;
     ^------^
-smt_checker_input_bmXa:27:20: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_kS57:27:20: Warning: Assertion checker does not yet support this expression.
         L.swap(s1, s2.s);
                    ^--^
-smt_checker_input_bmXa:27:20: Warning: Assertion checker does not yet implement type struct L.Sub storage ref
+smt_checker_input_kS57:27:20: Warning: Assertion checker does not yet implement type struct L.Sub storage ref
         L.swap(s1, s2.s);
                    ^^
-0.31user 0.05system 0:00.37elapsed 100%CPU (0avgtext+0avgdata 42428maxresident)k
-0inputs+0outputs (0major+2841minor)pagefaults 0swaps
+0.31user 0.26system 0:00.57elapsed 100%CPU (0avgtext+0avgdata 41888maxresident)k
+0inputs+0outputs (0major+2828minor)pagefaults 0swaps

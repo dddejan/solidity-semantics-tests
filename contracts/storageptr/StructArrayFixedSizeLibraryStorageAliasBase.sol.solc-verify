@@ -4,5 +4,5 @@ L::[implicit_constructor]: OK
 StructArrayFixedSizeLibraryStorageAliasBase::truffleMain: OK
 StructArrayFixedSizeLibraryStorageAliasBase::[implicit_constructor]: OK
 No errors found.
-0.73user 0.20system 0:00.91elapsed 103%CPU (0avgtext+0avgdata 44008maxresident)k
-0inputs+24outputs (0major+17115minor)pagefaults 0swaps
+0.70user 0.72system 0:01.43elapsed 100%CPU (0avgtext+0avgdata 43952maxresident)k
+0inputs+24outputs (0major+17248minor)pagefaults 0swaps

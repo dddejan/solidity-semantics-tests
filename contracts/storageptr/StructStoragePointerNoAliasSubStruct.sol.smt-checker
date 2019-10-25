@@ -1,66 +1,66 @@
 Running contracts/storageptr/StructStoragePointerNoAliasSubStruct.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_dpMo:9:5: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_EjaB:9:5: Warning: Assertion checker does not yet support the type of this variable.
     S s1;
     ^--^
-smt_checker_input_dpMo:10:5: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_EjaB:10:5: Warning: Assertion checker does not yet support the type of this variable.
     Sub s2;
     ^----^
-smt_checker_input_dpMo:15:9: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_EjaB:15:9: Warning: Assertion checker does not yet support the type of this variable.
         S storage s1ref = s1;
         ^-------------^
-smt_checker_input_dpMo:16:9: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_EjaB:16:9: Warning: Assertion checker does not yet support the type of this variable.
         S storage s2ref = s2.s;
         ^-------------^
-smt_checker_input_dpMo:13:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_EjaB:13:9: Warning: Assertion checker does not yet support this expression.
         s1.x = a;
         ^--^
-smt_checker_input_dpMo:13:9: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.S storage ref
+smt_checker_input_EjaB:13:9: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.S storage ref
         s1.x = a;
         ^^
-smt_checker_input_dpMo:13:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_EjaB:13:9: Warning: Assertion checker does not yet implement such assignments.
         s1.x = a;
         ^------^
-smt_checker_input_dpMo:14:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_EjaB:14:9: Warning: Assertion checker does not yet support this expression.
         s2.s.x = b;
         ^----^
-smt_checker_input_dpMo:14:9: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.S storage ref
+smt_checker_input_EjaB:14:9: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.S storage ref
         s2.s.x = b;
         ^--^
-smt_checker_input_dpMo:14:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_EjaB:14:9: Warning: Assertion checker does not yet support this expression.
         s2.s.x = b;
         ^--^
-smt_checker_input_dpMo:14:9: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.Sub storage ref
+smt_checker_input_EjaB:14:9: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.Sub storage ref
         s2.s.x = b;
         ^^
-smt_checker_input_dpMo:14:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_EjaB:14:9: Warning: Assertion checker does not yet implement such assignments.
         s2.s.x = b;
         ^--------^
-smt_checker_input_dpMo:15:27: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.S storage ref
+smt_checker_input_EjaB:15:27: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.S storage ref
         S storage s1ref = s1;
                           ^^
-smt_checker_input_dpMo:16:27: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.S storage ref
+smt_checker_input_EjaB:16:27: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.S storage ref
         S storage s2ref = s2.s;
                           ^--^
-smt_checker_input_dpMo:16:27: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_EjaB:16:27: Warning: Assertion checker does not yet support this expression.
         S storage s2ref = s2.s;
                           ^--^
-smt_checker_input_dpMo:16:27: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.Sub storage ref
+smt_checker_input_EjaB:16:27: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.Sub storage ref
         S storage s2ref = s2.s;
                           ^^
-smt_checker_input_dpMo:17:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_EjaB:17:16: Warning: Assertion checker does not yet support this expression.
         assert(s1ref.x == a);
                ^-----^
-smt_checker_input_dpMo:17:16: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.S storage pointer
+smt_checker_input_EjaB:17:16: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.S storage pointer
         assert(s1ref.x == a);
                ^---^
-smt_checker_input_dpMo:18:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_EjaB:18:16: Warning: Assertion checker does not yet support this expression.
         assert(s2ref.x == b);
                ^-----^
-smt_checker_input_dpMo:18:16: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.S storage pointer
+smt_checker_input_EjaB:18:16: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.S storage pointer
         assert(s2ref.x == b);
                ^---^
-smt_checker_input_dpMo:17:9: Warning: Assertion violation happens here
+smt_checker_input_EjaB:17:9: Warning: Assertion violation happens here
         assert(s1ref.x == a);
         ^------------------^
   for:
@@ -69,7 +69,7 @@ smt_checker_input_dpMo:17:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_dpMo:18:9: Warning: Assertion violation happens here
+smt_checker_input_EjaB:18:9: Warning: Assertion violation happens here
         assert(s2ref.x == b);
         ^------------------^
   for:
@@ -78,55 +78,55 @@ smt_checker_input_dpMo:18:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_dpMo:13:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_EjaB:13:9: Warning: Assertion checker does not yet support this expression.
         s1.x = a;
         ^--^
-smt_checker_input_dpMo:13:9: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.S storage ref
+smt_checker_input_EjaB:13:9: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.S storage ref
         s1.x = a;
         ^^
-smt_checker_input_dpMo:13:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_EjaB:13:9: Warning: Assertion checker does not yet implement such assignments.
         s1.x = a;
         ^------^
-smt_checker_input_dpMo:14:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_EjaB:14:9: Warning: Assertion checker does not yet support this expression.
         s2.s.x = b;
         ^----^
-smt_checker_input_dpMo:14:9: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.S storage ref
+smt_checker_input_EjaB:14:9: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.S storage ref
         s2.s.x = b;
         ^--^
-smt_checker_input_dpMo:14:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_EjaB:14:9: Warning: Assertion checker does not yet support this expression.
         s2.s.x = b;
         ^--^
-smt_checker_input_dpMo:14:9: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.Sub storage ref
+smt_checker_input_EjaB:14:9: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.Sub storage ref
         s2.s.x = b;
         ^^
-smt_checker_input_dpMo:14:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_EjaB:14:9: Warning: Assertion checker does not yet implement such assignments.
         s2.s.x = b;
         ^--------^
-smt_checker_input_dpMo:15:27: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.S storage ref
+smt_checker_input_EjaB:15:27: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.S storage ref
         S storage s1ref = s1;
                           ^^
-smt_checker_input_dpMo:16:27: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.S storage ref
+smt_checker_input_EjaB:16:27: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.S storage ref
         S storage s2ref = s2.s;
                           ^--^
-smt_checker_input_dpMo:16:27: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_EjaB:16:27: Warning: Assertion checker does not yet support this expression.
         S storage s2ref = s2.s;
                           ^--^
-smt_checker_input_dpMo:16:27: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.Sub storage ref
+smt_checker_input_EjaB:16:27: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.Sub storage ref
         S storage s2ref = s2.s;
                           ^^
-smt_checker_input_dpMo:17:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_EjaB:17:16: Warning: Assertion checker does not yet support this expression.
         assert(s1ref.x == a);
                ^-----^
-smt_checker_input_dpMo:17:16: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.S storage pointer
+smt_checker_input_EjaB:17:16: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.S storage pointer
         assert(s1ref.x == a);
                ^---^
-smt_checker_input_dpMo:18:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_EjaB:18:16: Warning: Assertion checker does not yet support this expression.
         assert(s2ref.x == b);
                ^-----^
-smt_checker_input_dpMo:18:16: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.S storage pointer
+smt_checker_input_EjaB:18:16: Warning: Assertion checker does not yet implement type struct StructStoragePointerNoAliasSubStruct.S storage pointer
         assert(s2ref.x == b);
                ^---^
-smt_checker_input_dpMo:17:9: Warning: Assertion violation happens here
+smt_checker_input_EjaB:17:9: Warning: Assertion violation happens here
         assert(s1ref.x == a);
         ^------------------^
   for:
@@ -134,11 +134,11 @@ smt_checker_input_dpMo:17:9: Warning: Assertion violation happens here
   b = 1
 
 Callstack: 
-smt_checker_input_dpMo:23:9: 
+smt_checker_input_EjaB:23:9: 
         test(0, 1);
         ^--------^
 
-smt_checker_input_dpMo:18:9: Warning: Assertion violation happens here
+smt_checker_input_EjaB:18:9: Warning: Assertion violation happens here
         assert(s2ref.x == b);
         ^------------------^
   for:
@@ -146,9 +146,9 @@ smt_checker_input_dpMo:18:9: Warning: Assertion violation happens here
   b = 1
 
 Callstack: 
-smt_checker_input_dpMo:23:9: 
+smt_checker_input_EjaB:23:9: 
         test(0, 1);
         ^--------^
 
-0.04user 0.01system 0:00.06elapsed 98%CPU (0avgtext+0avgdata 43724maxresident)k
-0inputs+0outputs (0major+3040minor)pagefaults 0swaps
+0.06user 0.21system 0:00.27elapsed 99%CPU (0avgtext+0avgdata 43344maxresident)k
+0inputs+0outputs (0major+3032minor)pagefaults 0swaps

@@ -5,5 +5,5 @@ AssignArrayFixedSizeMultiM2M::truffleMain: OK
 AssignArrayFixedSizeMultiM2M::[implicit_constructor]: OK
 Errors were found by the verifier.
 Command exited with non-zero status 251
-0.65user 0.30system 0:00.93elapsed 103%CPU (0avgtext+0avgdata 42368maxresident)k
-0inputs+24outputs (0major+16987minor)pagefaults 0swaps
+0.70user 0.65system 0:01.33elapsed 101%CPU (0avgtext+0avgdata 42576maxresident)k
+0inputs+24outputs (0major+16959minor)pagefaults 0swaps

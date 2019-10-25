@@ -4,5 +4,5 @@ AssignTupleStructSS2SS::truffleMain: OK
 AssignTupleStructSS2SS::[implicit_constructor]: OK
 Use --show-warnings to see 1 warning.
 No errors found.
-0.69user 0.23system 0:00.90elapsed 103%CPU (0avgtext+0avgdata 41756maxresident)k
-0inputs+16outputs (0major+16407minor)pagefaults 0swaps
+0.66user 0.71system 0:01.35elapsed 102%CPU (0avgtext+0avgdata 41772maxresident)k
+0inputs+16outputs (0major+16603minor)pagefaults 0swaps

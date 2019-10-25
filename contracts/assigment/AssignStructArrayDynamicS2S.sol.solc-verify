@@ -3,5 +3,5 @@ AssignStructArrayDynamicS2S::storToStor: OK
 AssignStructArrayDynamicS2S::truffleMain: OK
 AssignStructArrayDynamicS2S::[implicit_constructor]: OK
 No errors found.
-0.64user 0.29system 0:00.90elapsed 103%CPU (0avgtext+0avgdata 42648maxresident)k
-0inputs+24outputs (0major+16473minor)pagefaults 0swaps
+0.62user 0.68system 0:01.29elapsed 101%CPU (0avgtext+0avgdata 42708maxresident)k
+0inputs+24outputs (0major+16974minor)pagefaults 0swaps

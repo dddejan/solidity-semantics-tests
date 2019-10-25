@@ -7,5 +7,5 @@ SpecFilesDir = /solc-verify-examples/contracts/assigment
 	*** Did not find a proof (see boogie.txt)
 ... running /root/.dotnet/tools/corral /recursionBound:4 /k:1 /main:CorralEntry_AssignArrayDynamicStructL2L /tryCTrace /printDataValues:1 __SolToBoogieTest_out.bpl
 	*** Formal Verification successful upto 4 transactions (see corral.txt)
-2.79user 0.51system 0:03.26elapsed 101%CPU (0avgtext+0avgdata 55652maxresident)k
-0inputs+48outputs (0major+132626minor)pagefaults 0swaps
+2.85user 0.86system 0:03.57elapsed 104%CPU (0avgtext+0avgdata 55872maxresident)k
+0inputs+48outputs (0major+132369minor)pagefaults 0swaps

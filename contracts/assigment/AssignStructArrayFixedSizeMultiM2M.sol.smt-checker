@@ -1,108 +1,108 @@
 Running contracts/assigment/AssignStructArrayFixedSizeMultiM2M.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_1f4j:11:9: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_RSaW:11:9: Warning: Assertion checker does not yet support the type of this variable.
         S memory sm1;
         ^----------^
-smt_checker_input_1f4j:13:9: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_RSaW:13:9: Warning: Assertion checker does not yet support the type of this variable.
         S memory sm2;
         ^----------^
-smt_checker_input_1f4j:12:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_RSaW:12:9: Warning: Assertion checker does not yet support this expression.
         sm1.x[2][1] = a;
         ^---^
-smt_checker_input_1f4j:12:9: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
+smt_checker_input_RSaW:12:9: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
         sm1.x[2][1] = a;
         ^-^
-smt_checker_input_1f4j:12:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_RSaW:12:9: Warning: Assertion checker does not yet implement this expression.
         sm1.x[2][1] = a;
         ^------^
-smt_checker_input_1f4j:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_RSaW:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         sm1.x[2][1] = a;
         ^---------^
-smt_checker_input_1f4j:14:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_RSaW:14:9: Warning: Assertion checker does not yet support this expression.
         sm2.x[2][1] = b;
         ^---^
-smt_checker_input_1f4j:14:9: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
+smt_checker_input_RSaW:14:9: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
         sm2.x[2][1] = b;
         ^-^
-smt_checker_input_1f4j:14:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_RSaW:14:9: Warning: Assertion checker does not yet implement this expression.
         sm2.x[2][1] = b;
         ^------^
-smt_checker_input_1f4j:14:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_RSaW:14:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         sm2.x[2][1] = b;
         ^---------^
-smt_checker_input_1f4j:15:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_RSaW:15:16: Warning: Assertion checker does not yet support this expression.
         assert(sm1.x[2][1] == a);
                ^---^
-smt_checker_input_1f4j:15:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
+smt_checker_input_RSaW:15:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
         assert(sm1.x[2][1] == a);
                ^-^
-smt_checker_input_1f4j:15:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_RSaW:15:16: Warning: Assertion checker does not yet implement this expression.
         assert(sm1.x[2][1] == a);
                ^------^
-smt_checker_input_1f4j:16:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_RSaW:16:16: Warning: Assertion checker does not yet support this expression.
         assert(sm2.x[2][1] == b);
                ^---^
-smt_checker_input_1f4j:16:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
+smt_checker_input_RSaW:16:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
         assert(sm2.x[2][1] == b);
                ^-^
-smt_checker_input_1f4j:16:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_RSaW:16:16: Warning: Assertion checker does not yet implement this expression.
         assert(sm2.x[2][1] == b);
                ^------^
-smt_checker_input_1f4j:18:15: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
+smt_checker_input_RSaW:18:15: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
         sm1 = sm2; // Checking this assignemnt
               ^-^
-smt_checker_input_1f4j:18:9: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
+smt_checker_input_RSaW:18:9: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
         sm1 = sm2; // Checking this assignemnt
         ^-------^
-smt_checker_input_1f4j:19:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_RSaW:19:16: Warning: Assertion checker does not yet support this expression.
         assert(sm1.x[2][1] == b);
                ^---^
-smt_checker_input_1f4j:19:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
+smt_checker_input_RSaW:19:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
         assert(sm1.x[2][1] == b);
                ^-^
-smt_checker_input_1f4j:19:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_RSaW:19:16: Warning: Assertion checker does not yet implement this expression.
         assert(sm1.x[2][1] == b);
                ^------^
-smt_checker_input_1f4j:20:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_RSaW:20:16: Warning: Assertion checker does not yet support this expression.
         assert(sm2.x[2][1] == b);
                ^---^
-smt_checker_input_1f4j:20:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
+smt_checker_input_RSaW:20:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
         assert(sm2.x[2][1] == b);
                ^-^
-smt_checker_input_1f4j:20:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_RSaW:20:16: Warning: Assertion checker does not yet implement this expression.
         assert(sm2.x[2][1] == b);
                ^------^
-smt_checker_input_1f4j:22:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_RSaW:22:9: Warning: Assertion checker does not yet support this expression.
         sm1.x[2][1] = c;
         ^---^
-smt_checker_input_1f4j:22:9: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
+smt_checker_input_RSaW:22:9: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
         sm1.x[2][1] = c;
         ^-^
-smt_checker_input_1f4j:22:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_RSaW:22:9: Warning: Assertion checker does not yet implement this expression.
         sm1.x[2][1] = c;
         ^------^
-smt_checker_input_1f4j:22:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_RSaW:22:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         sm1.x[2][1] = c;
         ^---------^
-smt_checker_input_1f4j:23:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_RSaW:23:16: Warning: Assertion checker does not yet support this expression.
         assert(sm1.x[2][1] == c);
                ^---^
-smt_checker_input_1f4j:23:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
+smt_checker_input_RSaW:23:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
         assert(sm1.x[2][1] == c);
                ^-^
-smt_checker_input_1f4j:23:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_RSaW:23:16: Warning: Assertion checker does not yet implement this expression.
         assert(sm1.x[2][1] == c);
                ^------^
-smt_checker_input_1f4j:24:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_RSaW:24:16: Warning: Assertion checker does not yet support this expression.
         assert(sm2.x[2][1] == c);
                ^---^
-smt_checker_input_1f4j:24:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
+smt_checker_input_RSaW:24:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
         assert(sm2.x[2][1] == c);
                ^-^
-smt_checker_input_1f4j:24:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_RSaW:24:16: Warning: Assertion checker does not yet implement this expression.
         assert(sm2.x[2][1] == c);
                ^------^
-smt_checker_input_1f4j:15:9: Warning: Assertion violation happens here
+smt_checker_input_RSaW:15:9: Warning: Assertion violation happens here
         assert(sm1.x[2][1] == a);
         ^----------------------^
   for:
@@ -114,7 +114,7 @@ smt_checker_input_1f4j:15:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_1f4j:16:9: Warning: Assertion violation happens here
+smt_checker_input_RSaW:16:9: Warning: Assertion violation happens here
         assert(sm2.x[2][1] == b);
         ^----------------------^
   for:
@@ -126,7 +126,7 @@ smt_checker_input_1f4j:16:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_1f4j:19:9: Warning: Assertion violation happens here
+smt_checker_input_RSaW:19:9: Warning: Assertion violation happens here
         assert(sm1.x[2][1] == b);
         ^----------------------^
   for:
@@ -138,7 +138,7 @@ smt_checker_input_1f4j:19:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_1f4j:20:9: Warning: Assertion violation happens here
+smt_checker_input_RSaW:20:9: Warning: Assertion violation happens here
         assert(sm2.x[2][1] == b);
         ^----------------------^
   for:
@@ -150,7 +150,7 @@ smt_checker_input_1f4j:20:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_1f4j:23:9: Warning: Assertion violation happens here
+smt_checker_input_RSaW:23:9: Warning: Assertion violation happens here
         assert(sm1.x[2][1] == c);
         ^----------------------^
   for:
@@ -162,7 +162,7 @@ smt_checker_input_1f4j:23:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_1f4j:24:9: Warning: Assertion violation happens here
+smt_checker_input_RSaW:24:9: Warning: Assertion violation happens here
         assert(sm2.x[2][1] == c);
         ^----------------------^
   for:
@@ -174,103 +174,103 @@ smt_checker_input_1f4j:24:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_1f4j:12:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_RSaW:12:9: Warning: Assertion checker does not yet support this expression.
         sm1.x[2][1] = a;
         ^---^
-smt_checker_input_1f4j:12:9: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
+smt_checker_input_RSaW:12:9: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
         sm1.x[2][1] = a;
         ^-^
-smt_checker_input_1f4j:12:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_RSaW:12:9: Warning: Assertion checker does not yet implement this expression.
         sm1.x[2][1] = a;
         ^------^
-smt_checker_input_1f4j:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_RSaW:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         sm1.x[2][1] = a;
         ^---------^
-smt_checker_input_1f4j:14:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_RSaW:14:9: Warning: Assertion checker does not yet support this expression.
         sm2.x[2][1] = b;
         ^---^
-smt_checker_input_1f4j:14:9: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
+smt_checker_input_RSaW:14:9: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
         sm2.x[2][1] = b;
         ^-^
-smt_checker_input_1f4j:14:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_RSaW:14:9: Warning: Assertion checker does not yet implement this expression.
         sm2.x[2][1] = b;
         ^------^
-smt_checker_input_1f4j:14:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_RSaW:14:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         sm2.x[2][1] = b;
         ^---------^
-smt_checker_input_1f4j:15:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_RSaW:15:16: Warning: Assertion checker does not yet support this expression.
         assert(sm1.x[2][1] == a);
                ^---^
-smt_checker_input_1f4j:15:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
+smt_checker_input_RSaW:15:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
         assert(sm1.x[2][1] == a);
                ^-^
-smt_checker_input_1f4j:15:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_RSaW:15:16: Warning: Assertion checker does not yet implement this expression.
         assert(sm1.x[2][1] == a);
                ^------^
-smt_checker_input_1f4j:16:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_RSaW:16:16: Warning: Assertion checker does not yet support this expression.
         assert(sm2.x[2][1] == b);
                ^---^
-smt_checker_input_1f4j:16:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
+smt_checker_input_RSaW:16:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
         assert(sm2.x[2][1] == b);
                ^-^
-smt_checker_input_1f4j:16:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_RSaW:16:16: Warning: Assertion checker does not yet implement this expression.
         assert(sm2.x[2][1] == b);
                ^------^
-smt_checker_input_1f4j:18:15: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
+smt_checker_input_RSaW:18:15: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
         sm1 = sm2; // Checking this assignemnt
               ^-^
-smt_checker_input_1f4j:18:9: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
+smt_checker_input_RSaW:18:9: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
         sm1 = sm2; // Checking this assignemnt
         ^-------^
-smt_checker_input_1f4j:19:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_RSaW:19:16: Warning: Assertion checker does not yet support this expression.
         assert(sm1.x[2][1] == b);
                ^---^
-smt_checker_input_1f4j:19:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
+smt_checker_input_RSaW:19:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
         assert(sm1.x[2][1] == b);
                ^-^
-smt_checker_input_1f4j:19:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_RSaW:19:16: Warning: Assertion checker does not yet implement this expression.
         assert(sm1.x[2][1] == b);
                ^------^
-smt_checker_input_1f4j:20:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_RSaW:20:16: Warning: Assertion checker does not yet support this expression.
         assert(sm2.x[2][1] == b);
                ^---^
-smt_checker_input_1f4j:20:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
+smt_checker_input_RSaW:20:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
         assert(sm2.x[2][1] == b);
                ^-^
-smt_checker_input_1f4j:20:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_RSaW:20:16: Warning: Assertion checker does not yet implement this expression.
         assert(sm2.x[2][1] == b);
                ^------^
-smt_checker_input_1f4j:22:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_RSaW:22:9: Warning: Assertion checker does not yet support this expression.
         sm1.x[2][1] = c;
         ^---^
-smt_checker_input_1f4j:22:9: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
+smt_checker_input_RSaW:22:9: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
         sm1.x[2][1] = c;
         ^-^
-smt_checker_input_1f4j:22:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_RSaW:22:9: Warning: Assertion checker does not yet implement this expression.
         sm1.x[2][1] = c;
         ^------^
-smt_checker_input_1f4j:22:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_RSaW:22:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         sm1.x[2][1] = c;
         ^---------^
-smt_checker_input_1f4j:23:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_RSaW:23:16: Warning: Assertion checker does not yet support this expression.
         assert(sm1.x[2][1] == c);
                ^---^
-smt_checker_input_1f4j:23:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
+smt_checker_input_RSaW:23:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
         assert(sm1.x[2][1] == c);
                ^-^
-smt_checker_input_1f4j:23:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_RSaW:23:16: Warning: Assertion checker does not yet implement this expression.
         assert(sm1.x[2][1] == c);
                ^------^
-smt_checker_input_1f4j:24:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_RSaW:24:16: Warning: Assertion checker does not yet support this expression.
         assert(sm2.x[2][1] == c);
                ^---^
-smt_checker_input_1f4j:24:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
+smt_checker_input_RSaW:24:16: Warning: Assertion checker does not yet implement type struct AssignStructArrayFixedSizeMultiM2M.S memory
         assert(sm2.x[2][1] == c);
                ^-^
-smt_checker_input_1f4j:24:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_RSaW:24:16: Warning: Assertion checker does not yet implement this expression.
         assert(sm2.x[2][1] == c);
                ^------^
-smt_checker_input_1f4j:15:9: Warning: Assertion violation happens here
+smt_checker_input_RSaW:15:9: Warning: Assertion violation happens here
         assert(sm1.x[2][1] == a);
         ^----------------------^
   for:
@@ -281,11 +281,11 @@ smt_checker_input_1f4j:15:9: Warning: Assertion violation happens here
   sm2.x[2][1] = 0
 
 Callstack: 
-smt_checker_input_1f4j:29:9: 
+smt_checker_input_RSaW:29:9: 
         memToMem(0, 1, 2);
         ^---------------^
 
-smt_checker_input_1f4j:16:9: Warning: Assertion violation happens here
+smt_checker_input_RSaW:16:9: Warning: Assertion violation happens here
         assert(sm2.x[2][1] == b);
         ^----------------------^
   for:
@@ -296,11 +296,11 @@ smt_checker_input_1f4j:16:9: Warning: Assertion violation happens here
   sm2.x[2][1] = 2
 
 Callstack: 
-smt_checker_input_1f4j:29:9: 
+smt_checker_input_RSaW:29:9: 
         memToMem(0, 1, 2);
         ^---------------^
 
-smt_checker_input_1f4j:19:9: Warning: Assertion violation happens here
+smt_checker_input_RSaW:19:9: Warning: Assertion violation happens here
         assert(sm1.x[2][1] == b);
         ^----------------------^
   for:
@@ -311,11 +311,11 @@ smt_checker_input_1f4j:19:9: Warning: Assertion violation happens here
   sm2.x[2][1] = 1
 
 Callstack: 
-smt_checker_input_1f4j:29:9: 
+smt_checker_input_RSaW:29:9: 
         memToMem(0, 1, 2);
         ^---------------^
 
-smt_checker_input_1f4j:20:9: Warning: Assertion violation happens here
+smt_checker_input_RSaW:20:9: Warning: Assertion violation happens here
         assert(sm2.x[2][1] == b);
         ^----------------------^
   for:
@@ -326,11 +326,11 @@ smt_checker_input_1f4j:20:9: Warning: Assertion violation happens here
   sm2.x[2][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564810243)
 
 Callstack: 
-smt_checker_input_1f4j:29:9: 
+smt_checker_input_RSaW:29:9: 
         memToMem(0, 1, 2);
         ^---------------^
 
-smt_checker_input_1f4j:23:9: Warning: Assertion violation happens here
+smt_checker_input_RSaW:23:9: Warning: Assertion violation happens here
         assert(sm1.x[2][1] == c);
         ^----------------------^
   for:
@@ -341,11 +341,11 @@ smt_checker_input_1f4j:23:9: Warning: Assertion violation happens here
   sm2.x[2][1] = 1
 
 Callstack: 
-smt_checker_input_1f4j:29:9: 
+smt_checker_input_RSaW:29:9: 
         memToMem(0, 1, 2);
         ^---------------^
 
-smt_checker_input_1f4j:24:9: Warning: Assertion violation happens here
+smt_checker_input_RSaW:24:9: Warning: Assertion violation happens here
         assert(sm2.x[2][1] == c);
         ^----------------------^
   for:
@@ -356,9 +356,9 @@ smt_checker_input_1f4j:24:9: Warning: Assertion violation happens here
   sm2.x[2][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818733)
 
 Callstack: 
-smt_checker_input_1f4j:29:9: 
+smt_checker_input_RSaW:29:9: 
         memToMem(0, 1, 2);
         ^---------------^
 
-0.15user 0.05system 0:00.20elapsed 99%CPU (0avgtext+0avgdata 48712maxresident)k
-0inputs+0outputs (0major+4187minor)pagefaults 0swaps
+0.17user 0.25system 0:00.42elapsed 99%CPU (0avgtext+0avgdata 48768maxresident)k
+0inputs+0outputs (0major+4227minor)pagefaults 0swaps

@@ -1,11 +1,11 @@
 Running contracts/storageptr/MappingStorageArgumentNoAliasSubStruct.sol
+Command exited with non-zero status 252
+0.32user 0.59system 0:00.91elapsed 100%CPU (0avgtext+0avgdata 32792maxresident)k
+0inputs+24outputs (0major+10238minor)pagefaults 0swaps
 Error while running verifier, details:
 [TRACE] Using prover: /usr/local/bin/z3
-Parsing /tmp/tmp3w71bnch/MappingStorageArgumentNoAliasSubStruct.sol.bpl
-/tmp/tmp3w71bnch/MappingStorageArgumentNoAliasSubStruct.sol.bpl(36,10): Error: command assigns to an immutable variable: s1ref#16
-/tmp/tmp3w71bnch/MappingStorageArgumentNoAliasSubStruct.sol.bpl(37,10): Error: command assigns to an immutable variable: s2ref#20
-2 type checking errors detected in /tmp/tmp3w71bnch/MappingStorageArgumentNoAliasSubStruct.sol.bpl
+Parsing /tmp/tmp08xltho0/MappingStorageArgumentNoAliasSubStruct.sol.bpl
+/tmp/tmp08xltho0/MappingStorageArgumentNoAliasSubStruct.sol.bpl(36,10): Error: command assigns to an immutable variable: s1ref#16
+/tmp/tmp08xltho0/MappingStorageArgumentNoAliasSubStruct.sol.bpl(37,10): Error: command assigns to an immutable variable: s2ref#20
+2 type checking errors detected in /tmp/tmp08xltho0/MappingStorageArgumentNoAliasSubStruct.sol.bpl
 
-Command exited with non-zero status 252
-0.31user 0.14system 0:00.46elapsed 100%CPU (0avgtext+0avgdata 32692maxresident)k
-0inputs+16outputs (0major+10211minor)pagefaults 0swaps

@@ -1,15 +1,15 @@
 Running contracts/delete/DeleteMemoryArrayDynamicMulti.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_spKf:7:28: Warning: Assertion checker does not yet implement this type of function call.
+smt_checker_input_Z6GI:7:28: Warning: Assertion checker does not yet implement this type of function call.
         int[][] memory a = new int[][](n);
                            ^------------^
-smt_checker_input_spKf:8:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_Z6GI:8:16: Warning: Assertion checker does not yet support this expression.
         assert(a.length == n);
                ^------^
-smt_checker_input_spKf:10:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_Z6GI:10:16: Warning: Assertion checker does not yet support this expression.
         assert(a.length == 0);
                ^------^
-smt_checker_input_spKf:8:9: Warning: Assertion violation happens here
+smt_checker_input_Z6GI:8:9: Warning: Assertion violation happens here
         assert(a.length == n);
         ^-------------------^
   for:
@@ -17,7 +17,7 @@ smt_checker_input_spKf:8:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_spKf:10:9: Warning: Assertion violation happens here
+smt_checker_input_Z6GI:10:9: Warning: Assertion violation happens here
         assert(a.length == 0);
         ^-------------------^
   for:
@@ -25,36 +25,36 @@ smt_checker_input_spKf:10:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_spKf:7:28: Warning: Assertion checker does not yet implement this type of function call.
+smt_checker_input_Z6GI:7:28: Warning: Assertion checker does not yet implement this type of function call.
         int[][] memory a = new int[][](n);
                            ^------------^
-smt_checker_input_spKf:8:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_Z6GI:8:16: Warning: Assertion checker does not yet support this expression.
         assert(a.length == n);
                ^------^
-smt_checker_input_spKf:10:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_Z6GI:10:16: Warning: Assertion checker does not yet support this expression.
         assert(a.length == 0);
                ^------^
-smt_checker_input_spKf:8:9: Warning: Assertion violation happens here
+smt_checker_input_Z6GI:8:9: Warning: Assertion violation happens here
         assert(a.length == n);
         ^-------------------^
   for:
   n = 100
 
 Callstack: 
-smt_checker_input_spKf:14:9: 
+smt_checker_input_Z6GI:14:9: 
         test(100);
         ^-------^
 
-smt_checker_input_spKf:10:9: Warning: Assertion violation happens here
+smt_checker_input_Z6GI:10:9: Warning: Assertion violation happens here
         assert(a.length == 0);
         ^-------------------^
   for:
   n = 100
 
 Callstack: 
-smt_checker_input_spKf:14:9: 
+smt_checker_input_Z6GI:14:9: 
         test(100);
         ^-------^
 
-0.04user 0.00system 0:00.05elapsed 100%CPU (0avgtext+0avgdata 41020maxresident)k
+0.04user 0.22system 0:00.26elapsed 100%CPU (0avgtext+0avgdata 41000maxresident)k
 0inputs+0outputs (0major+2517minor)pagefaults 0swaps

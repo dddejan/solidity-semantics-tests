@@ -1,42 +1,42 @@
 Running contracts/storageptr/StructStoragePointerArrayPop.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_ha3D:12:9: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_t3Ic:12:9: Warning: Assertion checker does not yet support the type of this variable.
         S storage s = sa[sa.length-1];
         ^---------^
-smt_checker_input_ha3D:11:17: Warning: Assertion checker does not yet implement type struct StructStoragePointerArrayPop.S memory
+smt_checker_input_t3Ic:11:17: Warning: Assertion checker does not yet implement type struct StructStoragePointerArrayPop.S memory
         sa.push(S(a));
                 ^--^
-smt_checker_input_ha3D:11:17: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_t3Ic:11:17: Warning: Assertion checker does not yet implement this expression.
         sa.push(S(a));
                 ^--^
-smt_checker_input_ha3D:11:9: Warning: Assertion checker does not yet implement this type of function call.
+smt_checker_input_t3Ic:11:9: Warning: Assertion checker does not yet implement this type of function call.
         sa.push(S(a));
         ^-----------^
-smt_checker_input_ha3D:12:26: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_t3Ic:12:26: Warning: Assertion checker does not yet support this expression.
         S storage s = sa[sa.length-1];
                          ^-------^
-smt_checker_input_ha3D:12:23: Warning: Assertion checker does not yet implement type struct StructStoragePointerArrayPop.S storage ref
+smt_checker_input_t3Ic:12:23: Warning: Assertion checker does not yet implement type struct StructStoragePointerArrayPop.S storage ref
         S storage s = sa[sa.length-1];
                       ^-------------^
-smt_checker_input_ha3D:13:9: Warning: Assertion checker does not yet implement this type of function call.
+smt_checker_input_t3Ic:13:9: Warning: Assertion checker does not yet implement this type of function call.
         sa.pop();
         ^------^
-smt_checker_input_ha3D:14:17: Warning: Assertion checker does not yet implement type struct StructStoragePointerArrayPop.S memory
+smt_checker_input_t3Ic:14:17: Warning: Assertion checker does not yet implement type struct StructStoragePointerArrayPop.S memory
         sa.push(S(b));
                 ^--^
-smt_checker_input_ha3D:14:17: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_t3Ic:14:17: Warning: Assertion checker does not yet implement this expression.
         sa.push(S(b));
                 ^--^
-smt_checker_input_ha3D:14:9: Warning: Assertion checker does not yet implement this type of function call.
+smt_checker_input_t3Ic:14:9: Warning: Assertion checker does not yet implement this type of function call.
         sa.push(S(b));
         ^-----------^
-smt_checker_input_ha3D:15:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_t3Ic:15:16: Warning: Assertion checker does not yet support this expression.
         assert(s.x == b);
                ^-^
-smt_checker_input_ha3D:15:16: Warning: Assertion checker does not yet implement type struct StructStoragePointerArrayPop.S storage pointer
+smt_checker_input_t3Ic:15:16: Warning: Assertion checker does not yet implement type struct StructStoragePointerArrayPop.S storage pointer
         assert(s.x == b);
                ^
-smt_checker_input_ha3D:12:26: Warning: Underflow (resulting value less than 0) happens here
+smt_checker_input_t3Ic:12:26: Warning: Underflow (resulting value less than 0) happens here
         S storage s = sa[sa.length-1];
                          ^---------^
   for:
@@ -46,7 +46,7 @@ smt_checker_input_ha3D:12:26: Warning: Underflow (resulting value less than 0) h
 
 Callstack: 
 
-smt_checker_input_ha3D:12:26: Warning: Overflow (resulting value larger than 2**256 - 1) happens here
+smt_checker_input_t3Ic:12:26: Warning: Overflow (resulting value larger than 2**256 - 1) happens here
         S storage s = sa[sa.length-1];
                          ^---------^
   for:
@@ -56,7 +56,7 @@ smt_checker_input_ha3D:12:26: Warning: Overflow (resulting value larger than 2**
 
 Callstack: 
 
-smt_checker_input_ha3D:15:9: Warning: Assertion violation happens here
+smt_checker_input_t3Ic:15:9: Warning: Assertion violation happens here
         assert(s.x == b);
         ^--------------^
   for:
@@ -65,40 +65,40 @@ smt_checker_input_ha3D:15:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_ha3D:11:17: Warning: Assertion checker does not yet implement type struct StructStoragePointerArrayPop.S memory
+smt_checker_input_t3Ic:11:17: Warning: Assertion checker does not yet implement type struct StructStoragePointerArrayPop.S memory
         sa.push(S(a));
                 ^--^
-smt_checker_input_ha3D:11:17: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_t3Ic:11:17: Warning: Assertion checker does not yet implement this expression.
         sa.push(S(a));
                 ^--^
-smt_checker_input_ha3D:11:9: Warning: Assertion checker does not yet implement this type of function call.
+smt_checker_input_t3Ic:11:9: Warning: Assertion checker does not yet implement this type of function call.
         sa.push(S(a));
         ^-----------^
-smt_checker_input_ha3D:12:26: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_t3Ic:12:26: Warning: Assertion checker does not yet support this expression.
         S storage s = sa[sa.length-1];
                          ^-------^
-smt_checker_input_ha3D:12:23: Warning: Assertion checker does not yet implement type struct StructStoragePointerArrayPop.S storage ref
+smt_checker_input_t3Ic:12:23: Warning: Assertion checker does not yet implement type struct StructStoragePointerArrayPop.S storage ref
         S storage s = sa[sa.length-1];
                       ^-------------^
-smt_checker_input_ha3D:13:9: Warning: Assertion checker does not yet implement this type of function call.
+smt_checker_input_t3Ic:13:9: Warning: Assertion checker does not yet implement this type of function call.
         sa.pop();
         ^------^
-smt_checker_input_ha3D:14:17: Warning: Assertion checker does not yet implement type struct StructStoragePointerArrayPop.S memory
+smt_checker_input_t3Ic:14:17: Warning: Assertion checker does not yet implement type struct StructStoragePointerArrayPop.S memory
         sa.push(S(b));
                 ^--^
-smt_checker_input_ha3D:14:17: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_t3Ic:14:17: Warning: Assertion checker does not yet implement this expression.
         sa.push(S(b));
                 ^--^
-smt_checker_input_ha3D:14:9: Warning: Assertion checker does not yet implement this type of function call.
+smt_checker_input_t3Ic:14:9: Warning: Assertion checker does not yet implement this type of function call.
         sa.push(S(b));
         ^-----------^
-smt_checker_input_ha3D:15:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_t3Ic:15:16: Warning: Assertion checker does not yet support this expression.
         assert(s.x == b);
                ^-^
-smt_checker_input_ha3D:15:16: Warning: Assertion checker does not yet implement type struct StructStoragePointerArrayPop.S storage pointer
+smt_checker_input_t3Ic:15:16: Warning: Assertion checker does not yet implement type struct StructStoragePointerArrayPop.S storage pointer
         assert(s.x == b);
                ^
-smt_checker_input_ha3D:12:26: Warning: Underflow (resulting value less than 0) happens here
+smt_checker_input_t3Ic:12:26: Warning: Underflow (resulting value less than 0) happens here
         S storage s = sa[sa.length-1];
                          ^---------^
   for:
@@ -107,11 +107,11 @@ smt_checker_input_ha3D:12:26: Warning: Underflow (resulting value less than 0) h
   b = 1
 
 Callstack: 
-smt_checker_input_ha3D:20:9: 
+smt_checker_input_t3Ic:20:9: 
         test(0, 1);
         ^--------^
 
-smt_checker_input_ha3D:12:26: Warning: Overflow (resulting value larger than 2**256 - 1) happens here
+smt_checker_input_t3Ic:12:26: Warning: Overflow (resulting value larger than 2**256 - 1) happens here
         S storage s = sa[sa.length-1];
                          ^---------^
   for:
@@ -120,11 +120,11 @@ smt_checker_input_ha3D:12:26: Warning: Overflow (resulting value larger than 2**
   b = 1
 
 Callstack: 
-smt_checker_input_ha3D:20:9: 
+smt_checker_input_t3Ic:20:9: 
         test(0, 1);
         ^--------^
 
-smt_checker_input_ha3D:15:9: Warning: Assertion violation happens here
+smt_checker_input_t3Ic:15:9: Warning: Assertion violation happens here
         assert(s.x == b);
         ^--------------^
   for:
@@ -132,9 +132,9 @@ smt_checker_input_ha3D:15:9: Warning: Assertion violation happens here
   b = 1
 
 Callstack: 
-smt_checker_input_ha3D:20:9: 
+smt_checker_input_t3Ic:20:9: 
         test(0, 1);
         ^--------^
 
-0.04user 0.02system 0:00.06elapsed 98%CPU (0avgtext+0avgdata 42292maxresident)k
-0inputs+0outputs (0major+2573minor)pagefaults 0swaps
+0.05user 0.21system 0:00.27elapsed 100%CPU (0avgtext+0avgdata 42696maxresident)k
+0inputs+0outputs (0major+2575minor)pagefaults 0swaps

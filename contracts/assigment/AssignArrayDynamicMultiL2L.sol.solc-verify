@@ -3,5 +3,5 @@ AssignArrayDynamicMultiL2L::locToLoc: OK
 AssignArrayDynamicMultiL2L::truffleMain: OK
 AssignArrayDynamicMultiL2L::[implicit_constructor]: OK
 No errors found.
-0.65user 0.31system 0:00.94elapsed 102%CPU (0avgtext+0avgdata 43820maxresident)k
-0inputs+32outputs (0major+17349minor)pagefaults 0swaps
+0.70user 0.70system 0:01.39elapsed 101%CPU (0avgtext+0avgdata 43808maxresident)k
+0inputs+32outputs (0major+17054minor)pagefaults 0swaps

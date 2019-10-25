@@ -20,6 +20,7 @@ contract MappingStructStorageArgumentAliasSubArrayFixedSize {
 
     // Boilerplate to run with truffle
     function truffleMain() external {
+        s[0][msg.sender].x = -1;
         test(s[1], s[1], 0, 1);
     }
 

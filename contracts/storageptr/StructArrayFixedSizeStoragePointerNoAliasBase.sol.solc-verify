@@ -1,7 +1,7 @@
 Running contracts/storageptr/StructArrayFixedSizeStoragePointerNoAliasBase.sol
+0.73user 0.66system 0:01.37elapsed 101%CPU (0avgtext+0avgdata 42100maxresident)k
+0inputs+24outputs (0major+16479minor)pagefaults 0swaps
 StructArrayFixedSizeStoragePointerNoAliasBase::test: OK
 StructArrayFixedSizeStoragePointerNoAliasBase::truffleMain: OK
 StructArrayFixedSizeStoragePointerNoAliasBase::[implicit_constructor]: OK
 No errors found.
-0.64user 0.26system 0:00.89elapsed 101%CPU (0avgtext+0avgdata 41912maxresident)k
-0inputs+24outputs (0major+16552minor)pagefaults 0swaps

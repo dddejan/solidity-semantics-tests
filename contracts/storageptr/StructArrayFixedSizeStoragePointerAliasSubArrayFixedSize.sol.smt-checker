@@ -1,63 +1,63 @@
 Running contracts/storageptr/StructArrayFixedSizeStoragePointerAliasSubArrayFixedSize.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_uB7D:8:5: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_TVAP:8:5: Warning: Assertion checker does not yet support the type of this variable.
     S s1;
     ^--^
-smt_checker_input_uB7D:15:9: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_TVAP:15:9: Warning: Assertion checker does not yet support the type of this variable.
         S storage s1ref = s2[1];
         ^-------------^
-smt_checker_input_uB7D:16:9: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_TVAP:16:9: Warning: Assertion checker does not yet support the type of this variable.
         S storage s2ref = s2[1];
         ^-------------^
-smt_checker_input_uB7D:13:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_TVAP:13:9: Warning: Assertion checker does not yet support this expression.
         s1.x[1] = a;
         ^--^
-smt_checker_input_uB7D:13:9: Warning: Assertion checker does not yet implement type struct StructArrayFixedSizeStoragePointerAliasSubArrayFixedSize.S storage ref
+smt_checker_input_TVAP:13:9: Warning: Assertion checker does not yet implement type struct StructArrayFixedSizeStoragePointerAliasSubArrayFixedSize.S storage ref
         s1.x[1] = a;
         ^^
-smt_checker_input_uB7D:13:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_TVAP:13:9: Warning: Assertion checker does not yet implement this expression.
         s1.x[1] = a;
         ^-----^
-smt_checker_input_uB7D:13:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_TVAP:13:9: Warning: Assertion checker does not yet implement this expression.
         s1.x[1] = a;
         ^-----^
-smt_checker_input_uB7D:14:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_TVAP:14:9: Warning: Assertion checker does not yet support this expression.
         s2[1].x[1] = b;
         ^-----^
-smt_checker_input_uB7D:14:9: Warning: Assertion checker does not yet implement type struct StructArrayFixedSizeStoragePointerAliasSubArrayFixedSize.S storage ref
+smt_checker_input_TVAP:14:9: Warning: Assertion checker does not yet implement type struct StructArrayFixedSizeStoragePointerAliasSubArrayFixedSize.S storage ref
         s2[1].x[1] = b;
         ^---^
-smt_checker_input_uB7D:14:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_TVAP:14:9: Warning: Assertion checker does not yet implement this expression.
         s2[1].x[1] = b;
         ^--------^
-smt_checker_input_uB7D:14:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_TVAP:14:9: Warning: Assertion checker does not yet implement this expression.
         s2[1].x[1] = b;
         ^--------^
-smt_checker_input_uB7D:15:27: Warning: Assertion checker does not yet implement type struct StructArrayFixedSizeStoragePointerAliasSubArrayFixedSize.S storage ref
+smt_checker_input_TVAP:15:27: Warning: Assertion checker does not yet implement type struct StructArrayFixedSizeStoragePointerAliasSubArrayFixedSize.S storage ref
         S storage s1ref = s2[1];
                           ^---^
-smt_checker_input_uB7D:16:27: Warning: Assertion checker does not yet implement type struct StructArrayFixedSizeStoragePointerAliasSubArrayFixedSize.S storage ref
+smt_checker_input_TVAP:16:27: Warning: Assertion checker does not yet implement type struct StructArrayFixedSizeStoragePointerAliasSubArrayFixedSize.S storage ref
         S storage s2ref = s2[1];
                           ^---^
-smt_checker_input_uB7D:17:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_TVAP:17:16: Warning: Assertion checker does not yet support this expression.
         assert(s1ref.x[1] == b);
                ^-----^
-smt_checker_input_uB7D:17:16: Warning: Assertion checker does not yet implement type struct StructArrayFixedSizeStoragePointerAliasSubArrayFixedSize.S storage pointer
+smt_checker_input_TVAP:17:16: Warning: Assertion checker does not yet implement type struct StructArrayFixedSizeStoragePointerAliasSubArrayFixedSize.S storage pointer
         assert(s1ref.x[1] == b);
                ^---^
-smt_checker_input_uB7D:17:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_TVAP:17:16: Warning: Assertion checker does not yet implement this expression.
         assert(s1ref.x[1] == b);
                ^--------^
-smt_checker_input_uB7D:18:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_TVAP:18:16: Warning: Assertion checker does not yet support this expression.
         assert(s2ref.x[1] == b);
                ^-----^
-smt_checker_input_uB7D:18:16: Warning: Assertion checker does not yet implement type struct StructArrayFixedSizeStoragePointerAliasSubArrayFixedSize.S storage pointer
+smt_checker_input_TVAP:18:16: Warning: Assertion checker does not yet implement type struct StructArrayFixedSizeStoragePointerAliasSubArrayFixedSize.S storage pointer
         assert(s2ref.x[1] == b);
                ^---^
-smt_checker_input_uB7D:18:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_TVAP:18:16: Warning: Assertion checker does not yet implement this expression.
         assert(s2ref.x[1] == b);
                ^--------^
-smt_checker_input_uB7D:17:9: Warning: Assertion violation happens here
+smt_checker_input_TVAP:17:9: Warning: Assertion violation happens here
         assert(s1ref.x[1] == b);
         ^---------------------^
   for:
@@ -66,7 +66,7 @@ smt_checker_input_uB7D:17:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_uB7D:18:9: Warning: Assertion violation happens here
+smt_checker_input_TVAP:18:9: Warning: Assertion violation happens here
         assert(s2ref.x[1] == b);
         ^---------------------^
   for:
@@ -75,55 +75,55 @@ smt_checker_input_uB7D:18:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_uB7D:13:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_TVAP:13:9: Warning: Assertion checker does not yet support this expression.
         s1.x[1] = a;
         ^--^
-smt_checker_input_uB7D:13:9: Warning: Assertion checker does not yet implement type struct StructArrayFixedSizeStoragePointerAliasSubArrayFixedSize.S storage ref
+smt_checker_input_TVAP:13:9: Warning: Assertion checker does not yet implement type struct StructArrayFixedSizeStoragePointerAliasSubArrayFixedSize.S storage ref
         s1.x[1] = a;
         ^^
-smt_checker_input_uB7D:13:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_TVAP:13:9: Warning: Assertion checker does not yet implement this expression.
         s1.x[1] = a;
         ^-----^
-smt_checker_input_uB7D:13:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_TVAP:13:9: Warning: Assertion checker does not yet implement this expression.
         s1.x[1] = a;
         ^-----^
-smt_checker_input_uB7D:14:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_TVAP:14:9: Warning: Assertion checker does not yet support this expression.
         s2[1].x[1] = b;
         ^-----^
-smt_checker_input_uB7D:14:9: Warning: Assertion checker does not yet implement type struct StructArrayFixedSizeStoragePointerAliasSubArrayFixedSize.S storage ref
+smt_checker_input_TVAP:14:9: Warning: Assertion checker does not yet implement type struct StructArrayFixedSizeStoragePointerAliasSubArrayFixedSize.S storage ref
         s2[1].x[1] = b;
         ^---^
-smt_checker_input_uB7D:14:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_TVAP:14:9: Warning: Assertion checker does not yet implement this expression.
         s2[1].x[1] = b;
         ^--------^
-smt_checker_input_uB7D:14:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_TVAP:14:9: Warning: Assertion checker does not yet implement this expression.
         s2[1].x[1] = b;
         ^--------^
-smt_checker_input_uB7D:15:27: Warning: Assertion checker does not yet implement type struct StructArrayFixedSizeStoragePointerAliasSubArrayFixedSize.S storage ref
+smt_checker_input_TVAP:15:27: Warning: Assertion checker does not yet implement type struct StructArrayFixedSizeStoragePointerAliasSubArrayFixedSize.S storage ref
         S storage s1ref = s2[1];
                           ^---^
-smt_checker_input_uB7D:16:27: Warning: Assertion checker does not yet implement type struct StructArrayFixedSizeStoragePointerAliasSubArrayFixedSize.S storage ref
+smt_checker_input_TVAP:16:27: Warning: Assertion checker does not yet implement type struct StructArrayFixedSizeStoragePointerAliasSubArrayFixedSize.S storage ref
         S storage s2ref = s2[1];
                           ^---^
-smt_checker_input_uB7D:17:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_TVAP:17:16: Warning: Assertion checker does not yet support this expression.
         assert(s1ref.x[1] == b);
                ^-----^
-smt_checker_input_uB7D:17:16: Warning: Assertion checker does not yet implement type struct StructArrayFixedSizeStoragePointerAliasSubArrayFixedSize.S storage pointer
+smt_checker_input_TVAP:17:16: Warning: Assertion checker does not yet implement type struct StructArrayFixedSizeStoragePointerAliasSubArrayFixedSize.S storage pointer
         assert(s1ref.x[1] == b);
                ^---^
-smt_checker_input_uB7D:17:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_TVAP:17:16: Warning: Assertion checker does not yet implement this expression.
         assert(s1ref.x[1] == b);
                ^--------^
-smt_checker_input_uB7D:18:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_TVAP:18:16: Warning: Assertion checker does not yet support this expression.
         assert(s2ref.x[1] == b);
                ^-----^
-smt_checker_input_uB7D:18:16: Warning: Assertion checker does not yet implement type struct StructArrayFixedSizeStoragePointerAliasSubArrayFixedSize.S storage pointer
+smt_checker_input_TVAP:18:16: Warning: Assertion checker does not yet implement type struct StructArrayFixedSizeStoragePointerAliasSubArrayFixedSize.S storage pointer
         assert(s2ref.x[1] == b);
                ^---^
-smt_checker_input_uB7D:18:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_TVAP:18:16: Warning: Assertion checker does not yet implement this expression.
         assert(s2ref.x[1] == b);
                ^--------^
-smt_checker_input_uB7D:17:9: Warning: Assertion violation happens here
+smt_checker_input_TVAP:17:9: Warning: Assertion violation happens here
         assert(s1ref.x[1] == b);
         ^---------------------^
   for:
@@ -131,11 +131,11 @@ smt_checker_input_uB7D:17:9: Warning: Assertion violation happens here
   b = 1
 
 Callstack: 
-smt_checker_input_uB7D:23:9: 
+smt_checker_input_TVAP:23:9: 
         test(0, 1);
         ^--------^
 
-smt_checker_input_uB7D:18:9: Warning: Assertion violation happens here
+smt_checker_input_TVAP:18:9: Warning: Assertion violation happens here
         assert(s2ref.x[1] == b);
         ^---------------------^
   for:
@@ -143,9 +143,9 @@ smt_checker_input_uB7D:18:9: Warning: Assertion violation happens here
   b = 1
 
 Callstack: 
-smt_checker_input_uB7D:23:9: 
+smt_checker_input_TVAP:23:9: 
         test(0, 1);
         ^--------^
 
-0.06user 0.01system 0:00.08elapsed 100%CPU (0avgtext+0avgdata 43808maxresident)k
-0inputs+0outputs (0major+3112minor)pagefaults 0swaps
+0.05user 0.23system 0:00.28elapsed 100%CPU (0avgtext+0avgdata 44096maxresident)k
+0inputs+0outputs (0major+3115minor)pagefaults 0swaps

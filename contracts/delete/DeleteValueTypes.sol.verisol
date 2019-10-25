@@ -15,5 +15,5 @@ Warning!!: Only handle delete for scalars and arrays, found address
 
 	See full execution trace inside corral.txt
 Command exited with non-zero status 1
-2.56user 0.49system 0:03.05elapsed 99%CPU (0avgtext+0avgdata 54220maxresident)k
-0inputs+80outputs (0major+139984minor)pagefaults 0swaps
+2.65user 0.94system 0:03.47elapsed 103%CPU (0avgtext+0avgdata 54320maxresident)k
+0inputs+80outputs (0major+139976minor)pagefaults 0swaps

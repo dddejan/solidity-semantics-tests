@@ -5,5 +5,5 @@ AssignStructMappingS2S::truffleMain: OK
 AssignStructMappingS2S::[implicit_constructor]: OK
 Errors were found by the verifier.
 Command exited with non-zero status 251
-0.64user 0.27system 0:00.90elapsed 101%CPU (0avgtext+0avgdata 41896maxresident)k
-0inputs+16outputs (0major+16526minor)pagefaults 0swaps
+0.70user 0.69system 0:01.37elapsed 102%CPU (0avgtext+0avgdata 41868maxresident)k
+0inputs+16outputs (0major+16667minor)pagefaults 0swaps

@@ -1,12 +1,12 @@
 Running contracts/storageptr/MappingLibraryStorageNoAliasSubMapping.sol
 Error while running verifier, details:
 [TRACE] Using prover: /usr/local/bin/z3
-Parsing /tmp/tmpputwke5s/MappingLibraryStorageNoAliasSubMapping.sol.bpl
-/tmp/tmpputwke5s/MappingLibraryStorageNoAliasSubMapping.sol.bpl(22,5): Error: command assigns to an immutable variable: a#5
-/tmp/tmpputwke5s/MappingLibraryStorageNoAliasSubMapping.sol.bpl(23,5): Error: command assigns to an immutable variable: b#9
-/tmp/tmpputwke5s/MappingLibraryStorageNoAliasSubMapping.sol.bpl(24,5): Error: command assigns to an immutable variable: a#5
-3 type checking errors detected in /tmp/tmpputwke5s/MappingLibraryStorageNoAliasSubMapping.sol.bpl
+Parsing /tmp/tmpo8avt6av/MappingLibraryStorageNoAliasSubMapping.sol.bpl
+/tmp/tmpo8avt6av/MappingLibraryStorageNoAliasSubMapping.sol.bpl(22,5): Error: command assigns to an immutable variable: a#5
+/tmp/tmpo8avt6av/MappingLibraryStorageNoAliasSubMapping.sol.bpl(23,5): Error: command assigns to an immutable variable: b#9
+/tmp/tmpo8avt6av/MappingLibraryStorageNoAliasSubMapping.sol.bpl(24,5): Error: command assigns to an immutable variable: a#5
+3 type checking errors detected in /tmp/tmpo8avt6av/MappingLibraryStorageNoAliasSubMapping.sol.bpl
 
 Command exited with non-zero status 252
-0.33user 0.12system 0:00.48elapsed 95%CPU (0avgtext+0avgdata 32944maxresident)k
-0inputs+16outputs (0major+10214minor)pagefaults 0swaps
+0.31user 0.60system 0:00.91elapsed 100%CPU (0avgtext+0avgdata 32976maxresident)k
+0inputs+16outputs (0major+10270minor)pagefaults 0swaps

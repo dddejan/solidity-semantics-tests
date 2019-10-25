@@ -1,63 +1,63 @@
 Running contracts/storageptr/StructMappingStoragePointerAliasSubMapping.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_CdVJ:9:5: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_iMaz:9:5: Warning: Assertion checker does not yet support the type of this variable.
     S s1;
     ^--^
-smt_checker_input_CdVJ:16:9: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_iMaz:16:9: Warning: Assertion checker does not yet support the type of this variable.
         S storage s1ref = s2[msg.sender];
         ^-------------^
-smt_checker_input_CdVJ:17:9: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_iMaz:17:9: Warning: Assertion checker does not yet support the type of this variable.
         S storage s2ref = s2[msg.sender];
         ^-------------^
-smt_checker_input_CdVJ:14:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_iMaz:14:9: Warning: Assertion checker does not yet support this expression.
         s1.x[msg.sender] = a;
         ^--^
-smt_checker_input_CdVJ:14:9: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerAliasSubMapping.S storage ref
+smt_checker_input_iMaz:14:9: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerAliasSubMapping.S storage ref
         s1.x[msg.sender] = a;
         ^^
-smt_checker_input_CdVJ:14:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_iMaz:14:9: Warning: Assertion checker does not yet implement this expression.
         s1.x[msg.sender] = a;
         ^--------------^
-smt_checker_input_CdVJ:14:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_iMaz:14:9: Warning: Assertion checker does not yet implement this expression.
         s1.x[msg.sender] = a;
         ^--------------^
-smt_checker_input_CdVJ:15:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_iMaz:15:9: Warning: Assertion checker does not yet support this expression.
         s2[msg.sender].x[msg.sender] = b;
         ^--------------^
-smt_checker_input_CdVJ:15:9: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerAliasSubMapping.S storage ref
+smt_checker_input_iMaz:15:9: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerAliasSubMapping.S storage ref
         s2[msg.sender].x[msg.sender] = b;
         ^------------^
-smt_checker_input_CdVJ:15:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_iMaz:15:9: Warning: Assertion checker does not yet implement this expression.
         s2[msg.sender].x[msg.sender] = b;
         ^--------------------------^
-smt_checker_input_CdVJ:15:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_iMaz:15:9: Warning: Assertion checker does not yet implement this expression.
         s2[msg.sender].x[msg.sender] = b;
         ^--------------------------^
-smt_checker_input_CdVJ:16:27: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerAliasSubMapping.S storage ref
+smt_checker_input_iMaz:16:27: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerAliasSubMapping.S storage ref
         S storage s1ref = s2[msg.sender];
                           ^------------^
-smt_checker_input_CdVJ:17:27: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerAliasSubMapping.S storage ref
+smt_checker_input_iMaz:17:27: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerAliasSubMapping.S storage ref
         S storage s2ref = s2[msg.sender];
                           ^------------^
-smt_checker_input_CdVJ:18:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_iMaz:18:16: Warning: Assertion checker does not yet support this expression.
         assert(s1ref.x[msg.sender] == b);
                ^-----^
-smt_checker_input_CdVJ:18:16: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerAliasSubMapping.S storage pointer
+smt_checker_input_iMaz:18:16: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerAliasSubMapping.S storage pointer
         assert(s1ref.x[msg.sender] == b);
                ^---^
-smt_checker_input_CdVJ:18:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_iMaz:18:16: Warning: Assertion checker does not yet implement this expression.
         assert(s1ref.x[msg.sender] == b);
                ^-----------------^
-smt_checker_input_CdVJ:19:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_iMaz:19:16: Warning: Assertion checker does not yet support this expression.
         assert(s2ref.x[msg.sender] == b);
                ^-----^
-smt_checker_input_CdVJ:19:16: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerAliasSubMapping.S storage pointer
+smt_checker_input_iMaz:19:16: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerAliasSubMapping.S storage pointer
         assert(s2ref.x[msg.sender] == b);
                ^---^
-smt_checker_input_CdVJ:19:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_iMaz:19:16: Warning: Assertion checker does not yet implement this expression.
         assert(s2ref.x[msg.sender] == b);
                ^-----------------^
-smt_checker_input_CdVJ:18:9: Warning: Assertion violation happens here
+smt_checker_input_iMaz:18:9: Warning: Assertion violation happens here
         assert(s1ref.x[msg.sender] == b);
         ^------------------------------^
   for:
@@ -67,7 +67,7 @@ smt_checker_input_CdVJ:18:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_CdVJ:19:9: Warning: Assertion violation happens here
+smt_checker_input_iMaz:19:9: Warning: Assertion violation happens here
         assert(s2ref.x[msg.sender] == b);
         ^------------------------------^
   for:
@@ -77,55 +77,55 @@ smt_checker_input_CdVJ:19:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_CdVJ:14:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_iMaz:14:9: Warning: Assertion checker does not yet support this expression.
         s1.x[msg.sender] = a;
         ^--^
-smt_checker_input_CdVJ:14:9: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerAliasSubMapping.S storage ref
+smt_checker_input_iMaz:14:9: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerAliasSubMapping.S storage ref
         s1.x[msg.sender] = a;
         ^^
-smt_checker_input_CdVJ:14:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_iMaz:14:9: Warning: Assertion checker does not yet implement this expression.
         s1.x[msg.sender] = a;
         ^--------------^
-smt_checker_input_CdVJ:14:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_iMaz:14:9: Warning: Assertion checker does not yet implement this expression.
         s1.x[msg.sender] = a;
         ^--------------^
-smt_checker_input_CdVJ:15:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_iMaz:15:9: Warning: Assertion checker does not yet support this expression.
         s2[msg.sender].x[msg.sender] = b;
         ^--------------^
-smt_checker_input_CdVJ:15:9: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerAliasSubMapping.S storage ref
+smt_checker_input_iMaz:15:9: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerAliasSubMapping.S storage ref
         s2[msg.sender].x[msg.sender] = b;
         ^------------^
-smt_checker_input_CdVJ:15:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_iMaz:15:9: Warning: Assertion checker does not yet implement this expression.
         s2[msg.sender].x[msg.sender] = b;
         ^--------------------------^
-smt_checker_input_CdVJ:15:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_iMaz:15:9: Warning: Assertion checker does not yet implement this expression.
         s2[msg.sender].x[msg.sender] = b;
         ^--------------------------^
-smt_checker_input_CdVJ:16:27: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerAliasSubMapping.S storage ref
+smt_checker_input_iMaz:16:27: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerAliasSubMapping.S storage ref
         S storage s1ref = s2[msg.sender];
                           ^------------^
-smt_checker_input_CdVJ:17:27: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerAliasSubMapping.S storage ref
+smt_checker_input_iMaz:17:27: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerAliasSubMapping.S storage ref
         S storage s2ref = s2[msg.sender];
                           ^------------^
-smt_checker_input_CdVJ:18:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_iMaz:18:16: Warning: Assertion checker does not yet support this expression.
         assert(s1ref.x[msg.sender] == b);
                ^-----^
-smt_checker_input_CdVJ:18:16: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerAliasSubMapping.S storage pointer
+smt_checker_input_iMaz:18:16: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerAliasSubMapping.S storage pointer
         assert(s1ref.x[msg.sender] == b);
                ^---^
-smt_checker_input_CdVJ:18:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_iMaz:18:16: Warning: Assertion checker does not yet implement this expression.
         assert(s1ref.x[msg.sender] == b);
                ^-----------------^
-smt_checker_input_CdVJ:19:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_iMaz:19:16: Warning: Assertion checker does not yet support this expression.
         assert(s2ref.x[msg.sender] == b);
                ^-----^
-smt_checker_input_CdVJ:19:16: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerAliasSubMapping.S storage pointer
+smt_checker_input_iMaz:19:16: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerAliasSubMapping.S storage pointer
         assert(s2ref.x[msg.sender] == b);
                ^---^
-smt_checker_input_CdVJ:19:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_iMaz:19:16: Warning: Assertion checker does not yet implement this expression.
         assert(s2ref.x[msg.sender] == b);
                ^-----------------^
-smt_checker_input_CdVJ:18:9: Warning: Assertion violation happens here
+smt_checker_input_iMaz:18:9: Warning: Assertion violation happens here
         assert(s1ref.x[msg.sender] == b);
         ^------------------------------^
   for:
@@ -134,11 +134,11 @@ smt_checker_input_CdVJ:18:9: Warning: Assertion violation happens here
   msg.sender = 0
 
 Callstack: 
-smt_checker_input_CdVJ:24:9: 
+smt_checker_input_iMaz:24:9: 
         test(0, 1);
         ^--------^
 
-smt_checker_input_CdVJ:19:9: Warning: Assertion violation happens here
+smt_checker_input_iMaz:19:9: Warning: Assertion violation happens here
         assert(s2ref.x[msg.sender] == b);
         ^------------------------------^
   for:
@@ -147,9 +147,9 @@ smt_checker_input_CdVJ:19:9: Warning: Assertion violation happens here
   msg.sender = 0
 
 Callstack: 
-smt_checker_input_CdVJ:24:9: 
+smt_checker_input_iMaz:24:9: 
         test(0, 1);
         ^--------^
 
-0.06user 0.01system 0:00.07elapsed 98%CPU (0avgtext+0avgdata 43984maxresident)k
-0inputs+0outputs (0major+3123minor)pagefaults 0swaps
+0.06user 0.22system 0:00.28elapsed 99%CPU (0avgtext+0avgdata 44100maxresident)k
+0inputs+0outputs (0major+3125minor)pagefaults 0swaps

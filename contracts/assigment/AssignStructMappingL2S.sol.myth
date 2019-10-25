@@ -1,5 +1,5 @@
 Running contracts/assigment/AssignStructMappingL2S.sol
 The analysis was completed successfully. No issues were detected.
 
-27.53user 8.18system 0:27.21elapsed 131%CPU (0avgtext+0avgdata 129096maxresident)k
-0inputs+24344outputs (0major+46162minor)pagefaults 0swaps
+27.86user 8.30system 0:27.65elapsed 130%CPU (0avgtext+0avgdata 129148maxresident)k
+0inputs+24368outputs (0major+46210minor)pagefaults 0swaps

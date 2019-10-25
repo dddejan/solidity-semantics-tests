@@ -1,15 +1,15 @@
 Running contracts/assigment/AssignArrayFixedSizeMappingS2S.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_8VNU:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_3YH7:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s1[1][msg.sender] = a;
         ^---------------^
-smt_checker_input_8VNU:13:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_3YH7:13:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s2[1][msg.sender] = b;
         ^---------------^
-smt_checker_input_8VNU:21:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_3YH7:21:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s2[1][msg.sender] = c;
         ^---------------^
-smt_checker_input_8VNU:14:9: Warning: Assertion violation happens here
+smt_checker_input_3YH7:14:9: Warning: Assertion violation happens here
         assert(s1[1][msg.sender] == a);
         ^----------------------------^
   for:
@@ -22,7 +22,7 @@ smt_checker_input_8VNU:14:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_8VNU:15:9: Warning: Assertion violation happens here
+smt_checker_input_3YH7:15:9: Warning: Assertion violation happens here
         assert(s2[1][msg.sender] == b);
         ^----------------------------^
   for:
@@ -35,7 +35,7 @@ smt_checker_input_8VNU:15:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_8VNU:18:9: Warning: Assertion violation happens here
+smt_checker_input_3YH7:18:9: Warning: Assertion violation happens here
         assert(s1[1][msg.sender] == a);
         ^----------------------------^
   for:
@@ -48,16 +48,16 @@ smt_checker_input_8VNU:18:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_8VNU:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_3YH7:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s1[1][msg.sender] = a;
         ^---------------^
-smt_checker_input_8VNU:13:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_3YH7:13:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s2[1][msg.sender] = b;
         ^---------------^
-smt_checker_input_8VNU:21:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_3YH7:21:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s2[1][msg.sender] = c;
         ^---------------^
-smt_checker_input_8VNU:14:9: Warning: Assertion violation happens here
+smt_checker_input_3YH7:14:9: Warning: Assertion violation happens here
         assert(s1[1][msg.sender] == a);
         ^----------------------------^
   for:
@@ -69,11 +69,11 @@ smt_checker_input_8VNU:14:9: Warning: Assertion violation happens here
   s2[1][msg.sender] = 0
 
 Callstack: 
-smt_checker_input_8VNU:28:9: 
+smt_checker_input_3YH7:28:9: 
         storToStor(0, 1, 2);
         ^-----------------^
 
-smt_checker_input_8VNU:15:9: Warning: Assertion violation happens here
+smt_checker_input_3YH7:15:9: Warning: Assertion violation happens here
         assert(s2[1][msg.sender] == b);
         ^----------------------------^
   for:
@@ -85,11 +85,11 @@ smt_checker_input_8VNU:15:9: Warning: Assertion violation happens here
   s2[1][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818826)
 
 Callstack: 
-smt_checker_input_8VNU:28:9: 
+smt_checker_input_3YH7:28:9: 
         storToStor(0, 1, 2);
         ^-----------------^
 
-smt_checker_input_8VNU:18:9: Warning: Assertion violation happens here
+smt_checker_input_3YH7:18:9: Warning: Assertion violation happens here
         assert(s1[1][msg.sender] == a);
         ^----------------------------^
   for:
@@ -101,9 +101,9 @@ smt_checker_input_8VNU:18:9: Warning: Assertion violation happens here
   s2[1][msg.sender] = 1
 
 Callstack: 
-smt_checker_input_8VNU:28:9: 
+smt_checker_input_3YH7:28:9: 
         storToStor(0, 1, 2);
         ^-----------------^
 
-0.15user 0.01system 0:00.17elapsed 100%CPU (0avgtext+0avgdata 48288maxresident)k
+0.15user 0.23system 0:00.38elapsed 100%CPU (0avgtext+0avgdata 48548maxresident)k
 0inputs+0outputs (0major+4057minor)pagefaults 0swaps

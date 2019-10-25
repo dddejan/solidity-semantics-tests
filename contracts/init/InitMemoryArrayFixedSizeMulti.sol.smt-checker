@@ -1,73 +1,73 @@
 Running contracts/init/InitMemoryArrayFixedSizeMulti.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_31hl:7:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_Hg9K:7:16: Warning: Assertion checker does not yet support this expression.
         assert(a.length == 3);
                ^------^
-smt_checker_input_31hl:8:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_Hg9K:8:16: Warning: Assertion checker does not yet support this expression.
         assert(a[0].length == 2);
                ^---------^
-smt_checker_input_31hl:9:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_Hg9K:9:16: Warning: Assertion checker does not yet support this expression.
         assert(a[1].length == 2);
                ^---------^
-smt_checker_input_31hl:7:9: Warning: Assertion violation happens here
+smt_checker_input_Hg9K:7:9: Warning: Assertion violation happens here
         assert(a.length == 3);
         ^-------------------^
   for:
 
 Callstack: 
 
-smt_checker_input_31hl:8:9: Warning: Assertion violation happens here
+smt_checker_input_Hg9K:8:9: Warning: Assertion violation happens here
         assert(a[0].length == 2);
         ^----------------------^
   for:
 
 Callstack: 
 
-smt_checker_input_31hl:9:9: Warning: Assertion violation happens here
+smt_checker_input_Hg9K:9:9: Warning: Assertion violation happens here
         assert(a[1].length == 2);
         ^----------------------^
   for:
 
 Callstack: 
 
-smt_checker_input_31hl:7:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_Hg9K:7:16: Warning: Assertion checker does not yet support this expression.
         assert(a.length == 3);
                ^------^
-smt_checker_input_31hl:8:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_Hg9K:8:16: Warning: Assertion checker does not yet support this expression.
         assert(a[0].length == 2);
                ^---------^
-smt_checker_input_31hl:9:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_Hg9K:9:16: Warning: Assertion checker does not yet support this expression.
         assert(a[1].length == 2);
                ^---------^
-smt_checker_input_31hl:7:9: Warning: Assertion violation happens here
+smt_checker_input_Hg9K:7:9: Warning: Assertion violation happens here
         assert(a.length == 3);
         ^-------------------^
   for:
 
 Callstack: 
-smt_checker_input_31hl:19:9: 
+smt_checker_input_Hg9K:19:9: 
         test();
         ^----^
 
-smt_checker_input_31hl:8:9: Warning: Assertion violation happens here
+smt_checker_input_Hg9K:8:9: Warning: Assertion violation happens here
         assert(a[0].length == 2);
         ^----------------------^
   for:
 
 Callstack: 
-smt_checker_input_31hl:19:9: 
+smt_checker_input_Hg9K:19:9: 
         test();
         ^----^
 
-smt_checker_input_31hl:9:9: Warning: Assertion violation happens here
+smt_checker_input_Hg9K:9:9: Warning: Assertion violation happens here
         assert(a[1].length == 2);
         ^----------------------^
   for:
 
 Callstack: 
-smt_checker_input_31hl:19:9: 
+smt_checker_input_Hg9K:19:9: 
         test();
         ^----^
 
-0.08user 0.00system 0:00.09elapsed 98%CPU (0avgtext+0avgdata 43156maxresident)k
-0inputs+0outputs (0major+2964minor)pagefaults 0swaps
+0.08user 0.22system 0:00.30elapsed 100%CPU (0avgtext+0avgdata 43036maxresident)k
+0inputs+0outputs (0major+2958minor)pagefaults 0swaps

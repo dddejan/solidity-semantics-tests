@@ -19,6 +19,8 @@ contract ArrayFixedSizeStorageArgumentNoAliasSubStruct {
 
     // Boilerplate to run with truffle
     function truffleMain() external {
+        s1[1] = -1;
+        s2.s[1] = -2;
         test(s1, s2.s, 0, 1);
     }
 

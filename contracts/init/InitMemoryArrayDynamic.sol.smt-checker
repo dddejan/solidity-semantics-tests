@@ -1,15 +1,15 @@
 Running contracts/init/InitMemoryArrayDynamic.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_VKBT:8:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_SDRo:8:16: Warning: Assertion checker does not yet support this expression.
         assert(a.length == 0);
                ^------^
-smt_checker_input_VKBT:9:13: Warning: Assertion checker does not yet implement this type of function call.
+smt_checker_input_SDRo:9:13: Warning: Assertion checker does not yet implement this type of function call.
         a = new int[](n);
             ^----------^
-smt_checker_input_VKBT:10:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_SDRo:10:16: Warning: Assertion checker does not yet support this expression.
         assert(a.length == n);
                ^------^
-smt_checker_input_VKBT:8:9: Warning: Assertion violation happens here
+smt_checker_input_SDRo:8:9: Warning: Assertion violation happens here
         assert(a.length == 0);
         ^-------------------^
   for:
@@ -17,7 +17,7 @@ smt_checker_input_VKBT:8:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_VKBT:10:9: Warning: Assertion violation happens here
+smt_checker_input_SDRo:10:9: Warning: Assertion violation happens here
         assert(a.length == n);
         ^-------------------^
   for:
@@ -25,7 +25,7 @@ smt_checker_input_VKBT:10:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_VKBT:11:9: Warning: Assertion violation happens here
+smt_checker_input_SDRo:11:9: Warning: Assertion violation happens here
         assert(a[0] == 0);
         ^---------------^
   for:
@@ -34,7 +34,7 @@ smt_checker_input_VKBT:11:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_VKBT:12:9: Warning: Assertion violation happens here
+smt_checker_input_SDRo:12:9: Warning: Assertion violation happens here
         assert(a[n-1] == 0);
         ^-----------------^
   for:
@@ -44,38 +44,38 @@ smt_checker_input_VKBT:12:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_VKBT:8:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_SDRo:8:16: Warning: Assertion checker does not yet support this expression.
         assert(a.length == 0);
                ^------^
-smt_checker_input_VKBT:9:13: Warning: Assertion checker does not yet implement this type of function call.
+smt_checker_input_SDRo:9:13: Warning: Assertion checker does not yet implement this type of function call.
         a = new int[](n);
             ^----------^
-smt_checker_input_VKBT:10:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_SDRo:10:16: Warning: Assertion checker does not yet support this expression.
         assert(a.length == n);
                ^------^
-smt_checker_input_VKBT:8:9: Warning: Assertion violation happens here
+smt_checker_input_SDRo:8:9: Warning: Assertion violation happens here
         assert(a.length == 0);
         ^-------------------^
   for:
   n = 100
 
 Callstack: 
-smt_checker_input_VKBT:16:9: 
+smt_checker_input_SDRo:16:9: 
         test(100);
         ^-------^
 
-smt_checker_input_VKBT:10:9: Warning: Assertion violation happens here
+smt_checker_input_SDRo:10:9: Warning: Assertion violation happens here
         assert(a.length == n);
         ^-------------------^
   for:
   n = 100
 
 Callstack: 
-smt_checker_input_VKBT:16:9: 
+smt_checker_input_SDRo:16:9: 
         test(100);
         ^-------^
 
-smt_checker_input_VKBT:11:9: Warning: Assertion violation happens here
+smt_checker_input_SDRo:11:9: Warning: Assertion violation happens here
         assert(a[0] == 0);
         ^---------------^
   for:
@@ -83,11 +83,11 @@ smt_checker_input_VKBT:11:9: Warning: Assertion violation happens here
   n = 100
 
 Callstack: 
-smt_checker_input_VKBT:16:9: 
+smt_checker_input_SDRo:16:9: 
         test(100);
         ^-------^
 
-smt_checker_input_VKBT:12:9: Warning: Assertion violation happens here
+smt_checker_input_SDRo:12:9: Warning: Assertion violation happens here
         assert(a[n-1] == 0);
         ^-----------------^
   for:
@@ -96,9 +96,9 @@ smt_checker_input_VKBT:12:9: Warning: Assertion violation happens here
   n = 100
 
 Callstack: 
-smt_checker_input_VKBT:16:9: 
+smt_checker_input_SDRo:16:9: 
         test(100);
         ^-------^
 
-0.07user 0.03system 0:00.11elapsed 96%CPU (0avgtext+0avgdata 44908maxresident)k
-0inputs+0outputs (0major+3225minor)pagefaults 0swaps
+0.06user 0.22system 0:00.28elapsed 100%CPU (0avgtext+0avgdata 45444maxresident)k
+0inputs+0outputs (0major+3232minor)pagefaults 0swaps

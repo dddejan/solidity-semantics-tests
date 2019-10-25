@@ -1,66 +1,66 @@
 Running contracts/storageptr/StructMappingStoragePointerNoAliasBase.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_b8Q1:8:5: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_TGAX:8:5: Warning: Assertion checker does not yet support the type of this variable.
     S s1;
     ^--^
-smt_checker_input_b8Q1:9:5: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_TGAX:9:5: Warning: Assertion checker does not yet support the type of this variable.
     S s2;
     ^--^
-smt_checker_input_b8Q1:14:9: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_TGAX:14:9: Warning: Assertion checker does not yet support the type of this variable.
         S storage s1ref = s1;
         ^-------------^
-smt_checker_input_b8Q1:15:9: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_TGAX:15:9: Warning: Assertion checker does not yet support the type of this variable.
         S storage s2ref = s2;
         ^-------------^
-smt_checker_input_b8Q1:12:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_TGAX:12:9: Warning: Assertion checker does not yet support this expression.
         s1.x[msg.sender] = a;
         ^--^
-smt_checker_input_b8Q1:12:9: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerNoAliasBase.S storage ref
+smt_checker_input_TGAX:12:9: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerNoAliasBase.S storage ref
         s1.x[msg.sender] = a;
         ^^
-smt_checker_input_b8Q1:12:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_TGAX:12:9: Warning: Assertion checker does not yet implement this expression.
         s1.x[msg.sender] = a;
         ^--------------^
-smt_checker_input_b8Q1:12:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_TGAX:12:9: Warning: Assertion checker does not yet implement this expression.
         s1.x[msg.sender] = a;
         ^--------------^
-smt_checker_input_b8Q1:13:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_TGAX:13:9: Warning: Assertion checker does not yet support this expression.
         s2.x[msg.sender] = b;
         ^--^
-smt_checker_input_b8Q1:13:9: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerNoAliasBase.S storage ref
+smt_checker_input_TGAX:13:9: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerNoAliasBase.S storage ref
         s2.x[msg.sender] = b;
         ^^
-smt_checker_input_b8Q1:13:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_TGAX:13:9: Warning: Assertion checker does not yet implement this expression.
         s2.x[msg.sender] = b;
         ^--------------^
-smt_checker_input_b8Q1:13:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_TGAX:13:9: Warning: Assertion checker does not yet implement this expression.
         s2.x[msg.sender] = b;
         ^--------------^
-smt_checker_input_b8Q1:14:27: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerNoAliasBase.S storage ref
+smt_checker_input_TGAX:14:27: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerNoAliasBase.S storage ref
         S storage s1ref = s1;
                           ^^
-smt_checker_input_b8Q1:15:27: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerNoAliasBase.S storage ref
+smt_checker_input_TGAX:15:27: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerNoAliasBase.S storage ref
         S storage s2ref = s2;
                           ^^
-smt_checker_input_b8Q1:16:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_TGAX:16:16: Warning: Assertion checker does not yet support this expression.
         assert(s1ref.x[msg.sender] == a);
                ^-----^
-smt_checker_input_b8Q1:16:16: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerNoAliasBase.S storage pointer
+smt_checker_input_TGAX:16:16: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerNoAliasBase.S storage pointer
         assert(s1ref.x[msg.sender] == a);
                ^---^
-smt_checker_input_b8Q1:16:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_TGAX:16:16: Warning: Assertion checker does not yet implement this expression.
         assert(s1ref.x[msg.sender] == a);
                ^-----------------^
-smt_checker_input_b8Q1:17:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_TGAX:17:16: Warning: Assertion checker does not yet support this expression.
         assert(s2ref.x[msg.sender] == b);
                ^-----^
-smt_checker_input_b8Q1:17:16: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerNoAliasBase.S storage pointer
+smt_checker_input_TGAX:17:16: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerNoAliasBase.S storage pointer
         assert(s2ref.x[msg.sender] == b);
                ^---^
-smt_checker_input_b8Q1:17:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_TGAX:17:16: Warning: Assertion checker does not yet implement this expression.
         assert(s2ref.x[msg.sender] == b);
                ^-----------------^
-smt_checker_input_b8Q1:16:9: Warning: Assertion violation happens here
+smt_checker_input_TGAX:16:9: Warning: Assertion violation happens here
         assert(s1ref.x[msg.sender] == a);
         ^------------------------------^
   for:
@@ -70,7 +70,7 @@ smt_checker_input_b8Q1:16:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_b8Q1:17:9: Warning: Assertion violation happens here
+smt_checker_input_TGAX:17:9: Warning: Assertion violation happens here
         assert(s2ref.x[msg.sender] == b);
         ^------------------------------^
   for:
@@ -80,55 +80,55 @@ smt_checker_input_b8Q1:17:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_b8Q1:12:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_TGAX:12:9: Warning: Assertion checker does not yet support this expression.
         s1.x[msg.sender] = a;
         ^--^
-smt_checker_input_b8Q1:12:9: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerNoAliasBase.S storage ref
+smt_checker_input_TGAX:12:9: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerNoAliasBase.S storage ref
         s1.x[msg.sender] = a;
         ^^
-smt_checker_input_b8Q1:12:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_TGAX:12:9: Warning: Assertion checker does not yet implement this expression.
         s1.x[msg.sender] = a;
         ^--------------^
-smt_checker_input_b8Q1:12:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_TGAX:12:9: Warning: Assertion checker does not yet implement this expression.
         s1.x[msg.sender] = a;
         ^--------------^
-smt_checker_input_b8Q1:13:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_TGAX:13:9: Warning: Assertion checker does not yet support this expression.
         s2.x[msg.sender] = b;
         ^--^
-smt_checker_input_b8Q1:13:9: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerNoAliasBase.S storage ref
+smt_checker_input_TGAX:13:9: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerNoAliasBase.S storage ref
         s2.x[msg.sender] = b;
         ^^
-smt_checker_input_b8Q1:13:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_TGAX:13:9: Warning: Assertion checker does not yet implement this expression.
         s2.x[msg.sender] = b;
         ^--------------^
-smt_checker_input_b8Q1:13:9: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_TGAX:13:9: Warning: Assertion checker does not yet implement this expression.
         s2.x[msg.sender] = b;
         ^--------------^
-smt_checker_input_b8Q1:14:27: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerNoAliasBase.S storage ref
+smt_checker_input_TGAX:14:27: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerNoAliasBase.S storage ref
         S storage s1ref = s1;
                           ^^
-smt_checker_input_b8Q1:15:27: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerNoAliasBase.S storage ref
+smt_checker_input_TGAX:15:27: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerNoAliasBase.S storage ref
         S storage s2ref = s2;
                           ^^
-smt_checker_input_b8Q1:16:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_TGAX:16:16: Warning: Assertion checker does not yet support this expression.
         assert(s1ref.x[msg.sender] == a);
                ^-----^
-smt_checker_input_b8Q1:16:16: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerNoAliasBase.S storage pointer
+smt_checker_input_TGAX:16:16: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerNoAliasBase.S storage pointer
         assert(s1ref.x[msg.sender] == a);
                ^---^
-smt_checker_input_b8Q1:16:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_TGAX:16:16: Warning: Assertion checker does not yet implement this expression.
         assert(s1ref.x[msg.sender] == a);
                ^-----------------^
-smt_checker_input_b8Q1:17:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_TGAX:17:16: Warning: Assertion checker does not yet support this expression.
         assert(s2ref.x[msg.sender] == b);
                ^-----^
-smt_checker_input_b8Q1:17:16: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerNoAliasBase.S storage pointer
+smt_checker_input_TGAX:17:16: Warning: Assertion checker does not yet implement type struct StructMappingStoragePointerNoAliasBase.S storage pointer
         assert(s2ref.x[msg.sender] == b);
                ^---^
-smt_checker_input_b8Q1:17:16: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_TGAX:17:16: Warning: Assertion checker does not yet implement this expression.
         assert(s2ref.x[msg.sender] == b);
                ^-----------------^
-smt_checker_input_b8Q1:16:9: Warning: Assertion violation happens here
+smt_checker_input_TGAX:16:9: Warning: Assertion violation happens here
         assert(s1ref.x[msg.sender] == a);
         ^------------------------------^
   for:
@@ -137,11 +137,11 @@ smt_checker_input_b8Q1:16:9: Warning: Assertion violation happens here
   msg.sender = 0
 
 Callstack: 
-smt_checker_input_b8Q1:22:9: 
+smt_checker_input_TGAX:22:9: 
         test(0, 1);
         ^--------^
 
-smt_checker_input_b8Q1:17:9: Warning: Assertion violation happens here
+smt_checker_input_TGAX:17:9: Warning: Assertion violation happens here
         assert(s2ref.x[msg.sender] == b);
         ^------------------------------^
   for:
@@ -150,9 +150,9 @@ smt_checker_input_b8Q1:17:9: Warning: Assertion violation happens here
   msg.sender = 0
 
 Callstack: 
-smt_checker_input_b8Q1:22:9: 
+smt_checker_input_TGAX:22:9: 
         test(0, 1);
         ^--------^
 
-0.06user 0.00system 0:00.07elapsed 98%CPU (0avgtext+0avgdata 43144maxresident)k
-0inputs+0outputs (0major+3052minor)pagefaults 0swaps
+0.06user 0.22system 0:00.29elapsed 99%CPU (0avgtext+0avgdata 43792maxresident)k
+0inputs+0outputs (0major+3061minor)pagefaults 0swaps

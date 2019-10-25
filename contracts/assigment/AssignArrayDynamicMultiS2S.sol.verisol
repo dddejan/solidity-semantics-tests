@@ -4,6 +4,6 @@ SpecFilesDir = /solc-verify-examples/contracts/assigment
 ... running Solc on /solc-verify-examples/contracts/assigment/AssignArrayDynamicMultiS2S.sol
 ... running SolToBoogie to translate Solidity to Boogie
 Command exited with non-zero status 1
-0.69user 0.08system 0:00.92elapsed 83%CPU (0avgtext+0avgdata 55484maxresident)k
-0inputs+0outputs (0major+25644minor)pagefaults 0swaps
+0.66user 0.19system 0:01.21elapsed 71%CPU (0avgtext+0avgdata 55392maxresident)k
+0inputs+0outputs (0major+25629minor)pagefaults 0swaps
 VeriSol translation error: File /solc-verify-examples/contracts/assigment/AssignArrayDynamicMultiS2S.sol, Line 8, Contract AssignArrayDynamicMultiS2S, Function truffleMain:: ....

@@ -20,6 +20,7 @@ contract MappingArrayFixedSizeStorageArgumentNoAliasSubArrayFixedSize {
     function truffleMain() external {
         s1[msg.sender][1] = -1;
         s2[1][msg.sender][1] = -2;
+        s2[0][msg.sender][1] = -3;
         test(s1, s2[1], 0, 1);
     }
 

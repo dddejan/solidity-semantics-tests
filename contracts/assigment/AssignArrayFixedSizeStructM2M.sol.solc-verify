@@ -3,5 +3,5 @@ AssignArrayFixedSizeStructM2M::memToMem: OK
 AssignArrayFixedSizeStructM2M::truffleMain: OK
 AssignArrayFixedSizeStructM2M::[implicit_constructor]: OK
 No errors found.
-0.65user 0.24system 0:00.86elapsed 103%CPU (0avgtext+0avgdata 42348maxresident)k
-0inputs+24outputs (0major+16862minor)pagefaults 0swaps
+0.67user 0.73system 0:01.37elapsed 101%CPU (0avgtext+0avgdata 42372maxresident)k
+0inputs+24outputs (0major+16860minor)pagefaults 0swaps

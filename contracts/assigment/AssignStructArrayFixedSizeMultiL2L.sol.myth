@@ -1,5 +1,5 @@
 Running contracts/assigment/AssignStructArrayFixedSizeMultiL2L.sol
 The analysis was completed successfully. No issues were detected.
 
-33.10user 16.58system 0:32.18elapsed 154%CPU (0avgtext+0avgdata 124176maxresident)k
-0inputs+24368outputs (0major+44277minor)pagefaults 0swaps
+32.37user 16.78system 0:31.80elapsed 154%CPU (0avgtext+0avgdata 124328maxresident)k
+0inputs+24352outputs (0major+44405minor)pagefaults 0swaps

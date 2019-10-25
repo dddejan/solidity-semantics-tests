@@ -1,5 +1,5 @@
 Running contracts/delete/DeleteStorageArrayDynamic.sol
 The analysis was completed successfully. No issues were detected.
 
-2.13user 0.44system 0:02.47elapsed 104%CPU (0avgtext+0avgdata 80796maxresident)k
-0inputs+24304outputs (0major+31090minor)pagefaults 0swaps
+2.14user 0.48system 0:02.50elapsed 105%CPU (0avgtext+0avgdata 81036maxresident)k
+0inputs+24304outputs (0major+31130minor)pagefaults 0swaps

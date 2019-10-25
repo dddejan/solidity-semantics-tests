@@ -1,5 +1,5 @@
 Running contracts/assigment/AssignArrayDynamicM2S.sol
 The analysis was completed successfully. No issues were detected.
 
-34.78user 14.69system 0:34.03elapsed 145%CPU (0avgtext+0avgdata 140088maxresident)k
-0inputs+24344outputs (0major+48347minor)pagefaults 0swaps
+34.75user 14.92system 0:34.13elapsed 145%CPU (0avgtext+0avgdata 140100maxresident)k
+0inputs+24344outputs (0major+48402minor)pagefaults 0swaps

@@ -1,18 +1,18 @@
 Running contracts/assigment/AssignArrayFixedSizeMappingS2L.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_dOnd:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_doGU:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s1[1][msg.sender] = a;
         ^---------------^
-smt_checker_input_dOnd:13:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_doGU:13:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s2[1][msg.sender] = b;
         ^---------------^
-smt_checker_input_dOnd:19:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_doGU:19:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s1[1][msg.sender] = c;
         ^---------------^
-smt_checker_input_dOnd:24:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_doGU:24:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         loc[1][msg.sender] = a;
         ^----------------^
-smt_checker_input_dOnd:15:9: Warning: Assertion violation happens here
+smt_checker_input_doGU:15:9: Warning: Assertion violation happens here
         assert(s1[1][msg.sender] == a);
         ^----------------------------^
   for:
@@ -25,7 +25,7 @@ smt_checker_input_dOnd:15:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_dOnd:16:9: Warning: Assertion violation happens here
+smt_checker_input_doGU:16:9: Warning: Assertion violation happens here
         assert(s2[1][msg.sender] == b);
         ^----------------------------^
   for:
@@ -38,7 +38,7 @@ smt_checker_input_dOnd:16:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_dOnd:20:9: Warning: Assertion violation happens here
+smt_checker_input_doGU:20:9: Warning: Assertion violation happens here
         assert(s1[1][msg.sender] == c);
         ^----------------------------^
   for:
@@ -52,7 +52,7 @@ smt_checker_input_dOnd:20:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_dOnd:22:9: Warning: Assertion violation happens here
+smt_checker_input_doGU:22:9: Warning: Assertion violation happens here
         assert(loc[1][msg.sender] == c);
         ^-----------------------------^
   for:
@@ -66,19 +66,19 @@ smt_checker_input_dOnd:22:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_dOnd:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_doGU:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s1[1][msg.sender] = a;
         ^---------------^
-smt_checker_input_dOnd:13:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_doGU:13:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s2[1][msg.sender] = b;
         ^---------------^
-smt_checker_input_dOnd:19:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_doGU:19:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s1[1][msg.sender] = c;
         ^---------------^
-smt_checker_input_dOnd:24:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_doGU:24:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         loc[1][msg.sender] = a;
         ^----------------^
-smt_checker_input_dOnd:15:9: Warning: Assertion violation happens here
+smt_checker_input_doGU:15:9: Warning: Assertion violation happens here
         assert(s1[1][msg.sender] == a);
         ^----------------------------^
   for:
@@ -90,11 +90,11 @@ smt_checker_input_dOnd:15:9: Warning: Assertion violation happens here
   s2[1][msg.sender] = (- 57896044618658097711785492504343953926634992332820282019728792003956564818080)
 
 Callstack: 
-smt_checker_input_dOnd:32:9: 
+smt_checker_input_doGU:32:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
-smt_checker_input_dOnd:16:9: Warning: Assertion violation happens here
+smt_checker_input_doGU:16:9: Warning: Assertion violation happens here
         assert(s2[1][msg.sender] == b);
         ^----------------------------^
   for:
@@ -106,11 +106,11 @@ smt_checker_input_dOnd:16:9: Warning: Assertion violation happens here
   s2[1][msg.sender] = 2
 
 Callstack: 
-smt_checker_input_dOnd:32:9: 
+smt_checker_input_doGU:32:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
-smt_checker_input_dOnd:20:9: Warning: Assertion violation happens here
+smt_checker_input_doGU:20:9: Warning: Assertion violation happens here
         assert(s1[1][msg.sender] == c);
         ^----------------------------^
   for:
@@ -123,11 +123,11 @@ smt_checker_input_dOnd:20:9: Warning: Assertion violation happens here
   s2[1][msg.sender] = 1
 
 Callstack: 
-smt_checker_input_dOnd:32:9: 
+smt_checker_input_doGU:32:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
-smt_checker_input_dOnd:22:9: Warning: Assertion violation happens here
+smt_checker_input_doGU:22:9: Warning: Assertion violation happens here
         assert(loc[1][msg.sender] == c);
         ^-----------------------------^
   for:
@@ -140,9 +140,9 @@ smt_checker_input_dOnd:22:9: Warning: Assertion violation happens here
   s2[1][msg.sender] = 1
 
 Callstack: 
-smt_checker_input_dOnd:32:9: 
+smt_checker_input_doGU:32:9: 
         storToLoc(0, 1, 2);
         ^----------------^
 
-0.22user 0.02system 0:00.25elapsed 99%CPU (0avgtext+0avgdata 51252maxresident)k
-0inputs+0outputs (0major+4834minor)pagefaults 0swaps
+0.24user 0.22system 0:00.47elapsed 100%CPU (0avgtext+0avgdata 51556maxresident)k
+0inputs+0outputs (0major+4838minor)pagefaults 0swaps

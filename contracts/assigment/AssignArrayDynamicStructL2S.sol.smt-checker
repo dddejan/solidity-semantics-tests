@@ -1,75 +1,75 @@
 Running contracts/assigment/AssignArrayDynamicStructL2S.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_qQeF:13:17: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qfo6:13:17: Warning: Assertion checker does not yet support this expression.
         require(s1.length > 0);
                 ^-------^
-smt_checker_input_qQeF:14:17: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qfo6:14:17: Warning: Assertion checker does not yet support this expression.
         require(s2.length > 0);
                 ^-------^
-smt_checker_input_qQeF:16:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qfo6:16:9: Warning: Assertion checker does not yet support this expression.
         s1[0].x = a;
         ^-----^
-smt_checker_input_qQeF:16:9: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
+smt_checker_input_qfo6:16:9: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
         s1[0].x = a;
         ^---^
-smt_checker_input_qQeF:16:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_qfo6:16:9: Warning: Assertion checker does not yet implement such assignments.
         s1[0].x = a;
         ^---------^
-smt_checker_input_qQeF:17:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qfo6:17:9: Warning: Assertion checker does not yet support this expression.
         s2[0].x = b;
         ^-----^
-smt_checker_input_qQeF:17:9: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
+smt_checker_input_qfo6:17:9: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
         s2[0].x = b;
         ^---^
-smt_checker_input_qQeF:17:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_qfo6:17:9: Warning: Assertion checker does not yet implement such assignments.
         s2[0].x = b;
         ^---------^
-smt_checker_input_qQeF:18:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qfo6:18:16: Warning: Assertion checker does not yet support this expression.
         assert(s1[0].x == a);
                ^-----^
-smt_checker_input_qQeF:18:16: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
+smt_checker_input_qfo6:18:16: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
         assert(s1[0].x == a);
                ^---^
-smt_checker_input_qQeF:19:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qfo6:19:16: Warning: Assertion checker does not yet support this expression.
         assert(s2[0].x == b);
                ^-----^
-smt_checker_input_qQeF:19:16: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
+smt_checker_input_qfo6:19:16: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
         assert(s2[0].x == b);
                ^---^
-smt_checker_input_qQeF:23:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qfo6:23:16: Warning: Assertion checker does not yet support this expression.
         assert(s1[0].x == a);
                ^-----^
-smt_checker_input_qQeF:23:16: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
+smt_checker_input_qfo6:23:16: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
         assert(s1[0].x == a);
                ^---^
-smt_checker_input_qQeF:24:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qfo6:24:16: Warning: Assertion checker does not yet support this expression.
         assert(s2[0].x == a);
                ^-----^
-smt_checker_input_qQeF:24:16: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
+smt_checker_input_qfo6:24:16: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
         assert(s2[0].x == a);
                ^---^
-smt_checker_input_qQeF:26:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qfo6:26:9: Warning: Assertion checker does not yet support this expression.
         sl1[0].x = c;
         ^------^
-smt_checker_input_qQeF:26:9: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
+smt_checker_input_qfo6:26:9: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
         sl1[0].x = c;
         ^----^
-smt_checker_input_qQeF:26:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_qfo6:26:9: Warning: Assertion checker does not yet implement such assignments.
         sl1[0].x = c;
         ^----------^
-smt_checker_input_qQeF:27:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qfo6:27:16: Warning: Assertion checker does not yet support this expression.
         assert(s1[0].x == c);
                ^-----^
-smt_checker_input_qQeF:27:16: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
+smt_checker_input_qfo6:27:16: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
         assert(s1[0].x == c);
                ^---^
-smt_checker_input_qQeF:28:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qfo6:28:16: Warning: Assertion checker does not yet support this expression.
         assert(s2[0].x == a);
                ^-----^
-smt_checker_input_qQeF:28:16: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
+smt_checker_input_qfo6:28:16: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
         assert(s2[0].x == a);
                ^---^
-smt_checker_input_qQeF:18:9: Warning: Assertion violation happens here
+smt_checker_input_qfo6:18:9: Warning: Assertion violation happens here
         assert(s1[0].x == a);
         ^------------------^
   for:
@@ -79,7 +79,7 @@ smt_checker_input_qQeF:18:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_qQeF:19:9: Warning: Assertion violation happens here
+smt_checker_input_qfo6:19:9: Warning: Assertion violation happens here
         assert(s2[0].x == b);
         ^------------------^
   for:
@@ -89,7 +89,7 @@ smt_checker_input_qQeF:19:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_qQeF:23:9: Warning: Assertion violation happens here
+smt_checker_input_qfo6:23:9: Warning: Assertion violation happens here
         assert(s1[0].x == a);
         ^------------------^
   for:
@@ -99,7 +99,7 @@ smt_checker_input_qQeF:23:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_qQeF:24:9: Warning: Assertion violation happens here
+smt_checker_input_qfo6:24:9: Warning: Assertion violation happens here
         assert(s2[0].x == a);
         ^------------------^
   for:
@@ -109,7 +109,7 @@ smt_checker_input_qQeF:24:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_qQeF:27:9: Warning: Assertion violation happens here
+smt_checker_input_qfo6:27:9: Warning: Assertion violation happens here
         assert(s1[0].x == c);
         ^------------------^
   for:
@@ -119,7 +119,7 @@ smt_checker_input_qQeF:27:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_qQeF:28:9: Warning: Assertion violation happens here
+smt_checker_input_qfo6:28:9: Warning: Assertion violation happens here
         assert(s2[0].x == a);
         ^------------------^
   for:
@@ -129,94 +129,94 @@ smt_checker_input_qQeF:28:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_qQeF:33:17: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S memory
+smt_checker_input_qfo6:33:17: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S memory
         s1.push(S(0));
                 ^--^
-smt_checker_input_qQeF:33:17: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_qfo6:33:17: Warning: Assertion checker does not yet implement this expression.
         s1.push(S(0));
                 ^--^
-smt_checker_input_qQeF:33:9: Warning: Assertion checker does not yet implement this type of function call.
+smt_checker_input_qfo6:33:9: Warning: Assertion checker does not yet implement this type of function call.
         s1.push(S(0));
         ^-----------^
-smt_checker_input_qQeF:34:17: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S memory
+smt_checker_input_qfo6:34:17: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S memory
         s2.push(S(0));
                 ^--^
-smt_checker_input_qQeF:34:17: Warning: Assertion checker does not yet implement this expression.
+smt_checker_input_qfo6:34:17: Warning: Assertion checker does not yet implement this expression.
         s2.push(S(0));
                 ^--^
-smt_checker_input_qQeF:34:9: Warning: Assertion checker does not yet implement this type of function call.
+smt_checker_input_qfo6:34:9: Warning: Assertion checker does not yet implement this type of function call.
         s2.push(S(0));
         ^-----------^
-smt_checker_input_qQeF:13:17: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qfo6:13:17: Warning: Assertion checker does not yet support this expression.
         require(s1.length > 0);
                 ^-------^
-smt_checker_input_qQeF:14:17: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qfo6:14:17: Warning: Assertion checker does not yet support this expression.
         require(s2.length > 0);
                 ^-------^
-smt_checker_input_qQeF:16:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qfo6:16:9: Warning: Assertion checker does not yet support this expression.
         s1[0].x = a;
         ^-----^
-smt_checker_input_qQeF:16:9: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
+smt_checker_input_qfo6:16:9: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
         s1[0].x = a;
         ^---^
-smt_checker_input_qQeF:16:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_qfo6:16:9: Warning: Assertion checker does not yet implement such assignments.
         s1[0].x = a;
         ^---------^
-smt_checker_input_qQeF:17:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qfo6:17:9: Warning: Assertion checker does not yet support this expression.
         s2[0].x = b;
         ^-----^
-smt_checker_input_qQeF:17:9: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
+smt_checker_input_qfo6:17:9: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
         s2[0].x = b;
         ^---^
-smt_checker_input_qQeF:17:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_qfo6:17:9: Warning: Assertion checker does not yet implement such assignments.
         s2[0].x = b;
         ^---------^
-smt_checker_input_qQeF:18:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qfo6:18:16: Warning: Assertion checker does not yet support this expression.
         assert(s1[0].x == a);
                ^-----^
-smt_checker_input_qQeF:18:16: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
+smt_checker_input_qfo6:18:16: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
         assert(s1[0].x == a);
                ^---^
-smt_checker_input_qQeF:19:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qfo6:19:16: Warning: Assertion checker does not yet support this expression.
         assert(s2[0].x == b);
                ^-----^
-smt_checker_input_qQeF:19:16: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
+smt_checker_input_qfo6:19:16: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
         assert(s2[0].x == b);
                ^---^
-smt_checker_input_qQeF:23:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qfo6:23:16: Warning: Assertion checker does not yet support this expression.
         assert(s1[0].x == a);
                ^-----^
-smt_checker_input_qQeF:23:16: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
+smt_checker_input_qfo6:23:16: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
         assert(s1[0].x == a);
                ^---^
-smt_checker_input_qQeF:24:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qfo6:24:16: Warning: Assertion checker does not yet support this expression.
         assert(s2[0].x == a);
                ^-----^
-smt_checker_input_qQeF:24:16: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
+smt_checker_input_qfo6:24:16: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
         assert(s2[0].x == a);
                ^---^
-smt_checker_input_qQeF:26:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qfo6:26:9: Warning: Assertion checker does not yet support this expression.
         sl1[0].x = c;
         ^------^
-smt_checker_input_qQeF:26:9: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
+smt_checker_input_qfo6:26:9: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
         sl1[0].x = c;
         ^----^
-smt_checker_input_qQeF:26:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_qfo6:26:9: Warning: Assertion checker does not yet implement such assignments.
         sl1[0].x = c;
         ^----------^
-smt_checker_input_qQeF:27:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qfo6:27:16: Warning: Assertion checker does not yet support this expression.
         assert(s1[0].x == c);
                ^-----^
-smt_checker_input_qQeF:27:16: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
+smt_checker_input_qfo6:27:16: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
         assert(s1[0].x == c);
                ^---^
-smt_checker_input_qQeF:28:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_qfo6:28:16: Warning: Assertion checker does not yet support this expression.
         assert(s2[0].x == a);
                ^-----^
-smt_checker_input_qQeF:28:16: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
+smt_checker_input_qfo6:28:16: Warning: Assertion checker does not yet implement type struct AssignArrayDynamicStructL2S.S storage ref
         assert(s2[0].x == a);
                ^---^
-smt_checker_input_qQeF:18:9: Warning: Assertion violation happens here
+smt_checker_input_qfo6:18:9: Warning: Assertion violation happens here
         assert(s1[0].x == a);
         ^------------------^
   for:
@@ -225,11 +225,11 @@ smt_checker_input_qQeF:18:9: Warning: Assertion violation happens here
   c = 2
 
 Callstack: 
-smt_checker_input_qQeF:35:9: 
+smt_checker_input_qfo6:35:9: 
         locToStor(0 ,1, 2);
         ^----------------^
 
-smt_checker_input_qQeF:19:9: Warning: Assertion violation happens here
+smt_checker_input_qfo6:19:9: Warning: Assertion violation happens here
         assert(s2[0].x == b);
         ^------------------^
   for:
@@ -238,11 +238,11 @@ smt_checker_input_qQeF:19:9: Warning: Assertion violation happens here
   c = 2
 
 Callstack: 
-smt_checker_input_qQeF:35:9: 
+smt_checker_input_qfo6:35:9: 
         locToStor(0 ,1, 2);
         ^----------------^
 
-smt_checker_input_qQeF:23:9: Warning: Assertion violation happens here
+smt_checker_input_qfo6:23:9: Warning: Assertion violation happens here
         assert(s1[0].x == a);
         ^------------------^
   for:
@@ -251,11 +251,11 @@ smt_checker_input_qQeF:23:9: Warning: Assertion violation happens here
   c = 2
 
 Callstack: 
-smt_checker_input_qQeF:35:9: 
+smt_checker_input_qfo6:35:9: 
         locToStor(0 ,1, 2);
         ^----------------^
 
-smt_checker_input_qQeF:24:9: Warning: Assertion violation happens here
+smt_checker_input_qfo6:24:9: Warning: Assertion violation happens here
         assert(s2[0].x == a);
         ^------------------^
   for:
@@ -264,11 +264,11 @@ smt_checker_input_qQeF:24:9: Warning: Assertion violation happens here
   c = 2
 
 Callstack: 
-smt_checker_input_qQeF:35:9: 
+smt_checker_input_qfo6:35:9: 
         locToStor(0 ,1, 2);
         ^----------------^
 
-smt_checker_input_qQeF:27:9: Warning: Assertion violation happens here
+smt_checker_input_qfo6:27:9: Warning: Assertion violation happens here
         assert(s1[0].x == c);
         ^------------------^
   for:
@@ -277,11 +277,11 @@ smt_checker_input_qQeF:27:9: Warning: Assertion violation happens here
   c = 2
 
 Callstack: 
-smt_checker_input_qQeF:35:9: 
+smt_checker_input_qfo6:35:9: 
         locToStor(0 ,1, 2);
         ^----------------^
 
-smt_checker_input_qQeF:28:9: Warning: Assertion violation happens here
+smt_checker_input_qfo6:28:9: Warning: Assertion violation happens here
         assert(s2[0].x == a);
         ^------------------^
   for:
@@ -290,9 +290,9 @@ smt_checker_input_qQeF:28:9: Warning: Assertion violation happens here
   c = 2
 
 Callstack: 
-smt_checker_input_qQeF:35:9: 
+smt_checker_input_qfo6:35:9: 
         locToStor(0 ,1, 2);
         ^----------------^
 
-0.15user 0.04system 0:00.19elapsed 100%CPU (0avgtext+0avgdata 54028maxresident)k
-0inputs+0outputs (0major+5454minor)pagefaults 0swaps
+0.16user 0.25system 0:00.41elapsed 99%CPU (0avgtext+0avgdata 54164maxresident)k
+0inputs+0outputs (0major+5452minor)pagefaults 0swaps

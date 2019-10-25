@@ -1,12 +1,12 @@
 Running contracts/storageptr/MappingArrayFixedSizeStoragePointerAlias.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_unQD:11:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_EX39:11:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s1[msg.sender][1] = a;
         ^---------------^
-smt_checker_input_unQD:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_EX39:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s2[msg.sender][1] = b;
         ^---------------^
-smt_checker_input_unQD:15:9: Warning: Assertion violation happens here
+smt_checker_input_EX39:15:9: Warning: Assertion violation happens here
         assert(s1ref[msg.sender][1] == a);
         ^-------------------------------^
   for:
@@ -21,13 +21,13 @@ Callstack:
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_unQD:11:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_EX39:11:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s1[msg.sender][1] = a;
         ^---------------^
-smt_checker_input_unQD:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_EX39:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s2[msg.sender][1] = b;
         ^---------------^
-smt_checker_input_unQD:15:9: Warning: Assertion violation happens here
+smt_checker_input_EX39:15:9: Warning: Assertion violation happens here
         assert(s1ref[msg.sender][1] == a);
         ^-------------------------------^
   for:
@@ -39,11 +39,11 @@ smt_checker_input_unQD:15:9: Warning: Assertion violation happens here
   s2[msg.sender][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811603)
 
 Callstack: 
-smt_checker_input_unQD:21:9: 
+smt_checker_input_EX39:21:9: 
         test(0, 1);
         ^--------^
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-0.06user 0.02system 0:00.08elapsed 100%CPU (0avgtext+0avgdata 43368maxresident)k
+0.06user 0.23system 0:00.29elapsed 99%CPU (0avgtext+0avgdata 43480maxresident)k
 0inputs+0outputs (0major+2738minor)pagefaults 0swaps

@@ -3,5 +3,5 @@ AssignArrayFixedSizeMultiS2L::storToLoc: OK
 AssignArrayFixedSizeMultiS2L::truffleMain: OK
 AssignArrayFixedSizeMultiS2L::[implicit_constructor]: OK
 No errors found.
-0.70user 0.20system 0:00.88elapsed 103%CPU (0avgtext+0avgdata 42916maxresident)k
-0inputs+24outputs (0major+17004minor)pagefaults 0swaps
+0.65user 0.68system 0:01.30elapsed 102%CPU (0avgtext+0avgdata 43124maxresident)k
+0inputs+24outputs (0major+17324minor)pagefaults 0swaps

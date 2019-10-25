@@ -22,5 +22,5 @@ Caller: [CREATOR], function: truffleMain(), txdata: 0xbbac8963, value: 0x0
 Caller: [SOMEGUY], function: truffleMain(), txdata: 0xbbac8963, value: 0x0
 
 
-20.38user 7.15system 0:20.18elapsed 136%CPU (0avgtext+0avgdata 135756maxresident)k
-0inputs+24344outputs (0major+47408minor)pagefaults 0swaps
+19.16user 7.10system 0:19.12elapsed 137%CPU (0avgtext+0avgdata 134376maxresident)k
+0inputs+24344outputs (0major+46939minor)pagefaults 0swaps

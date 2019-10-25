@@ -1,5 +1,5 @@
 Running contracts/delete/DeleteMemoryArrayFixedSizeMulti.sol
 The analysis was completed successfully. No issues were detected.
 
-4.21user 0.63system 0:04.46elapsed 108%CPU (0avgtext+0avgdata 87172maxresident)k
-0inputs+24304outputs (0major+33099minor)pagefaults 0swaps
+4.20user 0.72system 0:04.54elapsed 108%CPU (0avgtext+0avgdata 86556maxresident)k
+0inputs+24280outputs (0major+32883minor)pagefaults 0swaps

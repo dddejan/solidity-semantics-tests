@@ -3,5 +3,5 @@ ArrayFixedSizeStorageNoAliasSubStruct::test: OK
 ArrayFixedSizeStorageNoAliasSubStruct::truffleMain: OK
 ArrayFixedSizeStorageNoAliasSubStruct::[implicit_constructor]: OK
 No errors found.
-0.73user 0.21system 0:00.92elapsed 103%CPU (0avgtext+0avgdata 41744maxresident)k
-0inputs+16outputs (0major+16346minor)pagefaults 0swaps
+0.60user 0.74system 0:01.31elapsed 102%CPU (0avgtext+0avgdata 41720maxresident)k
+0inputs+16outputs (0major+16564minor)pagefaults 0swaps

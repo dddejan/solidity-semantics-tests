@@ -6,5 +6,5 @@ SpecFilesDir = /solc-verify-examples/contracts/storageptr
 Warning: A mapping with complex value type s of valuetype mapping (address => int256[2])
 VeriSol translation error: File /solc-verify-examples/contracts/storageptr/MappingArrayFixedSizeStorageArgumentAliasSubMapping.sol, Line 7, Contract MappingArrayFixedSizeStorageArgumentAliasSubMapping, Function truffleMain:: Cannot find a function with signature: test(mapping(address => int256[2], mapping(address => int256[2], int256, int256)....
 Command exited with non-zero status 1
-0.71user 0.09system 0:00.82elapsed 97%CPU (0avgtext+0avgdata 54784maxresident)k
-0inputs+0outputs (0major+25593minor)pagefaults 0swaps
+0.67user 0.16system 0:00.93elapsed 90%CPU (0avgtext+0avgdata 54860maxresident)k
+0inputs+0outputs (0major+25606minor)pagefaults 0swaps

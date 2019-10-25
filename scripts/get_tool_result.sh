@@ -77,4 +77,4 @@ esac
 
 # get the time
 echo -n $'\t'
-grep avgtext $FILE | sed s/'user.*'//g
+grep 'user.*system' $FILE | sed s/'user.*'//g

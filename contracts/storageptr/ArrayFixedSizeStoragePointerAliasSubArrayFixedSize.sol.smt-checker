@@ -1,9 +1,9 @@
 Running contracts/storageptr/ArrayFixedSizeStoragePointerAliasSubArrayFixedSize.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_7uGX:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_yozs:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s2[1][1] = b;
         ^------^
-smt_checker_input_7uGX:15:9: Warning: Assertion violation happens here
+smt_checker_input_yozs:15:9: Warning: Assertion violation happens here
         assert(s1ref[1] == b);
         ^-------------------^
   for:
@@ -15,10 +15,10 @@ smt_checker_input_7uGX:15:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_7uGX:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_yozs:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s2[1][1] = b;
         ^------^
-smt_checker_input_7uGX:15:9: Warning: Assertion violation happens here
+smt_checker_input_yozs:15:9: Warning: Assertion violation happens here
         assert(s1ref[1] == b);
         ^-------------------^
   for:
@@ -29,9 +29,9 @@ smt_checker_input_7uGX:15:9: Warning: Assertion violation happens here
   s2[1][1] = (- 57896044618658097711785492504343953926634992332820282019728792003956564811113)
 
 Callstack: 
-smt_checker_input_7uGX:21:9: 
+smt_checker_input_yozs:21:9: 
         test(0, 1);
         ^--------^
 
-0.05user 0.02system 0:00.07elapsed 100%CPU (0avgtext+0avgdata 43216maxresident)k
-0inputs+0outputs (0major+2713minor)pagefaults 0swaps
+0.05user 0.24system 0:00.29elapsed 99%CPU (0avgtext+0avgdata 43272maxresident)k
+0inputs+0outputs (0major+2712minor)pagefaults 0swaps

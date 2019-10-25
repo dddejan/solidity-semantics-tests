@@ -1,66 +1,66 @@
 Running contracts/assigment/AssignTupleStructLL2LL.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_FjfD:8:5: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_EZsn:8:5: Warning: Assertion checker does not yet support the type of this variable.
     S s1;
     ^--^
-smt_checker_input_FjfD:9:5: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_EZsn:9:5: Warning: Assertion checker does not yet support the type of this variable.
     S s2;
     ^--^
-smt_checker_input_FjfD:15:9: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_EZsn:15:9: Warning: Assertion checker does not yet support the type of this variable.
         S storage sl1 = s1;
         ^-----------^
-smt_checker_input_FjfD:16:9: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_EZsn:16:9: Warning: Assertion checker does not yet support the type of this variable.
         S storage sl2 = s2;
         ^-----------^
-smt_checker_input_FjfD:13:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_EZsn:13:9: Warning: Assertion checker does not yet support this expression.
         s1.x = a;
         ^--^
-smt_checker_input_FjfD:13:9: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage ref
+smt_checker_input_EZsn:13:9: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage ref
         s1.x = a;
         ^^
-smt_checker_input_FjfD:13:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_EZsn:13:9: Warning: Assertion checker does not yet implement such assignments.
         s1.x = a;
         ^------^
-smt_checker_input_FjfD:14:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_EZsn:14:9: Warning: Assertion checker does not yet support this expression.
         s2.x = b;
         ^--^
-smt_checker_input_FjfD:14:9: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage ref
+smt_checker_input_EZsn:14:9: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage ref
         s2.x = b;
         ^^
-smt_checker_input_FjfD:14:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_EZsn:14:9: Warning: Assertion checker does not yet implement such assignments.
         s2.x = b;
         ^------^
-smt_checker_input_FjfD:15:25: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage ref
+smt_checker_input_EZsn:15:25: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage ref
         S storage sl1 = s1;
                         ^^
-smt_checker_input_FjfD:16:25: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage ref
+smt_checker_input_EZsn:16:25: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage ref
         S storage sl2 = s2;
                         ^^
-smt_checker_input_FjfD:17:23: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage pointer
+smt_checker_input_EZsn:17:23: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage pointer
         (sl1, sl2) = (sl2, sl1); // Checking this assignment
                       ^-^
-smt_checker_input_FjfD:17:28: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage pointer
+smt_checker_input_EZsn:17:28: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage pointer
         (sl1, sl2) = (sl2, sl1); // Checking this assignment
                            ^-^
-smt_checker_input_FjfD:17:10: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage pointer
+smt_checker_input_EZsn:17:10: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage pointer
         (sl1, sl2) = (sl2, sl1); // Checking this assignment
          ^-^
-smt_checker_input_FjfD:17:15: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage pointer
+smt_checker_input_EZsn:17:15: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage pointer
         (sl1, sl2) = (sl2, sl1); // Checking this assignment
               ^-^
-smt_checker_input_FjfD:18:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_EZsn:18:16: Warning: Assertion checker does not yet support this expression.
         assert(sl1.x == b);
                ^---^
-smt_checker_input_FjfD:18:16: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage pointer
+smt_checker_input_EZsn:18:16: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage pointer
         assert(sl1.x == b);
                ^-^
-smt_checker_input_FjfD:19:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_EZsn:19:16: Warning: Assertion checker does not yet support this expression.
         assert(sl2.x == a);
                ^---^
-smt_checker_input_FjfD:19:16: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage pointer
+smt_checker_input_EZsn:19:16: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage pointer
         assert(sl2.x == a);
                ^-^
-smt_checker_input_FjfD:18:9: Warning: Assertion violation happens here
+smt_checker_input_EZsn:18:9: Warning: Assertion violation happens here
         assert(sl1.x == b);
         ^----------------^
   for:
@@ -69,7 +69,7 @@ smt_checker_input_FjfD:18:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_FjfD:19:9: Warning: Assertion violation happens here
+smt_checker_input_EZsn:19:9: Warning: Assertion violation happens here
         assert(sl2.x == a);
         ^----------------^
   for:
@@ -78,55 +78,55 @@ smt_checker_input_FjfD:19:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_FjfD:13:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_EZsn:13:9: Warning: Assertion checker does not yet support this expression.
         s1.x = a;
         ^--^
-smt_checker_input_FjfD:13:9: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage ref
+smt_checker_input_EZsn:13:9: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage ref
         s1.x = a;
         ^^
-smt_checker_input_FjfD:13:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_EZsn:13:9: Warning: Assertion checker does not yet implement such assignments.
         s1.x = a;
         ^------^
-smt_checker_input_FjfD:14:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_EZsn:14:9: Warning: Assertion checker does not yet support this expression.
         s2.x = b;
         ^--^
-smt_checker_input_FjfD:14:9: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage ref
+smt_checker_input_EZsn:14:9: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage ref
         s2.x = b;
         ^^
-smt_checker_input_FjfD:14:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_EZsn:14:9: Warning: Assertion checker does not yet implement such assignments.
         s2.x = b;
         ^------^
-smt_checker_input_FjfD:15:25: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage ref
+smt_checker_input_EZsn:15:25: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage ref
         S storage sl1 = s1;
                         ^^
-smt_checker_input_FjfD:16:25: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage ref
+smt_checker_input_EZsn:16:25: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage ref
         S storage sl2 = s2;
                         ^^
-smt_checker_input_FjfD:17:23: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage pointer
+smt_checker_input_EZsn:17:23: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage pointer
         (sl1, sl2) = (sl2, sl1); // Checking this assignment
                       ^-^
-smt_checker_input_FjfD:17:28: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage pointer
+smt_checker_input_EZsn:17:28: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage pointer
         (sl1, sl2) = (sl2, sl1); // Checking this assignment
                            ^-^
-smt_checker_input_FjfD:17:10: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage pointer
+smt_checker_input_EZsn:17:10: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage pointer
         (sl1, sl2) = (sl2, sl1); // Checking this assignment
          ^-^
-smt_checker_input_FjfD:17:15: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage pointer
+smt_checker_input_EZsn:17:15: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage pointer
         (sl1, sl2) = (sl2, sl1); // Checking this assignment
               ^-^
-smt_checker_input_FjfD:18:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_EZsn:18:16: Warning: Assertion checker does not yet support this expression.
         assert(sl1.x == b);
                ^---^
-smt_checker_input_FjfD:18:16: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage pointer
+smt_checker_input_EZsn:18:16: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage pointer
         assert(sl1.x == b);
                ^-^
-smt_checker_input_FjfD:19:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_EZsn:19:16: Warning: Assertion checker does not yet support this expression.
         assert(sl2.x == a);
                ^---^
-smt_checker_input_FjfD:19:16: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage pointer
+smt_checker_input_EZsn:19:16: Warning: Assertion checker does not yet implement type struct AssignTupleStructLL2LL.S storage pointer
         assert(sl2.x == a);
                ^-^
-smt_checker_input_FjfD:18:9: Warning: Assertion violation happens here
+smt_checker_input_EZsn:18:9: Warning: Assertion violation happens here
         assert(sl1.x == b);
         ^----------------^
   for:
@@ -134,11 +134,11 @@ smt_checker_input_FjfD:18:9: Warning: Assertion violation happens here
   b = 2
 
 Callstack: 
-smt_checker_input_FjfD:24:9: 
+smt_checker_input_EZsn:24:9: 
         assign(1, 2);
         ^----------^
 
-smt_checker_input_FjfD:19:9: Warning: Assertion violation happens here
+smt_checker_input_EZsn:19:9: Warning: Assertion violation happens here
         assert(sl2.x == a);
         ^----------------^
   for:
@@ -146,9 +146,9 @@ smt_checker_input_FjfD:19:9: Warning: Assertion violation happens here
   b = 2
 
 Callstack: 
-smt_checker_input_FjfD:24:9: 
+smt_checker_input_EZsn:24:9: 
         assign(1, 2);
         ^----------^
 
-0.06user 0.01system 0:00.07elapsed 98%CPU (0avgtext+0avgdata 43808maxresident)k
-0inputs+0outputs (0major+3086minor)pagefaults 0swaps
+0.06user 0.23system 0:00.30elapsed 99%CPU (0avgtext+0avgdata 44080maxresident)k
+0inputs+0outputs (0major+3091minor)pagefaults 0swaps

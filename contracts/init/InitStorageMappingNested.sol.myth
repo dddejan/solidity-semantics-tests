@@ -1,5 +1,5 @@
 Running contracts/init/InitStorageMappingNested.sol
 The analysis was completed successfully. No issues were detected.
 
-1.84user 0.37system 0:02.07elapsed 107%CPU (0avgtext+0avgdata 78716maxresident)k
-0inputs+24280outputs (0major+30566minor)pagefaults 0swaps
+1.89user 0.45system 0:02.24elapsed 104%CPU (0avgtext+0avgdata 79052maxresident)k
+0inputs+24304outputs (0major+30567minor)pagefaults 0swaps

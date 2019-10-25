@@ -3,5 +3,5 @@ ArrayFixedSizeStoragePointerNoAliasBase::test: OK
 ArrayFixedSizeStoragePointerNoAliasBase::truffleMain: OK
 ArrayFixedSizeStoragePointerNoAliasBase::[implicit_constructor]: OK
 No errors found.
-0.72user 0.23system 0:00.92elapsed 103%CPU (0avgtext+0avgdata 41680maxresident)k
-0inputs+16outputs (0major+16556minor)pagefaults 0swaps
+0.66user 0.70system 0:01.35elapsed 101%CPU (0avgtext+0avgdata 41840maxresident)k
+0inputs+16outputs (0major+16360minor)pagefaults 0swaps

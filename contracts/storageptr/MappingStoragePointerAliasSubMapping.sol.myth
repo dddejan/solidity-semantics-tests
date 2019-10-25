@@ -1,5 +1,5 @@
 Running contracts/storageptr/MappingStoragePointerAliasSubMapping.sol
 The analysis was completed successfully. No issues were detected.
 
-22.40user 4.09system 0:22.54elapsed 117%CPU (0avgtext+0avgdata 176912maxresident)k
-0inputs+24344outputs (0major+62382minor)pagefaults 0swaps
+22.57user 4.16system 0:22.70elapsed 117%CPU (0avgtext+0avgdata 176864maxresident)k
+0inputs+24368outputs (0major+62468minor)pagefaults 0swaps

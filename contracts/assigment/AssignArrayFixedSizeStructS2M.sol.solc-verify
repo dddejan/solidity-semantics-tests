@@ -6,5 +6,5 @@ Use --show-warnings to see 1 warning.
 Some functions were skipped. Use --verbose to see details.
 No errors found.
 Command exited with non-zero status 250
-0.67user 0.19system 0:00.86elapsed 102%CPU (0avgtext+0avgdata 41396maxresident)k
-0inputs+16outputs (0major+16519minor)pagefaults 0swaps
+0.68user 0.69system 0:01.35elapsed 101%CPU (0avgtext+0avgdata 41268maxresident)k
+0inputs+16outputs (0major+16273minor)pagefaults 0swaps

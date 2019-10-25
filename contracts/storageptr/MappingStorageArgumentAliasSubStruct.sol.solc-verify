@@ -1,12 +1,12 @@
 Running contracts/storageptr/MappingStorageArgumentAliasSubStruct.sol
 Error while running verifier, details:
 [TRACE] Using prover: /usr/local/bin/z3
-Parsing /tmp/tmppst1asqm/MappingStorageArgumentAliasSubStruct.sol.bpl
-/tmp/tmppst1asqm/MappingStorageArgumentAliasSubStruct.sol.bpl(34,10): Error: command assigns to an immutable variable: s1ref#12
-/tmp/tmppst1asqm/MappingStorageArgumentAliasSubStruct.sol.bpl(37,10): Error: command assigns to an immutable variable: s1ref#12
-/tmp/tmppst1asqm/MappingStorageArgumentAliasSubStruct.sol.bpl(38,10): Error: command assigns to an immutable variable: s2ref#16
-3 type checking errors detected in /tmp/tmppst1asqm/MappingStorageArgumentAliasSubStruct.sol.bpl
+Parsing /tmp/tmpsraanafw/MappingStorageArgumentAliasSubStruct.sol.bpl
+/tmp/tmpsraanafw/MappingStorageArgumentAliasSubStruct.sol.bpl(34,10): Error: command assigns to an immutable variable: s1ref#12
+/tmp/tmpsraanafw/MappingStorageArgumentAliasSubStruct.sol.bpl(37,10): Error: command assigns to an immutable variable: s1ref#12
+/tmp/tmpsraanafw/MappingStorageArgumentAliasSubStruct.sol.bpl(38,10): Error: command assigns to an immutable variable: s2ref#16
+3 type checking errors detected in /tmp/tmpsraanafw/MappingStorageArgumentAliasSubStruct.sol.bpl
 
 Command exited with non-zero status 252
-0.35user 0.10system 0:00.46elapsed 99%CPU (0avgtext+0avgdata 32956maxresident)k
-0inputs+16outputs (0major+10208minor)pagefaults 0swaps
+0.31user 0.60system 0:00.91elapsed 100%CPU (0avgtext+0avgdata 33020maxresident)k
+0inputs+16outputs (0major+10204minor)pagefaults 0swaps

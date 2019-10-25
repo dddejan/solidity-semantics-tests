@@ -4,5 +4,5 @@ AssignTupleArrayDynamicMM2MM::truffleMain: OK
 AssignTupleArrayDynamicMM2MM::[implicit_constructor]: OK
 Use --show-warnings to see 1 warning.
 No errors found.
-0.60user 0.26system 0:00.86elapsed 100%CPU (0avgtext+0avgdata 41724maxresident)k
-0inputs+16outputs (0major+16727minor)pagefaults 0swaps
+0.67user 0.69system 0:01.34elapsed 102%CPU (0avgtext+0avgdata 42016maxresident)k
+0inputs+16outputs (0major+16626minor)pagefaults 0swaps

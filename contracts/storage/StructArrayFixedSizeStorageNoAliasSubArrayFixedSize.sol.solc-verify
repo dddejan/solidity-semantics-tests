@@ -3,5 +3,5 @@ StructArrayFixedSizeStorageNoAliasSubArrayFixedSize::test: OK
 StructArrayFixedSizeStorageNoAliasSubArrayFixedSize::truffleMain: OK
 StructArrayFixedSizeStorageNoAliasSubArrayFixedSize::[implicit_constructor]: OK
 No errors found.
-0.68user 0.22system 0:00.88elapsed 102%CPU (0avgtext+0avgdata 41724maxresident)k
-0inputs+24outputs (0major+16278minor)pagefaults 0swaps
+0.66user 0.74system 0:01.39elapsed 101%CPU (0avgtext+0avgdata 41952maxresident)k
+0inputs+24outputs (0major+16372minor)pagefaults 0swaps

@@ -2,5 +2,5 @@ Running contracts/delete/DeleteStorageArrayDynamicStruct.sol
 DeleteStorageArrayDynamicStruct::[constructor]: OK
 DeleteStorageArrayDynamicStruct::truffleMain: OK
 No errors found.
-0.70user 0.18system 0:00.86elapsed 102%CPU (0avgtext+0avgdata 42008maxresident)k
-0inputs+24outputs (0major+16416minor)pagefaults 0swaps
+0.66user 0.67system 0:01.31elapsed 102%CPU (0avgtext+0avgdata 41972maxresident)k
+0inputs+24outputs (0major+16343minor)pagefaults 0swaps

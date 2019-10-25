@@ -21,5 +21,5 @@ Caller: [CREATOR], data: 0x608060405234801561001057600080fd5b5061010380610020600
 Caller: [CREATOR], function: test(uint256), txdata: 0x29e99f070800000000000000000000000000000000000000000000000000000000000000, value: 0x0
 
 
-5.16user 1.61system 0:05.50elapsed 123%CPU (0avgtext+0avgdata 108252maxresident)k
-0inputs+24280outputs (0major+54537minor)pagefaults 0swaps
+5.04user 1.66system 0:05.43elapsed 123%CPU (0avgtext+0avgdata 108236maxresident)k
+0inputs+24280outputs (0major+43629minor)pagefaults 0swaps

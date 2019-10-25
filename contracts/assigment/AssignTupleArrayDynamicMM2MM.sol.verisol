@@ -5,5 +5,5 @@ SpecFilesDir = /solc-verify-examples/contracts/assigment
 ... running SolToBoogie to translate Solidity to Boogie
 VeriSol translation error: File /solc-verify-examples/contracts/assigment/AssignTupleArrayDynamicMM2MM.sol, Line 6, Contract AssignTupleArrayDynamicMM2MM, Function assign:: ....
 Command exited with non-zero status 1
-0.66user 0.08system 0:00.82elapsed 89%CPU (0avgtext+0avgdata 54640maxresident)k
-0inputs+0outputs (0major+25113minor)pagefaults 0swaps
+0.70user 0.12system 0:00.96elapsed 86%CPU (0avgtext+0avgdata 54488maxresident)k
+0inputs+0outputs (0major+25104minor)pagefaults 0swaps

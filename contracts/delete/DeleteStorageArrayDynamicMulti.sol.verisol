@@ -4,6 +4,6 @@ SpecFilesDir = /solc-verify-examples/contracts/delete
 ... running Solc on /solc-verify-examples/contracts/delete/DeleteStorageArrayDynamicMulti.sol
 ... running SolToBoogie to translate Solidity to Boogie
 ... running /root/.dotnet/tools/boogie -doModSetAnalysis -inline:spec -noinfer  -inlineDepth:4 -proc:BoogieEntry_* __SolToBoogieTest_out.bpl
+1.34user 0.52system 0:01.84elapsed 101%CPU (0avgtext+0avgdata 54400maxresident)k
+0inputs+32outputs (0major+59840minor)pagefaults 0swaps
 	*** Proof found! Formal Verification successful! (see boogie.txt)
-1.31user 0.28system 0:01.58elapsed 100%CPU (0avgtext+0avgdata 54252maxresident)k
-0inputs+32outputs (0major+59827minor)pagefaults 0swaps

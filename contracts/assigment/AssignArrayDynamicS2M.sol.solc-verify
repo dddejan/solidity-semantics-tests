@@ -3,5 +3,5 @@ AssignArrayDynamicS2M::storToMem: OK
 AssignArrayDynamicS2M::truffleMain: OK
 AssignArrayDynamicS2M::[implicit_constructor]: OK
 No errors found.
-0.68user 0.22system 0:00.87elapsed 103%CPU (0avgtext+0avgdata 42124maxresident)k
-0inputs+24outputs (0major+16854minor)pagefaults 0swaps
+0.67user 0.74system 0:01.39elapsed 102%CPU (0avgtext+0avgdata 42100maxresident)k
+0inputs+24outputs (0major+16846minor)pagefaults 0swaps

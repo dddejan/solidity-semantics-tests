@@ -1,27 +1,27 @@
 Running contracts/assigment/AssignArrayDynamicMultiS2S.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_mMJd:11:17: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_NIcU:11:17: Warning: Assertion checker does not yet support this expression.
         require(s1.length > 0 && s1[0].length > 0);
                 ^-------^
-smt_checker_input_mMJd:11:34: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_NIcU:11:34: Warning: Assertion checker does not yet support this expression.
         require(s1.length > 0 && s1[0].length > 0);
                                  ^----------^
-smt_checker_input_mMJd:12:17: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_NIcU:12:17: Warning: Assertion checker does not yet support this expression.
         require(s2.length > 0 && s2[0].length > 0);
                 ^-------^
-smt_checker_input_mMJd:12:34: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_NIcU:12:34: Warning: Assertion checker does not yet support this expression.
         require(s2.length > 0 && s2[0].length > 0);
                                  ^----------^
-smt_checker_input_mMJd:14:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_NIcU:14:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s1[0][0] = a;
         ^------^
-smt_checker_input_mMJd:15:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_NIcU:15:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s2[0][0] = b;
         ^------^
-smt_checker_input_mMJd:23:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_NIcU:23:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s2[0][0] = c;
         ^------^
-smt_checker_input_mMJd:16:9: Warning: Assertion violation happens here
+smt_checker_input_NIcU:16:9: Warning: Assertion violation happens here
         assert(s1[0][0] == a);
         ^-------------------^
   for:
@@ -33,7 +33,7 @@ smt_checker_input_mMJd:16:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_mMJd:17:9: Warning: Assertion violation happens here
+smt_checker_input_NIcU:17:9: Warning: Assertion violation happens here
         assert(s2[0][0] == b);
         ^-------------------^
   for:
@@ -45,7 +45,7 @@ smt_checker_input_mMJd:17:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_mMJd:25:9: Warning: Assertion violation happens here
+smt_checker_input_NIcU:25:9: Warning: Assertion violation happens here
         assert(s2[0][0] == c);
         ^-------------------^
   for:
@@ -57,40 +57,40 @@ smt_checker_input_mMJd:25:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_mMJd:30:17: Warning: Assertion checker does not yet implement this type of function call.
+smt_checker_input_NIcU:30:17: Warning: Assertion checker does not yet implement this type of function call.
         s1.push(new int[](1));
                 ^----------^
-smt_checker_input_mMJd:30:9: Warning: Assertion checker does not yet implement this type of function call.
+smt_checker_input_NIcU:30:9: Warning: Assertion checker does not yet implement this type of function call.
         s1.push(new int[](1));
         ^-------------------^
-smt_checker_input_mMJd:31:17: Warning: Assertion checker does not yet implement this type of function call.
+smt_checker_input_NIcU:31:17: Warning: Assertion checker does not yet implement this type of function call.
         s2.push(new int[](1));
                 ^----------^
-smt_checker_input_mMJd:31:9: Warning: Assertion checker does not yet implement this type of function call.
+smt_checker_input_NIcU:31:9: Warning: Assertion checker does not yet implement this type of function call.
         s2.push(new int[](1));
         ^-------------------^
-smt_checker_input_mMJd:11:17: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_NIcU:11:17: Warning: Assertion checker does not yet support this expression.
         require(s1.length > 0 && s1[0].length > 0);
                 ^-------^
-smt_checker_input_mMJd:11:34: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_NIcU:11:34: Warning: Assertion checker does not yet support this expression.
         require(s1.length > 0 && s1[0].length > 0);
                                  ^----------^
-smt_checker_input_mMJd:12:17: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_NIcU:12:17: Warning: Assertion checker does not yet support this expression.
         require(s2.length > 0 && s2[0].length > 0);
                 ^-------^
-smt_checker_input_mMJd:12:34: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_NIcU:12:34: Warning: Assertion checker does not yet support this expression.
         require(s2.length > 0 && s2[0].length > 0);
                                  ^----------^
-smt_checker_input_mMJd:14:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_NIcU:14:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s1[0][0] = a;
         ^------^
-smt_checker_input_mMJd:15:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_NIcU:15:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s2[0][0] = b;
         ^------^
-smt_checker_input_mMJd:23:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_NIcU:23:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s2[0][0] = c;
         ^------^
-smt_checker_input_mMJd:16:9: Warning: Assertion violation happens here
+smt_checker_input_NIcU:16:9: Warning: Assertion violation happens here
         assert(s1[0][0] == a);
         ^-------------------^
   for:
@@ -101,11 +101,11 @@ smt_checker_input_mMJd:16:9: Warning: Assertion violation happens here
   s2[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564819687)
 
 Callstack: 
-smt_checker_input_mMJd:32:9: 
+smt_checker_input_NIcU:32:9: 
         storToStor(0, 1, 2);
         ^-----------------^
 
-smt_checker_input_mMJd:17:9: Warning: Assertion violation happens here
+smt_checker_input_NIcU:17:9: Warning: Assertion violation happens here
         assert(s2[0][0] == b);
         ^-------------------^
   for:
@@ -116,11 +116,11 @@ smt_checker_input_mMJd:17:9: Warning: Assertion violation happens here
   s2[0][0] = (- 57896044618658097711785492504343953926634992332820282019728792003956564814048)
 
 Callstack: 
-smt_checker_input_mMJd:32:9: 
+smt_checker_input_NIcU:32:9: 
         storToStor(0, 1, 2);
         ^-----------------^
 
-smt_checker_input_mMJd:25:9: Warning: Assertion violation happens here
+smt_checker_input_NIcU:25:9: Warning: Assertion violation happens here
         assert(s2[0][0] == c);
         ^-------------------^
   for:
@@ -131,9 +131,9 @@ smt_checker_input_mMJd:25:9: Warning: Assertion violation happens here
   s2[0][0] = 3
 
 Callstack: 
-smt_checker_input_mMJd:32:9: 
+smt_checker_input_NIcU:32:9: 
         storToStor(0, 1, 2);
         ^-----------------^
 
-0.16user 0.04system 0:00.20elapsed 100%CPU (0avgtext+0avgdata 49340maxresident)k
-0inputs+0outputs (0major+4178minor)pagefaults 0swaps
+0.19user 0.22system 0:00.41elapsed 99%CPU (0avgtext+0avgdata 49080maxresident)k
+0inputs+0outputs (0major+4171minor)pagefaults 0swaps

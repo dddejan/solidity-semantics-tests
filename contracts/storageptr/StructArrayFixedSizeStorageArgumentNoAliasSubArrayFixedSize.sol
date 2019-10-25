@@ -15,7 +15,7 @@ contract StructArrayFixedSizeStorageArgumentNoAliasSubArrayFixedSize {
         s2ref.x[1] = b;
         assert(s1.x[1] != s2[1].x[1]);
         assert(s1.x[1] == a || s1.x[1] == b);
-        require(s2[1].x[0] != a && s2[1].x[0] != b);
+        require(s2[0].x[1] != a && s2[0].x[1] != b);
         assert(s2[1].x[1] == a || s2[1].x[1] == b);
     }
 
@@ -23,6 +23,7 @@ contract StructArrayFixedSizeStorageArgumentNoAliasSubArrayFixedSize {
     function truffleMain() external {
         s1.x[1] = -1;
         s2[1].x[1] = -2;
+        s2[0].x[1] = -3;
         test(s1, s2[1], 0, 1);
     }
 

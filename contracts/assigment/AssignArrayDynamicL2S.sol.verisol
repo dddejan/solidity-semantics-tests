@@ -15,5 +15,5 @@ SpecFilesDir = /solc-verify-examples/contracts/assigment
 
 	See full execution trace inside corral.txt
 Command exited with non-zero status 1
-2.59user 0.55system 0:02.98elapsed 105%CPU (0avgtext+0avgdata 54688maxresident)k
-0inputs+104outputs (0major+134299minor)pagefaults 0swaps
+2.65user 0.93system 0:03.45elapsed 104%CPU (0avgtext+0avgdata 55080maxresident)k
+0inputs+104outputs (0major+134304minor)pagefaults 0swaps

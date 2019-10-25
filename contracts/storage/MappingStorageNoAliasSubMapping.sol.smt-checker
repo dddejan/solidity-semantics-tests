@@ -1,9 +1,9 @@
 Running contracts/storage/MappingStorageNoAliasSubMapping.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_fUrJ:11:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_vKP0:11:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s2[msg.sender][msg.sender] = b;
         ^------------------------^
-smt_checker_input_fUrJ:13:9: Warning: Assertion violation happens here
+smt_checker_input_vKP0:13:9: Warning: Assertion violation happens here
         assert(s2[msg.sender][msg.sender] == b);
         ^-------------------------------------^
   for:
@@ -15,10 +15,10 @@ smt_checker_input_fUrJ:13:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_fUrJ:11:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_vKP0:11:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s2[msg.sender][msg.sender] = b;
         ^------------------------^
-smt_checker_input_fUrJ:13:9: Warning: Assertion violation happens here
+smt_checker_input_vKP0:13:9: Warning: Assertion violation happens here
         assert(s2[msg.sender][msg.sender] == b);
         ^-------------------------------------^
   for:
@@ -29,9 +29,9 @@ smt_checker_input_fUrJ:13:9: Warning: Assertion violation happens here
   s2[msg.sender][msg.sender] = 2
 
 Callstack: 
-smt_checker_input_fUrJ:18:9: 
+smt_checker_input_vKP0:18:9: 
         test(0, 1);
         ^--------^
 
-0.06user 0.00system 0:00.07elapsed 98%CPU (0avgtext+0avgdata 42868maxresident)k
-0inputs+0outputs (0major+2667minor)pagefaults 0swaps
+0.04user 0.22system 0:00.27elapsed 99%CPU (0avgtext+0avgdata 42712maxresident)k
+8inputs+0outputs (1major+2664minor)pagefaults 0swaps

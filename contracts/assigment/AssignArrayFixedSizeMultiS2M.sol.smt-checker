@@ -1,15 +1,15 @@
 Running contracts/assigment/AssignArrayFixedSizeMultiS2M.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_7HzH:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_P3xp:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         sm[2][1] = a;
         ^------^
-smt_checker_input_7HzH:13:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_P3xp:13:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s1[2][1] = b;
         ^------^
-smt_checker_input_7HzH:21:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_P3xp:21:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s1[2][1] = c;
         ^------^
-smt_checker_input_7HzH:14:9: Warning: Assertion violation happens here
+smt_checker_input_P3xp:14:9: Warning: Assertion violation happens here
         assert(sm[2][1] == a);
         ^-------------------^
   for:
@@ -21,7 +21,7 @@ smt_checker_input_7HzH:14:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_7HzH:15:9: Warning: Assertion violation happens here
+smt_checker_input_P3xp:15:9: Warning: Assertion violation happens here
         assert(s1[2][1] == b);
         ^-------------------^
   for:
@@ -33,7 +33,7 @@ smt_checker_input_7HzH:15:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_7HzH:22:9: Warning: Assertion violation happens here
+smt_checker_input_P3xp:22:9: Warning: Assertion violation happens here
         assert(s1[2][1] == c);
         ^-------------------^
   for:
@@ -45,16 +45,16 @@ smt_checker_input_7HzH:22:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_7HzH:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_P3xp:12:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         sm[2][1] = a;
         ^------^
-smt_checker_input_7HzH:13:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_P3xp:13:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s1[2][1] = b;
         ^------^
-smt_checker_input_7HzH:21:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_P3xp:21:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         s1[2][1] = c;
         ^------^
-smt_checker_input_7HzH:14:9: Warning: Assertion violation happens here
+smt_checker_input_P3xp:14:9: Warning: Assertion violation happens here
         assert(sm[2][1] == a);
         ^-------------------^
   for:
@@ -65,11 +65,11 @@ smt_checker_input_7HzH:14:9: Warning: Assertion violation happens here
   sm[2][1] = (- 1)
 
 Callstack: 
-smt_checker_input_7HzH:28:9: 
+smt_checker_input_P3xp:28:9: 
         storToMem(0, 1, 2);
         ^----------------^
 
-smt_checker_input_7HzH:15:9: Warning: Assertion violation happens here
+smt_checker_input_P3xp:15:9: Warning: Assertion violation happens here
         assert(s1[2][1] == b);
         ^-------------------^
   for:
@@ -80,11 +80,11 @@ smt_checker_input_7HzH:15:9: Warning: Assertion violation happens here
   sm[2][1] = 0
 
 Callstack: 
-smt_checker_input_7HzH:28:9: 
+smt_checker_input_P3xp:28:9: 
         storToMem(0, 1, 2);
         ^----------------^
 
-smt_checker_input_7HzH:22:9: Warning: Assertion violation happens here
+smt_checker_input_P3xp:22:9: Warning: Assertion violation happens here
         assert(s1[2][1] == c);
         ^-------------------^
   for:
@@ -95,9 +95,9 @@ smt_checker_input_7HzH:22:9: Warning: Assertion violation happens here
   sm[2][1] = 1
 
 Callstack: 
-smt_checker_input_7HzH:28:9: 
+smt_checker_input_P3xp:28:9: 
         storToMem(0, 1, 2);
         ^----------------^
 
-0.14user 0.03system 0:00.18elapsed 100%CPU (0avgtext+0avgdata 48756maxresident)k
-0inputs+0outputs (0major+4048minor)pagefaults 0swaps
+0.14user 0.25system 0:00.39elapsed 99%CPU (0avgtext+0avgdata 48448maxresident)k
+0inputs+0outputs (0major+4040minor)pagefaults 0swaps

@@ -5,5 +5,5 @@ AssignArrayFixedSizeMappingS2S::truffleMain: OK
 AssignArrayFixedSizeMappingS2S::[implicit_constructor]: OK
 Errors were found by the verifier.
 Command exited with non-zero status 251
-0.73user 0.23system 0:00.94elapsed 101%CPU (0avgtext+0avgdata 42148maxresident)k
-0inputs+24outputs (0major+16951minor)pagefaults 0swaps
+0.73user 0.72system 0:01.43elapsed 101%CPU (0avgtext+0avgdata 42324maxresident)k
+0inputs+24outputs (0major+16731minor)pagefaults 0swaps

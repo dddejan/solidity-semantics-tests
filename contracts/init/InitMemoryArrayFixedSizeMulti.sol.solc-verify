@@ -1,9 +1,9 @@
 Running contracts/init/InitMemoryArrayFixedSizeMulti.sol
-Command exited with non-zero status 251
-0.68user 0.24system 0:00.90elapsed 102%CPU (0avgtext+0avgdata 41972maxresident)k
-0inputs+24outputs (0major+16701minor)pagefaults 0swaps
 InitMemoryArrayFixedSizeMulti::test: ERROR
  - contracts/init/InitMemoryArrayFixedSizeMulti.sol:6:9: Assertion might not hold.
 InitMemoryArrayFixedSizeMulti::truffleMain: OK
 InitMemoryArrayFixedSizeMulti::[implicit_constructor]: OK
 Errors were found by the verifier.
+Command exited with non-zero status 251
+0.70user 0.69system 0:01.37elapsed 101%CPU (0avgtext+0avgdata 41960maxresident)k
+0inputs+24outputs (0major+16670minor)pagefaults 0swaps

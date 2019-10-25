@@ -1,18 +1,18 @@
 Running contracts/storageptr/MappingArrayFixedSizeLibraryStorageAliasSubStruct.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_6UJ4:13:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_cdsQ:13:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         a[msg.sender][1] = b[msg.sender][1] + 1;
         ^--------------^
-smt_checker_input_6UJ4:17:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_cdsQ:17:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         a[msg.sender][1] = a[msg.sender][1] + b[msg.sender][1];
         ^--------------^
-smt_checker_input_6UJ4:18:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_cdsQ:18:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         b[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
         ^--------------^
-smt_checker_input_6UJ4:19:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
+smt_checker_input_cdsQ:19:9: Warning: Assertion checker does not yet implement assignments to multi-dimensional mappings or arrays.
         a[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
         ^--------------^
-smt_checker_input_6UJ4:13:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_cdsQ:13:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a[msg.sender][1] = b[msg.sender][1] + 1;
                            ^------------------^
   for:
@@ -26,7 +26,7 @@ smt_checker_input_6UJ4:13:28: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_6UJ4:14:42: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_cdsQ:14:42: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a_b_alias = (b[msg.sender][1] == b_old + 1);
                                          ^-------^
   for:
@@ -40,7 +40,7 @@ smt_checker_input_6UJ4:14:42: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_6UJ4:17:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_cdsQ:17:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         a[msg.sender][1] = a[msg.sender][1] + b[msg.sender][1];
                            ^---------------------------------^
   for:
@@ -54,7 +54,7 @@ smt_checker_input_6UJ4:17:28: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_6UJ4:17:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_cdsQ:17:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a[msg.sender][1] = a[msg.sender][1] + b[msg.sender][1];
                            ^---------------------------------^
   for:
@@ -68,7 +68,7 @@ smt_checker_input_6UJ4:17:28: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_6UJ4:18:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_cdsQ:18:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         b[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
                            ^---------------------------------^
   for:
@@ -82,7 +82,7 @@ smt_checker_input_6UJ4:18:28: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_6UJ4:18:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_cdsQ:18:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         b[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
                            ^---------------------------------^
   for:
@@ -96,7 +96,7 @@ smt_checker_input_6UJ4:18:28: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_6UJ4:19:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
+smt_checker_input_cdsQ:19:28: Warning: Underflow (resulting value less than -57896044618658097711785492504343953926634992332820282019728792003956564819968) happens here
         a[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
                            ^---------------------------------^
   for:
@@ -110,7 +110,7 @@ smt_checker_input_6UJ4:19:28: Warning: Underflow (resulting value less than -578
 
 Callstack: 
 
-smt_checker_input_6UJ4:19:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
+smt_checker_input_cdsQ:19:28: Warning: Overflow (resulting value larger than 0x80 * 2**248 - 1) happens here
         a[msg.sender][1] = a[msg.sender][1] - b[msg.sender][1];
                            ^---------------------------------^
   for:
@@ -124,20 +124,20 @@ smt_checker_input_6UJ4:19:28: Warning: Overflow (resulting value larger than 0x8
 
 Callstack: 
 
-smt_checker_input_6UJ4:27:5: Warning: Assertion checker does not yet support the type of this variable.
+smt_checker_input_cdsQ:27:5: Warning: Assertion checker does not yet support the type of this variable.
     L.Sub s2;
     ^------^
-smt_checker_input_6UJ4:31:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_cdsQ:31:16: Warning: Assertion checker does not yet support this expression.
         L.swap(s2.s, s2.s);
                ^--^
-smt_checker_input_6UJ4:31:16: Warning: Assertion checker does not yet implement type struct L.Sub storage ref
+smt_checker_input_cdsQ:31:16: Warning: Assertion checker does not yet implement type struct L.Sub storage ref
         L.swap(s2.s, s2.s);
                ^^
-smt_checker_input_6UJ4:31:22: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_cdsQ:31:22: Warning: Assertion checker does not yet support this expression.
         L.swap(s2.s, s2.s);
                      ^--^
-smt_checker_input_6UJ4:31:22: Warning: Assertion checker does not yet implement type struct L.Sub storage ref
+smt_checker_input_cdsQ:31:22: Warning: Assertion checker does not yet implement type struct L.Sub storage ref
         L.swap(s2.s, s2.s);
                      ^^
-0.34user 0.05system 0:00.39elapsed 100%CPU (0avgtext+0avgdata 41700maxresident)k
-0inputs+0outputs (0major+2668minor)pagefaults 0swaps
+0.33user 0.27system 0:00.61elapsed 100%CPU (0avgtext+0avgdata 41560maxresident)k
+0inputs+0outputs (0major+2663minor)pagefaults 0swaps

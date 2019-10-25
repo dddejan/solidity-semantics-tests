@@ -13,7 +13,7 @@ Initial State:
 
 Account: [CREATOR], balance: 0x1, nonce:0, storage:{}
 Account: [ATTACKER], balance: 0x0, nonce:0, storage:{}
-Account: [SOMEGUY], balance: 0x2000000, nonce:0, storage:{}
+Account: [SOMEGUY], balance: 0x0, nonce:0, storage:{}
 
 Transaction Sequence:
 
@@ -22,5 +22,5 @@ Caller: [CREATOR], function: truffleMain(), txdata: 0xbbac8963, value: 0x0
 Caller: [SOMEGUY], function: truffleMain(), txdata: 0xbbac8963, value: 0x0
 
 
-19.44user 7.09system 0:19.27elapsed 137%CPU (0avgtext+0avgdata 123664maxresident)k
-144inputs+24344outputs (1major+44171minor)pagefaults 0swaps
+19.98user 7.27system 0:19.92elapsed 136%CPU (0avgtext+0avgdata 124220maxresident)k
+0inputs+24344outputs (0major+44404minor)pagefaults 0swaps

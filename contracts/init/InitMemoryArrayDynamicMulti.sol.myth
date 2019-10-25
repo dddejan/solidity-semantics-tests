@@ -1,5 +1,5 @@
 Running contracts/init/InitMemoryArrayDynamicMulti.sol
 The analysis was completed successfully. No issues were detected.
 
-7.36user 3.34system 0:07.40elapsed 144%CPU (0avgtext+0avgdata 94536maxresident)k
-0inputs+24280outputs (0major+37363minor)pagefaults 0swaps
+7.41user 3.46system 0:07.54elapsed 144%CPU (0avgtext+0avgdata 94728maxresident)k
+0inputs+24280outputs (0major+37278minor)pagefaults 0swaps

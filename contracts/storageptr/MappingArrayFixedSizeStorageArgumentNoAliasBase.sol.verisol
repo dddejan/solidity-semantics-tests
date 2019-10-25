@@ -7,5 +7,5 @@ Warning: A mapping with nested array s1 of valuetype int256[2]
 Warning: A mapping with nested array s2 of valuetype int256[2]
 VeriSol translation error: File /solc-verify-examples/contracts/storageptr/MappingArrayFixedSizeStorageArgumentNoAliasBase.sol, Line 21, Contract MappingArrayFixedSizeStorageArgumentNoAliasBase, Function truffleMain:: Cannot find a function with signature: test(mapping(address => int256[2], mapping(address => int256[2], int256, int256)....
 Command exited with non-zero status 1
-0.67user 0.09system 0:00.80elapsed 95%CPU (0avgtext+0avgdata 54596maxresident)k
-0inputs+0outputs (0major+25662minor)pagefaults 0swaps
+0.67user 0.19system 0:00.94elapsed 92%CPU (0avgtext+0avgdata 54952maxresident)k
+0inputs+0outputs (0major+25668minor)pagefaults 0swaps

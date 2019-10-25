@@ -1,13 +1,13 @@
 Running contracts/storageptr/MappingArrayFixedSizeStorageArgumentNoAliasSubArrayFixedSize.sol
 Error while running verifier, details:
 [TRACE] Using prover: /usr/local/bin/z3
-Parsing /tmp/tmpllggz6m0/MappingArrayFixedSizeStorageArgumentNoAliasSubArrayFixedSize.sol.bpl
-/tmp/tmpllggz6m0/MappingArrayFixedSizeStorageArgumentNoAliasSubArrayFixedSize.sol.bpl(29,10): Error: command assigns to an immutable variable: s1ref#21
-/tmp/tmpllggz6m0/MappingArrayFixedSizeStorageArgumentNoAliasSubArrayFixedSize.sol.bpl(30,10): Error: command assigns to an immutable variable: s2ref#27
-/tmp/tmpllggz6m0/MappingArrayFixedSizeStorageArgumentNoAliasSubArrayFixedSize.sol.bpl(54,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]int_arr_type)
-/tmp/tmpllggz6m0/MappingArrayFixedSizeStorageArgumentNoAliasSubArrayFixedSize.sol.bpl(58,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]int_arr_type)
-4 type checking errors detected in /tmp/tmpllggz6m0/MappingArrayFixedSizeStorageArgumentNoAliasSubArrayFixedSize.sol.bpl
+Parsing /tmp/tmp2_qommfb/MappingArrayFixedSizeStorageArgumentNoAliasSubArrayFixedSize.sol.bpl
+/tmp/tmp2_qommfb/MappingArrayFixedSizeStorageArgumentNoAliasSubArrayFixedSize.sol.bpl(29,10): Error: command assigns to an immutable variable: s1ref#21
+/tmp/tmp2_qommfb/MappingArrayFixedSizeStorageArgumentNoAliasSubArrayFixedSize.sol.bpl(30,10): Error: command assigns to an immutable variable: s2ref#27
+/tmp/tmp2_qommfb/MappingArrayFixedSizeStorageArgumentNoAliasSubArrayFixedSize.sol.bpl(55,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]int_arr_type)
+/tmp/tmp2_qommfb/MappingArrayFixedSizeStorageArgumentNoAliasSubArrayFixedSize.sol.bpl(59,1): Error: mismatched types in assignment command (cannot assign [int]int to [address_t]int_arr_type)
+4 type checking errors detected in /tmp/tmp2_qommfb/MappingArrayFixedSizeStorageArgumentNoAliasSubArrayFixedSize.sol.bpl
 
 Command exited with non-zero status 252
-0.32user 0.14system 0:00.46elapsed 100%CPU (0avgtext+0avgdata 33320maxresident)k
-0inputs+24outputs (0major+10364minor)pagefaults 0swaps
+0.30user 0.62system 0:00.92elapsed 100%CPU (0avgtext+0avgdata 33576maxresident)k
+0inputs+24outputs (0major+10378minor)pagefaults 0swaps

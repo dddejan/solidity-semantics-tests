@@ -8,12 +8,12 @@ SpecFilesDir = /solc-verify-examples/contracts/assigment
 ... running /root/.dotnet/tools/corral /recursionBound:4 /k:1 /main:CorralEntry_AssignStructArrayFixedSizeMultiL2L /tryCTrace /printDataValues:1 __SolToBoogieTest_out.bpl
 	*** Found a counterexample (see corral.txt)
 	-----Transaction Sequence for Defect ------
+Command exited with non-zero status 1
+2.22user 0.85system 0:03.32elapsed 92%CPU (0avgtext+0avgdata 54980maxresident)k
+0inputs+88outputs (0major+100478minor)pagefaults 0swaps
 /solc-verify-examples/contracts/assigment/AssignStructArrayFixedSizeMultiL2L.sol(3,1): : AssignStructArrayFixedSizeMultiL2L::Constructor (this = address!0, msg.sender = address!1, msg.value = 6)
 /solc-verify-examples/contracts/assigment/AssignStructArrayFixedSizeMultiL2L.sol(10,1): : AssignStructArrayFixedSizeMultiL2L::locToLoc (this = address!0, msg.sender = address!3, msg.value = 7, a = 4, b = 0, c = 8)
 /solc-verify-examples/contracts/assigment/AssignStructArrayFixedSizeMultiL2L.sol(16,1): : ASSERTION FAILS!
 	---------------
 
 	See full execution trace inside corral.txt
-Command exited with non-zero status 1
-2.10user 0.37system 0:02.55elapsed 96%CPU (0avgtext+0avgdata 54832maxresident)k
-0inputs+88outputs (0major+100510minor)pagefaults 0swaps

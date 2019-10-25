@@ -1,7 +1,7 @@
 Running contracts/init/InitStorageMappingNested.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_Ms09:6:5: Warning: Assertion checker does not yet support constructors.
+smt_checker_input_AOZB:6:5: Warning: Assertion checker does not yet support constructors.
     constructor() public {
     ^ (Relevant source part starts here and spans across multiple lines).
-0.01user 0.00system 0:00.02elapsed 95%CPU (0avgtext+0avgdata 25880maxresident)k
-0inputs+0outputs (0major+889minor)pagefaults 0swaps
+0.01user 0.20system 0:00.22elapsed 99%CPU (0avgtext+0avgdata 26140maxresident)k
+0inputs+0outputs (0major+892minor)pagefaults 0swaps

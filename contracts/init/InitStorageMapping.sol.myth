@@ -1,5 +1,5 @@
 Running contracts/init/InitStorageMapping.sol
 The analysis was completed successfully. No issues were detected.
 
-1.75user 0.34system 0:01.97elapsed 106%CPU (0avgtext+0avgdata 78400maxresident)k
-0inputs+24280outputs (0major+30444minor)pagefaults 0swaps
+1.69user 0.45system 0:02.03elapsed 105%CPU (0avgtext+0avgdata 78540maxresident)k
+0inputs+24280outputs (0major+30453minor)pagefaults 0swaps

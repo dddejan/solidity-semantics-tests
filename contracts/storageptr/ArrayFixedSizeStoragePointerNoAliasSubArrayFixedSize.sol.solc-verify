@@ -3,5 +3,5 @@ ArrayFixedSizeStoragePointerNoAliasSubArrayFixedSize::test: OK
 ArrayFixedSizeStoragePointerNoAliasSubArrayFixedSize::truffleMain: OK
 ArrayFixedSizeStoragePointerNoAliasSubArrayFixedSize::[implicit_constructor]: OK
 No errors found.
-0.62user 0.28system 0:00.90elapsed 101%CPU (0avgtext+0avgdata 41780maxresident)k
-0inputs+24outputs (0major+16516minor)pagefaults 0swaps
+0.63user 0.72system 0:01.32elapsed 102%CPU (0avgtext+0avgdata 41836maxresident)k
+0inputs+24outputs (0major+16411minor)pagefaults 0swaps

@@ -1,6 +1,6 @@
 Running contracts/storageptr/MappingStorageArgumentNoAliasBase.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_7M6r:14:9: Warning: Assertion violation happens here
+smt_checker_input_ip1b:14:9: Warning: Assertion violation happens here
         assert(s1[msg.sender] != s2[msg.sender]);
         ^--------------------------------------^
   for:
@@ -14,7 +14,7 @@ smt_checker_input_7M6r:14:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_7M6r:15:9: Warning: Assertion violation happens here
+smt_checker_input_ip1b:15:9: Warning: Assertion violation happens here
         assert(s1[msg.sender] == a || s1[msg.sender] == b);
         ^------------------------------------------------^
   for:
@@ -28,7 +28,7 @@ smt_checker_input_7M6r:15:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_7M6r:16:9: Warning: Assertion violation happens here
+smt_checker_input_ip1b:16:9: Warning: Assertion violation happens here
         assert(s2[msg.sender] == a || s2[msg.sender] == b);
         ^------------------------------------------------^
   for:
@@ -42,7 +42,7 @@ smt_checker_input_7M6r:16:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_7M6r:14:9: Warning: Assertion violation happens here
+smt_checker_input_ip1b:14:9: Warning: Assertion violation happens here
         assert(s1[msg.sender] != s2[msg.sender]);
         ^--------------------------------------^
   for:
@@ -55,13 +55,13 @@ smt_checker_input_7M6r:14:9: Warning: Assertion violation happens here
   s2ref[msg.sender] = 1
 
 Callstack: 
-smt_checker_input_7M6r:23:9: 
+smt_checker_input_ip1b:23:9: 
         test(s1, s2, 0, 1);
         ^----------------^
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_7M6r:15:9: Warning: Assertion violation happens here
+smt_checker_input_ip1b:15:9: Warning: Assertion violation happens here
         assert(s1[msg.sender] == a || s1[msg.sender] == b);
         ^------------------------------------------------^
   for:
@@ -74,13 +74,13 @@ smt_checker_input_7M6r:15:9: Warning: Assertion violation happens here
   s2ref[msg.sender] = 1
 
 Callstack: 
-smt_checker_input_7M6r:23:9: 
+smt_checker_input_ip1b:23:9: 
         test(s1, s2, 0, 1);
         ^----------------^
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-smt_checker_input_7M6r:16:9: Warning: Assertion violation happens here
+smt_checker_input_ip1b:16:9: Warning: Assertion violation happens here
         assert(s2[msg.sender] == a || s2[msg.sender] == b);
         ^------------------------------------------------^
   for:
@@ -93,11 +93,11 @@ smt_checker_input_7M6r:16:9: Warning: Assertion violation happens here
   s2ref[msg.sender] = 1
 
 Callstack: 
-smt_checker_input_7M6r:23:9: 
+smt_checker_input_ip1b:23:9: 
         test(s1, s2, 0, 1);
         ^----------------^
 
 Note that array aliasing is not supported, therefore all mapping information is erased after a mapping local variable/parameter is assigned.
 You can re-introduce information using require().
-0.11user 0.01system 0:00.12elapsed 100%CPU (0avgtext+0avgdata 39624maxresident)k
-0inputs+0outputs (0major+2164minor)pagefaults 0swaps
+0.10user 0.23system 0:00.34elapsed 100%CPU (0avgtext+0avgdata 39664maxresident)k
+0inputs+0outputs (0major+2163minor)pagefaults 0swaps

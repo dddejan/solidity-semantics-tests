@@ -3,5 +3,5 @@ AssignArrayFixedSizeS2S::storToStor: OK
 AssignArrayFixedSizeS2S::truffleMain: OK
 AssignArrayFixedSizeS2S::[implicit_constructor]: OK
 No errors found.
-0.66user 0.26system 0:00.91elapsed 101%CPU (0avgtext+0avgdata 41928maxresident)k
-0inputs+16outputs (0major+16453minor)pagefaults 0swaps
+0.65user 0.72system 0:01.35elapsed 102%CPU (0avgtext+0avgdata 41980maxresident)k
+0inputs+16outputs (0major+16715minor)pagefaults 0swaps

@@ -1,36 +1,36 @@
 Running contracts/storage/MappingStructStorageNoAliasSubMapping.sol
 Warning: This is a pre-release compiler version, please do not use it in production.
-smt_checker_input_UaLc:12:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_ykmL:12:9: Warning: Assertion checker does not yet support this expression.
         s1[msg.sender].x = a;
         ^--------------^
-smt_checker_input_UaLc:12:9: Warning: Assertion checker does not yet implement type struct MappingStructStorageNoAliasSubMapping.S storage ref
+smt_checker_input_ykmL:12:9: Warning: Assertion checker does not yet implement type struct MappingStructStorageNoAliasSubMapping.S storage ref
         s1[msg.sender].x = a;
         ^------------^
-smt_checker_input_UaLc:12:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_ykmL:12:9: Warning: Assertion checker does not yet implement such assignments.
         s1[msg.sender].x = a;
         ^------------------^
-smt_checker_input_UaLc:13:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_ykmL:13:9: Warning: Assertion checker does not yet support this expression.
         s2[msg.sender][msg.sender].x = b;
         ^--------------------------^
-smt_checker_input_UaLc:13:9: Warning: Assertion checker does not yet implement type struct MappingStructStorageNoAliasSubMapping.S storage ref
+smt_checker_input_ykmL:13:9: Warning: Assertion checker does not yet implement type struct MappingStructStorageNoAliasSubMapping.S storage ref
         s2[msg.sender][msg.sender].x = b;
         ^------------------------^
-smt_checker_input_UaLc:13:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_ykmL:13:9: Warning: Assertion checker does not yet implement such assignments.
         s2[msg.sender][msg.sender].x = b;
         ^------------------------------^
-smt_checker_input_UaLc:14:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_ykmL:14:16: Warning: Assertion checker does not yet support this expression.
         assert(s1[msg.sender].x == a);
                ^--------------^
-smt_checker_input_UaLc:14:16: Warning: Assertion checker does not yet implement type struct MappingStructStorageNoAliasSubMapping.S storage ref
+smt_checker_input_ykmL:14:16: Warning: Assertion checker does not yet implement type struct MappingStructStorageNoAliasSubMapping.S storage ref
         assert(s1[msg.sender].x == a);
                ^------------^
-smt_checker_input_UaLc:15:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_ykmL:15:16: Warning: Assertion checker does not yet support this expression.
         assert(s2[msg.sender][msg.sender].x == b);
                ^--------------------------^
-smt_checker_input_UaLc:15:16: Warning: Assertion checker does not yet implement type struct MappingStructStorageNoAliasSubMapping.S storage ref
+smt_checker_input_ykmL:15:16: Warning: Assertion checker does not yet implement type struct MappingStructStorageNoAliasSubMapping.S storage ref
         assert(s2[msg.sender][msg.sender].x == b);
                ^------------------------^
-smt_checker_input_UaLc:14:9: Warning: Assertion violation happens here
+smt_checker_input_ykmL:14:9: Warning: Assertion violation happens here
         assert(s1[msg.sender].x == a);
         ^---------------------------^
   for:
@@ -40,7 +40,7 @@ smt_checker_input_UaLc:14:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_UaLc:15:9: Warning: Assertion violation happens here
+smt_checker_input_ykmL:15:9: Warning: Assertion violation happens here
         assert(s2[msg.sender][msg.sender].x == b);
         ^---------------------------------------^
   for:
@@ -50,37 +50,37 @@ smt_checker_input_UaLc:15:9: Warning: Assertion violation happens here
 
 Callstack: 
 
-smt_checker_input_UaLc:12:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_ykmL:12:9: Warning: Assertion checker does not yet support this expression.
         s1[msg.sender].x = a;
         ^--------------^
-smt_checker_input_UaLc:12:9: Warning: Assertion checker does not yet implement type struct MappingStructStorageNoAliasSubMapping.S storage ref
+smt_checker_input_ykmL:12:9: Warning: Assertion checker does not yet implement type struct MappingStructStorageNoAliasSubMapping.S storage ref
         s1[msg.sender].x = a;
         ^------------^
-smt_checker_input_UaLc:12:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_ykmL:12:9: Warning: Assertion checker does not yet implement such assignments.
         s1[msg.sender].x = a;
         ^------------------^
-smt_checker_input_UaLc:13:9: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_ykmL:13:9: Warning: Assertion checker does not yet support this expression.
         s2[msg.sender][msg.sender].x = b;
         ^--------------------------^
-smt_checker_input_UaLc:13:9: Warning: Assertion checker does not yet implement type struct MappingStructStorageNoAliasSubMapping.S storage ref
+smt_checker_input_ykmL:13:9: Warning: Assertion checker does not yet implement type struct MappingStructStorageNoAliasSubMapping.S storage ref
         s2[msg.sender][msg.sender].x = b;
         ^------------------------^
-smt_checker_input_UaLc:13:9: Warning: Assertion checker does not yet implement such assignments.
+smt_checker_input_ykmL:13:9: Warning: Assertion checker does not yet implement such assignments.
         s2[msg.sender][msg.sender].x = b;
         ^------------------------------^
-smt_checker_input_UaLc:14:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_ykmL:14:16: Warning: Assertion checker does not yet support this expression.
         assert(s1[msg.sender].x == a);
                ^--------------^
-smt_checker_input_UaLc:14:16: Warning: Assertion checker does not yet implement type struct MappingStructStorageNoAliasSubMapping.S storage ref
+smt_checker_input_ykmL:14:16: Warning: Assertion checker does not yet implement type struct MappingStructStorageNoAliasSubMapping.S storage ref
         assert(s1[msg.sender].x == a);
                ^------------^
-smt_checker_input_UaLc:15:16: Warning: Assertion checker does not yet support this expression.
+smt_checker_input_ykmL:15:16: Warning: Assertion checker does not yet support this expression.
         assert(s2[msg.sender][msg.sender].x == b);
                ^--------------------------^
-smt_checker_input_UaLc:15:16: Warning: Assertion checker does not yet implement type struct MappingStructStorageNoAliasSubMapping.S storage ref
+smt_checker_input_ykmL:15:16: Warning: Assertion checker does not yet implement type struct MappingStructStorageNoAliasSubMapping.S storage ref
         assert(s2[msg.sender][msg.sender].x == b);
                ^------------------------^
-smt_checker_input_UaLc:14:9: Warning: Assertion violation happens here
+smt_checker_input_ykmL:14:9: Warning: Assertion violation happens here
         assert(s1[msg.sender].x == a);
         ^---------------------------^
   for:
@@ -89,11 +89,11 @@ smt_checker_input_UaLc:14:9: Warning: Assertion violation happens here
   msg.sender = 0
 
 Callstack: 
-smt_checker_input_UaLc:20:9: 
+smt_checker_input_ykmL:20:9: 
         test(0, 1);
         ^--------^
 
-smt_checker_input_UaLc:15:9: Warning: Assertion violation happens here
+smt_checker_input_ykmL:15:9: Warning: Assertion violation happens here
         assert(s2[msg.sender][msg.sender].x == b);
         ^---------------------------------------^
   for:
@@ -102,9 +102,9 @@ smt_checker_input_UaLc:15:9: Warning: Assertion violation happens here
   msg.sender = 0
 
 Callstack: 
-smt_checker_input_UaLc:20:9: 
+smt_checker_input_ykmL:20:9: 
         test(0, 1);
         ^--------^
 
-0.05user 0.01system 0:00.07elapsed 98%CPU (0avgtext+0avgdata 43444maxresident)k
-0inputs+0outputs (0major+3035minor)pagefaults 0swaps
+0.05user 0.22system 0:00.27elapsed 100%CPU (0avgtext+0avgdata 43736maxresident)k
+0inputs+0outputs (0major+3041minor)pagefaults 0swaps

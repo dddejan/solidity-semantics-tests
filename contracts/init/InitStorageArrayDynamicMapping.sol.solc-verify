@@ -2,5 +2,5 @@ Running contracts/init/InitStorageArrayDynamicMapping.sol
 InitStorageArrayDynamicMapping::[constructor]: OK
 InitStorageArrayDynamicMapping::truffleMain: OK
 No errors found.
-0.61user 0.24system 0:00.83elapsed 103%CPU (0avgtext+0avgdata 41296maxresident)k
-0inputs+16outputs (0major+16527minor)pagefaults 0swaps
+0.66user 0.68system 0:01.31elapsed 101%CPU (0avgtext+0avgdata 41120maxresident)k
+0inputs+16outputs (0major+16367minor)pagefaults 0swaps
